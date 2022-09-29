@@ -159,3 +159,7 @@
 		/*width: 360px;/* 4 col */
 	}
 }
+
+.side-content {
+	float: right;
+}
