@@ -6,7 +6,7 @@
 			{{#if type}}
 				<!-- type -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Tipo</label>
+					<label class="col-sm-3 control-label">Тип</label>
 					<div class="col-sm-9">
 						<div class="form-control-static type-names">{{type-names type}}</div>
 					</div>
@@ -16,7 +16,7 @@
 			{{#if defaultvalue}}
 				<!-- defaultvalue -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Valor por defecto</label>
+					<label class="col-sm-3 control-label">Значение по умолчанию</label>
 					<div class="col-sm-9">
 						<p class="form-control-static">{{defaultvalue}}</p>
 					</div>
@@ -26,7 +26,7 @@
 			{{#if augments}}
 				<!-- augments -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Extiende</label>
+					<label class="col-sm-3 control-label">Расширяет</label>
 					<div class="col-sm-9">
 						{{#single augments}}
 							<p class="form-control-static">{{linkto this}}</p>
@@ -44,7 +44,7 @@
 			{{#if version}}
 				<!-- version -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Versión</label>
+					<label class="col-sm-3 control-label">Версия</label>
 					<div class="col-sm-9">
 						<p class="form-control-static">{{version}}</p>
 					</div>
@@ -54,7 +54,7 @@
 			{{#if since}}
 				<!-- since -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Desde</label>
+					<label class="col-sm-3 control-label">От</label>
 					<div class="col-sm-9">
 						<p class="form-control-static">{{since}}</p>
 					</div>
@@ -64,7 +64,7 @@
 			{{#if inherits}}
 				<!-- inherits -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Heredado de</label>
+					<label class="col-sm-3 control-label">До</label>
 					<div class="col-sm-9">
 						<p class="form-control-static">{{linkto inherits}}</p>
 					</div>
@@ -74,7 +74,7 @@
 			{{#if overrides}}
 				<!-- overrides -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Sobreescribe</label>
+					<label class="col-sm-3 control-label">Переопределения</label>
 					<div class="col-sm-9">
 						<p class="form-control-static">{{linkto overrides}}</p>
 					</div>
@@ -84,7 +84,7 @@
 			{{#if implementations}}
 				<!-- implementations -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Implementaciones</label>
+					<label class="col-sm-3 control-label">Реализации</label>
 					<div class="col-sm-9">
 						{{#single implementations}}
 							<p class="form-control-static">{{linkto this}}</p>
@@ -102,7 +102,7 @@
 			{{#if implements}}
 				<!-- implements -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Implementa</label>
+					<label class="col-sm-3 control-label">Реализует</label>
 					<div class="col-sm-9">
 						{{#single implements}}
 							<p class="form-control-static">{{linkto this}}</p>
@@ -120,7 +120,7 @@
 			{{#if mixes}}
 				<!-- mixes -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Mixes In</label>
+					<label class="col-sm-3 control-label">Объединения</label>
 					<div class="col-sm-9">
 						{{#single mixes}}
 							<p class="form-control-static">{{linkto this}}</p>
@@ -138,7 +138,7 @@
 			{{#if deprecated}}
 				<!-- deprecated -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Obsoleto</label>
+					<label class="col-sm-3 control-label">Устаревший</label>
 					<div class="col-sm-9">
 						<p class="form-control-static">{{deprecated}}</p>
 					</div>
@@ -148,7 +148,7 @@
 			{{#if author}}
 				<!-- author -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Autor</label>
+					<label class="col-sm-3 control-label">Автор</label>
 					<div class="col-sm-9">
 						{{#single author}}
 							<p class="form-control-static">{{linkto this}}</p>
@@ -176,7 +176,7 @@
 			{{#if license}}
 				<!-- license -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Licencia</label>
+					<label class="col-sm-3 control-label">Лицензия</label>
 					<div class="col-sm-9">
 						<p class="form-control-static">{{license}}</p>
 					</div>
@@ -186,7 +186,7 @@
 			{{#if hasSource}}
 				<!-- source -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Fuente</label>
+					<label class="col-sm-3 control-label">Источник</label>
 					<div class="col-sm-9">
 						<p class="form-control-static">{{#if options.outputSourceFiles}}{{{sourcelink}}}{{else}}{{source}}{{/if}}</p>
 					</div>
@@ -196,7 +196,7 @@
 			{{#if tutorials}}
 				<!-- tutorials -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Tutoriales</label>
+					<label class="col-sm-3 control-label">Руководство</label>
 					<div class="col-sm-9">
 						{{#single tutorials}}
 							<p class="form-control-static">{{linkto this}}</p>
@@ -214,7 +214,7 @@
 			{{#if see}}
 				<!-- see -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Ver</label>
+					<label class="col-sm-3 control-label">См.</label>
 					<div class="col-sm-9">
 						{{#single see}}
 							<p class="form-control-static">{{linkto this}}</p>

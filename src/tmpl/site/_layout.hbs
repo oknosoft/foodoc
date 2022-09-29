@@ -87,25 +87,25 @@
 							{{#if doclet.has.inherited}}
 								<label class="checkbox-inline">
 									<input class="toggle-inherited" type="checkbox" value="" checked>
-									Inherited
+									Унаследованные
 								</label>
 							{{/if}}
 							{{#if doclet.has.public}}
 								<label class="checkbox-inline">
 									<input class="toggle-public" type="checkbox" value="" checked>
-									Public
+									Публичные
 								</label>
 							{{/if}}
 							{{#if doclet.has.protected}}
 								<label class="checkbox-inline">
 									<input class="toggle-protected" type="checkbox" value="" checked>
-									Protected
+									Защищенные
 								</label>
 							{{/if}}
 							{{#if doclet.has.private}}
 								<label class="checkbox-inline">
 									<input class="toggle-private" type="checkbox" value="" checked>
-									Private
+									Приватные
 								</label>
 							{{/if}}
 						</div>
@@ -121,7 +121,7 @@
 						{{#block "secondary"}}
 							<article class="secondary">
 								{{#if doclet.symbols.module}}
-									<h3>Módulos</h3>
+									<h3>Модули</h3>
 									<dl class="symbol">
 										{{#each doclet.symbols.module}}
 											<hr/>
@@ -130,7 +130,7 @@
 									</dl>
 								{{/if}}
 								{{#if doclet.symbols.class}}
-									<h3>Clases</h3>
+									<h3>Классы</h3>
 									<dl class="symbol">
 										{{#each doclet.symbols.class}}
 											<hr/>
@@ -139,7 +139,7 @@
 									</dl>
 								{{/if}}
 								{{#if doclet.symbols.mixin}}
-									<h3>Mixins</h3>
+									<h3>Объединения</h3>
 									<dl class="symbol">
 										{{#each doclet.symbols.mixin}}
 											<hr/>
@@ -148,7 +148,7 @@
 									</dl>
 								{{/if}}
 								{{#if doclet.symbols.namespace}}
-									<h3>Espacios de nombres</h3>
+									<h3>Пространства имён</h3>
 									<dl class="symbol">
 										{{#each doclet.symbols.namespace}}
 											<hr/>
@@ -157,7 +157,7 @@
 									</dl>
 								{{/if}}
 								{{#if doclet.symbols.member}}
-									<h3>Miembros</h3>
+									<h3>Свойства</h3>
 									<dl class="symbol">
 										{{#each doclet.symbols.member}}
 											<hr/>
@@ -166,7 +166,7 @@
 									</dl>
 								{{/if}}
 								{{#if doclet.symbols.function}}
-									<h3>Métodos</h3>
+									<h3>Методы</h3>
 									<dl class="symbol">
 										{{#each doclet.symbols.function}}
 											<hr/>
@@ -175,7 +175,7 @@
 									</dl>
 								{{/if}}
 								{{#if doclet.symbols.typedef}}
-									<h3>Definiciones de tipos</h3>
+									<h3>Определения типов</h3>
 									<dl class="symbol">
 										{{#each doclet.symbols.typedef}}
 											<hr/>
@@ -184,7 +184,7 @@
 									</dl>
 								{{/if}}
 								{{#if doclet.symbols.event}}
-									<h3>Eventos</h3>
+									<h3>События</h3>
 									<dl class="symbol">
 										{{#each doclet.symbols.event}}
 											<hr/>
@@ -193,7 +193,7 @@
 									</dl>
 								{{/if}}
 								{{#if doclet.symbols.tutorial}}
-									<h3>Tutoriales</h3>
+									<h3>Руководства</h3>
 									<dl class="symbol">
 										{{#each doclet.symbols.tutorial}}
 											<hr/>
@@ -216,7 +216,7 @@
 			{{#if options.copyright}}
 				<div class="copyright">{{{options.copyright}}}</div>
 			{{/if}}
-			<div class="generated-by">Documentación generada por <a href="https://github.com/jsdoc3/jsdoc">JSDoc {{config.version}}</a>{{#if options.includeDate}} a {{config.date}}{{/if}} usando la <a href="https://github.com/steveush/foodoc">plantilla FooDoc</a>.</div>
+			<div class="generated-by">Сгенерировано <a href="https://github.com/jsdoc3/jsdoc">JSDoc {{config.version}}</a>{{#if options.includeDate}} a {{config.date}}{{/if}} с использованием <a href="https://github.com/oknosoft/foodoc">шаблона FooDoc</a>.</div>
 		{{/block}}
 	</footer>
 	{{#if config.debug}}
