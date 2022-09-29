@@ -1,20 +1,20 @@
 {{#if params}}
 	{{#unless child}}
 <div class="callout callout-info">
-	<h5>Parámetros</h5>
+	<h5>Параметры</h5>
 	{{/unless}}
 	<table class="params table table-striped">
 		<thead>
 		<tr>
 			{{#if paramsHasNames}}
-				<th>Nombre</th>
+				<th>Имя</th>
 			{{/if}}
 			<th>Tipo</th>
 			{{#if paramsHasAttributes}}
-				<th>Atributos</th>
+				<th>Атрибуты</th>
 			{{/if}}
 			{{#if paramsHasDefaults}}
-				<th>Valor por defecto</th>
+				<th>Значение по умолчанию</th>
 			{{/if}}
 			<th class="last">Описание</th>
 		</tr>

@@ -32,7 +32,7 @@
 	left: -25px;
 }
 .access-filter .checkbox-inline:first-of-type:before {
-	content: "Show -";
+	content: "Показывать -";
 }
 .access-filter .checkbox-inline+.checkbox-inline:before {
 	content: "|";
