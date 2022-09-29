@@ -609,11 +609,11 @@ Handlebars.registerPartial("tag/details", this["tmpl"]["tag/details"] = Handleba
     + container.escapeExpression(((helper = (helper = helpers.since || (depth0 != null ? depth0.since : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"since","hash":{},"data":data}) : helper)))
     + "</p>\n					</div>\n				</div>\n";
 },"17":function(container,depth0,helpers,partials,data) {
-    return "				<!-- inherits -->\n				<div class=\"form-group\">\n					<label class=\"col-sm-3 control-label\">Унаследован от</label>\n					<div class=\"col-sm-9\">\n						<p class=\"form-control-static\">"
+    return "				<!-- inherits -->\n				<div class=\"form-group\">\n					<label class=\"col-sm-3 control-label\">Реализует</label>\n					<div class=\"col-sm-9\">\n						<p class=\"form-control-static\">"
     + container.escapeExpression((helpers.linkto || (depth0 && depth0.linkto) || helpers.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0.inherits : depth0),{"name":"linkto","hash":{},"data":data}))
     + "</p>\n					</div>\n				</div>\n";
 },"19":function(container,depth0,helpers,partials,data) {
-    return "				<!-- overrides -->\n				<div class=\"form-group\">\n					<label class=\"col-sm-3 control-label\">Переопределения</label>\n					<div class=\"col-sm-9\">\n						<p class=\"form-control-static\">"
+    return "				<!-- overrides -->\n				<div class=\"form-group\">\n					<label class=\"col-sm-3 control-label\">Переопределяет</label>\n					<div class=\"col-sm-9\">\n						<p class=\"form-control-static\">"
     + container.escapeExpression((helpers.linkto || (depth0 && depth0.linkto) || helpers.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0.overrides : depth0),{"name":"linkto","hash":{},"data":data}))
     + "</p>\n					</div>\n				</div>\n";
 },"21":function(container,depth0,helpers,partials,data) {
@@ -749,7 +749,7 @@ Handlebars.registerPartial("tag/details", this["tmpl"]["tag/details"] = Handleba
 Handlebars.registerPartial("tag/example", this["tmpl"]["tag/example"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return ((stack1 = (helpers.callout || (depth0 && depth0.callout) || helpers.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),"Примеры","callout-example",{"name":"callout","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return ((stack1 = (helpers.callout || (depth0 && depth0.callout) || helpers.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),"Пример","callout-example",{"name":"callout","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
 },"2":function(container,depth0,helpers,partials,data) {
     var stack1;
 
@@ -777,7 +777,7 @@ Handlebars.registerPartial("tag/example", this["tmpl"]["tag/example"] = Handleba
 
   return "		<p class=\"example-run\">\n			<input type=\"hidden\" value=\""
     + container.escapeExpression(((helper = (helper = helpers.code || (depth0 != null ? depth0.code : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"code","hash":{},"data":data}) : helper)))
-    + "\">\n			<button type=\"button\" class=\"btn btn-default code-run\">Примеры</button>\n		</p>\n";
+    + "\">\n			<button type=\"button\" class=\"btn btn-default code-run\">Пример</button>\n		</p>\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 
