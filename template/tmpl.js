@@ -9,7 +9,7 @@ Handlebars.registerPartial("search/modal", this["tmpl"]["search/modal"] = Handle
 },"useData":true}));
 
 Handlebars.registerPartial("search/navbar-input", this["tmpl"]["search/navbar-input"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    return "<!-- start:lunr-search-navbar.hbs -->\n<form class=\"navbar-form navbar-right\" role=\"search\">\n	<div class=\"input-group\">\n		<input type=\"text\" class=\"form-control\" placeholder=\"Buscar\" id=\"lunr-search-input\">\n		<div class=\"input-group-btn\">\n			<button class=\"btn btn-default\" id=\"lunr-search-submit\">\n				<i class=\"glyphicon glyphicon-search\"></i>\n			</button>\n		</div>\n	</div>\n</form>\n<!-- start:lunr-search-navbar.hbs -->";
+    return "<!-- start:lunr-search-navbar.hbs -->\n<form class=\"navbar-form navbar-right\" role=\"search\">\n	<div class=\"input-group\">\n		<input type=\"text\" class=\"form-control\" placeholder=\"Найти...\" id=\"lunr-search-input\">\n		<div class=\"input-group-btn\">\n			<button class=\"btn btn-default\" id=\"lunr-search-submit\">\n				<i class=\"glyphicon glyphicon-search\"></i>\n			</button>\n		</div>\n	</div>\n</form>\n<!-- start:lunr-search-navbar.hbs -->";
 },"useData":true}));
 
 Handlebars.registerPartial("site/layout", this["tmpl"]["site/layout"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
@@ -525,7 +525,7 @@ Handlebars.registerPartial("tag/description", this["tmpl"]["tag/description"] = 
 Handlebars.registerPartial("tag/details", this["tmpl"]["tag/details"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return ((stack1 = (helpers.callout || (depth0 && depth0.callout) || helpers.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),"Уточнения","callout-default",{"name":"callout","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return ((stack1 = (helpers.callout || (depth0 && depth0.callout) || helpers.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),"Иерархия","callout-default",{"name":"callout","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
 },"2":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {});
 
@@ -609,7 +609,7 @@ Handlebars.registerPartial("tag/details", this["tmpl"]["tag/details"] = Handleba
     + container.escapeExpression(((helper = (helper = helpers.since || (depth0 != null ? depth0.since : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"since","hash":{},"data":data}) : helper)))
     + "</p>\n					</div>\n				</div>\n";
 },"17":function(container,depth0,helpers,partials,data) {
-    return "				<!-- inherits -->\n				<div class=\"form-group\">\n					<label class=\"col-sm-3 control-label\">Реализует</label>\n					<div class=\"col-sm-9\">\n						<p class=\"form-control-static\">"
+    return "				<!-- inherits -->\n				<div class=\"form-group\">\n					<label class=\"col-sm-3 control-label\">Объявлено в</label>\n					<div class=\"col-sm-9\">\n						<p class=\"form-control-static\">"
     + container.escapeExpression((helpers.linkto || (depth0 && depth0.linkto) || helpers.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0.inherits : depth0),{"name":"linkto","hash":{},"data":data}))
     + "</p>\n					</div>\n				</div>\n";
 },"19":function(container,depth0,helpers,partials,data) {
@@ -631,7 +631,7 @@ Handlebars.registerPartial("tag/details", this["tmpl"]["tag/details"] = Handleba
 },"24":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "				<!-- implements -->\n				<div class=\"form-group\">\n					<label class=\"col-sm-3 control-label\">Реализует</label>\n					<div class=\"col-sm-9\">\n"
+  return "				<!-- implements -->\n				<div class=\"form-group\">\n					<label class=\"col-sm-3 control-label\">Переопределено</label>\n					<div class=\"col-sm-9\">\n"
     + ((stack1 = (helpers.single || (depth0 && depth0.single) || helpers.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0["implements"] : depth0),{"name":"single","hash":{},"fn":container.program(8, data, 0),"inverse":container.program(25, data, 0),"data":data})) != null ? stack1 : "")
     + "					</div>\n				</div>\n";
 },"25":function(container,depth0,helpers,partials,data) {
@@ -997,7 +997,7 @@ Handlebars.registerPartial("tag/requires", this["tmpl"]["tag/requires"] = Handle
 Handlebars.registerPartial("tag/returns", this["tmpl"]["tag/returns"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return ((stack1 = (helpers.callout || (depth0 && depth0.callout) || helpers.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),"Returns","callout-success",{"name":"callout","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+  return ((stack1 = (helpers.callout || (depth0 && depth0.callout) || helpers.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),"Возвращает","callout-success",{"name":"callout","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
 },"2":function(container,depth0,helpers,partials,data) {
     var stack1;
 

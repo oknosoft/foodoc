@@ -1,7 +1,11 @@
 .summary {
-	font-size: 15px;
+	font-size: inherit;
 	font-weight: normal;
 	color: #808080;
+}
+
+.collapsible-symbol .summary {
+	font-size: 2rem;
 }
 
 .signature-type,
