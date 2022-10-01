@@ -342,6 +342,16 @@ exports.getSymbols = function(doclet){
 		template.kinds.symbols.forEach(function(kind){
 			symbols[kind] = template.find({kind: kind, memberof: doclet.longname});
 		});
+		if(doclet.augments?.includes?.('metadata.CatObj')) {
+			for(const member of symbols.member) {
+				if(member.type.name.includes('metadata.TabularSection')) {
+					symbols.tabular.push(member);
+				}
+			}
+			for(const member of symbols.tabular) {
+				symbols.member.space(symbols.member.indexOf(member), 1);
+			}
+		}
 	}
 	return symbols;
 };

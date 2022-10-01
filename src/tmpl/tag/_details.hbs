@@ -1,6 +1,6 @@
 {{!-- This is the catch all tag template, any tag that doesn't required it's own callout can be included here --}}
 {{#if hasDetails}}
-	{{#callout "Иерархия" "callout-default"}}
+	{{#callout "Сведения" "callout-default"}}
 		<form class="form-horizontal details">
 
 			{{#if type}}
@@ -64,7 +64,7 @@
 			{{#if inherits}}
 				<!-- inherits -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Объявлено в</label>
+					<label class="col-sm-3 control-label">Унаследовано от</label>
 					<div class="col-sm-9">
 						<p class="form-control-static">{{linkto inherits}}</p>
 					</div>
@@ -74,7 +74,7 @@
 			{{#if overrides}}
 				<!-- overrides -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Переопределяет</label>
+					<label class="col-sm-3 control-label">Переопределено</label>
 					<div class="col-sm-9">
 						<p class="form-control-static">{{linkto overrides}}</p>
 					</div>
@@ -102,7 +102,7 @@
 			{{#if implements}}
 				<!-- implements -->
 				<div class="form-group">
-					<label class="col-sm-3 control-label">Переопределено</label>
+					<label class="col-sm-3 control-label">Реализует</label>
 					<div class="col-sm-9">
 						{{#single implements}}
 							<p class="form-control-static">{{linkto this}}</p>

@@ -12,7 +12,22 @@ var moment = require('moment');
 var kinds = exports.kinds = {
 	custom: ['readme', 'global', 'source', 'tutorial', 'list'],
 	pages: ['readme', 'global', 'source', 'tutorial', 'list', 'class', 'external', 'mixin', 'module', 'namespace', 'interface'],
-	symbols: ['tutorial', 'class', 'external', 'event', 'mixin', 'module', 'namespace', 'interface', 'member', 'function', 'constant', 'typedef'],
+	symbols: [
+		'tutorial',
+		'class',
+		'external',
+		'event',
+		//'mixin',
+		'module',
+		'namespace',
+		//'interface',
+		'member',
+		'function',
+		'constant',
+		'typedef',
+		'property',
+		'tabular',
+	],
 	global: ['member', 'function', 'constant', 'typedef']
 };
 

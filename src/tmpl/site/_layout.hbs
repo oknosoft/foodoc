@@ -68,11 +68,6 @@
 	{{/block}}
 	<div class="container content">
 		<div class="row">
-		{{#if doclet.showTableOfContents}}
-			<div class="col-md-3 side-content">
-				<nav class="toc hidden-print hidden-sm hidden-xs"></nav>
-			</div>
-		{{/if}}
 			<div class="{{#if doclet.showTableOfContents}}col-md-9{{else}}col-md-12{{/if}} main-content">
 				{{#block "controls"}}
 					{{#if crumbs}}
@@ -165,6 +160,15 @@
 										{{/each}}
 									</dl>
 								{{/if}}
+                                {{#if doclet.symbols.tabular}}
+                                    <h3>Табчасти</h3>
+                                    <dl class="symbol">
+                                        {{#each doclet.symbols.tabular}}
+                                            <hr/>
+                                            {{symbol this options=../options}}
+                                        {{/each}}
+                                    </dl>
+                                {{/if}}
 								{{#if doclet.symbols.function}}
 									<h3>Методы</h3>
 									<dl class="symbol">
@@ -206,6 +210,11 @@
 					</section>
 				{{/block}}
 			</div>
+            {{#if doclet.showTableOfContents}}
+                <div class="col-md-3 side-content">
+                    <nav class="toc hidden-print hidden-sm hidden-xs"></nav>
+                </div>
+            {{/if}}
 		</div>
 	</div>
 	<footer>

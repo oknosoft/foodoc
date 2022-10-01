@@ -37,11 +37,11 @@
 
 	Prism.plugins.toolbar.registerButton('copy-to-clipboard', function (env) {
 		var linkCopy = document.createElement('a');
-		linkCopy.textContent = 'Copiar';
+		linkCopy.textContent = 'Copy';
 
 		function resetText() {
 			setTimeout(function () {
-				linkCopy.textContent = 'Copiar';
+				linkCopy.textContent = 'Copy';
 			}, 5000);
 		}
 
@@ -53,12 +53,12 @@
 			});
 
 			clip.on('success', function() {
-				linkCopy.textContent = '¡Copiado!';
+				linkCopy.textContent = 'Copied!';
 
 				resetText();
 			});
 			clip.on('error', function () {
-				linkCopy.textContent = 'Pulsar Ctrl+C para copiar';
+				linkCopy.textContent = 'Press Ctrl+C to copy';
 
 				resetText();
 			});
