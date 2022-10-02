@@ -25,22 +25,23 @@ var kinds = exports.kinds = {
 		'function',
 		'constant',
 		'typedef',
-		'property',
+		'sysprop',
 		'tabular',
 	],
+	sysprop: ['id', 'name', 'parent', 'owner', 'is_folder', 'editor', 'captured', 'date', 'number_doc', 'posted'],
 	global: ['member', 'function', 'constant', 'typedef']
 };
 
 var options = exports.options = extend({
 	includeDate: true,
-	dateFormat: "Do MMM YYYY",
+	dateFormat: "DD.MM.YYYY",
 	systemName: "FooDoc",
 	systemSummary: "A Bootstrap and Handlebars based template for JSDoc3.",
 	systemLogo: "",
 	systemColor: "",
 	navMembers: [],
 	footer: "",
-	copyright: "FooDoc Copyright © 2016 The contributors to the JSDoc3 and FooDoc projects.",
+	copyright: "© 2016-2022 Oknosoft Lab <info@oknosoft.ru> (https://oknosoft.ru)",
 	linenums: true,
 	collapseSymbols: true,
 	inverseNav: true,
@@ -258,7 +259,7 @@ exports.createCrumbs = function(doclet){
 	if (doclet.kind === 'readme' || doclet.kind === 'source') return crumbs;
 	crumbs.push(linkto("index", "\u2302 Home"));
 	if (doclet.kind !== 'list' && doclet.kind !== 'global' && hasNavMember(doclet.kind)){
-		crumbs.push(linkto("list:"+doclet.kind));
+		crumbs.push(linkto(`list:${doclet.owner ? doclet.owner.for : doclet.kind}`));
 	}
 	if (doclet.kind === 'tutorial'){
 		helper.getAncestors(raw.data, doclet).forEach(function(ancestor){

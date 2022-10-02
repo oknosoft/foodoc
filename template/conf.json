@@ -24,7 +24,7 @@
     "sort": "linenum, longname, version, since",
     "search": true,
     "analytics": {"ua": null, "domain": null},
-    "favicon": null,
+    "favicon": "favicon.ico",
     "stylesheets": [],
     "scripts": []
   },

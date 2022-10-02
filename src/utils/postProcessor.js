@@ -298,28 +298,93 @@ exports.registerTutorials = function(){
 };
 
 exports.registerLists = function(){
-	template.options.navMembers.forEach(function(member){
+	template.options.navMembers.forEach((member) => {
 		// the global kind is register just after the index to reserve it's name so don't do it again
 		if (member.kind == "global") return;
 
-		var doclet = {
+    const members = template.find({kind: member.kind}, "longname, version, since");
+		const doclet = {
 			kind: 'list',
 			longname: "list:" + member.kind,
 			for: member.kind,
 			name: member.title,
 			summary: member.summary,
 			showTableOfContents: true,
-			showAccessFilter: false,
-			members: template.find({kind: member.kind}, "longname, version, since")
+			showAccessFilter: true,
+			members
 		};
 		if (member.kind == 'tutorial'){
-			doclet.members = doclet.members.filter(function(m){ return !m.memberof; });
+			doclet.members = members.filter((m) => !m.memberof);
 		}
+		else if (member.kind == 'class'){
+			doclet.members = members.filter((m) => {
+				return !m.name.startsWith('Enm') &&
+					!m.name.startsWith('Cat') &&
+					!m.name.startsWith('Cch') &&
+					!m.name.startsWith('Doc') &&
+					!m.name.startsWith('Dp') &&
+					!m.name.startsWith('Rep') &&
+					!m.longname.startsWith('metadata.') &&
+					!m.longname.startsWith('paper.');
+			});
+		}
+		registerDoclet(doclet);
+		template.raw.data.insert(doclet);
+	});
+	[
+		{
+			name: 'enm',
+			title: 'Перечисления',
+			summary: 'Объекты и менеджеры перечислений',
+			filter: (m) => {
+				return m.name.startsWith('Enm') &&
+					!m.longname.startsWith('metadata.') &&
+					!m.longname.startsWith('paper.');
+			},
+		},
+		{
+			name: 'guide',
+			title: 'Справочники',
+			summary: 'Объекты и менеджеры справочников',
+			filter: (m) => {
+				return (m.name.startsWith('Cat') || m.name.startsWith('Cch'))  &&
+					!m.longname.startsWith('metadata.') &&
+					!m.longname.startsWith('paper.');
+			},
+		},
+		{
+			name: 'ldoc',
+			title: 'Документы',
+			summary: 'Объекты и менеджеры документов',
+			filter: (m) => {
+				return (m.name.startsWith('Doc') ||
+          m.name.startsWith('Dp') ||
+          m.name.startsWith('Rep')) &&
+          !m.longname.startsWith('metadata.') &&
+          !m.longname.startsWith('paper.');
+			},
+		}].forEach((member) => {
+		const doclet = {
+			kind: 'list',
+			longname: "list:" + member.name,
+			for: member.name,
+			name: member.title,
+			summary: member.summary,
+			showTableOfContents: true,
+			showAccessFilter: true,
+			members: template
+				.find({kind: 'class'}, "longname, version, since")
+				.filter(member.filter)
+		};
+    for(const m of doclet.members) {
+      m.owner = doclet;
+    }
 		registerDoclet(doclet);
 		template.raw.data.insert(doclet);
 	});
 };
 
+//const classesList = ['Enumerations', 'Catalogs'];
 exports.buildNavbar = function(navbar){
 	navbar.index = {
 		kind: 'readme',
@@ -329,16 +394,33 @@ exports.buildNavbar = function(navbar){
 		summary: template.options.systemSummary,
 		members: []
 	};
-	navbar.topLevel = template.find({kind:['list','global']}, "longname, name").filter(function(doclet){
-		return doclet.members.length > 0 && (doclet.kind == 'list' || template.hasNavMember(doclet.kind));
-	}).map(function(doclet){
-		return {
-			title: doclet.name,
-			summary: doclet.summary,
-			link: helper.longnameToUrl[doclet.longname],
-			members: doclet.members.map(function(member){
-				return template.linkto(member.longname);
-			})
-		};
-	});
+	navbar.topLevel = template
+		.find({kind: ['list', 'global']}, "longname, name")
+		.filter((doclet) => {
+			return doclet.members.length > 0 && (doclet.kind == 'list' || template.hasNavMember(doclet.kind));
+		})
+		.map((doclet) => {
+			return {
+				title: doclet.name,
+				summary: doclet.summary,
+				link: helper.longnameToUrl[doclet.longname],
+        members: doclet.members
+          // .filter((el) => {
+          //   switch (doclet.longname) {
+          //     case 'list:namespace':
+          //     case 'list:tutorial':
+          //       return true;
+          //     case 'list:class':
+          //       return classesList.includes(el.longname);
+          //     case 'global':
+          //       return el.kind !== 'typedef';
+          //     default:
+          //       return el;
+          //   }
+          // })
+          .map((member) => {
+            return template.linkto(member.longname);
+          })
+			};
+		});
 };

@@ -152,7 +152,11 @@
 									</dl>
 								{{/if}}
 								{{#if doclet.symbols.member}}
-									<h3>Свойства</h3>
+                                    {{#if doclet.isDataObj}}
+                                        <h3>Реквизиты</h3>
+                                    {{else}}
+                                        <h3>Свойства</h3>
+                                    {{/if}}
 									<dl class="symbol">
 										{{#each doclet.symbols.member}}
 											<hr/>
@@ -160,8 +164,17 @@
 										{{/each}}
 									</dl>
 								{{/if}}
+                                {{#if doclet.symbols.sysprop}}
+                                    <h3>Стандартные реквизиты</h3>
+                                    <dl class="symbol">
+                                        {{#each doclet.symbols.sysprop}}
+                                            <hr/>
+                                            {{symbol this options=../options}}
+                                        {{/each}}
+                                    </dl>
+                                {{/if}}
                                 {{#if doclet.symbols.tabular}}
-                                    <h3>Табчасти</h3>
+                                    <h3>Табличные части</h3>
                                     <dl class="symbol">
                                         {{#each doclet.symbols.tabular}}
                                             <hr/>

@@ -63,7 +63,8 @@ exports.getSignature = function (doclet) {
 		}
 	} else if (doclet.kind === 'member' || doclet.kind === 'constant') {
 		var types = helper.getSignatureTypes(doclet);
-		signature += '<span class="signature-type">' + (types.length ? ' :' + types.join('|') : '') + '</span>';
+		signature += '<span class="signature-type">' +
+			(types.length ? (' :' + types.filter((v, i) => i < 7).join('|')) : '') + '</span>';
 		//todo: check if this is required
 		//doclet.kind = 'member';
 	}
@@ -338,18 +339,24 @@ exports.getSymbols = function(doclet){
 		template.kinds.global.forEach(function(kind){
 			symbols[kind] = template.find({kind: kind, memberof: { isUndefined: true }});
 		});
-	} else {
-		template.kinds.symbols.forEach(function(kind){
+	}
+	else {
+		template.kinds.symbols.forEach(function (kind) {
 			symbols[kind] = template.find({kind: kind, memberof: doclet.longname});
 		});
-		if(doclet.augments?.includes?.('metadata.CatObj')) {
-			for(const member of symbols.member) {
-				if(member.type.name.includes('metadata.TabularSection')) {
+		const {augments} = doclet;
+		if (augments?.includes?.('metadata.CatObj') || augments?.includes?.('metadata.DocObj')) {
+			doclet.isDataObj = true;
+			for (const member of symbols.member) {
+				if (template.kinds.sysprop.includes(member.name)) {
+					symbols.sysprop.push(member);
+				}
+				else if (member?.type?.names?.includes?.('metadata.TabularSection')) {
 					symbols.tabular.push(member);
 				}
 			}
-			for(const member of symbols.tabular) {
-				symbols.member.space(symbols.member.indexOf(member), 1);
+			for (const member of [...symbols.tabular, ...symbols.sysprop]) {
+				symbols.member.splice(symbols.member.indexOf(member), 1);
 			}
 		}
 	}
