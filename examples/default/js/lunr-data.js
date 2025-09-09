@@ -58,12 +58,6 @@ window.lunrData = {
           "drive",
           "tutori"
         ],
-        "list_tutorial.html": [
-          "avail",
-          "list",
-          "list:tutori",
-          "tutori"
-        ],
         "list_class.html": [
           "class",
           "document",
@@ -81,6 +75,253 @@ window.lunrData = {
           "list",
           "list:modul",
           "modul"
+        ],
+        "list_tutorial.html": [
+          "avail",
+          "list",
+          "list:tutori",
+          "tutori"
+        ],
+        "base_chains.html": [
+          "base/chain",
+          "chain",
+          "class",
+          "composit",
+          "defin",
+          "determin",
+          "element",
+          "execut",
+          "function",
+          "order",
+          "primari"
+        ],
+        "base_chains.html#close": [
+          "1",
+          "2",
+          "3",
+          "allow",
+          "ask",
+          "bar",
+          "base/chains#clos",
+          "befor",
+          "call",
+          "chain",
+          "close",
+          "defin",
+          "destroy",
+          "devoid",
+          "down",
+          "end",
+          "first",
+          "food",
+          "head",
+          "itself",
+          "keep",
+          "last",
+          "make",
+          "mean",
+          "member",
+          "method",
+          "object",
+          "on",
+          "open",
+          "reopen",
+          "resourc",
+          "shut",
+          "still",
+          "tabl",
+          "unlik",
+          "unus",
+          "us",
+          "way",
+          "wherea"
+        ],
+        "base_chains.html#end": [
+          "allow",
+          "ask",
+          "base/chains#end",
+          "befor",
+          "call",
+          "chain",
+          "close",
+          "defin",
+          "destroy",
+          "devoid",
+          "down",
+          "end",
+          "first",
+          "itself",
+          "last",
+          "make",
+          "mean",
+          "member",
+          "method",
+          "object",
+          "on",
+          "reopen",
+          "resourc",
+          "shut",
+          "unlik",
+          "unus",
+          "us",
+          "way"
+        ],
+        "base_chains.html#destroy": [
+          "actual",
+          "ask",
+          "automat",
+          "away",
+          "base/chains#destroy",
+          "befor",
+          "between",
+          "call",
+          "chain",
+          "clean",
+          "constructor",
+          "counterpart",
+          "defin",
+          "destroy",
+          "differ",
+          "end",
+          "first",
+          "go",
+          "here",
+          "last",
+          "lt;private&gt",
+          "mean",
+          "member",
+          "method",
+          "object",
+          "on",
+          "rais",
+          "think",
+          "up",
+          "us",
+          "verb",
+          "work",
+          "yourself"
+        ],
+        "base_chains.html#open": [
+          "again",
+          "base/chains#clos",
+          "base/chains#open",
+          "chain",
+          "code",
+          "defin",
+          "destroy",
+          "dormant",
+          "first",
+          "go",
+          "here",
+          "kind",
+          "later",
+          "mean",
+          "member",
+          "object",
+          "on",
+          "open",
+          "open/clos",
+          "paradigm",
+          "reopen",
+          "us"
+        ],
+        "module-ink_collector-CollectorBase.html": [
+          "class",
+          "collector",
+          "collectorbas",
+          "ink/collector~collectorbas",
+          "module:ink/collector~collectorbas"
+        ],
+        "utils_logger.Logger.html": [
+          "class",
+          "handl",
+          "level",
+          "log",
+          "logger",
+          "member",
+          "mix",
+          "object",
+          "see",
+          "set",
+          "state",
+          "utils/logg",
+          "utils/logger.logg"
+        ],
+        "utils_logger.Logger.html#silent": [
+          "anyth",
+          "cycl",
+          "error",
+          "function",
+          "log",
+          "logger#sil",
+          "minim",
+          "silent",
+          "someth",
+          "turn",
+          "utils/logger.logger#sil"
+        ],
+        "utils_logger.Logger.html#all": [
+          "function",
+          "level",
+          "log",
+          "logger#al",
+          "turn",
+          "utils/logger.logger#al"
+        ],
+        "utils_logger.Logger.html#level": [
+          "debug",
+          "error",
+          "function",
+          "info",
+          "level",
+          "log",
+          "logger#level",
+          "lvl",
+          "on",
+          "set",
+          "trace",
+          "utils/logger.logger#level",
+          "warn"
+        ],
+        "utils_logger.Logger.html#trace": [
+          "call",
+          "function",
+          "log",
+          "logger#trac",
+          "trace",
+          "utils/logger.logger#trac"
+        ],
+        "utils_logger.Logger.html#debug": [
+          "call",
+          "debug",
+          "function",
+          "log",
+          "logger#debug",
+          "utils/logger.logger#debug"
+        ],
+        "utils_logger.Logger.html#info": [
+          "call",
+          "function",
+          "info",
+          "log",
+          "logger#info",
+          "utils/logger.logger#info"
+        ],
+        "utils_logger.Logger.html#warn": [
+          "call",
+          "function",
+          "log",
+          "logger#warn",
+          "utils/logger.logger#warn",
+          "warn"
+        ],
+        "utils_logger.Logger.html#error": [
+          "call",
+          "error",
+          "function",
+          "log",
+          "logger#error",
+          "utils/logger.logger#error"
         ],
         "base.html": [
           "base",
@@ -249,12 +490,345 @@ window.lunrData = {
           "time",
           "without"
         ],
-        "module-ink_collector-CollectorBase.html": [
+        "module-mixins_signalable-Signal.html": [
           "class",
-          "collector",
-          "collectorbas",
-          "ink/collector~collectorbas",
-          "module:ink/collector~collectorbas"
+          "creat",
+          "deploy",
+          "instanc",
+          "mixin",
+          "mixins/signalable~sign",
+          "module:mixins/signalable~sign",
+          "object",
+          "rais",
+          "signal"
+        ],
+        "module-mixins_signalable-Signal.html#destroy": [
+          "clean",
+          "destroy",
+          "function",
+          "lt;private&gt",
+          "module:mixins/signalable~signal#destroy",
+          "up"
+        ],
+        "module-mixins_signalable-Signal.html#on": [
+          "function",
+          "listen",
+          "listenercontext",
+          "module:mixins/signalable~signal#on",
+          "prioriti",
+          "signal",
+          "signalbind",
+          "ti"
+        ],
+        "module-mixins_signalable-Signal.html#once": [
+          "execut",
+          "function",
+          "listen",
+          "listenercontext",
+          "module:mixins/signalable~signal#onc",
+          "on",
+          "onc",
+          "prioriti",
+          "signal",
+          "signalbind",
+          "ti"
+        ],
+        "module-mixins_signalable-Signal.html#off": [
+          "function",
+          "listen",
+          "listenercontext",
+          "module:mixins/signalable~signal#off",
+          "signal",
+          "unbind"
+        ],
+        "module-mixins_signalable-Signal.html#has": [
+          "attach",
+          "boolean",
+          "check",
+          "function",
+          "listen",
+          "listenercontext",
+          "module:mixins/signalable~signal#ha",
+          "signal"
+        ],
+        "module-mixins_signalable-Signal.html#toString": [
+          "function",
+          "module:mixins/signalable~signal#tostr",
+          "string",
+          "tostr"
+        ],
+        "documents_model.html": [
+          "anyth",
+          "bear",
+          "class",
+          "contain",
+          "data",
+          "documents/model",
+          "entiti",
+          "first",
+          "includ",
+          "level",
+          "memori",
+          "model",
+          "pure",
+          "save",
+          "system",
+          "usabl",
+          "verb"
+        ],
+        "documents_model.html#_idField": [
+          "_idfield",
+          "advantag",
+          "documents/model#_idfield",
+          "field",
+          "identifi",
+          "lt;private&gt",
+          "member",
+          "name",
+          "oper",
+          "provid",
+          "record",
+          "string",
+          "take",
+          "uniqu"
+        ],
+        "documents_model.html#_pkey": [
+          "_pkey",
+          "documents/model#_idfield",
+          "documents/model#_pkey",
+          "fill",
+          "found",
+          "key",
+          "lt;private&gt",
+          "member",
+          "none",
+          "null",
+          "primari",
+          "valu"
+        ],
+        "documents_model.html#isNew": [
+          "boolean",
+          "documents/model#_idfield",
+          "documents/model#isnew",
+          "empti",
+          "fill",
+          "isnew",
+          "it'",
+          "member",
+          "true",
+          "valu"
+        ],
+        "documents_model.html#isEmpty": [
+          "boolean",
+          "documents/model#isempti",
+          "empti",
+          "instanc",
+          "isempti",
+          "member",
+          "return",
+          "true"
+        ],
+        "documents_model.html#.update": [
+          "documents/model.upd",
+          "function",
+          "lt;static&gt",
+          "match",
+          "module:documents/probe.updateoper",
+          "obj",
+          "oper",
+          "qu",
+          "queri",
+          "record",
+          "see",
+          "setdocu",
+          "support",
+          "updat"
+        ],
+        "documents_model.html#.find": [
+          "array",
+          "documents/model.find",
+          "find",
+          "function",
+          "lt;static&gt",
+          "match",
+          "obj",
+          "qu",
+          "queri",
+          "record"
+        ],
+        "documents_model.html#.findKeys": [
+          "array",
+          "documents/model.findkey",
+          "find",
+          "findkey",
+          "function",
+          "hash",
+          "index",
+          "instead",
+          "item",
+          "key",
+          "lt;static&gt",
+          "match",
+          "module:documents/probe.find",
+          "obj",
+          "object",
+          "qu",
+          "queri",
+          "record",
+          "return",
+          "similar",
+          "those"
+        ],
+        "documents_model.html#.findOne": [
+          "alias",
+          "documents/model.findon",
+          "findon",
+          "first",
+          "function",
+          "lt;static&gt",
+          "match",
+          "obj",
+          "object",
+          "qu",
+          "queri",
+          "record",
+          "return",
+          "seek"
+        ],
+        "documents_model.html#.findOneKey": [
+          "alias",
+          "array",
+          "depend",
+          "documents/model.findonekey",
+          "findonekey",
+          "first",
+          "function",
+          "index",
+          "key",
+          "lt;static&gt",
+          "match",
+          "obj",
+          "object",
+          "qu",
+          "queri",
+          "record",
+          "respect",
+          "return",
+          "seekkey",
+          "whether"
+        ],
+        "documents_model.html#.remove": [
+          "documents/model.remov",
+          "function",
+          "item",
+          "lt;static&gt",
+          "match",
+          "obj",
+          "object/array",
+          "object|array",
+          "qu",
+          "queri",
+          "remov"
+        ],
+        "documents_model.html#.all": [
+          "boolean",
+          "documents/model.al",
+          "function",
+          "item",
+          "lt;static&gt",
+          "match",
+          "obj",
+          "qu",
+          "queri",
+          "return",
+          "true"
+        ],
+        "documents_model.html#.any": [
+          "boolean",
+          "documents/model.ani",
+          "function",
+          "item",
+          "lt;static&gt",
+          "match",
+          "obj",
+          "qu",
+          "queri",
+          "return",
+          "true"
+        ],
+        "documents_model.html#.set": [
+          "arbitrari",
+          "creat",
+          "depth",
+          "documents/model.set",
+          "don't",
+          "exist",
+          "filter",
+          "function",
+          "interven",
+          "lt;static&gt",
+          "meant",
+          "newvalu",
+          "nice",
+          "object",
+          "path",
+          "properti",
+          "record",
+          "set",
+          "setter",
+          "singl",
+          "updat",
+          "us",
+          "valu",
+          "way",
+          "work",
+          "write"
+        ],
+        "documents_model.html#.get": [
+          "allow",
+          "bind",
+          "deepli",
+          "documents/model.get",
+          "event",
+          "function",
+          "lt;static&gt",
+          "nest",
+          "object",
+          "path",
+          "queri",
+          "reach",
+          "record",
+          "straight",
+          "us",
+          "valu"
+        ],
+        "documents_model.html#.some": [
+          "alias",
+          "boolean",
+          "documents/model.som",
+          "function",
+          "item",
+          "lt;static&gt",
+          "match",
+          "obj",
+          "qu",
+          "queri",
+          "return",
+          "true"
+        ],
+        "documents_model.html#.every": [
+          "alias",
+          "boolean",
+          "documents/model.everi",
+          "function",
+          "item",
+          "lt;static&gt",
+          "match",
+          "obj",
+          "qu",
+          "queri",
+          "return",
+          "true"
         ],
         "module-ink_collector-OCollector.html": [
           "base",
@@ -596,279 +1170,6 @@ window.lunrData = {
           "support",
           "updat"
         ],
-        "documents_model.html": [
-          "anyth",
-          "bear",
-          "class",
-          "contain",
-          "data",
-          "documents/model",
-          "entiti",
-          "first",
-          "includ",
-          "level",
-          "memori",
-          "model",
-          "pure",
-          "save",
-          "system",
-          "usabl",
-          "verb"
-        ],
-        "documents_model.html#_idField": [
-          "_idfield",
-          "advantag",
-          "documents/model#_idfield",
-          "field",
-          "identifi",
-          "lt;private&gt",
-          "member",
-          "name",
-          "oper",
-          "provid",
-          "record",
-          "string",
-          "take",
-          "uniqu"
-        ],
-        "documents_model.html#_pkey": [
-          "_pkey",
-          "documents/model#_idfield",
-          "documents/model#_pkey",
-          "fill",
-          "found",
-          "key",
-          "lt;private&gt",
-          "member",
-          "none",
-          "null",
-          "primari",
-          "valu"
-        ],
-        "documents_model.html#isNew": [
-          "boolean",
-          "documents/model#_idfield",
-          "documents/model#isnew",
-          "empti",
-          "fill",
-          "isnew",
-          "it'",
-          "member",
-          "true",
-          "valu"
-        ],
-        "documents_model.html#isEmpty": [
-          "boolean",
-          "documents/model#isempti",
-          "empti",
-          "instanc",
-          "isempti",
-          "member",
-          "return",
-          "true"
-        ],
-        "documents_model.html#.get": [
-          "allow",
-          "bind",
-          "deepli",
-          "documents/model.get",
-          "event",
-          "function",
-          "lt;static&gt",
-          "nest",
-          "object",
-          "path",
-          "queri",
-          "reach",
-          "record",
-          "straight",
-          "us",
-          "valu"
-        ],
-        "documents_model.html#.set": [
-          "arbitrari",
-          "creat",
-          "depth",
-          "documents/model.set",
-          "don't",
-          "exist",
-          "filter",
-          "function",
-          "interven",
-          "lt;static&gt",
-          "meant",
-          "newvalu",
-          "nice",
-          "object",
-          "path",
-          "properti",
-          "record",
-          "set",
-          "setter",
-          "singl",
-          "updat",
-          "us",
-          "valu",
-          "way",
-          "work",
-          "write"
-        ],
-        "documents_model.html#.any": [
-          "boolean",
-          "documents/model.ani",
-          "function",
-          "item",
-          "lt;static&gt",
-          "match",
-          "obj",
-          "qu",
-          "queri",
-          "return",
-          "true"
-        ],
-        "documents_model.html#.all": [
-          "boolean",
-          "documents/model.al",
-          "function",
-          "item",
-          "lt;static&gt",
-          "match",
-          "obj",
-          "qu",
-          "queri",
-          "return",
-          "true"
-        ],
-        "documents_model.html#.remove": [
-          "documents/model.remov",
-          "function",
-          "item",
-          "lt;static&gt",
-          "match",
-          "obj",
-          "object/array",
-          "object|array",
-          "qu",
-          "queri",
-          "remov"
-        ],
-        "documents_model.html#.findOne": [
-          "alias",
-          "documents/model.findon",
-          "findon",
-          "first",
-          "function",
-          "lt;static&gt",
-          "match",
-          "obj",
-          "object",
-          "qu",
-          "queri",
-          "record",
-          "return",
-          "seek"
-        ],
-        "documents_model.html#.findOneKey": [
-          "alias",
-          "array",
-          "depend",
-          "documents/model.findonekey",
-          "findonekey",
-          "first",
-          "function",
-          "index",
-          "key",
-          "lt;static&gt",
-          "match",
-          "obj",
-          "object",
-          "qu",
-          "queri",
-          "record",
-          "respect",
-          "return",
-          "seekkey",
-          "whether"
-        ],
-        "documents_model.html#.findKeys": [
-          "array",
-          "documents/model.findkey",
-          "find",
-          "findkey",
-          "function",
-          "hash",
-          "index",
-          "instead",
-          "item",
-          "key",
-          "lt;static&gt",
-          "match",
-          "module:documents/probe.find",
-          "obj",
-          "object",
-          "qu",
-          "queri",
-          "record",
-          "return",
-          "similar",
-          "those"
-        ],
-        "documents_model.html#.find": [
-          "array",
-          "documents/model.find",
-          "find",
-          "function",
-          "lt;static&gt",
-          "match",
-          "obj",
-          "qu",
-          "queri",
-          "record"
-        ],
-        "documents_model.html#.update": [
-          "documents/model.upd",
-          "function",
-          "lt;static&gt",
-          "match",
-          "module:documents/probe.updateoper",
-          "obj",
-          "oper",
-          "qu",
-          "queri",
-          "record",
-          "see",
-          "setdocu",
-          "support",
-          "updat"
-        ],
-        "documents_model.html#.some": [
-          "alias",
-          "boolean",
-          "documents/model.som",
-          "function",
-          "item",
-          "lt;static&gt",
-          "match",
-          "obj",
-          "qu",
-          "queri",
-          "return",
-          "true"
-        ],
-        "documents_model.html#.every": [
-          "alias",
-          "boolean",
-          "documents/model.everi",
-          "function",
-          "item",
-          "lt;static&gt",
-          "match",
-          "obj",
-          "qu",
-          "queri",
-          "return",
-          "true"
-        ],
         "module-documents_probe.queryOperators.html": [
           "actual",
           "artifact",
@@ -912,8 +1213,7 @@ window.lunrData = {
           "otherwis",
           "perform",
           "queryoperators.$n",
-          "valu",
-          "value}}or"
+          "valu"
         ],
         "module-documents_probe.queryOperators.html#.$all": [
           "array",
@@ -1238,307 +1538,6 @@ window.lunrData = {
           "updateoperators.$pul",
           "valu"
         ],
-        "base_chains.html": [
-          "base/chain",
-          "chain",
-          "class",
-          "composit",
-          "defin",
-          "determin",
-          "element",
-          "execut",
-          "function",
-          "order",
-          "primari"
-        ],
-        "base_chains.html#close": [
-          "1",
-          "2",
-          "3",
-          "allow",
-          "ask",
-          "bar",
-          "base/chains#clos",
-          "befor",
-          "call",
-          "chain",
-          "close",
-          "defin",
-          "destroy",
-          "devoid",
-          "down",
-          "end",
-          "first",
-          "food",
-          "head",
-          "itself",
-          "keep",
-          "last",
-          "make",
-          "mean",
-          "member",
-          "method",
-          "object",
-          "on",
-          "open",
-          "reopen",
-          "resourc",
-          "shut",
-          "still",
-          "tabl",
-          "unlik",
-          "unus",
-          "us",
-          "way",
-          "wherea"
-        ],
-        "base_chains.html#end": [
-          "allow",
-          "ask",
-          "base/chains#end",
-          "befor",
-          "call",
-          "chain",
-          "close",
-          "defin",
-          "destroy",
-          "devoid",
-          "down",
-          "end",
-          "first",
-          "itself",
-          "last",
-          "make",
-          "mean",
-          "member",
-          "method",
-          "object",
-          "on",
-          "reopen",
-          "resourc",
-          "shut",
-          "unlik",
-          "unus",
-          "us",
-          "way"
-        ],
-        "base_chains.html#destroy": [
-          "actual",
-          "ask",
-          "automat",
-          "away",
-          "base/chains#destroy",
-          "befor",
-          "between",
-          "call",
-          "chain",
-          "clean",
-          "constructor",
-          "counterpart",
-          "defin",
-          "destroy",
-          "differ",
-          "end",
-          "first",
-          "go",
-          "here",
-          "last",
-          "lt;private&gt",
-          "mean",
-          "member",
-          "method",
-          "object",
-          "on",
-          "rais",
-          "think",
-          "up",
-          "us",
-          "verb",
-          "work",
-          "yourself"
-        ],
-        "base_chains.html#open": [
-          "again",
-          "base/chains#clos",
-          "base/chains#open",
-          "chain",
-          "code",
-          "defin",
-          "destroy",
-          "dormant",
-          "first",
-          "go",
-          "here",
-          "kind",
-          "later",
-          "mean",
-          "member",
-          "object",
-          "on",
-          "open",
-          "open/clos",
-          "paradigm",
-          "reopen",
-          "us"
-        ],
-        "module-mixins_signalable-Signal.html": [
-          "class",
-          "creat",
-          "deploy",
-          "instanc",
-          "mixin",
-          "mixins/signalable~sign",
-          "module:mixins/signalable~sign",
-          "object",
-          "rais",
-          "signal"
-        ],
-        "module-mixins_signalable-Signal.html#destroy": [
-          "clean",
-          "destroy",
-          "function",
-          "lt;private&gt",
-          "module:mixins/signalable~signal#destroy",
-          "up"
-        ],
-        "module-mixins_signalable-Signal.html#on": [
-          "function",
-          "listen",
-          "listenercontext",
-          "module:mixins/signalable~signal#on",
-          "prioriti",
-          "signal",
-          "signalbind",
-          "ti"
-        ],
-        "module-mixins_signalable-Signal.html#once": [
-          "execut",
-          "function",
-          "listen",
-          "listenercontext",
-          "module:mixins/signalable~signal#onc",
-          "on",
-          "onc",
-          "prioriti",
-          "signal",
-          "signalbind",
-          "ti"
-        ],
-        "module-mixins_signalable-Signal.html#off": [
-          "function",
-          "listen",
-          "listenercontext",
-          "module:mixins/signalable~signal#off",
-          "signal",
-          "unbind"
-        ],
-        "module-mixins_signalable-Signal.html#has": [
-          "attach",
-          "boolean",
-          "check",
-          "function",
-          "listen",
-          "listenercontext",
-          "module:mixins/signalable~signal#ha",
-          "signal"
-        ],
-        "module-mixins_signalable-Signal.html#toString": [
-          "function",
-          "module:mixins/signalable~signal#tostr",
-          "string",
-          "tostr"
-        ],
-        "utils_logger.Logger.html": [
-          "class",
-          "handl",
-          "level",
-          "log",
-          "logger",
-          "member",
-          "mix",
-          "object",
-          "see",
-          "set",
-          "state",
-          "utils/logg",
-          "utils/logger.logg"
-        ],
-        "utils_logger.Logger.html#silent": [
-          "anyth",
-          "cycl",
-          "error",
-          "function",
-          "log",
-          "logger#sil",
-          "minim",
-          "silent",
-          "someth",
-          "turn",
-          "utils/logger.logger#sil"
-        ],
-        "utils_logger.Logger.html#all": [
-          "function",
-          "level",
-          "log",
-          "logger#al",
-          "turn",
-          "utils/logger.logger#al"
-        ],
-        "utils_logger.Logger.html#level": [
-          "debug",
-          "error",
-          "function",
-          "info",
-          "level",
-          "log",
-          "logger#level",
-          "lvl",
-          "on",
-          "set",
-          "trace",
-          "utils/logger.logger#level",
-          "warn"
-        ],
-        "utils_logger.Logger.html#trace": [
-          "call",
-          "function",
-          "log",
-          "logger#trac",
-          "trace",
-          "utils/logger.logger#trac"
-        ],
-        "utils_logger.Logger.html#debug": [
-          "call",
-          "debug",
-          "function",
-          "log",
-          "logger#debug",
-          "utils/logger.logger#debug"
-        ],
-        "utils_logger.Logger.html#info": [
-          "call",
-          "function",
-          "info",
-          "log",
-          "logger#info",
-          "utils/logger.logger#info"
-        ],
-        "utils_logger.Logger.html#warn": [
-          "call",
-          "function",
-          "log",
-          "logger#warn",
-          "utils/logger.logger#warn",
-          "warn"
-        ],
-        "utils_logger.Logger.html#error": [
-          "call",
-          "error",
-          "function",
-          "log",
-          "logger#error",
-          "utils/logger.logger#error"
-        ],
         "documents_schema.html": [
           "access",
           "documents/schema",
@@ -1725,6 +1724,10 @@ window.lunrData = {
       "root": {
         "1": {
           "docs": {
+            "base_chains.html#close": {
+              "ref": "base_chains.html#close",
+              "tf": 1.0869565217391304
+            },
             "base.html#close": {
               "ref": "base.html#close",
               "tf": 1.0869565217391304
@@ -1732,33 +1735,29 @@ window.lunrData = {
             "module-documents_probe.updateOperators.html#.$pop": {
               "ref": "module-documents_probe.updateOperators.html#.$pop",
               "tf": 6.666666666666667
-            },
-            "base_chains.html#close": {
-              "ref": "base_chains.html#close",
-              "tf": 1.0869565217391304
             }
           }
         },
         "2": {
           "docs": {
-            "base.html#close": {
-              "ref": "base.html#close",
-              "tf": 1.0869565217391304
-            },
             "base_chains.html#close": {
               "ref": "base_chains.html#close",
+              "tf": 1.0869565217391304
+            },
+            "base.html#close": {
+              "ref": "base.html#close",
               "tf": 1.0869565217391304
             }
           }
         },
         "3": {
           "docs": {
-            "base.html#close": {
-              "ref": "base.html#close",
-              "tf": 1.0869565217391304
-            },
             "base_chains.html#close": {
               "ref": "base_chains.html#close",
+              "tf": 1.0869565217391304
+            },
+            "base.html#close": {
+              "ref": "base.html#close",
               "tf": 1.0869565217391304
             }
           }
@@ -1795,6 +1794,121 @@ window.lunrData = {
                   "module-utils_logger.html": {
                     "ref": "module-utils_logger.html",
                     "tf": 7.142857142857142
+                  }
+                },
+                "/": {
+                  "docs": {},
+                  "c": {
+                    "docs": {},
+                    "h": {
+                      "docs": {},
+                      "a": {
+                        "docs": {},
+                        "i": {
+                          "docs": {},
+                          "n": {
+                            "docs": {
+                              "base_chains.html": {
+                                "ref": "base_chains.html",
+                                "tf": 1900
+                              },
+                              "module-base_chains.html": {
+                                "ref": "module-base_chains.html",
+                                "tf": 600
+                              }
+                            },
+                            "s": {
+                              "docs": {},
+                              "#": {
+                                "docs": {},
+                                "c": {
+                                  "docs": {},
+                                  "l": {
+                                    "docs": {},
+                                    "o": {
+                                      "docs": {},
+                                      "s": {
+                                        "docs": {
+                                          "base_chains.html#close": {
+                                            "ref": "base_chains.html#close",
+                                            "tf": 1150
+                                          },
+                                          "base_chains.html#open": {
+                                            "ref": "base_chains.html#open",
+                                            "tf": 2.083333333333333
+                                          },
+                                          "base.html#open": {
+                                            "ref": "base.html#open",
+                                            "tf": 2.083333333333333
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "e": {
+                                  "docs": {},
+                                  "n": {
+                                    "docs": {},
+                                    "d": {
+                                      "docs": {
+                                        "base_chains.html#end": {
+                                          "ref": "base_chains.html#end",
+                                          "tf": 1150
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "d": {
+                                  "docs": {},
+                                  "e": {
+                                    "docs": {},
+                                    "s": {
+                                      "docs": {},
+                                      "t": {
+                                        "docs": {},
+                                        "r": {
+                                          "docs": {},
+                                          "o": {
+                                            "docs": {},
+                                            "y": {
+                                              "docs": {
+                                                "base_chains.html#destroy": {
+                                                  "ref": "base_chains.html#destroy",
+                                                  "tf": 1150
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "o": {
+                                  "docs": {},
+                                  "p": {
+                                    "docs": {},
+                                    "e": {
+                                      "docs": {},
+                                      "n": {
+                                        "docs": {
+                                          "base_chains.html#open": {
+                                            "ref": "base_chains.html#open",
+                                            "tf": 1150
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 },
                 "#": {
@@ -1931,121 +2045,6 @@ window.lunrData = {
                       }
                     }
                   }
-                },
-                "/": {
-                  "docs": {},
-                  "c": {
-                    "docs": {},
-                    "h": {
-                      "docs": {},
-                      "a": {
-                        "docs": {},
-                        "i": {
-                          "docs": {},
-                          "n": {
-                            "docs": {
-                              "base_chains.html": {
-                                "ref": "base_chains.html",
-                                "tf": 1900
-                              },
-                              "module-base_chains.html": {
-                                "ref": "module-base_chains.html",
-                                "tf": 600
-                              }
-                            },
-                            "s": {
-                              "docs": {},
-                              "#": {
-                                "docs": {},
-                                "c": {
-                                  "docs": {},
-                                  "l": {
-                                    "docs": {},
-                                    "o": {
-                                      "docs": {},
-                                      "s": {
-                                        "docs": {
-                                          "base.html#open": {
-                                            "ref": "base.html#open",
-                                            "tf": 2.083333333333333
-                                          },
-                                          "base_chains.html#close": {
-                                            "ref": "base_chains.html#close",
-                                            "tf": 1150
-                                          },
-                                          "base_chains.html#open": {
-                                            "ref": "base_chains.html#open",
-                                            "tf": 2.083333333333333
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                },
-                                "e": {
-                                  "docs": {},
-                                  "n": {
-                                    "docs": {},
-                                    "d": {
-                                      "docs": {
-                                        "base_chains.html#end": {
-                                          "ref": "base_chains.html#end",
-                                          "tf": 1150
-                                        }
-                                      }
-                                    }
-                                  }
-                                },
-                                "d": {
-                                  "docs": {},
-                                  "e": {
-                                    "docs": {},
-                                    "s": {
-                                      "docs": {},
-                                      "t": {
-                                        "docs": {},
-                                        "r": {
-                                          "docs": {},
-                                          "o": {
-                                            "docs": {},
-                                            "y": {
-                                              "docs": {
-                                                "base_chains.html#destroy": {
-                                                  "ref": "base_chains.html#destroy",
-                                                  "tf": 1150
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                },
-                                "o": {
-                                  "docs": {},
-                                  "p": {
-                                    "docs": {},
-                                    "e": {
-                                      "docs": {},
-                                      "n": {
-                                        "docs": {
-                                          "base_chains.html#open": {
-                                            "ref": "base_chains.html#open",
-                                            "tf": 1150
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
                 }
               },
               "i": {
@@ -2059,12 +2058,12 @@ window.lunrData = {
             },
             "r": {
               "docs": {
-                "base.html#close": {
-                  "ref": "base.html#close",
-                  "tf": 1.0869565217391304
-                },
                 "base_chains.html#close": {
                   "ref": "base_chains.html#close",
+                  "tf": 1.0869565217391304
+                },
+                "base.html#close": {
+                  "ref": "base.html#close",
                   "tf": 1.0869565217391304
                 }
               }
@@ -2105,6 +2104,34 @@ window.lunrData = {
                     "docs": {},
                     "n": {
                       "docs": {
+                        "module-mixins_signalable-Signal.html#has": {
+                          "ref": "module-mixins_signalable-Signal.html#has",
+                          "tf": 33.33333333333333
+                        },
+                        "documents_model.html#isNew": {
+                          "ref": "documents_model.html#isNew",
+                          "tf": 50
+                        },
+                        "documents_model.html#isEmpty": {
+                          "ref": "documents_model.html#isEmpty",
+                          "tf": 50
+                        },
+                        "documents_model.html#.all": {
+                          "ref": "documents_model.html#.all",
+                          "tf": 25
+                        },
+                        "documents_model.html#.any": {
+                          "ref": "documents_model.html#.any",
+                          "tf": 25
+                        },
+                        "documents_model.html#.some": {
+                          "ref": "documents_model.html#.some",
+                          "tf": 25
+                        },
+                        "documents_model.html#.every": {
+                          "ref": "documents_model.html#.every",
+                          "tf": 25
+                        },
                         "module-ink_collector-OCollector.html#every": {
                           "ref": "module-ink_collector-OCollector.html#every",
                           "tf": 50
@@ -2136,34 +2163,6 @@ window.lunrData = {
                         "module-ink_collector-ACollector.html#any": {
                           "ref": "module-ink_collector-ACollector.html#any",
                           "tf": 50
-                        },
-                        "documents_model.html#isNew": {
-                          "ref": "documents_model.html#isNew",
-                          "tf": 50
-                        },
-                        "documents_model.html#isEmpty": {
-                          "ref": "documents_model.html#isEmpty",
-                          "tf": 50
-                        },
-                        "documents_model.html#.any": {
-                          "ref": "documents_model.html#.any",
-                          "tf": 25
-                        },
-                        "documents_model.html#.all": {
-                          "ref": "documents_model.html#.all",
-                          "tf": 25
-                        },
-                        "documents_model.html#.some": {
-                          "ref": "documents_model.html#.some",
-                          "tf": 25
-                        },
-                        "documents_model.html#.every": {
-                          "ref": "documents_model.html#.every",
-                          "tf": 25
-                        },
-                        "module-mixins_signalable-Signal.html#has": {
-                          "ref": "module-mixins_signalable-Signal.html#has",
-                          "tf": 33.33333333333333
                         }
                       }
                     }
@@ -2196,10 +2195,6 @@ window.lunrData = {
                 "docs": {},
                 "r": {
                   "docs": {
-                    "base.html#close": {
-                      "ref": "base.html#close",
-                      "tf": 1.0869565217391304
-                    },
                     "base_chains.html#close": {
                       "ref": "base_chains.html#close",
                       "tf": 1.0869565217391304
@@ -2211,22 +2206,11 @@ window.lunrData = {
                     "base_chains.html#destroy": {
                       "ref": "base_chains.html#destroy",
                       "tf": 1.282051282051282
+                    },
+                    "base.html#close": {
+                      "ref": "base.html#close",
+                      "tf": 1.0869565217391304
                     }
-                  }
-                }
-              }
-            },
-            "a": {
-              "docs": {},
-              "r": {
-                "docs": {
-                  "documents_model.html": {
-                    "ref": "documents_model.html",
-                    "tf": 3.125
-                  },
-                  "module-documents_model.html": {
-                    "ref": "module-documents_model.html",
-                    "tf": 3.125
                   }
                 }
               }
@@ -2247,6 +2231,21 @@ window.lunrData = {
                         }
                       }
                     }
+                  }
+                }
+              }
+            },
+            "a": {
+              "docs": {},
+              "r": {
+                "docs": {
+                  "documents_model.html": {
+                    "ref": "documents_model.html",
+                    "tf": 3.125
+                  },
+                  "module-documents_model.html": {
+                    "ref": "module-documents_model.html",
+                    "tf": 3.125
                   }
                 }
               }
@@ -2291,12 +2290,12 @@ window.lunrData = {
               "docs": {},
               "d": {
                 "docs": {
-                  "base.html#close": {
-                    "ref": "base.html#close",
-                    "tf": 1.0869565217391304
-                  },
                   "base_chains.html#close": {
                     "ref": "base_chains.html#close",
+                    "tf": 1.0869565217391304
+                  },
+                  "base.html#close": {
+                    "ref": "base.html#close",
                     "tf": 1.0869565217391304
                   }
                 },
@@ -2389,6 +2388,244 @@ window.lunrData = {
               }
             }
           },
+          "u": {
+            "docs": {},
+            "n": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "t": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "o": {
+                      "docs": {},
+                      "n": {
+                        "docs": {
+                          "base_chains.html": {
+                            "ref": "base_chains.html",
+                            "tf": 5.555555555555555
+                          },
+                          "utils_logger.Logger.html#silent": {
+                            "ref": "utils_logger.Logger.html#silent",
+                            "tf": 110
+                          },
+                          "utils_logger.Logger.html#all": {
+                            "ref": "utils_logger.Logger.html#all",
+                            "tf": 110
+                          },
+                          "utils_logger.Logger.html#level": {
+                            "ref": "utils_logger.Logger.html#level",
+                            "tf": 110
+                          },
+                          "utils_logger.Logger.html#trace": {
+                            "ref": "utils_logger.Logger.html#trace",
+                            "tf": 110
+                          },
+                          "utils_logger.Logger.html#debug": {
+                            "ref": "utils_logger.Logger.html#debug",
+                            "tf": 110
+                          },
+                          "utils_logger.Logger.html#info": {
+                            "ref": "utils_logger.Logger.html#info",
+                            "tf": 110
+                          },
+                          "utils_logger.Logger.html#warn": {
+                            "ref": "utils_logger.Logger.html#warn",
+                            "tf": 110
+                          },
+                          "utils_logger.Logger.html#error": {
+                            "ref": "utils_logger.Logger.html#error",
+                            "tf": 110
+                          },
+                          "base.html#addOptions": {
+                            "ref": "base.html#addOptions",
+                            "tf": 110
+                          },
+                          "base.html#addDefaultOptions": {
+                            "ref": "base.html#addDefaultOptions",
+                            "tf": 110
+                          },
+                          "base.html#end": {
+                            "ref": "base.html#end",
+                            "tf": 110
+                          },
+                          "base.html#destroy": {
+                            "ref": "base.html#destroy",
+                            "tf": 110
+                          },
+                          "module-mixins_signalable-Signal.html#destroy": {
+                            "ref": "module-mixins_signalable-Signal.html#destroy",
+                            "tf": 110
+                          },
+                          "module-mixins_signalable-Signal.html#on": {
+                            "ref": "module-mixins_signalable-Signal.html#on",
+                            "tf": 110
+                          },
+                          "module-mixins_signalable-Signal.html#once": {
+                            "ref": "module-mixins_signalable-Signal.html#once",
+                            "tf": 110
+                          },
+                          "module-mixins_signalable-Signal.html#off": {
+                            "ref": "module-mixins_signalable-Signal.html#off",
+                            "tf": 143.33333333333331
+                          },
+                          "module-mixins_signalable-Signal.html#has": {
+                            "ref": "module-mixins_signalable-Signal.html#has",
+                            "tf": 110
+                          },
+                          "module-mixins_signalable-Signal.html#toString": {
+                            "ref": "module-mixins_signalable-Signal.html#toString",
+                            "tf": 110
+                          },
+                          "documents_model.html#.update": {
+                            "ref": "documents_model.html#.update",
+                            "tf": 110
+                          },
+                          "documents_model.html#.find": {
+                            "ref": "documents_model.html#.find",
+                            "tf": 110
+                          },
+                          "documents_model.html#.findKeys": {
+                            "ref": "documents_model.html#.findKeys",
+                            "tf": 110
+                          },
+                          "documents_model.html#.findOne": {
+                            "ref": "documents_model.html#.findOne",
+                            "tf": 110
+                          },
+                          "documents_model.html#.findOneKey": {
+                            "ref": "documents_model.html#.findOneKey",
+                            "tf": 110
+                          },
+                          "documents_model.html#.remove": {
+                            "ref": "documents_model.html#.remove",
+                            "tf": 110
+                          },
+                          "documents_model.html#.all": {
+                            "ref": "documents_model.html#.all",
+                            "tf": 110
+                          },
+                          "documents_model.html#.any": {
+                            "ref": "documents_model.html#.any",
+                            "tf": 110
+                          },
+                          "documents_model.html#.set": {
+                            "ref": "documents_model.html#.set",
+                            "tf": 110
+                          },
+                          "documents_model.html#.get": {
+                            "ref": "documents_model.html#.get",
+                            "tf": 110
+                          },
+                          "documents_model.html#.some": {
+                            "ref": "documents_model.html#.some",
+                            "tf": 110
+                          },
+                          "documents_model.html#.every": {
+                            "ref": "documents_model.html#.every",
+                            "tf": 110
+                          },
+                          "module-ink_collector-OCollector.html#every": {
+                            "ref": "module-ink_collector-OCollector.html#every",
+                            "tf": 110
+                          },
+                          "module-ink_collector-OCollector.html#some": {
+                            "ref": "module-ink_collector-OCollector.html#some",
+                            "tf": 110
+                          },
+                          "module-ink_collector-OCollector.html#unique": {
+                            "ref": "module-ink_collector-OCollector.html#unique",
+                            "tf": 110
+                          },
+                          "module-ink_collector-OCollector.html#all": {
+                            "ref": "module-ink_collector-OCollector.html#all",
+                            "tf": 110
+                          },
+                          "module-ink_collector-OCollector.html#any": {
+                            "ref": "module-ink_collector-OCollector.html#any",
+                            "tf": 110
+                          },
+                          "module-ink_collector-OCollector.html#remove": {
+                            "ref": "module-ink_collector-OCollector.html#remove",
+                            "tf": 110
+                          },
+                          "module-ink_collector-OCollector.html#findOneKey": {
+                            "ref": "module-ink_collector-OCollector.html#findOneKey",
+                            "tf": 110
+                          },
+                          "module-ink_collector-OCollector.html#findOne": {
+                            "ref": "module-ink_collector-OCollector.html#findOne",
+                            "tf": 110
+                          },
+                          "module-ink_collector-OCollector.html#findKeys": {
+                            "ref": "module-ink_collector-OCollector.html#findKeys",
+                            "tf": 110
+                          },
+                          "module-ink_collector-OCollector.html#find": {
+                            "ref": "module-ink_collector-OCollector.html#find",
+                            "tf": 110
+                          },
+                          "module-ink_collector-OCollector.html#update": {
+                            "ref": "module-ink_collector-OCollector.html#update",
+                            "tf": 110
+                          },
+                          "module-ink_collector-ACollector.html#every": {
+                            "ref": "module-ink_collector-ACollector.html#every",
+                            "tf": 110
+                          },
+                          "module-ink_collector-ACollector.html#some": {
+                            "ref": "module-ink_collector-ACollector.html#some",
+                            "tf": 110
+                          },
+                          "module-ink_collector-ACollector.html#unique": {
+                            "ref": "module-ink_collector-ACollector.html#unique",
+                            "tf": 110
+                          },
+                          "module-ink_collector-ACollector.html#all": {
+                            "ref": "module-ink_collector-ACollector.html#all",
+                            "tf": 110
+                          },
+                          "module-ink_collector-ACollector.html#any": {
+                            "ref": "module-ink_collector-ACollector.html#any",
+                            "tf": 110
+                          },
+                          "module-ink_collector-ACollector.html#remove": {
+                            "ref": "module-ink_collector-ACollector.html#remove",
+                            "tf": 110
+                          },
+                          "module-ink_collector-ACollector.html#findOneKey": {
+                            "ref": "module-ink_collector-ACollector.html#findOneKey",
+                            "tf": 110
+                          },
+                          "module-ink_collector-ACollector.html#findOne": {
+                            "ref": "module-ink_collector-ACollector.html#findOne",
+                            "tf": 110
+                          },
+                          "module-ink_collector-ACollector.html#findKeys": {
+                            "ref": "module-ink_collector-ACollector.html#findKeys",
+                            "tf": 110
+                          },
+                          "module-ink_collector-ACollector.html#find": {
+                            "ref": "module-ink_collector-ACollector.html#find",
+                            "tf": 110
+                          },
+                          "module-ink_collector-ACollector.html#update": {
+                            "ref": "module-ink_collector-ACollector.html#update",
+                            "tf": 110
+                          },
+                          "module-base_chains.html": {
+                            "ref": "module-base_chains.html",
+                            "tf": 5.555555555555555
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
           "i": {
             "docs": {},
             "r": {
@@ -2397,6 +2634,22 @@ window.lunrData = {
                 "docs": {},
                 "t": {
                   "docs": {
+                    "base_chains.html#close": {
+                      "ref": "base_chains.html#close",
+                      "tf": 1.0869565217391304
+                    },
+                    "base_chains.html#end": {
+                      "ref": "base_chains.html#end",
+                      "tf": 1.6129032258064515
+                    },
+                    "base_chains.html#destroy": {
+                      "ref": "base_chains.html#destroy",
+                      "tf": 1.282051282051282
+                    },
+                    "base_chains.html#open": {
+                      "ref": "base_chains.html#open",
+                      "tf": 4.166666666666666
+                    },
                     "base.html#close": {
                       "ref": "base.html#close",
                       "tf": 1.0869565217391304
@@ -2404,6 +2657,18 @@ window.lunrData = {
                     "base.html#open": {
                       "ref": "base.html#open",
                       "tf": 4.166666666666666
+                    },
+                    "documents_model.html": {
+                      "ref": "documents_model.html",
+                      "tf": 3.125
+                    },
+                    "documents_model.html#.findOne": {
+                      "ref": "documents_model.html#.findOne",
+                      "tf": 7.142857142857142
+                    },
+                    "documents_model.html#.findOneKey": {
+                      "ref": "documents_model.html#.findOneKey",
+                      "tf": 3.125
                     },
                     "module-ink_collector-OCollector.html#findOneKey": {
                       "ref": "module-ink_collector-OCollector.html#findOneKey",
@@ -2421,37 +2686,9 @@ window.lunrData = {
                       "ref": "module-ink_collector-ACollector.html#findOne",
                       "tf": 7.142857142857142
                     },
-                    "documents_model.html": {
-                      "ref": "documents_model.html",
-                      "tf": 3.125
-                    },
-                    "documents_model.html#.findOne": {
-                      "ref": "documents_model.html#.findOne",
-                      "tf": 7.142857142857142
-                    },
-                    "documents_model.html#.findOneKey": {
-                      "ref": "documents_model.html#.findOneKey",
-                      "tf": 3.125
-                    },
                     "module-documents_probe.updateOperators.html#.$pop": {
                       "ref": "module-documents_probe.updateOperators.html#.$pop",
                       "tf": 3.3333333333333335
-                    },
-                    "base_chains.html#close": {
-                      "ref": "base_chains.html#close",
-                      "tf": 1.0869565217391304
-                    },
-                    "base_chains.html#end": {
-                      "ref": "base_chains.html#end",
-                      "tf": 1.6129032258064515
-                    },
-                    "base_chains.html#destroy": {
-                      "ref": "base_chains.html#destroy",
-                      "tf": 1.282051282051282
-                    },
-                    "base_chains.html#open": {
-                      "ref": "base_chains.html#open",
-                      "tf": 4.166666666666666
                     },
                     "module-documents_model.html": {
                       "ref": "module-documents_model.html",
@@ -2465,103 +2702,6 @@ window.lunrData = {
                   "module-mixins_signalable.html": {
                     "ref": "module-mixins_signalable.html",
                     "tf": 3.3333333333333335
-                  }
-                }
-              }
-            },
-            "n": {
-              "docs": {},
-              "d": {
-                "docs": {
-                  "module-ink_collector-OCollector.html#findKeys": {
-                    "ref": "module-ink_collector-OCollector.html#findKeys",
-                    "tf": 2.083333333333333
-                  },
-                  "module-ink_collector-OCollector.html#find": {
-                    "ref": "module-ink_collector-OCollector.html#find",
-                    "tf": 695.8333333333334
-                  },
-                  "module-ink_collector-ACollector.html#findKeys": {
-                    "ref": "module-ink_collector-ACollector.html#findKeys",
-                    "tf": 2.083333333333333
-                  },
-                  "module-ink_collector-ACollector.html#find": {
-                    "ref": "module-ink_collector-ACollector.html#find",
-                    "tf": 695.8333333333334
-                  },
-                  "documents_model.html#.findKeys": {
-                    "ref": "documents_model.html#.findKeys",
-                    "tf": 2.083333333333333
-                  },
-                  "documents_model.html#.find": {
-                    "ref": "documents_model.html#.find",
-                    "tf": 682.5
-                  }
-                },
-                "o": {
-                  "docs": {},
-                  "n": {
-                    "docs": {
-                      "module-ink_collector-OCollector.html#findOne": {
-                        "ref": "module-ink_collector-OCollector.html#findOne",
-                        "tf": 683.3333333333334
-                      },
-                      "module-ink_collector-ACollector.html#findOne": {
-                        "ref": "module-ink_collector-ACollector.html#findOne",
-                        "tf": 683.3333333333334
-                      },
-                      "documents_model.html#.findOne": {
-                        "ref": "documents_model.html#.findOne",
-                        "tf": 670
-                      }
-                    },
-                    "e": {
-                      "docs": {},
-                      "k": {
-                        "docs": {},
-                        "e": {
-                          "docs": {},
-                          "y": {
-                            "docs": {
-                              "module-ink_collector-OCollector.html#findOneKey": {
-                                "ref": "module-ink_collector-OCollector.html#findOneKey",
-                                "tf": 683.3333333333334
-                              },
-                              "module-ink_collector-ACollector.html#findOneKey": {
-                                "ref": "module-ink_collector-ACollector.html#findOneKey",
-                                "tf": 683.3333333333334
-                              },
-                              "documents_model.html#.findOneKey": {
-                                "ref": "documents_model.html#.findOneKey",
-                                "tf": 670
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                },
-                "k": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "y": {
-                      "docs": {
-                        "module-ink_collector-OCollector.html#findKeys": {
-                          "ref": "module-ink_collector-OCollector.html#findKeys",
-                          "tf": 683.3333333333334
-                        },
-                        "module-ink_collector-ACollector.html#findKeys": {
-                          "ref": "module-ink_collector-ACollector.html#findKeys",
-                          "tf": 683.3333333333334
-                        },
-                        "documents_model.html#.findKeys": {
-                          "ref": "documents_model.html#.findKeys",
-                          "tf": 670
-                        }
-                      }
-                    }
                   }
                 }
               }
@@ -2738,237 +2878,96 @@ window.lunrData = {
                   }
                 }
               }
-            }
-          },
-          "u": {
-            "docs": {},
+            },
             "n": {
               "docs": {},
-              "c": {
-                "docs": {},
-                "t": {
+              "d": {
+                "docs": {
+                  "documents_model.html#.find": {
+                    "ref": "documents_model.html#.find",
+                    "tf": 682.5
+                  },
+                  "documents_model.html#.findKeys": {
+                    "ref": "documents_model.html#.findKeys",
+                    "tf": 2.083333333333333
+                  },
+                  "module-ink_collector-OCollector.html#findKeys": {
+                    "ref": "module-ink_collector-OCollector.html#findKeys",
+                    "tf": 2.083333333333333
+                  },
+                  "module-ink_collector-OCollector.html#find": {
+                    "ref": "module-ink_collector-OCollector.html#find",
+                    "tf": 695.8333333333334
+                  },
+                  "module-ink_collector-ACollector.html#findKeys": {
+                    "ref": "module-ink_collector-ACollector.html#findKeys",
+                    "tf": 2.083333333333333
+                  },
+                  "module-ink_collector-ACollector.html#find": {
+                    "ref": "module-ink_collector-ACollector.html#find",
+                    "tf": 695.8333333333334
+                  }
+                },
+                "k": {
                   "docs": {},
-                  "i": {
+                  "e": {
                     "docs": {},
-                    "o": {
+                    "y": {
+                      "docs": {
+                        "documents_model.html#.findKeys": {
+                          "ref": "documents_model.html#.findKeys",
+                          "tf": 670
+                        },
+                        "module-ink_collector-OCollector.html#findKeys": {
+                          "ref": "module-ink_collector-OCollector.html#findKeys",
+                          "tf": 683.3333333333334
+                        },
+                        "module-ink_collector-ACollector.html#findKeys": {
+                          "ref": "module-ink_collector-ACollector.html#findKeys",
+                          "tf": 683.3333333333334
+                        }
+                      }
+                    }
+                  }
+                },
+                "o": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "documents_model.html#.findOne": {
+                        "ref": "documents_model.html#.findOne",
+                        "tf": 670
+                      },
+                      "module-ink_collector-OCollector.html#findOne": {
+                        "ref": "module-ink_collector-OCollector.html#findOne",
+                        "tf": 683.3333333333334
+                      },
+                      "module-ink_collector-ACollector.html#findOne": {
+                        "ref": "module-ink_collector-ACollector.html#findOne",
+                        "tf": 683.3333333333334
+                      }
+                    },
+                    "e": {
                       "docs": {},
-                      "n": {
-                        "docs": {
-                          "base.html#addOptions": {
-                            "ref": "base.html#addOptions",
-                            "tf": 110
-                          },
-                          "base.html#addDefaultOptions": {
-                            "ref": "base.html#addDefaultOptions",
-                            "tf": 110
-                          },
-                          "base.html#end": {
-                            "ref": "base.html#end",
-                            "tf": 110
-                          },
-                          "base.html#destroy": {
-                            "ref": "base.html#destroy",
-                            "tf": 110
-                          },
-                          "module-ink_collector-OCollector.html#every": {
-                            "ref": "module-ink_collector-OCollector.html#every",
-                            "tf": 110
-                          },
-                          "module-ink_collector-OCollector.html#some": {
-                            "ref": "module-ink_collector-OCollector.html#some",
-                            "tf": 110
-                          },
-                          "module-ink_collector-OCollector.html#unique": {
-                            "ref": "module-ink_collector-OCollector.html#unique",
-                            "tf": 110
-                          },
-                          "module-ink_collector-OCollector.html#all": {
-                            "ref": "module-ink_collector-OCollector.html#all",
-                            "tf": 110
-                          },
-                          "module-ink_collector-OCollector.html#any": {
-                            "ref": "module-ink_collector-OCollector.html#any",
-                            "tf": 110
-                          },
-                          "module-ink_collector-OCollector.html#remove": {
-                            "ref": "module-ink_collector-OCollector.html#remove",
-                            "tf": 110
-                          },
-                          "module-ink_collector-OCollector.html#findOneKey": {
-                            "ref": "module-ink_collector-OCollector.html#findOneKey",
-                            "tf": 110
-                          },
-                          "module-ink_collector-OCollector.html#findOne": {
-                            "ref": "module-ink_collector-OCollector.html#findOne",
-                            "tf": 110
-                          },
-                          "module-ink_collector-OCollector.html#findKeys": {
-                            "ref": "module-ink_collector-OCollector.html#findKeys",
-                            "tf": 110
-                          },
-                          "module-ink_collector-OCollector.html#find": {
-                            "ref": "module-ink_collector-OCollector.html#find",
-                            "tf": 110
-                          },
-                          "module-ink_collector-OCollector.html#update": {
-                            "ref": "module-ink_collector-OCollector.html#update",
-                            "tf": 110
-                          },
-                          "module-ink_collector-ACollector.html#every": {
-                            "ref": "module-ink_collector-ACollector.html#every",
-                            "tf": 110
-                          },
-                          "module-ink_collector-ACollector.html#some": {
-                            "ref": "module-ink_collector-ACollector.html#some",
-                            "tf": 110
-                          },
-                          "module-ink_collector-ACollector.html#unique": {
-                            "ref": "module-ink_collector-ACollector.html#unique",
-                            "tf": 110
-                          },
-                          "module-ink_collector-ACollector.html#all": {
-                            "ref": "module-ink_collector-ACollector.html#all",
-                            "tf": 110
-                          },
-                          "module-ink_collector-ACollector.html#any": {
-                            "ref": "module-ink_collector-ACollector.html#any",
-                            "tf": 110
-                          },
-                          "module-ink_collector-ACollector.html#remove": {
-                            "ref": "module-ink_collector-ACollector.html#remove",
-                            "tf": 110
-                          },
-                          "module-ink_collector-ACollector.html#findOneKey": {
-                            "ref": "module-ink_collector-ACollector.html#findOneKey",
-                            "tf": 110
-                          },
-                          "module-ink_collector-ACollector.html#findOne": {
-                            "ref": "module-ink_collector-ACollector.html#findOne",
-                            "tf": 110
-                          },
-                          "module-ink_collector-ACollector.html#findKeys": {
-                            "ref": "module-ink_collector-ACollector.html#findKeys",
-                            "tf": 110
-                          },
-                          "module-ink_collector-ACollector.html#find": {
-                            "ref": "module-ink_collector-ACollector.html#find",
-                            "tf": 110
-                          },
-                          "module-ink_collector-ACollector.html#update": {
-                            "ref": "module-ink_collector-ACollector.html#update",
-                            "tf": 110
-                          },
-                          "documents_model.html#.get": {
-                            "ref": "documents_model.html#.get",
-                            "tf": 110
-                          },
-                          "documents_model.html#.set": {
-                            "ref": "documents_model.html#.set",
-                            "tf": 110
-                          },
-                          "documents_model.html#.any": {
-                            "ref": "documents_model.html#.any",
-                            "tf": 110
-                          },
-                          "documents_model.html#.all": {
-                            "ref": "documents_model.html#.all",
-                            "tf": 110
-                          },
-                          "documents_model.html#.remove": {
-                            "ref": "documents_model.html#.remove",
-                            "tf": 110
-                          },
-                          "documents_model.html#.findOne": {
-                            "ref": "documents_model.html#.findOne",
-                            "tf": 110
-                          },
-                          "documents_model.html#.findOneKey": {
-                            "ref": "documents_model.html#.findOneKey",
-                            "tf": 110
-                          },
-                          "documents_model.html#.findKeys": {
-                            "ref": "documents_model.html#.findKeys",
-                            "tf": 110
-                          },
-                          "documents_model.html#.find": {
-                            "ref": "documents_model.html#.find",
-                            "tf": 110
-                          },
-                          "documents_model.html#.update": {
-                            "ref": "documents_model.html#.update",
-                            "tf": 110
-                          },
-                          "documents_model.html#.some": {
-                            "ref": "documents_model.html#.some",
-                            "tf": 110
-                          },
-                          "documents_model.html#.every": {
-                            "ref": "documents_model.html#.every",
-                            "tf": 110
-                          },
-                          "base_chains.html": {
-                            "ref": "base_chains.html",
-                            "tf": 5.555555555555555
-                          },
-                          "module-mixins_signalable-Signal.html#destroy": {
-                            "ref": "module-mixins_signalable-Signal.html#destroy",
-                            "tf": 110
-                          },
-                          "module-mixins_signalable-Signal.html#on": {
-                            "ref": "module-mixins_signalable-Signal.html#on",
-                            "tf": 110
-                          },
-                          "module-mixins_signalable-Signal.html#once": {
-                            "ref": "module-mixins_signalable-Signal.html#once",
-                            "tf": 110
-                          },
-                          "module-mixins_signalable-Signal.html#off": {
-                            "ref": "module-mixins_signalable-Signal.html#off",
-                            "tf": 143.33333333333331
-                          },
-                          "module-mixins_signalable-Signal.html#has": {
-                            "ref": "module-mixins_signalable-Signal.html#has",
-                            "tf": 110
-                          },
-                          "module-mixins_signalable-Signal.html#toString": {
-                            "ref": "module-mixins_signalable-Signal.html#toString",
-                            "tf": 110
-                          },
-                          "utils_logger.Logger.html#silent": {
-                            "ref": "utils_logger.Logger.html#silent",
-                            "tf": 110
-                          },
-                          "utils_logger.Logger.html#all": {
-                            "ref": "utils_logger.Logger.html#all",
-                            "tf": 110
-                          },
-                          "utils_logger.Logger.html#level": {
-                            "ref": "utils_logger.Logger.html#level",
-                            "tf": 110
-                          },
-                          "utils_logger.Logger.html#trace": {
-                            "ref": "utils_logger.Logger.html#trace",
-                            "tf": 110
-                          },
-                          "utils_logger.Logger.html#debug": {
-                            "ref": "utils_logger.Logger.html#debug",
-                            "tf": 110
-                          },
-                          "utils_logger.Logger.html#info": {
-                            "ref": "utils_logger.Logger.html#info",
-                            "tf": 110
-                          },
-                          "utils_logger.Logger.html#warn": {
-                            "ref": "utils_logger.Logger.html#warn",
-                            "tf": 110
-                          },
-                          "utils_logger.Logger.html#error": {
-                            "ref": "utils_logger.Logger.html#error",
-                            "tf": 110
-                          },
-                          "module-base_chains.html": {
-                            "ref": "module-base_chains.html",
-                            "tf": 5.555555555555555
+                      "k": {
+                        "docs": {},
+                        "e": {
+                          "docs": {},
+                          "y": {
+                            "docs": {
+                              "documents_model.html#.findOneKey": {
+                                "ref": "documents_model.html#.findOneKey",
+                                "tf": 670
+                              },
+                              "module-ink_collector-OCollector.html#findOneKey": {
+                                "ref": "module-ink_collector-OCollector.html#findOneKey",
+                                "tf": 683.3333333333334
+                              },
+                              "module-ink_collector-ACollector.html#findOneKey": {
+                                "ref": "module-ink_collector-ACollector.html#findOneKey",
+                                "tf": 683.3333333333334
+                              }
+                            }
                           }
                         }
                       }
@@ -2989,13 +2988,13 @@ window.lunrData = {
                 "docs": {},
                 "l": {
                   "docs": {
-                    "base.html": {
-                      "ref": "base.html",
-                      "tf": 1.3888888888888888
-                    },
                     "utils_logger.Logger.html": {
                       "ref": "utils_logger.Logger.html",
                       "tf": 3.571428571428571
+                    },
+                    "base.html": {
+                      "ref": "base.html",
+                      "tf": 1.3888888888888888
                     },
                     "mixins_signalable.html": {
                       "ref": "mixins_signalable.html",
@@ -3030,16 +3029,16 @@ window.lunrData = {
                     "ref": "base.html#addOptions",
                     "tf": 5.555555555555555
                   },
+                  "documents_model.html#.findKeys": {
+                    "ref": "documents_model.html#.findKeys",
+                    "tf": 2.083333333333333
+                  },
                   "module-ink_collector-OCollector.html#findKeys": {
                     "ref": "module-ink_collector-OCollector.html#findKeys",
                     "tf": 2.083333333333333
                   },
                   "module-ink_collector-ACollector.html#findKeys": {
                     "ref": "module-ink_collector-ACollector.html#findKeys",
-                    "tf": 2.083333333333333
-                  },
-                  "documents_model.html#.findKeys": {
-                    "ref": "documents_model.html#.findKeys",
                     "tf": 2.083333333333333
                   }
                 }
@@ -3106,12 +3105,12 @@ window.lunrData = {
               "docs": {},
               "d": {
                 "docs": {
-                  "base.html#close": {
-                    "ref": "base.html#close",
-                    "tf": 3.260869565217391
-                  },
                   "base_chains.html#close": {
                     "ref": "base_chains.html#close",
+                    "tf": 3.260869565217391
+                  },
+                  "base.html#close": {
+                    "ref": "base.html#close",
                     "tf": 3.260869565217391
                   }
                 }
@@ -3121,16 +3120,16 @@ window.lunrData = {
               "docs": {},
               "e": {
                 "docs": {
-                  "base.html#open": {
-                    "ref": "base.html#open",
-                    "tf": 2.083333333333333
-                  },
                   "base_chains.html#destroy": {
                     "ref": "base_chains.html#destroy",
                     "tf": 1.282051282051282
                   },
                   "base_chains.html#open": {
                     "ref": "base_chains.html#open",
+                    "tf": 2.083333333333333
+                  },
+                  "base.html#open": {
+                    "ref": "base.html#open",
                     "tf": 2.083333333333333
                   }
                 }
@@ -3281,6 +3280,14 @@ window.lunrData = {
                       "ref": "index.html",
                       "tf": 1300
                     },
+                    "documents_model.html#.findKeys": {
+                      "ref": "documents_model.html#.findKeys",
+                      "tf": 2.083333333333333
+                    },
+                    "documents_model.html#.findOneKey": {
+                      "ref": "documents_model.html#.findOneKey",
+                      "tf": 3.125
+                    },
                     "module-ink_collector-OCollector.html#findOneKey": {
                       "ref": "module-ink_collector-OCollector.html#findOneKey",
                       "tf": 3.125
@@ -3296,96 +3303,6 @@ window.lunrData = {
                     "module-ink_collector-ACollector.html#findKeys": {
                       "ref": "module-ink_collector-ACollector.html#findKeys",
                       "tf": 2.083333333333333
-                    },
-                    "documents_model.html#.findOneKey": {
-                      "ref": "documents_model.html#.findOneKey",
-                      "tf": 3.125
-                    },
-                    "documents_model.html#.findKeys": {
-                      "ref": "documents_model.html#.findKeys",
-                      "tf": 2.083333333333333
-                    }
-                  }
-                }
-              }
-            },
-            "s": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                "a": {
-                  "docs": {},
-                  "n": {
-                    "docs": {},
-                    "c": {
-                      "docs": {
-                        "base.html": {
-                          "ref": "base.html",
-                          "tf": 4.166666666666666
-                        },
-                        "base.html#end": {
-                          "ref": "base.html#end",
-                          "tf": 4.545454545454546
-                        },
-                        "base.html#destroy": {
-                          "ref": "base.html#destroy",
-                          "tf": 5.263157894736842
-                        },
-                        "documents_model.html#isEmpty": {
-                          "ref": "documents_model.html#isEmpty",
-                          "tf": 12.5
-                        },
-                        "module-documents_probe.updateOperators.html#.$pull": {
-                          "ref": "module-documents_probe.updateOperators.html#.$pull",
-                          "tf": 4.545454545454546
-                        },
-                        "module-mixins_signalable-Signal.html": {
-                          "ref": "module-mixins_signalable-Signal.html",
-                          "tf": 6.25
-                        }
-                      },
-                      "e": {
-                        "docs": {},
-                        ".": {
-                          "docs": {},
-                          "e": {
-                            "docs": {},
-                            "n": {
-                              "docs": {},
-                              "d": {
-                                "docs": {
-                                  "base.html#destroy": {
-                                    "ref": "base.html#destroy",
-                                    "tf": 2.631578947368421
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                },
-                "e": {
-                  "docs": {},
-                  "a": {
-                    "docs": {},
-                    "d": {
-                      "docs": {
-                        "module-ink_collector-OCollector.html#findKeys": {
-                          "ref": "module-ink_collector-OCollector.html#findKeys",
-                          "tf": 2.083333333333333
-                        },
-                        "module-ink_collector-ACollector.html#findKeys": {
-                          "ref": "module-ink_collector-ACollector.html#findKeys",
-                          "tf": 2.083333333333333
-                        },
-                        "documents_model.html#.findKeys": {
-                          "ref": "documents_model.html#.findKeys",
-                          "tf": 2.083333333333333
-                        }
-                      }
                     }
                   }
                 }
@@ -3543,6 +3460,103 @@ window.lunrData = {
                 }
               }
             },
+            "f": {
+              "docs": {},
+              "o": {
+                "docs": {
+                  "utils_logger.Logger.html#level": {
+                    "ref": "utils_logger.Logger.html#level",
+                    "tf": 5.555555555555555
+                  },
+                  "utils_logger.Logger.html#info": {
+                    "ref": "utils_logger.Logger.html#info",
+                    "tf": 716.6666666666666
+                  }
+                }
+              }
+            },
+            "s": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "n": {
+                    "docs": {},
+                    "c": {
+                      "docs": {
+                        "base.html": {
+                          "ref": "base.html",
+                          "tf": 4.166666666666666
+                        },
+                        "base.html#end": {
+                          "ref": "base.html#end",
+                          "tf": 4.545454545454546
+                        },
+                        "base.html#destroy": {
+                          "ref": "base.html#destroy",
+                          "tf": 5.263157894736842
+                        },
+                        "module-mixins_signalable-Signal.html": {
+                          "ref": "module-mixins_signalable-Signal.html",
+                          "tf": 6.25
+                        },
+                        "documents_model.html#isEmpty": {
+                          "ref": "documents_model.html#isEmpty",
+                          "tf": 12.5
+                        },
+                        "module-documents_probe.updateOperators.html#.$pull": {
+                          "ref": "module-documents_probe.updateOperators.html#.$pull",
+                          "tf": 4.545454545454546
+                        }
+                      },
+                      "e": {
+                        "docs": {},
+                        ".": {
+                          "docs": {},
+                          "e": {
+                            "docs": {},
+                            "n": {
+                              "docs": {},
+                              "d": {
+                                "docs": {
+                                  "base.html#destroy": {
+                                    "ref": "base.html#destroy",
+                                    "tf": 2.631578947368421
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "e": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "d": {
+                      "docs": {
+                        "documents_model.html#.findKeys": {
+                          "ref": "documents_model.html#.findKeys",
+                          "tf": 2.083333333333333
+                        },
+                        "module-ink_collector-OCollector.html#findKeys": {
+                          "ref": "module-ink_collector-OCollector.html#findKeys",
+                          "tf": 2.083333333333333
+                        },
+                        "module-ink_collector-ACollector.html#findKeys": {
+                          "ref": "module-ink_collector-ACollector.html#findKeys",
+                          "tf": 2.083333333333333
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
             "c": {
               "docs": {
                 "module-documents_probe.updateOperators.html#.$inc": {
@@ -3635,21 +3649,6 @@ window.lunrData = {
                   }
                 }
               }
-            },
-            "f": {
-              "docs": {},
-              "o": {
-                "docs": {
-                  "utils_logger.Logger.html#level": {
-                    "ref": "utils_logger.Logger.html#level",
-                    "tf": 5.555555555555555
-                  },
-                  "utils_logger.Logger.html#info": {
-                    "ref": "utils_logger.Logger.html#info",
-                    "tf": 716.6666666666666
-                  }
-                }
-              }
             }
           },
           "t": {
@@ -3662,10 +3661,6 @@ window.lunrData = {
                   "docs": {},
                   "f": {
                     "docs": {
-                      "base.html#close": {
-                        "ref": "base.html#close",
-                        "tf": 1.0869565217391304
-                      },
                       "base_chains.html#close": {
                         "ref": "base_chains.html#close",
                         "tf": 1.0869565217391304
@@ -3673,9 +3668,21 @@ window.lunrData = {
                       "base_chains.html#end": {
                         "ref": "base_chains.html#end",
                         "tf": 1.6129032258064515
+                      },
+                      "base.html#close": {
+                        "ref": "base.html#close",
+                        "tf": 1.0869565217391304
                       }
                     }
                   }
+                }
+              }
+            },
+            "'": {
+              "docs": {
+                "documents_model.html#isNew": {
+                  "ref": "documents_model.html#isNew",
+                  "tf": 8.333333333333332
                 }
               }
             },
@@ -3683,6 +3690,30 @@ window.lunrData = {
               "docs": {},
               "m": {
                 "docs": {
+                  "documents_model.html#.findKeys": {
+                    "ref": "documents_model.html#.findKeys",
+                    "tf": 2.083333333333333
+                  },
+                  "documents_model.html#.remove": {
+                    "ref": "documents_model.html#.remove",
+                    "tf": 10
+                  },
+                  "documents_model.html#.all": {
+                    "ref": "documents_model.html#.all",
+                    "tf": 10
+                  },
+                  "documents_model.html#.any": {
+                    "ref": "documents_model.html#.any",
+                    "tf": 10
+                  },
+                  "documents_model.html#.some": {
+                    "ref": "documents_model.html#.some",
+                    "tf": 8.333333333333332
+                  },
+                  "documents_model.html#.every": {
+                    "ref": "documents_model.html#.every",
+                    "tf": 8.333333333333332
+                  },
                   "module-ink_collector-OCollector.html#every": {
                     "ref": "module-ink_collector-OCollector.html#every",
                     "tf": 8.333333333333332
@@ -3730,39 +3761,7 @@ window.lunrData = {
                   "module-ink_collector-ACollector.html#findKeys": {
                     "ref": "module-ink_collector-ACollector.html#findKeys",
                     "tf": 2.083333333333333
-                  },
-                  "documents_model.html#.any": {
-                    "ref": "documents_model.html#.any",
-                    "tf": 10
-                  },
-                  "documents_model.html#.all": {
-                    "ref": "documents_model.html#.all",
-                    "tf": 10
-                  },
-                  "documents_model.html#.remove": {
-                    "ref": "documents_model.html#.remove",
-                    "tf": 10
-                  },
-                  "documents_model.html#.findKeys": {
-                    "ref": "documents_model.html#.findKeys",
-                    "tf": 2.083333333333333
-                  },
-                  "documents_model.html#.some": {
-                    "ref": "documents_model.html#.some",
-                    "tf": 8.333333333333332
-                  },
-                  "documents_model.html#.every": {
-                    "ref": "documents_model.html#.every",
-                    "tf": 8.333333333333332
                   }
-                }
-              }
-            },
-            "'": {
-              "docs": {
-                "documents_model.html#isNew": {
-                  "ref": "documents_model.html#isNew",
-                  "tf": 8.333333333333332
                 }
               }
             }
@@ -3911,14 +3910,6 @@ window.lunrData = {
                   "docs": {},
                   "n": {
                     "docs": {
-                      "base.html#close": {
-                        "ref": "base.html#close",
-                        "tf": 1.0869565217391304
-                      },
-                      "base.html#open": {
-                        "ref": "base.html#open",
-                        "tf": 2.083333333333333
-                      },
                       "base_chains.html#close": {
                         "ref": "base_chains.html#close",
                         "tf": 1.0869565217391304
@@ -3929,6 +3920,14 @@ window.lunrData = {
                       },
                       "base_chains.html#open": {
                         "ref": "base_chains.html#open",
+                        "tf": 2.083333333333333
+                      },
+                      "base.html#close": {
+                        "ref": "base.html#close",
+                        "tf": 1.0869565217391304
+                      },
+                      "base.html#open": {
+                        "ref": "base.html#open",
                         "tf": 2.083333333333333
                       }
                     }
@@ -3963,14 +3962,6 @@ window.lunrData = {
                     "docs": {},
                     "c": {
                       "docs": {
-                        "base.html#close": {
-                          "ref": "base.html#close",
-                          "tf": 2.1739130434782608
-                        },
-                        "base.html#end": {
-                          "ref": "base.html#end",
-                          "tf": 2.272727272727273
-                        },
                         "base_chains.html#close": {
                           "ref": "base_chains.html#close",
                           "tf": 2.1739130434782608
@@ -3978,6 +3969,14 @@ window.lunrData = {
                         "base_chains.html#end": {
                           "ref": "base_chains.html#end",
                           "tf": 1.6129032258064515
+                        },
+                        "base.html#close": {
+                          "ref": "base.html#close",
+                          "tf": 2.1739130434782608
+                        },
+                        "base.html#end": {
+                          "ref": "base.html#end",
+                          "tf": 2.272727272727273
                         }
                       }
                     }
@@ -3992,16 +3991,16 @@ window.lunrData = {
                     "docs": {},
                     "t": {
                       "docs": {
+                        "documents_model.html#.findOneKey": {
+                          "ref": "documents_model.html#.findOneKey",
+                          "tf": 3.125
+                        },
                         "module-ink_collector-OCollector.html#findOneKey": {
                           "ref": "module-ink_collector-OCollector.html#findOneKey",
                           "tf": 3.125
                         },
                         "module-ink_collector-ACollector.html#findOneKey": {
                           "ref": "module-ink_collector-ACollector.html#findOneKey",
-                          "tf": 3.125
-                        },
-                        "documents_model.html#.findOneKey": {
-                          "ref": "documents_model.html#.findOneKey",
                           "tf": 3.125
                         }
                       }
@@ -4041,6 +4040,38 @@ window.lunrData = {
                   "docs": {},
                   "d": {
                     "docs": {
+                      "documents_model.html#_idField": {
+                        "ref": "documents_model.html#_idField",
+                        "tf": 5.555555555555555
+                      },
+                      "documents_model.html#.update": {
+                        "ref": "documents_model.html#.update",
+                        "tf": 5.555555555555555
+                      },
+                      "documents_model.html#.find": {
+                        "ref": "documents_model.html#.find",
+                        "tf": 12.5
+                      },
+                      "documents_model.html#.findKeys": {
+                        "ref": "documents_model.html#.findKeys",
+                        "tf": 4.166666666666666
+                      },
+                      "documents_model.html#.findOne": {
+                        "ref": "documents_model.html#.findOne",
+                        "tf": 7.142857142857142
+                      },
+                      "documents_model.html#.findOneKey": {
+                        "ref": "documents_model.html#.findOneKey",
+                        "tf": 3.125
+                      },
+                      "documents_model.html#.set": {
+                        "ref": "documents_model.html#.set",
+                        "tf": 21.21212121212121
+                      },
+                      "documents_model.html#.get": {
+                        "ref": "documents_model.html#.get",
+                        "tf": 33.33333333333333
+                      },
                       "module-ink_collector-OCollector.html#unique": {
                         "ref": "module-ink_collector-OCollector.html#unique",
                         "tf": 8.333333333333332
@@ -4089,38 +4120,6 @@ window.lunrData = {
                         "ref": "module-ink_collector-ACollector.html#update",
                         "tf": 5.555555555555555
                       },
-                      "documents_model.html#_idField": {
-                        "ref": "documents_model.html#_idField",
-                        "tf": 5.555555555555555
-                      },
-                      "documents_model.html#.get": {
-                        "ref": "documents_model.html#.get",
-                        "tf": 33.33333333333333
-                      },
-                      "documents_model.html#.set": {
-                        "ref": "documents_model.html#.set",
-                        "tf": 21.21212121212121
-                      },
-                      "documents_model.html#.findOne": {
-                        "ref": "documents_model.html#.findOne",
-                        "tf": 7.142857142857142
-                      },
-                      "documents_model.html#.findOneKey": {
-                        "ref": "documents_model.html#.findOneKey",
-                        "tf": 3.125
-                      },
-                      "documents_model.html#.findKeys": {
-                        "ref": "documents_model.html#.findKeys",
-                        "tf": 4.166666666666666
-                      },
-                      "documents_model.html#.find": {
-                        "ref": "documents_model.html#.find",
-                        "tf": 12.5
-                      },
-                      "documents_model.html#.update": {
-                        "ref": "documents_model.html#.update",
-                        "tf": 5.555555555555555
-                      },
                       "module-documents_probe.html": {
                         "ref": "module-documents_probe.html",
                         "tf": 5
@@ -4152,6 +4151,38 @@ window.lunrData = {
                   "docs": {},
                   "n": {
                     "docs": {
+                      "documents_model.html#isEmpty": {
+                        "ref": "documents_model.html#isEmpty",
+                        "tf": 12.5
+                      },
+                      "documents_model.html#.findKeys": {
+                        "ref": "documents_model.html#.findKeys",
+                        "tf": 10.416666666666668
+                      },
+                      "documents_model.html#.findOne": {
+                        "ref": "documents_model.html#.findOne",
+                        "tf": 7.142857142857142
+                      },
+                      "documents_model.html#.findOneKey": {
+                        "ref": "documents_model.html#.findOneKey",
+                        "tf": 6.25
+                      },
+                      "documents_model.html#.all": {
+                        "ref": "documents_model.html#.all",
+                        "tf": 10
+                      },
+                      "documents_model.html#.any": {
+                        "ref": "documents_model.html#.any",
+                        "tf": 10
+                      },
+                      "documents_model.html#.some": {
+                        "ref": "documents_model.html#.some",
+                        "tf": 8.333333333333332
+                      },
+                      "documents_model.html#.every": {
+                        "ref": "documents_model.html#.every",
+                        "tf": 8.333333333333332
+                      },
                       "module-ink_collector-OCollector.html#every": {
                         "ref": "module-ink_collector-OCollector.html#every",
                         "tf": 8.333333333333332
@@ -4216,38 +4247,6 @@ window.lunrData = {
                         "ref": "module-ink_collector-ACollector.html#findKeys",
                         "tf": 10.416666666666668
                       },
-                      "documents_model.html#isEmpty": {
-                        "ref": "documents_model.html#isEmpty",
-                        "tf": 12.5
-                      },
-                      "documents_model.html#.any": {
-                        "ref": "documents_model.html#.any",
-                        "tf": 10
-                      },
-                      "documents_model.html#.all": {
-                        "ref": "documents_model.html#.all",
-                        "tf": 10
-                      },
-                      "documents_model.html#.findOne": {
-                        "ref": "documents_model.html#.findOne",
-                        "tf": 7.142857142857142
-                      },
-                      "documents_model.html#.findOneKey": {
-                        "ref": "documents_model.html#.findOneKey",
-                        "tf": 6.25
-                      },
-                      "documents_model.html#.findKeys": {
-                        "ref": "documents_model.html#.findKeys",
-                        "tf": 10.416666666666668
-                      },
-                      "documents_model.html#.some": {
-                        "ref": "documents_model.html#.some",
-                        "tf": 8.333333333333332
-                      },
-                      "documents_model.html#.every": {
-                        "ref": "documents_model.html#.every",
-                        "tf": 8.333333333333332
-                      },
                       "module-documents_probe.queryOperators.html#.$and": {
                         "ref": "module-documents_probe.queryOperators.html#.$and",
                         "tf": 6.25
@@ -4271,6 +4270,10 @@ window.lunrData = {
                 "docs": {},
                 "v": {
                   "docs": {
+                    "documents_model.html#.remove": {
+                      "ref": "documents_model.html#.remove",
+                      "tf": 680
+                    },
                     "module-ink_collector-OCollector.html#remove": {
                       "ref": "module-ink_collector-OCollector.html#remove",
                       "tf": 693.3333333333334
@@ -4278,10 +4281,6 @@ window.lunrData = {
                     "module-ink_collector-ACollector.html#remove": {
                       "ref": "module-ink_collector-ACollector.html#remove",
                       "tf": 693.3333333333334
-                    },
-                    "documents_model.html#.remove": {
-                      "ref": "documents_model.html#.remove",
-                      "tf": 680
                     },
                     "module-documents_probe.updateOperators.html#.$unset": {
                       "ref": "module-documents_probe.updateOperators.html#.$unset",
@@ -4359,17 +4358,6 @@ window.lunrData = {
               }
             }
           },
-          "i": {
-            "docs": {},
-            "d": {
-              "docs": {
-                "base.html#destroy": {
-                  "ref": "base.html#destroy",
-                  "tf": 2.631578947368421
-                }
-              }
-            }
-          },
           "a": {
             "docs": {},
             "i": {
@@ -4384,6 +4372,17 @@ window.lunrData = {
                     "ref": "module-mixins_signalable-Signal.html",
                     "tf": 6.25
                   }
+                }
+              }
+            }
+          },
+          "i": {
+            "docs": {},
+            "d": {
+              "docs": {
+                "base.html#destroy": {
+                  "ref": "base.html#destroy",
+                  "tf": 2.631578947368421
                 }
               }
             }
@@ -4521,12 +4520,12 @@ window.lunrData = {
               "docs": {},
               "l": {
                 "docs": {
-                  "base.html#close": {
-                    "ref": "base.html#close",
-                    "tf": 1.0869565217391304
-                  },
                   "base_chains.html#close": {
                     "ref": "base_chains.html#close",
+                    "tf": 1.0869565217391304
+                  },
+                  "base.html#close": {
+                    "ref": "base.html#close",
                     "tf": 1.0869565217391304
                   }
                 }
@@ -4560,6 +4559,17 @@ window.lunrData = {
             "docs": {},
             "i": {
               "docs": {},
+              "n": {
+                "docs": {},
+                "k": {
+                  "docs": {
+                    "base_chains.html#destroy": {
+                      "ref": "base_chains.html#destroy",
+                      "tf": 1.282051282051282
+                    }
+                  }
+                }
+              },
               "s": {
                 "docs": {},
                 ".": {
@@ -4579,17 +4589,6 @@ window.lunrData = {
                     }
                   }
                 }
-              },
-              "n": {
-                "docs": {},
-                "k": {
-                  "docs": {
-                    "base_chains.html#destroy": {
-                      "ref": "base_chains.html#destroy",
-                      "tf": 1.282051282051282
-                    }
-                  }
-                }
               }
             },
             "o": {
@@ -4598,6 +4597,10 @@ window.lunrData = {
                 "docs": {},
                 "e": {
                   "docs": {
+                    "documents_model.html#.findKeys": {
+                      "ref": "documents_model.html#.findKeys",
+                      "tf": 2.083333333333333
+                    },
                     "module-ink_collector-OCollector.html#findKeys": {
                       "ref": "module-ink_collector-OCollector.html#findKeys",
                       "tf": 2.083333333333333
@@ -4605,34 +4608,7 @@ window.lunrData = {
                     "module-ink_collector-ACollector.html#findKeys": {
                       "ref": "module-ink_collector-ACollector.html#findKeys",
                       "tf": 2.083333333333333
-                    },
-                    "documents_model.html#.findKeys": {
-                      "ref": "documents_model.html#.findKeys",
-                      "tf": 2.083333333333333
                     }
-                  }
-                }
-              }
-            }
-          },
-          "i": {
-            "docs": {
-              "module-mixins_signalable-Signal.html#on": {
-                "ref": "module-mixins_signalable-Signal.html#on",
-                "tf": 16.666666666666664
-              },
-              "module-mixins_signalable-Signal.html#once": {
-                "ref": "module-mixins_signalable-Signal.html#once",
-                "tf": 10
-              }
-            },
-            "m": {
-              "docs": {},
-              "e": {
-                "docs": {
-                  "base.html#destroy": {
-                    "ref": "base.html#destroy",
-                    "tf": 2.631578947368421
                   }
                 }
               }
@@ -4640,10 +4616,52 @@ window.lunrData = {
           },
           "r": {
             "docs": {},
+            "a": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "e": {
+                  "docs": {
+                    "utils_logger.Logger.html#level": {
+                      "ref": "utils_logger.Logger.html#level",
+                      "tf": 5.555555555555555
+                    },
+                    "utils_logger.Logger.html#trace": {
+                      "ref": "utils_logger.Logger.html#trace",
+                      "tf": 716.6666666666666
+                    }
+                  }
+                }
+              }
+            },
             "u": {
               "docs": {},
               "e": {
                 "docs": {
+                  "documents_model.html#isNew": {
+                    "ref": "documents_model.html#isNew",
+                    "tf": 8.333333333333332
+                  },
+                  "documents_model.html#isEmpty": {
+                    "ref": "documents_model.html#isEmpty",
+                    "tf": 12.5
+                  },
+                  "documents_model.html#.all": {
+                    "ref": "documents_model.html#.all",
+                    "tf": 10
+                  },
+                  "documents_model.html#.any": {
+                    "ref": "documents_model.html#.any",
+                    "tf": 10
+                  },
+                  "documents_model.html#.some": {
+                    "ref": "documents_model.html#.some",
+                    "tf": 8.333333333333332
+                  },
+                  "documents_model.html#.every": {
+                    "ref": "documents_model.html#.every",
+                    "tf": 8.333333333333332
+                  },
                   "module-ink_collector-OCollector.html#every": {
                     "ref": "module-ink_collector-OCollector.html#every",
                     "tf": 8.333333333333332
@@ -4674,30 +4692,6 @@ window.lunrData = {
                   },
                   "module-ink_collector-ACollector.html#any": {
                     "ref": "module-ink_collector-ACollector.html#any",
-                    "tf": 8.333333333333332
-                  },
-                  "documents_model.html#isNew": {
-                    "ref": "documents_model.html#isNew",
-                    "tf": 8.333333333333332
-                  },
-                  "documents_model.html#isEmpty": {
-                    "ref": "documents_model.html#isEmpty",
-                    "tf": 12.5
-                  },
-                  "documents_model.html#.any": {
-                    "ref": "documents_model.html#.any",
-                    "tf": 10
-                  },
-                  "documents_model.html#.all": {
-                    "ref": "documents_model.html#.all",
-                    "tf": 10
-                  },
-                  "documents_model.html#.some": {
-                    "ref": "documents_model.html#.some",
-                    "tf": 8.333333333333332
-                  },
-                  "documents_model.html#.every": {
-                    "ref": "documents_model.html#.every",
                     "tf": 8.333333333333332
                   },
                   "module-documents_probe.queryOperators.html#.$and": {
@@ -4734,21 +4728,26 @@ window.lunrData = {
                   }
                 }
               }
+            }
+          },
+          "i": {
+            "docs": {
+              "module-mixins_signalable-Signal.html#on": {
+                "ref": "module-mixins_signalable-Signal.html#on",
+                "tf": 16.666666666666664
+              },
+              "module-mixins_signalable-Signal.html#once": {
+                "ref": "module-mixins_signalable-Signal.html#once",
+                "tf": 10
+              }
             },
-            "a": {
+            "m": {
               "docs": {},
-              "c": {
-                "docs": {},
-                "e": {
-                  "docs": {
-                    "utils_logger.Logger.html#level": {
-                      "ref": "utils_logger.Logger.html#level",
-                      "tf": 5.555555555555555
-                    },
-                    "utils_logger.Logger.html#trace": {
-                      "ref": "utils_logger.Logger.html#trace",
-                      "tf": 716.6666666666666
-                    }
+              "e": {
+                "docs": {
+                  "base.html#destroy": {
+                    "ref": "base.html#destroy",
+                    "tf": 2.631578947368421
                   }
                 }
               }
@@ -4948,14 +4947,115 @@ window.lunrData = {
                                       },
                                       ".": {
                                         "docs": {},
-                                        "g": {
+                                        "u": {
+                                          "docs": {},
+                                          "p": {
+                                            "docs": {},
+                                            "d": {
+                                              "docs": {
+                                                "documents_model.html#.update": {
+                                                  "ref": "documents_model.html#.update",
+                                                  "tf": 1150
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "f": {
+                                          "docs": {},
+                                          "i": {
+                                            "docs": {},
+                                            "n": {
+                                              "docs": {},
+                                              "d": {
+                                                "docs": {
+                                                  "documents_model.html#.find": {
+                                                    "ref": "documents_model.html#.find",
+                                                    "tf": 1150
+                                                  }
+                                                },
+                                                "k": {
+                                                  "docs": {},
+                                                  "e": {
+                                                    "docs": {},
+                                                    "y": {
+                                                      "docs": {
+                                                        "documents_model.html#.findKeys": {
+                                                          "ref": "documents_model.html#.findKeys",
+                                                          "tf": 1150
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "o": {
+                                                  "docs": {},
+                                                  "n": {
+                                                    "docs": {
+                                                      "documents_model.html#.findOne": {
+                                                        "ref": "documents_model.html#.findOne",
+                                                        "tf": 1150
+                                                      }
+                                                    },
+                                                    "e": {
+                                                      "docs": {},
+                                                      "k": {
+                                                        "docs": {},
+                                                        "e": {
+                                                          "docs": {},
+                                                          "y": {
+                                                            "docs": {
+                                                              "documents_model.html#.findOneKey": {
+                                                                "ref": "documents_model.html#.findOneKey",
+                                                                "tf": 1150
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "r": {
                                           "docs": {},
                                           "e": {
                                             "docs": {},
-                                            "t": {
+                                            "m": {
+                                              "docs": {},
+                                              "o": {
+                                                "docs": {},
+                                                "v": {
+                                                  "docs": {
+                                                    "documents_model.html#.remove": {
+                                                      "ref": "documents_model.html#.remove",
+                                                      "tf": 1150
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "a": {
+                                          "docs": {},
+                                          "l": {
+                                            "docs": {
+                                              "documents_model.html#.all": {
+                                                "ref": "documents_model.html#.all",
+                                                "tf": 1300
+                                              }
+                                            }
+                                          },
+                                          "n": {
+                                            "docs": {},
+                                            "i": {
                                               "docs": {
-                                                "documents_model.html#.get": {
-                                                  "ref": "documents_model.html#.get",
+                                                "documents_model.html#.any": {
+                                                  "ref": "documents_model.html#.any",
                                                   "tf": 1300
                                                 }
                                               }
@@ -4987,116 +5087,15 @@ window.lunrData = {
                                             }
                                           }
                                         },
-                                        "a": {
-                                          "docs": {},
-                                          "n": {
-                                            "docs": {},
-                                            "i": {
-                                              "docs": {
-                                                "documents_model.html#.any": {
-                                                  "ref": "documents_model.html#.any",
-                                                  "tf": 1300
-                                                }
-                                              }
-                                            }
-                                          },
-                                          "l": {
-                                            "docs": {
-                                              "documents_model.html#.all": {
-                                                "ref": "documents_model.html#.all",
-                                                "tf": 1300
-                                              }
-                                            }
-                                          }
-                                        },
-                                        "r": {
+                                        "g": {
                                           "docs": {},
                                           "e": {
                                             "docs": {},
-                                            "m": {
-                                              "docs": {},
-                                              "o": {
-                                                "docs": {},
-                                                "v": {
-                                                  "docs": {
-                                                    "documents_model.html#.remove": {
-                                                      "ref": "documents_model.html#.remove",
-                                                      "tf": 1150
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        },
-                                        "f": {
-                                          "docs": {},
-                                          "i": {
-                                            "docs": {},
-                                            "n": {
-                                              "docs": {},
-                                              "d": {
-                                                "docs": {
-                                                  "documents_model.html#.find": {
-                                                    "ref": "documents_model.html#.find",
-                                                    "tf": 1150
-                                                  }
-                                                },
-                                                "o": {
-                                                  "docs": {},
-                                                  "n": {
-                                                    "docs": {
-                                                      "documents_model.html#.findOne": {
-                                                        "ref": "documents_model.html#.findOne",
-                                                        "tf": 1150
-                                                      }
-                                                    },
-                                                    "e": {
-                                                      "docs": {},
-                                                      "k": {
-                                                        "docs": {},
-                                                        "e": {
-                                                          "docs": {},
-                                                          "y": {
-                                                            "docs": {
-                                                              "documents_model.html#.findOneKey": {
-                                                                "ref": "documents_model.html#.findOneKey",
-                                                                "tf": 1150
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                },
-                                                "k": {
-                                                  "docs": {},
-                                                  "e": {
-                                                    "docs": {},
-                                                    "y": {
-                                                      "docs": {
-                                                        "documents_model.html#.findKeys": {
-                                                          "ref": "documents_model.html#.findKeys",
-                                                          "tf": 1150
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        },
-                                        "u": {
-                                          "docs": {},
-                                          "p": {
-                                            "docs": {},
-                                            "d": {
+                                            "t": {
                                               "docs": {
-                                                "documents_model.html#.update": {
-                                                  "ref": "documents_model.html#.update",
-                                                  "tf": 1150
+                                                "documents_model.html#.get": {
+                                                  "ref": "documents_model.html#.get",
+                                                  "tf": 1300
                                                 }
                                               }
                                             }
@@ -5270,6 +5269,49 @@ window.lunrData = {
                 }
               }
             },
+            "w": {
+              "docs": {},
+              "n": {
+                "docs": {
+                  "base_chains.html#close": {
+                    "ref": "base_chains.html#close",
+                    "tf": 1.0869565217391304
+                  },
+                  "base_chains.html#end": {
+                    "ref": "base_chains.html#end",
+                    "tf": 1.6129032258064515
+                  },
+                  "base.html#close": {
+                    "ref": "base.html#close",
+                    "tf": 1.0869565217391304
+                  }
+                }
+              }
+            },
+            "r": {
+              "docs": {},
+              "m": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "n": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "base_chains.html#open": {
+                          "ref": "base_chains.html#open",
+                          "tf": 2.083333333333333
+                        },
+                        "base.html#open": {
+                          "ref": "base.html#open",
+                          "tf": 2.083333333333333
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
             "n": {
               "docs": {},
               "'": {
@@ -5287,49 +5329,6 @@ window.lunrData = {
                     "module-mixins_signalable.html": {
                       "ref": "module-mixins_signalable.html",
                       "tf": 3.3333333333333335
-                    }
-                  }
-                }
-              }
-            },
-            "w": {
-              "docs": {},
-              "n": {
-                "docs": {
-                  "base.html#close": {
-                    "ref": "base.html#close",
-                    "tf": 1.0869565217391304
-                  },
-                  "base_chains.html#close": {
-                    "ref": "base_chains.html#close",
-                    "tf": 1.0869565217391304
-                  },
-                  "base_chains.html#end": {
-                    "ref": "base_chains.html#end",
-                    "tf": 1.6129032258064515
-                  }
-                }
-              }
-            },
-            "r": {
-              "docs": {},
-              "m": {
-                "docs": {},
-                "a": {
-                  "docs": {},
-                  "n": {
-                    "docs": {},
-                    "t": {
-                      "docs": {
-                        "base.html#open": {
-                          "ref": "base.html#open",
-                          "tf": 2.083333333333333
-                        },
-                        "base_chains.html#open": {
-                          "ref": "base_chains.html#open",
-                          "tf": 2.083333333333333
-                        }
-                      }
                     }
                   }
                 }
@@ -5356,47 +5355,10 @@ window.lunrData = {
             "docs": {},
             "f": {
               "docs": {},
-              "a": {
-                "docs": {},
-                "u": {
-                  "docs": {},
-                  "l": {
-                    "docs": {},
-                    "t": {
-                      "docs": {
-                        "base.html": {
-                          "ref": "base.html",
-                          "tf": 1.3888888888888888
-                        },
-                        "base.html#addDefaultOptions": {
-                          "ref": "base.html#addDefaultOptions",
-                          "tf": 10
-                        }
-                      }
-                    }
-                  }
-                }
-              },
               "i": {
                 "docs": {},
                 "n": {
                   "docs": {
-                    "base.html#close": {
-                      "ref": "base.html#close",
-                      "tf": 1.0869565217391304
-                    },
-                    "base.html#open": {
-                      "ref": "base.html#open",
-                      "tf": 2.083333333333333
-                    },
-                    "base.html#end": {
-                      "ref": "base.html#end",
-                      "tf": 2.272727272727273
-                    },
-                    "base.html#destroy": {
-                      "ref": "base.html#destroy",
-                      "tf": 2.631578947368421
-                    },
                     "base_chains.html": {
                       "ref": "base_chains.html",
                       "tf": 5.555555555555555
@@ -5416,6 +5378,22 @@ window.lunrData = {
                     "base_chains.html#open": {
                       "ref": "base_chains.html#open",
                       "tf": 2.083333333333333
+                    },
+                    "base.html#close": {
+                      "ref": "base.html#close",
+                      "tf": 1.0869565217391304
+                    },
+                    "base.html#open": {
+                      "ref": "base.html#open",
+                      "tf": 2.083333333333333
+                    },
+                    "base.html#end": {
+                      "ref": "base.html#end",
+                      "tf": 2.272727272727273
+                    },
+                    "base.html#destroy": {
+                      "ref": "base.html#destroy",
+                      "tf": 2.631578947368421
                     },
                     "module-base_chains.html": {
                       "ref": "module-base_chains.html",
@@ -5438,6 +5416,54 @@ window.lunrData = {
                     }
                   }
                 }
+              },
+              "a": {
+                "docs": {},
+                "u": {
+                  "docs": {},
+                  "l": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "base.html": {
+                          "ref": "base.html",
+                          "tf": 1.3888888888888888
+                        },
+                        "base.html#addDefaultOptions": {
+                          "ref": "base.html#addDefaultOptions",
+                          "tf": 10
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "t": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "m": {
+                    "docs": {},
+                    "i": {
+                      "docs": {},
+                      "n": {
+                        "docs": {
+                          "base_chains.html": {
+                            "ref": "base_chains.html",
+                            "tf": 5.555555555555555
+                          },
+                          "module-base_chains.html": {
+                            "ref": "module-base_chains.html",
+                            "tf": 5.555555555555555
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
               }
             },
             "s": {
@@ -5450,22 +5476,6 @@ window.lunrData = {
                     "docs": {},
                     "y": {
                       "docs": {
-                        "base.html#close": {
-                          "ref": "base.html#close",
-                          "tf": 2.1739130434782608
-                        },
-                        "base.html#open": {
-                          "ref": "base.html#open",
-                          "tf": 2.083333333333333
-                        },
-                        "base.html#end": {
-                          "ref": "base.html#end",
-                          "tf": 2.272727272727273
-                        },
-                        "base.html#destroy": {
-                          "ref": "base.html#destroy",
-                          "tf": 750
-                        },
                         "base_chains.html#close": {
                           "ref": "base_chains.html#close",
                           "tf": 2.1739130434782608
@@ -5481,6 +5491,22 @@ window.lunrData = {
                         "base_chains.html#open": {
                           "ref": "base_chains.html#open",
                           "tf": 2.083333333333333
+                        },
+                        "base.html#close": {
+                          "ref": "base.html#close",
+                          "tf": 2.1739130434782608
+                        },
+                        "base.html#open": {
+                          "ref": "base.html#open",
+                          "tf": 2.083333333333333
+                        },
+                        "base.html#end": {
+                          "ref": "base.html#end",
+                          "tf": 2.272727272727273
+                        },
+                        "base.html#destroy": {
+                          "ref": "base.html#destroy",
+                          "tf": 750
                         },
                         "module-mixins_signalable-Signal.html#destroy": {
                           "ref": "module-mixins_signalable-Signal.html#destroy",
@@ -5500,10 +5526,6 @@ window.lunrData = {
                   "docs": {},
                   "d": {
                     "docs": {
-                      "base.html#close": {
-                        "ref": "base.html#close",
-                        "tf": 1.0869565217391304
-                      },
                       "base_chains.html#close": {
                         "ref": "base_chains.html#close",
                         "tf": 1.0869565217391304
@@ -5511,7 +5533,29 @@ window.lunrData = {
                       "base_chains.html#end": {
                         "ref": "base_chains.html#end",
                         "tf": 1.6129032258064515
+                      },
+                      "base.html#close": {
+                        "ref": "base.html#close",
+                        "tf": 1.0869565217391304
                       }
+                    }
+                  }
+                }
+              }
+            },
+            "b": {
+              "docs": {},
+              "u": {
+                "docs": {},
+                "g": {
+                  "docs": {
+                    "utils_logger.Logger.html#level": {
+                      "ref": "utils_logger.Logger.html#level",
+                      "tf": 5.555555555555555
+                    },
+                    "utils_logger.Logger.html#debug": {
+                      "ref": "utils_logger.Logger.html#debug",
+                      "tf": 716.6666666666666
                     }
                   }
                 }
@@ -5519,22 +5563,36 @@ window.lunrData = {
             },
             "p": {
               "docs": {},
+              "l": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "y": {
+                    "docs": {
+                      "module-mixins_signalable-Signal.html": {
+                        "ref": "module-mixins_signalable-Signal.html",
+                        "tf": 6.25
+                      }
+                    }
+                  }
+                }
+              },
               "e": {
                 "docs": {},
                 "n": {
                   "docs": {},
                   "d": {
                     "docs": {
+                      "documents_model.html#.findOneKey": {
+                        "ref": "documents_model.html#.findOneKey",
+                        "tf": 3.125
+                      },
                       "module-ink_collector-OCollector.html#findOneKey": {
                         "ref": "module-ink_collector-OCollector.html#findOneKey",
                         "tf": 3.125
                       },
                       "module-ink_collector-ACollector.html#findOneKey": {
                         "ref": "module-ink_collector-ACollector.html#findOneKey",
-                        "tf": 3.125
-                      },
-                      "documents_model.html#.findOneKey": {
-                        "ref": "documents_model.html#.findOneKey",
                         "tf": 3.125
                       }
                     }
@@ -5552,20 +5610,6 @@ window.lunrData = {
                     "module-documents_binder.html": {
                       "ref": "module-documents_binder.html",
                       "tf": 2.7777777777777777
-                    }
-                  }
-                }
-              },
-              "l": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "y": {
-                    "docs": {
-                      "module-mixins_signalable-Signal.html": {
-                        "ref": "module-mixins_signalable-Signal.html",
-                        "tf": 6.25
-                      }
                     }
                   }
                 }
@@ -5629,55 +5673,27 @@ window.lunrData = {
                   }
                 }
               }
-            },
-            "t": {
+            }
+          },
+          "i": {
+            "docs": {},
+            "f": {
               "docs": {},
-              "e": {
+              "f": {
                 "docs": {},
-                "r": {
+                "e": {
                   "docs": {},
-                  "m": {
-                    "docs": {},
-                    "i": {
-                      "docs": {},
-                      "n": {
-                        "docs": {
-                          "base_chains.html": {
-                            "ref": "base_chains.html",
-                            "tf": 5.555555555555555
-                          },
-                          "module-base_chains.html": {
-                            "ref": "module-base_chains.html",
-                            "tf": 5.555555555555555
-                          }
-                        }
+                  "r": {
+                    "docs": {
+                      "base_chains.html#destroy": {
+                        "ref": "base_chains.html#destroy",
+                        "tf": 1.282051282051282
                       }
                     }
                   }
                 }
               }
             },
-            "b": {
-              "docs": {},
-              "u": {
-                "docs": {},
-                "g": {
-                  "docs": {
-                    "utils_logger.Logger.html#level": {
-                      "ref": "utils_logger.Logger.html#level",
-                      "tf": 5.555555555555555
-                    },
-                    "utils_logger.Logger.html#debug": {
-                      "ref": "utils_logger.Logger.html#debug",
-                      "tf": 716.6666666666666
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "i": {
-            "docs": {},
             "s": {
               "docs": {},
               "c": {
@@ -5764,23 +5780,6 @@ window.lunrData = {
                   }
                 }
               }
-            },
-            "f": {
-              "docs": {},
-              "f": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  "r": {
-                    "docs": {
-                      "base_chains.html#destroy": {
-                        "ref": "base_chains.html#destroy",
-                        "tf": 1.282051282051282
-                      }
-                    }
-                  }
-                }
-              }
             }
           },
           "a": {
@@ -5826,16 +5825,16 @@ window.lunrData = {
           },
           "o": {
             "docs": {
-              "base.html#open": {
-                "ref": "base.html#open",
-                "tf": 4.166666666666666
-              },
               "base_chains.html#destroy": {
                 "ref": "base_chains.html#destroy",
                 "tf": 1.282051282051282
               },
               "base_chains.html#open": {
                 "ref": "base_chains.html#open",
+                "tf": 4.166666666666666
+              },
+              "base.html#open": {
+                "ref": "base.html#open",
                 "tf": 4.166666666666666
               }
             }
@@ -5962,8 +5961,62 @@ window.lunrData = {
               }
             }
           },
+          "h": {
+            "docs": {},
+            "u": {
+              "docs": {},
+              "t": {
+                "docs": {
+                  "base_chains.html#close": {
+                    "ref": "base_chains.html#close",
+                    "tf": 1.0869565217391304
+                  },
+                  "base_chains.html#end": {
+                    "ref": "base_chains.html#end",
+                    "tf": 1.6129032258064515
+                  },
+                  "base.html#close": {
+                    "ref": "base.html#close",
+                    "tf": 1.0869565217391304
+                  }
+                }
+              }
+            }
+          },
           "t": {
             "docs": {},
+            "i": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                "l": {
+                  "docs": {
+                    "base_chains.html#close": {
+                      "ref": "base_chains.html#close",
+                      "tf": 1.0869565217391304
+                    },
+                    "base.html#close": {
+                      "ref": "base.html#close",
+                      "tf": 1.0869565217391304
+                    }
+                  }
+                }
+              }
+            },
+            "a": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "e": {
+                  "docs": {
+                    "utils_logger.Logger.html": {
+                      "ref": "utils_logger.Logger.html",
+                      "tf": 3.571428571428571
+                    }
+                  }
+                }
+              }
+            },
             "o": {
               "docs": {},
               "r": {
@@ -5978,24 +6031,6 @@ window.lunrData = {
                 }
               }
             },
-            "i": {
-              "docs": {},
-              "l": {
-                "docs": {},
-                "l": {
-                  "docs": {
-                    "base.html#close": {
-                      "ref": "base.html#close",
-                      "tf": 1.0869565217391304
-                    },
-                    "base_chains.html#close": {
-                      "ref": "base_chains.html#close",
-                      "tf": 1.0869565217391304
-                    }
-                  }
-                }
-              }
-            },
             "r": {
               "docs": {},
               "i": {
@@ -6004,6 +6039,10 @@ window.lunrData = {
                   "docs": {},
                   "g": {
                     "docs": {
+                      "module-mixins_signalable-Signal.html#toString": {
+                        "ref": "module-mixins_signalable-Signal.html#toString",
+                        "tf": 50
+                      },
                       "documents_model.html#_idField": {
                         "ref": "documents_model.html#_idField",
                         "tf": 33.33333333333333
@@ -6011,10 +6050,6 @@ window.lunrData = {
                       "module-documents_probe.queryOperators.html#.$size": {
                         "ref": "module-documents_probe.queryOperators.html#.$size",
                         "tf": 3.8461538461538463
-                      },
-                      "module-mixins_signalable-Signal.html#toString": {
-                        "ref": "module-mixins_signalable-Signal.html#toString",
-                        "tf": 50
                       },
                       "module-mixins_signalable.html": {
                         "ref": "module-mixins_signalable.html",
@@ -6077,16 +6112,341 @@ window.lunrData = {
                   }
                 }
               }
+            }
+          },
+          "e": {
+            "docs": {},
+            "e": {
+              "docs": {
+                "utils_logger.Logger.html": {
+                  "ref": "utils_logger.Logger.html",
+                  "tf": 3.571428571428571
+                },
+                "documents_model.html#.update": {
+                  "ref": "documents_model.html#.update",
+                  "tf": 5.555555555555555
+                },
+                "module-ink_collector-OCollector.html#update": {
+                  "ref": "module-ink_collector-OCollector.html#update",
+                  "tf": 5.555555555555555
+                },
+                "module-ink_collector-ACollector.html#update": {
+                  "ref": "module-ink_collector-ACollector.html#update",
+                  "tf": 5.555555555555555
+                },
+                "module-documents_probe.queryOperators.html#.$eq": {
+                  "ref": "module-documents_probe.queryOperators.html#.$eq",
+                  "tf": 2
+                },
+                "module-documents_probe.queryOperators.html#.$all": {
+                  "ref": "module-documents_probe.queryOperators.html#.$all",
+                  "tf": 5
+                },
+                "module-documents_probe.queryOperators.html#.$gt": {
+                  "ref": "module-documents_probe.queryOperators.html#.$gt",
+                  "tf": 6.25
+                },
+                "module-documents_probe.queryOperators.html#.$gte": {
+                  "ref": "module-documents_probe.queryOperators.html#.$gte",
+                  "tf": 5.555555555555555
+                },
+                "module-documents_probe.queryOperators.html#.$lt": {
+                  "ref": "module-documents_probe.queryOperators.html#.$lt",
+                  "tf": 6.25
+                },
+                "module-documents_probe.queryOperators.html#.$lte": {
+                  "ref": "module-documents_probe.queryOperators.html#.$lte",
+                  "tf": 5.555555555555555
+                },
+                "module-documents_probe.queryOperators.html#.$in": {
+                  "ref": "module-documents_probe.queryOperators.html#.$in",
+                  "tf": 5.555555555555555
+                },
+                "module-documents_probe.queryOperators.html#.$nin": {
+                  "ref": "module-documents_probe.queryOperators.html#.$nin",
+                  "tf": 4.545454545454546
+                },
+                "module-documents_probe.queryOperators.html#.$exists": {
+                  "ref": "module-documents_probe.queryOperators.html#.$exists",
+                  "tf": 7.142857142857142
+                },
+                "module-documents_probe.queryOperators.html#.$elemMatch": {
+                  "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
+                  "tf": 2.7777777777777777
+                }
+              },
+              "k": {
+                "docs": {
+                  "documents_model.html#.findOne": {
+                    "ref": "documents_model.html#.findOne",
+                    "tf": 7.142857142857142
+                  },
+                  "module-ink_collector-OCollector.html#findOne": {
+                    "ref": "module-ink_collector-OCollector.html#findOne",
+                    "tf": 7.142857142857142
+                  },
+                  "module-ink_collector-ACollector.html#findOne": {
+                    "ref": "module-ink_collector-ACollector.html#findOne",
+                    "tf": 7.142857142857142
+                  }
+                },
+                "k": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "y": {
+                      "docs": {
+                        "documents_model.html#.findOneKey": {
+                          "ref": "documents_model.html#.findOneKey",
+                          "tf": 3.125
+                        },
+                        "module-ink_collector-OCollector.html#findOneKey": {
+                          "ref": "module-ink_collector-OCollector.html#findOneKey",
+                          "tf": 3.125
+                        },
+                        "module-ink_collector-ACollector.html#findOneKey": {
+                          "ref": "module-ink_collector-ACollector.html#findOneKey",
+                          "tf": 3.125
+                        }
+                      }
+                    }
+                  }
+                }
+              }
             },
-            "a": {
-              "docs": {},
+            "t": {
+              "docs": {
+                "utils_logger.Logger.html": {
+                  "ref": "utils_logger.Logger.html",
+                  "tf": 3.571428571428571
+                },
+                "utils_logger.Logger.html#level": {
+                  "ref": "utils_logger.Logger.html#level",
+                  "tf": 5.555555555555555
+                },
+                "base.html#addDefaultOptions": {
+                  "ref": "base.html#addDefaultOptions",
+                  "tf": 5
+                },
+                "documents_model.html#.set": {
+                  "ref": "documents_model.html#.set",
+                  "tf": 668.9393939393939
+                },
+                "module-ink_collector-OCollector.html#unique": {
+                  "ref": "module-ink_collector-OCollector.html#unique",
+                  "tf": 8.333333333333332
+                },
+                "module-ink_collector-ACollector.html#unique": {
+                  "ref": "module-ink_collector-ACollector.html#unique",
+                  "tf": 8.333333333333332
+                },
+                "module-documents_binder.html": {
+                  "ref": "module-documents_binder.html",
+                  "tf": 2.7777777777777777
+                },
+                "module-documents_schema.html": {
+                  "ref": "module-documents_schema.html",
+                  "tf": 7.142857142857142
+                }
+              },
+              "d": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "c": {
+                    "docs": {},
+                    "u": {
+                      "docs": {
+                        "documents_model.html#.update": {
+                          "ref": "documents_model.html#.update",
+                          "tf": 20
+                        },
+                        "module-ink_collector-OCollector.html#update": {
+                          "ref": "module-ink_collector-OCollector.html#update",
+                          "tf": 33.33333333333333
+                        },
+                        "module-ink_collector-ACollector.html#update": {
+                          "ref": "module-ink_collector-ACollector.html#update",
+                          "tf": 33.33333333333333
+                        }
+                      }
+                    }
+                  }
+                }
+              },
               "t": {
                 "docs": {},
                 "e": {
+                  "docs": {},
+                  "r": {
+                    "docs": {
+                      "documents_model.html#.set": {
+                        "ref": "documents_model.html#.set",
+                        "tf": 16.666666666666664
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "i": {
+            "docs": {},
+            "l": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "n": {
+                  "docs": {},
+                  "t": {
+                    "docs": {
+                      "utils_logger.Logger.html#silent": {
+                        "ref": "utils_logger.Logger.html#silent",
+                        "tf": 700
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "g": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "l": {
+                    "docs": {
+                      "module-mixins_signalable-Signal.html": {
+                        "ref": "module-mixins_signalable-Signal.html",
+                        "tf": 512.5
+                      },
+                      "module-mixins_signalable-Signal.html#on": {
+                        "ref": "module-mixins_signalable-Signal.html#on",
+                        "tf": 16.666666666666664
+                      },
+                      "module-mixins_signalable-Signal.html#once": {
+                        "ref": "module-mixins_signalable-Signal.html#once",
+                        "tf": 10
+                      },
+                      "module-mixins_signalable-Signal.html#off": {
+                        "ref": "module-mixins_signalable-Signal.html#off",
+                        "tf": 16.666666666666664
+                      },
+                      "module-mixins_signalable-Signal.html#has": {
+                        "ref": "module-mixins_signalable-Signal.html#has",
+                        "tf": 12.5
+                      },
+                      "mixins_signalable.html": {
+                        "ref": "mixins_signalable.html",
+                        "tf": 14.285714285714285
+                      },
+                      "module-mixins_signalable.html": {
+                        "ref": "module-mixins_signalable.html",
+                        "tf": 6.666666666666667
+                      }
+                    },
+                    "b": {
+                      "docs": {},
+                      "i": {
+                        "docs": {},
+                        "n": {
+                          "docs": {},
+                          "d": {
+                            "docs": {
+                              "module-mixins_signalable-Signal.html#on": {
+                                "ref": "module-mixins_signalable-Signal.html#on",
+                                "tf": 25
+                              },
+                              "module-mixins_signalable-Signal.html#once": {
+                                "ref": "module-mixins_signalable-Signal.html#once",
+                                "tf": 20
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "m": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "l": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "r": {
+                      "docs": {
+                        "documents_model.html#.findKeys": {
+                          "ref": "documents_model.html#.findKeys",
+                          "tf": 2.083333333333333
+                        },
+                        "module-ink_collector-OCollector.html#findKeys": {
+                          "ref": "module-ink_collector-OCollector.html#findKeys",
+                          "tf": 2.083333333333333
+                        },
+                        "module-ink_collector-ACollector.html#findKeys": {
+                          "ref": "module-ink_collector-ACollector.html#findKeys",
+                          "tf": 2.083333333333333
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "n": {
+              "docs": {},
+              "g": {
+                "docs": {},
+                "l": {
                   "docs": {
-                    "utils_logger.Logger.html": {
-                      "ref": "utils_logger.Logger.html",
-                      "tf": 3.571428571428571
+                    "documents_model.html#.set": {
+                      "ref": "documents_model.html#.set",
+                      "tf": 2.272727272727273
+                    }
+                  }
+                }
+              }
+            },
+            "z": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "module-ink_collector-OCollector.html#length": {
+                    "ref": "module-ink_collector-OCollector.html#length",
+                    "tf": 25
+                  },
+                  "module-ink_collector-ACollector.html#length": {
+                    "ref": "module-ink_collector-ACollector.html#length",
+                    "tf": 25
+                  },
+                  "module-documents_probe.queryOperators.html#.$size": {
+                    "ref": "module-documents_probe.queryOperators.html#.$size",
+                    "tf": 657.6923076923077
+                  }
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "m": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "t": {
+                  "docs": {},
+                  "h": {
+                    "docs": {
+                      "utils_logger.Logger.html#silent": {
+                        "ref": "utils_logger.Logger.html#silent",
+                        "tf": 6.25
+                      }
                     }
                   }
                 }
@@ -6175,6 +6535,10 @@ window.lunrData = {
                     "docs": {},
                     "t": {
                       "docs": {
+                        "documents_model.html#.update": {
+                          "ref": "documents_model.html#.update",
+                          "tf": 5.555555555555555
+                        },
                         "module-ink_collector-OCollector.html#update": {
                           "ref": "module-ink_collector-OCollector.html#update",
                           "tf": 5.555555555555555
@@ -6182,352 +6546,7 @@ window.lunrData = {
                         "module-ink_collector-ACollector.html#update": {
                           "ref": "module-ink_collector-ACollector.html#update",
                           "tf": 5.555555555555555
-                        },
-                        "documents_model.html#.update": {
-                          "ref": "documents_model.html#.update",
-                          "tf": 5.555555555555555
                         }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "h": {
-            "docs": {},
-            "u": {
-              "docs": {},
-              "t": {
-                "docs": {
-                  "base.html#close": {
-                    "ref": "base.html#close",
-                    "tf": 1.0869565217391304
-                  },
-                  "base_chains.html#close": {
-                    "ref": "base_chains.html#close",
-                    "tf": 1.0869565217391304
-                  },
-                  "base_chains.html#end": {
-                    "ref": "base_chains.html#end",
-                    "tf": 1.6129032258064515
-                  }
-                }
-              }
-            }
-          },
-          "e": {
-            "docs": {},
-            "t": {
-              "docs": {
-                "base.html#addDefaultOptions": {
-                  "ref": "base.html#addDefaultOptions",
-                  "tf": 5
-                },
-                "module-ink_collector-OCollector.html#unique": {
-                  "ref": "module-ink_collector-OCollector.html#unique",
-                  "tf": 8.333333333333332
-                },
-                "module-ink_collector-ACollector.html#unique": {
-                  "ref": "module-ink_collector-ACollector.html#unique",
-                  "tf": 8.333333333333332
-                },
-                "documents_model.html#.set": {
-                  "ref": "documents_model.html#.set",
-                  "tf": 668.9393939393939
-                },
-                "utils_logger.Logger.html": {
-                  "ref": "utils_logger.Logger.html",
-                  "tf": 3.571428571428571
-                },
-                "utils_logger.Logger.html#level": {
-                  "ref": "utils_logger.Logger.html#level",
-                  "tf": 5.555555555555555
-                },
-                "module-documents_binder.html": {
-                  "ref": "module-documents_binder.html",
-                  "tf": 2.7777777777777777
-                },
-                "module-documents_schema.html": {
-                  "ref": "module-documents_schema.html",
-                  "tf": 7.142857142857142
-                }
-              },
-              "d": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "c": {
-                    "docs": {},
-                    "u": {
-                      "docs": {
-                        "module-ink_collector-OCollector.html#update": {
-                          "ref": "module-ink_collector-OCollector.html#update",
-                          "tf": 33.33333333333333
-                        },
-                        "module-ink_collector-ACollector.html#update": {
-                          "ref": "module-ink_collector-ACollector.html#update",
-                          "tf": 33.33333333333333
-                        },
-                        "documents_model.html#.update": {
-                          "ref": "documents_model.html#.update",
-                          "tf": 20
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "t": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  "r": {
-                    "docs": {
-                      "documents_model.html#.set": {
-                        "ref": "documents_model.html#.set",
-                        "tf": 16.666666666666664
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "e": {
-              "docs": {
-                "module-ink_collector-OCollector.html#update": {
-                  "ref": "module-ink_collector-OCollector.html#update",
-                  "tf": 5.555555555555555
-                },
-                "module-ink_collector-ACollector.html#update": {
-                  "ref": "module-ink_collector-ACollector.html#update",
-                  "tf": 5.555555555555555
-                },
-                "documents_model.html#.update": {
-                  "ref": "documents_model.html#.update",
-                  "tf": 5.555555555555555
-                },
-                "module-documents_probe.queryOperators.html#.$eq": {
-                  "ref": "module-documents_probe.queryOperators.html#.$eq",
-                  "tf": 2
-                },
-                "module-documents_probe.queryOperators.html#.$all": {
-                  "ref": "module-documents_probe.queryOperators.html#.$all",
-                  "tf": 5
-                },
-                "module-documents_probe.queryOperators.html#.$gt": {
-                  "ref": "module-documents_probe.queryOperators.html#.$gt",
-                  "tf": 6.25
-                },
-                "module-documents_probe.queryOperators.html#.$gte": {
-                  "ref": "module-documents_probe.queryOperators.html#.$gte",
-                  "tf": 5.555555555555555
-                },
-                "module-documents_probe.queryOperators.html#.$lt": {
-                  "ref": "module-documents_probe.queryOperators.html#.$lt",
-                  "tf": 6.25
-                },
-                "module-documents_probe.queryOperators.html#.$lte": {
-                  "ref": "module-documents_probe.queryOperators.html#.$lte",
-                  "tf": 5.555555555555555
-                },
-                "module-documents_probe.queryOperators.html#.$in": {
-                  "ref": "module-documents_probe.queryOperators.html#.$in",
-                  "tf": 5.555555555555555
-                },
-                "module-documents_probe.queryOperators.html#.$nin": {
-                  "ref": "module-documents_probe.queryOperators.html#.$nin",
-                  "tf": 4.545454545454546
-                },
-                "module-documents_probe.queryOperators.html#.$exists": {
-                  "ref": "module-documents_probe.queryOperators.html#.$exists",
-                  "tf": 7.142857142857142
-                },
-                "module-documents_probe.queryOperators.html#.$elemMatch": {
-                  "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
-                  "tf": 2.7777777777777777
-                },
-                "utils_logger.Logger.html": {
-                  "ref": "utils_logger.Logger.html",
-                  "tf": 3.571428571428571
-                }
-              },
-              "k": {
-                "docs": {
-                  "module-ink_collector-OCollector.html#findOne": {
-                    "ref": "module-ink_collector-OCollector.html#findOne",
-                    "tf": 7.142857142857142
-                  },
-                  "module-ink_collector-ACollector.html#findOne": {
-                    "ref": "module-ink_collector-ACollector.html#findOne",
-                    "tf": 7.142857142857142
-                  },
-                  "documents_model.html#.findOne": {
-                    "ref": "documents_model.html#.findOne",
-                    "tf": 7.142857142857142
-                  }
-                },
-                "k": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "y": {
-                      "docs": {
-                        "module-ink_collector-OCollector.html#findOneKey": {
-                          "ref": "module-ink_collector-OCollector.html#findOneKey",
-                          "tf": 3.125
-                        },
-                        "module-ink_collector-ACollector.html#findOneKey": {
-                          "ref": "module-ink_collector-ACollector.html#findOneKey",
-                          "tf": 3.125
-                        },
-                        "documents_model.html#.findOneKey": {
-                          "ref": "documents_model.html#.findOneKey",
-                          "tf": 3.125
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "i": {
-            "docs": {},
-            "z": {
-              "docs": {},
-              "e": {
-                "docs": {
-                  "module-ink_collector-OCollector.html#length": {
-                    "ref": "module-ink_collector-OCollector.html#length",
-                    "tf": 25
-                  },
-                  "module-ink_collector-ACollector.html#length": {
-                    "ref": "module-ink_collector-ACollector.html#length",
-                    "tf": 25
-                  },
-                  "module-documents_probe.queryOperators.html#.$size": {
-                    "ref": "module-documents_probe.queryOperators.html#.$size",
-                    "tf": 657.6923076923077
-                  }
-                }
-              }
-            },
-            "m": {
-              "docs": {},
-              "i": {
-                "docs": {},
-                "l": {
-                  "docs": {},
-                  "a": {
-                    "docs": {},
-                    "r": {
-                      "docs": {
-                        "module-ink_collector-OCollector.html#findKeys": {
-                          "ref": "module-ink_collector-OCollector.html#findKeys",
-                          "tf": 2.083333333333333
-                        },
-                        "module-ink_collector-ACollector.html#findKeys": {
-                          "ref": "module-ink_collector-ACollector.html#findKeys",
-                          "tf": 2.083333333333333
-                        },
-                        "documents_model.html#.findKeys": {
-                          "ref": "documents_model.html#.findKeys",
-                          "tf": 2.083333333333333
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "n": {
-              "docs": {},
-              "g": {
-                "docs": {},
-                "l": {
-                  "docs": {
-                    "documents_model.html#.set": {
-                      "ref": "documents_model.html#.set",
-                      "tf": 2.272727272727273
-                    }
-                  }
-                }
-              }
-            },
-            "g": {
-              "docs": {},
-              "n": {
-                "docs": {},
-                "a": {
-                  "docs": {},
-                  "l": {
-                    "docs": {
-                      "module-mixins_signalable-Signal.html": {
-                        "ref": "module-mixins_signalable-Signal.html",
-                        "tf": 512.5
-                      },
-                      "module-mixins_signalable-Signal.html#on": {
-                        "ref": "module-mixins_signalable-Signal.html#on",
-                        "tf": 16.666666666666664
-                      },
-                      "module-mixins_signalable-Signal.html#once": {
-                        "ref": "module-mixins_signalable-Signal.html#once",
-                        "tf": 10
-                      },
-                      "module-mixins_signalable-Signal.html#off": {
-                        "ref": "module-mixins_signalable-Signal.html#off",
-                        "tf": 16.666666666666664
-                      },
-                      "module-mixins_signalable-Signal.html#has": {
-                        "ref": "module-mixins_signalable-Signal.html#has",
-                        "tf": 12.5
-                      },
-                      "mixins_signalable.html": {
-                        "ref": "mixins_signalable.html",
-                        "tf": 14.285714285714285
-                      },
-                      "module-mixins_signalable.html": {
-                        "ref": "module-mixins_signalable.html",
-                        "tf": 6.666666666666667
-                      }
-                    },
-                    "b": {
-                      "docs": {},
-                      "i": {
-                        "docs": {},
-                        "n": {
-                          "docs": {},
-                          "d": {
-                            "docs": {
-                              "module-mixins_signalable-Signal.html#on": {
-                                "ref": "module-mixins_signalable-Signal.html#on",
-                                "tf": 25
-                              },
-                              "module-mixins_signalable-Signal.html#once": {
-                                "ref": "module-mixins_signalable-Signal.html#once",
-                                "tf": 20
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "l": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "n": {
-                  "docs": {},
-                  "t": {
-                    "docs": {
-                      "utils_logger.Logger.html#silent": {
-                        "ref": "utils_logger.Logger.html#silent",
-                        "tf": 700
                       }
                     }
                   }
@@ -6577,26 +6596,6 @@ window.lunrData = {
                           "ref": "module-documents_probe.updateOperators.html#.$push",
                           "tf": 5
                         }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "o": {
-            "docs": {},
-            "m": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "t": {
-                  "docs": {},
-                  "h": {
-                    "docs": {
-                      "utils_logger.Logger.html#silent": {
-                        "ref": "utils_logger.Logger.html#silent",
-                        "tf": 6.25
                       }
                     }
                   }
@@ -6666,18 +6665,6 @@ window.lunrData = {
               "docs": {},
               "l": {
                 "docs": {
-                  "base.html#close": {
-                    "ref": "base.html#close",
-                    "tf": 1.0869565217391304
-                  },
-                  "base.html#end": {
-                    "ref": "base.html#end",
-                    "tf": 6.8181818181818175
-                  },
-                  "base.html#destroy": {
-                    "ref": "base.html#destroy",
-                    "tf": 7.894736842105263
-                  },
                   "base_chains.html#close": {
                     "ref": "base_chains.html#close",
                     "tf": 1.0869565217391304
@@ -6709,6 +6696,18 @@ window.lunrData = {
                   "utils_logger.Logger.html#error": {
                     "ref": "utils_logger.Logger.html#error",
                     "tf": 16.666666666666664
+                  },
+                  "base.html#close": {
+                    "ref": "base.html#close",
+                    "tf": 1.0869565217391304
+                  },
+                  "base.html#end": {
+                    "ref": "base.html#end",
+                    "tf": 6.8181818181818175
+                  },
+                  "base.html#destroy": {
+                    "ref": "base.html#destroy",
+                    "tf": 7.894736842105263
                   }
                 }
               }
@@ -6743,6 +6742,18 @@ window.lunrData = {
                       "ref": "list_class.html",
                       "tf": 635
                     },
+                    "base_chains.html": {
+                      "ref": "base_chains.html",
+                      "tf": 110
+                    },
+                    "module-ink_collector-CollectorBase.html": {
+                      "ref": "module-ink_collector-CollectorBase.html",
+                      "tf": 110
+                    },
+                    "utils_logger.Logger.html": {
+                      "ref": "utils_logger.Logger.html",
+                      "tf": 120.71428571428571
+                    },
                     "base.html": {
                       "ref": "base.html",
                       "tf": 114.16666666666667
@@ -6763,8 +6774,12 @@ window.lunrData = {
                       "ref": "base.html#destroy",
                       "tf": 2.631578947368421
                     },
-                    "module-ink_collector-CollectorBase.html": {
-                      "ref": "module-ink_collector-CollectorBase.html",
+                    "module-mixins_signalable-Signal.html": {
+                      "ref": "module-mixins_signalable-Signal.html",
+                      "tf": 110
+                    },
+                    "documents_model.html": {
+                      "ref": "documents_model.html",
                       "tf": 110
                     },
                     "module-ink_collector-OCollector.html": {
@@ -6775,10 +6790,6 @@ window.lunrData = {
                       "ref": "module-ink_collector-ACollector.html",
                       "tf": 110
                     },
-                    "documents_model.html": {
-                      "ref": "documents_model.html",
-                      "tf": 110
-                    },
                     "module-documents_probe.queryOperators.html": {
                       "ref": "module-documents_probe.queryOperators.html",
                       "tf": 120
@@ -6787,43 +6798,9 @@ window.lunrData = {
                       "ref": "module-documents_probe.updateOperators.html",
                       "tf": 120
                     },
-                    "base_chains.html": {
-                      "ref": "base_chains.html",
-                      "tf": 110
-                    },
-                    "module-mixins_signalable-Signal.html": {
-                      "ref": "module-mixins_signalable-Signal.html",
-                      "tf": 110
-                    },
-                    "utils_logger.Logger.html": {
-                      "ref": "utils_logger.Logger.html",
-                      "tf": 120.71428571428571
-                    },
                     "module-base.html": {
                       "ref": "module-base.html",
                       "tf": 8.333333333333332
-                    }
-                  }
-                }
-              }
-            },
-            "e": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "n": {
-                  "docs": {
-                    "base.html": {
-                      "ref": "base.html",
-                      "tf": 1.3888888888888888
-                    },
-                    "base_chains.html#destroy": {
-                      "ref": "base_chains.html#destroy",
-                      "tf": 2.564102564102564
-                    },
-                    "module-mixins_signalable-Signal.html#destroy": {
-                      "ref": "module-mixins_signalable-Signal.html#destroy",
-                      "tf": 25
                     }
                   }
                 }
@@ -6835,14 +6812,6 @@ window.lunrData = {
                 "docs": {},
                 "e": {
                   "docs": {
-                    "base.html#close": {
-                      "ref": "base.html#close",
-                      "tf": 752.1739130434783
-                    },
-                    "base.html#end": {
-                      "ref": "base.html#end",
-                      "tf": 2.272727272727273
-                    },
                     "base_chains.html#close": {
                       "ref": "base_chains.html#close",
                       "tf": 752.1739130434783
@@ -6850,6 +6819,36 @@ window.lunrData = {
                     "base_chains.html#end": {
                       "ref": "base_chains.html#end",
                       "tf": 1.6129032258064515
+                    },
+                    "base.html#close": {
+                      "ref": "base.html#close",
+                      "tf": 752.1739130434783
+                    },
+                    "base.html#end": {
+                      "ref": "base.html#end",
+                      "tf": 2.272727272727273
+                    }
+                  }
+                }
+              }
+            },
+            "e": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "n": {
+                  "docs": {
+                    "base_chains.html#destroy": {
+                      "ref": "base_chains.html#destroy",
+                      "tf": 2.564102564102564
+                    },
+                    "base.html": {
+                      "ref": "base.html",
+                      "tf": 1.3888888888888888
+                    },
+                    "module-mixins_signalable-Signal.html#destroy": {
+                      "ref": "module-mixins_signalable-Signal.html#destroy",
+                      "tf": 25
                     }
                   }
                 }
@@ -6864,18 +6863,6 @@ window.lunrData = {
                 "docs": {},
                 "n": {
                   "docs": {
-                    "base.html": {
-                      "ref": "base.html",
-                      "tf": 1.3888888888888888
-                    },
-                    "base.html#close": {
-                      "ref": "base.html#close",
-                      "tf": 1.0869565217391304
-                    },
-                    "base.html#open": {
-                      "ref": "base.html#open",
-                      "tf": 2.083333333333333
-                    },
                     "base_chains.html": {
                       "ref": "base_chains.html",
                       "tf": 5.555555555555555
@@ -6894,6 +6881,18 @@ window.lunrData = {
                     },
                     "base_chains.html#open": {
                       "ref": "base_chains.html#open",
+                      "tf": 2.083333333333333
+                    },
+                    "base.html": {
+                      "ref": "base.html",
+                      "tf": 1.3888888888888888
+                    },
+                    "base.html#close": {
+                      "ref": "base.html#close",
+                      "tf": 1.0869565217391304
+                    },
+                    "base.html#open": {
+                      "ref": "base.html#open",
                       "tf": 2.083333333333333
                     },
                     "module-base_chains.html": {
@@ -6921,6 +6920,10 @@ window.lunrData = {
                 "docs": {},
                 "k": {
                   "docs": {
+                    "module-mixins_signalable-Signal.html#has": {
+                      "ref": "module-mixins_signalable-Signal.html#has",
+                      "tf": 12.5
+                    },
                     "module-documents_probe.queryOperators.html#.$eq": {
                       "ref": "module-documents_probe.queryOperators.html#.$eq",
                       "tf": 2
@@ -6936,10 +6939,6 @@ window.lunrData = {
                     "module-documents_probe.queryOperators.html#.$elemMatch": {
                       "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
                       "tf": 2.7777777777777777
-                    },
-                    "module-mixins_signalable-Signal.html#has": {
-                      "ref": "module-mixins_signalable-Signal.html#has",
-                      "tf": 12.5
                     }
                   }
                 }
@@ -6952,17 +6951,6 @@ window.lunrData = {
               "docs": {},
               "p": {
                 "docs": {},
-                "e": {
-                  "docs": {},
-                  "t": {
-                    "docs": {
-                      "base.html": {
-                        "ref": "base.html",
-                        "tf": 1.3888888888888888
-                      }
-                    }
-                  }
-                },
                 "o": {
                   "docs": {},
                   "s": {
@@ -6976,19 +6964,30 @@ window.lunrData = {
                       "docs": {},
                       "t": {
                         "docs": {
-                          "base.html": {
-                            "ref": "base.html",
-                            "tf": 1.3888888888888888
-                          },
                           "base_chains.html": {
                             "ref": "base_chains.html",
                             "tf": 5.555555555555555
+                          },
+                          "base.html": {
+                            "ref": "base.html",
+                            "tf": 1.3888888888888888
                           },
                           "module-base_chains.html": {
                             "ref": "module-base_chains.html",
                             "tf": 5.555555555555555
                           }
                         }
+                      }
+                    }
+                  }
+                },
+                "e": {
+                  "docs": {},
+                  "t": {
+                    "docs": {
+                      "base.html": {
+                        "ref": "base.html",
+                        "tf": 1.3888888888888888
                       }
                     }
                   }
@@ -7035,13 +7034,122 @@ window.lunrData = {
                 }
               }
             },
-            "r": {
+            "n": {
               "docs": {},
-              "e": {
-                "docs": {
-                  "base.html": {
-                    "ref": "base.html",
-                    "tf": 1.3888888888888888
+              "s": {
+                "docs": {},
+                "t": {
+                  "docs": {},
+                  "r": {
+                    "docs": {},
+                    "u": {
+                      "docs": {},
+                      "c": {
+                        "docs": {},
+                        "t": {
+                          "docs": {},
+                          "o": {
+                            "docs": {},
+                            "r": {
+                              "docs": {
+                                "base_chains.html#destroy": {
+                                  "ref": "base_chains.html#destroy",
+                                  "tf": 1.282051282051282
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "t": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "n": {
+                      "docs": {
+                        "documents_model.html": {
+                          "ref": "documents_model.html",
+                          "tf": 3.125
+                        },
+                        "module-documents_model.html": {
+                          "ref": "module-documents_model.html",
+                          "tf": 3.125
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "d": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "t": {
+                    "docs": {
+                      "module-documents_probe.queryOperators.html#.$elemMatch": {
+                        "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
+                        "tf": 2.7777777777777777
+                      },
+                      "module-documents_probe.queryOperators.html#.$and": {
+                        "ref": "module-documents_probe.queryOperators.html#.$and",
+                        "tf": 6.25
+                      },
+                      "module-documents_probe.queryOperators.html#.$or": {
+                        "ref": "module-documents_probe.queryOperators.html#.$or",
+                        "tf": 6.25
+                      },
+                      "module-documents_probe.queryOperators.html#.$nor": {
+                        "ref": "module-documents_probe.queryOperators.html#.$nor",
+                        "tf": 5.555555555555555
+                      },
+                      "module-documents_probe.queryOperators.html#.$not": {
+                        "ref": "module-documents_probe.queryOperators.html#.$not",
+                        "tf": 8.333333333333332
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "u": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "module-documents_probe.queryOperators.html#.$size": {
+                      "ref": "module-documents_probe.queryOperators.html#.$size",
+                      "tf": 3.8461538461538463
+                    }
+                  },
+                  "e": {
+                    "docs": {},
+                    "r": {
+                      "docs": {},
+                      "p": {
+                        "docs": {},
+                        "a": {
+                          "docs": {},
+                          "r": {
+                            "docs": {},
+                            "t": {
+                              "docs": {
+                                "base_chains.html#destroy": {
+                                  "ref": "base_chains.html#destroy",
+                                  "tf": 1.282051282051282
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 }
               }
@@ -7050,6 +7158,10 @@ window.lunrData = {
               "docs": {},
               "e": {
                 "docs": {
+                  "base_chains.html#open": {
+                    "ref": "base_chains.html#open",
+                    "tf": 2.083333333333333
+                  },
                   "base.html#open": {
                     "ref": "base.html#open",
                     "tf": 2.083333333333333
@@ -7057,10 +7169,6 @@ window.lunrData = {
                   "base.html#end": {
                     "ref": "base.html#end",
                     "tf": 2.272727272727273
-                  },
-                  "base_chains.html#open": {
-                    "ref": "base_chains.html#open",
-                    "tf": 2.083333333333333
                   },
                   "module-mixins_signalable.html": {
                     "ref": "module-mixins_signalable.html",
@@ -7130,143 +7238,13 @@ window.lunrData = {
                 }
               }
             },
-            "n": {
+            "r": {
               "docs": {},
-              "t": {
-                "docs": {},
-                "a": {
-                  "docs": {},
-                  "i": {
-                    "docs": {},
-                    "n": {
-                      "docs": {
-                        "documents_model.html": {
-                          "ref": "documents_model.html",
-                          "tf": 3.125
-                        },
-                        "module-documents_model.html": {
-                          "ref": "module-documents_model.html",
-                          "tf": 3.125
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "d": {
-                "docs": {},
-                "i": {
-                  "docs": {},
-                  "t": {
-                    "docs": {
-                      "module-documents_probe.queryOperators.html#.$elemMatch": {
-                        "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
-                        "tf": 2.7777777777777777
-                      },
-                      "module-documents_probe.queryOperators.html#.$and": {
-                        "ref": "module-documents_probe.queryOperators.html#.$and",
-                        "tf": 6.25
-                      },
-                      "module-documents_probe.queryOperators.html#.$or": {
-                        "ref": "module-documents_probe.queryOperators.html#.$or",
-                        "tf": 6.25
-                      },
-                      "module-documents_probe.queryOperators.html#.$nor": {
-                        "ref": "module-documents_probe.queryOperators.html#.$nor",
-                        "tf": 5.555555555555555
-                      },
-                      "module-documents_probe.queryOperators.html#.$not": {
-                        "ref": "module-documents_probe.queryOperators.html#.$not",
-                        "tf": 8.333333333333332
-                      }
-                    }
-                  }
-                }
-              },
-              "s": {
-                "docs": {},
-                "t": {
-                  "docs": {},
-                  "r": {
-                    "docs": {},
-                    "u": {
-                      "docs": {},
-                      "c": {
-                        "docs": {},
-                        "t": {
-                          "docs": {},
-                          "o": {
-                            "docs": {},
-                            "r": {
-                              "docs": {
-                                "base_chains.html#destroy": {
-                                  "ref": "base_chains.html#destroy",
-                                  "tf": 1.282051282051282
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "u": {
-              "docs": {},
-              "n": {
-                "docs": {},
-                "t": {
-                  "docs": {
-                    "module-documents_probe.queryOperators.html#.$size": {
-                      "ref": "module-documents_probe.queryOperators.html#.$size",
-                      "tf": 3.8461538461538463
-                    }
-                  },
-                  "e": {
-                    "docs": {},
-                    "r": {
-                      "docs": {},
-                      "p": {
-                        "docs": {},
-                        "a": {
-                          "docs": {},
-                          "r": {
-                            "docs": {},
-                            "t": {
-                              "docs": {
-                                "base_chains.html#destroy": {
-                                  "ref": "base_chains.html#destroy",
-                                  "tf": 1.282051282051282
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "r": {
-            "docs": {},
-            "e": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "t": {
-                  "docs": {
-                    "documents_model.html#.set": {
-                      "ref": "documents_model.html#.set",
-                      "tf": 2.272727272727273
-                    },
-                    "module-mixins_signalable-Signal.html": {
-                      "ref": "module-mixins_signalable-Signal.html",
-                      "tf": 6.25
-                    }
+              "e": {
+                "docs": {
+                  "base.html": {
+                    "ref": "base.html",
+                    "tf": 1.3888888888888888
                   }
                 }
               }
@@ -7285,717 +7263,23 @@ window.lunrData = {
                 }
               }
             }
-          }
-        },
-        "a": {
-          "docs": {},
-          "v": {
-            "docs": {},
-            "a": {
-              "docs": {},
-              "i": {
-                "docs": {},
-                "l": {
-                  "docs": {
-                    "list_tutorial.html": {
-                      "ref": "list_tutorial.html",
-                      "tf": 35
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "l": {
-            "docs": {},
-            "l": {
-              "docs": {},
-              "o": {
-                "docs": {},
-                "w": {
-                  "docs": {
-                    "base.html#close": {
-                      "ref": "base.html#close",
-                      "tf": 1.0869565217391304
-                    },
-                    "documents_model.html#.get": {
-                      "ref": "documents_model.html#.get",
-                      "tf": 3.8461538461538463
-                    },
-                    "base_chains.html#close": {
-                      "ref": "base_chains.html#close",
-                      "tf": 1.0869565217391304
-                    },
-                    "base_chains.html#end": {
-                      "ref": "base_chains.html#end",
-                      "tf": 1.6129032258064515
-                    },
-                    "module-documents_binder.html": {
-                      "ref": "module-documents_binder.html",
-                      "tf": 5.555555555555555
-                    }
-                  }
-                }
-              }
-            },
-            "r": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "a": {
-                  "docs": {},
-                  "d": {
-                    "docs": {},
-                    "i": {
-                      "docs": {
-                        "base.html#addOptions": {
-                          "ref": "base.html#addOptions",
-                          "tf": 5.555555555555555
-                        },
-                        "base.html#addDefaultOptions": {
-                          "ref": "base.html#addDefaultOptions",
-                          "tf": 5
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "i": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "s": {
-                  "docs": {
-                    "module-ink_collector-OCollector.html#every": {
-                      "ref": "module-ink_collector-OCollector.html#every",
-                      "tf": 8.333333333333332
-                    },
-                    "module-ink_collector-OCollector.html#some": {
-                      "ref": "module-ink_collector-OCollector.html#some",
-                      "tf": 8.333333333333332
-                    },
-                    "module-ink_collector-OCollector.html#all": {
-                      "ref": "module-ink_collector-OCollector.html#all",
-                      "tf": 8.333333333333332
-                    },
-                    "module-ink_collector-OCollector.html#any": {
-                      "ref": "module-ink_collector-OCollector.html#any",
-                      "tf": 8.333333333333332
-                    },
-                    "module-ink_collector-OCollector.html#findOneKey": {
-                      "ref": "module-ink_collector-OCollector.html#findOneKey",
-                      "tf": 3.125
-                    },
-                    "module-ink_collector-OCollector.html#findOne": {
-                      "ref": "module-ink_collector-OCollector.html#findOne",
-                      "tf": 7.142857142857142
-                    },
-                    "module-ink_collector-ACollector.html#every": {
-                      "ref": "module-ink_collector-ACollector.html#every",
-                      "tf": 8.333333333333332
-                    },
-                    "module-ink_collector-ACollector.html#some": {
-                      "ref": "module-ink_collector-ACollector.html#some",
-                      "tf": 8.333333333333332
-                    },
-                    "module-ink_collector-ACollector.html#all": {
-                      "ref": "module-ink_collector-ACollector.html#all",
-                      "tf": 8.333333333333332
-                    },
-                    "module-ink_collector-ACollector.html#any": {
-                      "ref": "module-ink_collector-ACollector.html#any",
-                      "tf": 8.333333333333332
-                    },
-                    "module-ink_collector-ACollector.html#findOneKey": {
-                      "ref": "module-ink_collector-ACollector.html#findOneKey",
-                      "tf": 3.125
-                    },
-                    "module-ink_collector-ACollector.html#findOne": {
-                      "ref": "module-ink_collector-ACollector.html#findOne",
-                      "tf": 7.142857142857142
-                    },
-                    "documents_model.html#.findOne": {
-                      "ref": "documents_model.html#.findOne",
-                      "tf": 7.142857142857142
-                    },
-                    "documents_model.html#.findOneKey": {
-                      "ref": "documents_model.html#.findOneKey",
-                      "tf": 3.125
-                    },
-                    "documents_model.html#.some": {
-                      "ref": "documents_model.html#.some",
-                      "tf": 8.333333333333332
-                    },
-                    "documents_model.html#.every": {
-                      "ref": "documents_model.html#.every",
-                      "tf": 8.333333333333332
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "s": {
-            "docs": {},
-            "k": {
-              "docs": {
-                "base.html#close": {
-                  "ref": "base.html#close",
-                  "tf": 1.0869565217391304
-                },
-                "base_chains.html#close": {
-                  "ref": "base_chains.html#close",
-                  "tf": 1.0869565217391304
-                },
-                "base_chains.html#end": {
-                  "ref": "base_chains.html#end",
-                  "tf": 1.6129032258064515
-                },
-                "base_chains.html#destroy": {
-                  "ref": "base_chains.html#destroy",
-                  "tf": 1.282051282051282
-                }
-              }
-            },
-            "y": {
-              "docs": {},
-              "n": {
-                "docs": {},
-                "c": {
-                  "docs": {},
-                  "h": {
-                    "docs": {},
-                    "r": {
-                      "docs": {},
-                      "o": {
-                        "docs": {},
-                        "n": {
-                          "docs": {
-                            "module-documents_binder.html": {
-                              "ref": "module-documents_binder.html",
-                              "tf": 2.7777777777777777
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "g": {
-            "docs": {},
-            "a": {
-              "docs": {},
-              "i": {
-                "docs": {},
-                "n": {
-                  "docs": {
-                    "base.html#open": {
-                      "ref": "base.html#open",
-                      "tf": 2.083333333333333
-                    },
-                    "base_chains.html#open": {
-                      "ref": "base_chains.html#open",
-                      "tf": 2.083333333333333
-                    }
-                  },
-                  "t": {
-                    "docs": {
-                      "module-documents_probe.queryOperators.html#.$regex": {
-                        "ref": "module-documents_probe.queryOperators.html#.$regex",
-                        "tf": 4.545454545454546
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "d": {
-            "docs": {},
-            "d": {
-              "docs": {
-                "base.html#addOptions": {
-                  "ref": "base.html#addOptions",
-                  "tf": 5.555555555555555
-                },
-                "base.html#addDefaultOptions": {
-                  "ref": "base.html#addDefaultOptions",
-                  "tf": 5
-                },
-                "module-mixins_signalable.html": {
-                  "ref": "module-mixins_signalable.html",
-                  "tf": 3.3333333333333335
-                }
-              },
-              "o": {
-                "docs": {},
-                "p": {
-                  "docs": {},
-                  "t": {
-                    "docs": {
-                      "base.html#addOptions": {
-                        "ref": "base.html#addOptions",
-                        "tf": 700
-                      }
-                    }
-                  }
-                }
-              },
-              "d": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  "f": {
-                    "docs": {},
-                    "a": {
-                      "docs": {},
-                      "u": {
-                        "docs": {},
-                        "l": {
-                          "docs": {},
-                          "t": {
-                            "docs": {},
-                            "o": {
-                              "docs": {},
-                              "p": {
-                                "docs": {},
-                                "t": {
-                                  "docs": {
-                                    "base.html#addDefaultOptions": {
-                                      "ref": "base.html#addDefaultOptions",
-                                      "tf": 700
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "v": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "n": {
-                  "docs": {},
-                  "t": {
-                    "docs": {},
-                    "a": {
-                      "docs": {},
-                      "g": {
-                        "docs": {
-                          "documents_model.html#_idField": {
-                            "ref": "documents_model.html#_idField",
-                            "tf": 5.555555555555555
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "u": {
-            "docs": {},
-            "t": {
-              "docs": {},
-              "o": {
-                "docs": {},
-                "m": {
-                  "docs": {},
-                  "a": {
-                    "docs": {},
-                    "t": {
-                      "docs": {
-                        "base.html#destroy": {
-                          "ref": "base.html#destroy",
-                          "tf": 2.631578947368421
-                        },
-                        "base_chains.html#destroy": {
-                          "ref": "base_chains.html#destroy",
-                          "tf": 1.282051282051282
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
           },
           "r": {
             "docs": {},
-            "r": {
+            "e": {
               "docs": {},
               "a": {
-                "docs": {},
-                "y": {
-                  "docs": {
-                    "module-ink_collector-OCollector.html#unique": {
-                      "ref": "module-ink_collector-OCollector.html#unique",
-                      "tf": 33.33333333333333
-                    },
-                    "module-ink_collector-OCollector.html#findOneKey": {
-                      "ref": "module-ink_collector-OCollector.html#findOneKey",
-                      "tf": 3.125
-                    },
-                    "module-ink_collector-OCollector.html#findKeys": {
-                      "ref": "module-ink_collector-OCollector.html#findKeys",
-                      "tf": 35.416666666666664
-                    },
-                    "module-ink_collector-OCollector.html#find": {
-                      "ref": "module-ink_collector-OCollector.html#find",
-                      "tf": 33.33333333333333
-                    },
-                    "module-ink_collector-ACollector.html": {
-                      "ref": "module-ink_collector-ACollector.html",
-                      "tf": 16.666666666666664
-                    },
-                    "module-ink_collector-ACollector.html#unique": {
-                      "ref": "module-ink_collector-ACollector.html#unique",
-                      "tf": 33.33333333333333
-                    },
-                    "module-ink_collector-ACollector.html#findOneKey": {
-                      "ref": "module-ink_collector-ACollector.html#findOneKey",
-                      "tf": 3.125
-                    },
-                    "module-ink_collector-ACollector.html#findKeys": {
-                      "ref": "module-ink_collector-ACollector.html#findKeys",
-                      "tf": 35.416666666666664
-                    },
-                    "module-ink_collector-ACollector.html#find": {
-                      "ref": "module-ink_collector-ACollector.html#find",
-                      "tf": 33.33333333333333
-                    },
-                    "documents_model.html#.findOneKey": {
-                      "ref": "documents_model.html#.findOneKey",
-                      "tf": 3.125
-                    },
-                    "documents_model.html#.findKeys": {
-                      "ref": "documents_model.html#.findKeys",
-                      "tf": 22.083333333333332
-                    },
-                    "documents_model.html#.find": {
-                      "ref": "documents_model.html#.find",
-                      "tf": 20
-                    },
-                    "module-documents_probe.queryOperators.html#.$eq": {
-                      "ref": "module-documents_probe.queryOperators.html#.$eq",
-                      "tf": 8
-                    },
-                    "module-documents_probe.queryOperators.html#.$ne": {
-                      "ref": "module-documents_probe.queryOperators.html#.$ne",
-                      "tf": 8.333333333333332
-                    },
-                    "module-documents_probe.queryOperators.html#.$all": {
-                      "ref": "module-documents_probe.queryOperators.html#.$all",
-                      "tf": 10
-                    },
-                    "module-documents_probe.queryOperators.html#.$size": {
-                      "ref": "module-documents_probe.queryOperators.html#.$size",
-                      "tf": 3.8461538461538463
-                    },
-                    "module-documents_probe.queryOperators.html#.$elemMatch": {
-                      "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
-                      "tf": 8.333333333333332
-                    },
-                    "module-documents_probe.updateOperators.html#.$pop": {
-                      "ref": "module-documents_probe.updateOperators.html#.$pop",
-                      "tf": 6.666666666666667
-                    },
-                    "module-documents_probe.updateOperators.html#.$push": {
-                      "ref": "module-documents_probe.updateOperators.html#.$push",
-                      "tf": 5
-                    },
-                    "module-documents_probe.updateOperators.html#.$pull": {
-                      "ref": "module-documents_probe.updateOperators.html#.$pull",
-                      "tf": 4.545454545454546
-                    },
-                    "module-ink_collector.html": {
-                      "ref": "module-ink_collector.html",
-                      "tf": 16.666666666666664
-                    }
-                  }
-                }
-              }
-            },
-            "b": {
-              "docs": {},
-              "i": {
                 "docs": {},
                 "t": {
-                  "docs": {},
-                  "r": {
-                    "docs": {},
-                    "a": {
-                      "docs": {},
-                      "r": {
-                        "docs": {},
-                        "i": {
-                          "docs": {
-                            "documents_model.html#.set": {
-                              "ref": "documents_model.html#.set",
-                              "tf": 2.272727272727273
-                            },
-                            "module-documents_binder.html": {
-                              "ref": "module-documents_binder.html",
-                              "tf": 2.7777777777777777
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "t": {
-              "docs": {},
-              "i": {
-                "docs": {},
-                "f": {
-                  "docs": {},
-                  "a": {
-                    "docs": {},
-                    "c": {
-                      "docs": {},
-                      "t": {
-                        "docs": {
-                          "module-documents_probe.queryOperators.html": {
-                            "ref": "module-documents_probe.queryOperators.html",
-                            "tf": 10
-                          },
-                          "module-documents_probe.updateOperators.html": {
-                            "ref": "module-documents_probe.updateOperators.html",
-                            "tf": 10
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "c": {
-            "docs": {},
-            "o": {
-              "docs": {},
-              "l": {
-                "docs": {},
-                "l": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "c": {
-                      "docs": {},
-                      "t": {
-                        "docs": {},
-                        "o": {
-                          "docs": {},
-                          "r": {
-                            "docs": {
-                              "module-ink_collector-ACollector.html": {
-                                "ref": "module-ink_collector-ACollector.html",
-                                "tf": 500
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "t": {
-              "docs": {},
-              "u": {
-                "docs": {},
-                "a": {
-                  "docs": {},
-                  "l": {
-                    "docs": {
-                      "module-documents_probe.queryOperators.html": {
-                        "ref": "module-documents_probe.queryOperators.html",
-                        "tf": 10
-                      },
-                      "module-documents_probe.updateOperators.html": {
-                        "ref": "module-documents_probe.updateOperators.html",
-                        "tf": 10
-                      },
-                      "base_chains.html#destroy": {
-                        "ref": "base_chains.html#destroy",
-                        "tf": 1.282051282051282
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "c": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "s": {
-                  "docs": {},
-                  "s": {
-                    "docs": {
-                      "documents_schema.html": {
-                        "ref": "documents_schema.html",
-                        "tf": 6.25
-                      },
-                      "mixins_bussable.html": {
-                        "ref": "mixins_bussable.html",
-                        "tf": 5.555555555555555
-                      },
-                      "module-mixins_bussable.html": {
-                        "ref": "module-mixins_bussable.html",
-                        "tf": 5.555555555555555
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "n": {
-            "docs": {},
-            "y": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                "h": {
                   "docs": {
-                    "documents_model.html": {
-                      "ref": "documents_model.html",
-                      "tf": 3.125
-                    },
-                    "utils_logger.Logger.html#silent": {
-                      "ref": "utils_logger.Logger.html#silent",
+                    "module-mixins_signalable-Signal.html": {
+                      "ref": "module-mixins_signalable-Signal.html",
                       "tf": 6.25
                     },
-                    "module-documents_model.html": {
-                      "ref": "module-documents_model.html",
-                      "tf": 3.125
+                    "documents_model.html#.set": {
+                      "ref": "documents_model.html#.set",
+                      "tf": 2.272727272727273
                     }
-                  }
-                }
-              }
-            }
-          },
-          "t": {
-            "docs": {},
-            "o": {
-              "docs": {},
-              "m": {
-                "docs": {
-                  "module-documents_probe.queryOperators.html#.$eq": {
-                    "ref": "module-documents_probe.queryOperators.html#.$eq",
-                    "tf": 2
-                  },
-                  "module-documents_probe.queryOperators.html#.$ne": {
-                    "ref": "module-documents_probe.queryOperators.html#.$ne",
-                    "tf": 2.7777777777777777
-                  }
-                }
-              }
-            },
-            "t": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "c": {
-                  "docs": {},
-                  "h": {
-                    "docs": {
-                      "module-mixins_signalable-Signal.html#has": {
-                        "ref": "module-mixins_signalable-Signal.html#has",
-                        "tf": 12.5
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "m": {
-            "docs": {},
-            "o": {
-              "docs": {},
-              "u": {
-                "docs": {},
-                "n": {
-                  "docs": {},
-                  "t": {
-                    "docs": {
-                      "module-documents_probe.updateOperators.html#.$inc": {
-                        "ref": "module-documents_probe.updateOperators.html#.$inc",
-                        "tf": 11.11111111111111
-                      },
-                      "module-documents_probe.updateOperators.html#.$dec": {
-                        "ref": "module-documents_probe.updateOperators.html#.$dec",
-                        "tf": 11.11111111111111
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "p": {
-            "docs": {},
-            "p": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "n": {
-                  "docs": {},
-                  "d": {
-                    "docs": {
-                      "module-documents_probe.updateOperators.html#.$push": {
-                        "ref": "module-documents_probe.updateOperators.html#.$push",
-                        "tf": 5
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "w": {
-            "docs": {},
-            "a": {
-              "docs": {},
-              "y": {
-                "docs": {
-                  "base_chains.html#destroy": {
-                    "ref": "base_chains.html#destroy",
-                    "tf": 1.282051282051282
-                  }
-                }
-              }
-            }
-          },
-          "b": {
-            "docs": {},
-            "i": {
-              "docs": {},
-              "l": {
-                "docs": {
-                  "module-mixins_signalable.html": {
-                    "ref": "module-mixins_signalable.html",
-                    "tf": 3.3333333333333335
                   }
                 }
               }
@@ -8010,10 +7294,6 @@ window.lunrData = {
               "docs": {},
               "t": {
                 "docs": {
-                  "list_tutorial.html": {
-                    "ref": "list_tutorial.html",
-                    "tf": 110
-                  },
                   "list_class.html": {
                     "ref": "list_class.html",
                     "tf": 110
@@ -8025,33 +7305,14 @@ window.lunrData = {
                   "list_module.html": {
                     "ref": "list_module.html",
                     "tf": 110
+                  },
+                  "list_tutorial.html": {
+                    "ref": "list_tutorial.html",
+                    "tf": 110
                   }
                 },
                 ":": {
                   "docs": {},
-                  "t": {
-                    "docs": {},
-                    "u": {
-                      "docs": {},
-                      "t": {
-                        "docs": {},
-                        "o": {
-                          "docs": {},
-                          "r": {
-                            "docs": {},
-                            "i": {
-                              "docs": {
-                                "list_tutorial.html": {
-                                  "ref": "list_tutorial.html",
-                                  "tf": 1300
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
                   "c": {
                     "docs": {},
                     "l": {
@@ -8102,6 +7363,29 @@ window.lunrData = {
                               "list_module.html": {
                                 "ref": "list_module.html",
                                 "tf": 1300
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "t": {
+                    "docs": {},
+                    "u": {
+                      "docs": {},
+                      "t": {
+                        "docs": {},
+                        "o": {
+                          "docs": {},
+                          "r": {
+                            "docs": {},
+                            "i": {
+                              "docs": {
+                                "list_tutorial.html": {
+                                  "ref": "list_tutorial.html",
+                                  "tf": 1300
+                                }
                               }
                             }
                           }
@@ -8194,97 +7478,12 @@ window.lunrData = {
               }
             }
           },
-          "e": {
-            "docs": {},
-            "v": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "l": {
-                  "docs": {
-                    "base.html": {
-                      "ref": "base.html",
-                      "tf": 1.3888888888888888
-                    },
-                    "base.html#destroy": {
-                      "ref": "base.html#destroy",
-                      "tf": 2.631578947368421
-                    },
-                    "documents_model.html": {
-                      "ref": "documents_model.html",
-                      "tf": 3.125
-                    },
-                    "utils_logger.Logger.html": {
-                      "ref": "utils_logger.Logger.html",
-                      "tf": 3.571428571428571
-                    },
-                    "utils_logger.Logger.html#all": {
-                      "ref": "utils_logger.Logger.html#all",
-                      "tf": 16.666666666666664
-                    },
-                    "utils_logger.Logger.html#level": {
-                      "ref": "utils_logger.Logger.html#level",
-                      "tf": 655.5555555555555
-                    },
-                    "module-documents_model.html": {
-                      "ref": "module-documents_model.html",
-                      "tf": 3.125
-                    }
-                  }
-                }
-              }
-            },
-            "n": {
-              "docs": {},
-              "g": {
-                "docs": {},
-                "t": {
-                  "docs": {},
-                  "h": {
-                    "docs": {
-                      "module-ink_collector-OCollector.html#length": {
-                        "ref": "module-ink_collector-OCollector.html#length",
-                        "tf": 700
-                      },
-                      "module-ink_collector-ACollector.html#length": {
-                        "ref": "module-ink_collector-ACollector.html#length",
-                        "tf": 700
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "s": {
-              "docs": {},
-              "s": {
-                "docs": {
-                  "module-documents_probe.queryOperators.html#.$lt": {
-                    "ref": "module-documents_probe.queryOperators.html#.$lt",
-                    "tf": 6.25
-                  },
-                  "module-documents_probe.queryOperators.html#.$lte": {
-                    "ref": "module-documents_probe.queryOperators.html#.$lte",
-                    "tf": 5.555555555555555
-                  }
-                }
-              }
-            }
-          },
           "a": {
             "docs": {},
             "s": {
               "docs": {},
               "t": {
                 "docs": {
-                  "base.html#close": {
-                    "ref": "base.html#close",
-                    "tf": 1.0869565217391304
-                  },
-                  "module-documents_probe.updateOperators.html#.$pop": {
-                    "ref": "module-documents_probe.updateOperators.html#.$pop",
-                    "tf": 3.3333333333333335
-                  },
                   "base_chains.html#close": {
                     "ref": "base_chains.html#close",
                     "tf": 1.0869565217391304
@@ -8296,6 +7495,14 @@ window.lunrData = {
                   "base_chains.html#destroy": {
                     "ref": "base_chains.html#destroy",
                     "tf": 1.282051282051282
+                  },
+                  "base.html#close": {
+                    "ref": "base.html#close",
+                    "tf": 1.0869565217391304
+                  },
+                  "module-documents_probe.updateOperators.html#.$pop": {
+                    "ref": "module-documents_probe.updateOperators.html#.$pop",
+                    "tf": 3.3333333333333335
                   }
                 }
               }
@@ -8306,12 +7513,12 @@ window.lunrData = {
                 "docs": {},
                 "r": {
                   "docs": {
-                    "base.html#open": {
-                      "ref": "base.html#open",
-                      "tf": 2.083333333333333
-                    },
                     "base_chains.html#open": {
                       "ref": "base_chains.html#open",
+                      "tf": 2.083333333333333
+                    },
+                    "base.html#open": {
+                      "ref": "base.html#open",
                       "tf": 2.083333333333333
                     }
                   }
@@ -8348,20 +7555,20 @@ window.lunrData = {
                                 "docs": {},
                                 "t": {
                                   "docs": {
-                                    "documents_model.html#_idField": {
-                                      "ref": "documents_model.html#_idField",
-                                      "tf": 33.33333333333333
-                                    },
-                                    "documents_model.html#_pkey": {
-                                      "ref": "documents_model.html#_pkey",
-                                      "tf": 50
-                                    },
                                     "base_chains.html#destroy": {
                                       "ref": "base_chains.html#destroy",
                                       "tf": 50
                                     },
                                     "module-mixins_signalable-Signal.html#destroy": {
                                       "ref": "module-mixins_signalable-Signal.html#destroy",
+                                      "tf": 50
+                                    },
+                                    "documents_model.html#_idField": {
+                                      "ref": "documents_model.html#_idField",
+                                      "tf": 33.33333333333333
+                                    },
+                                    "documents_model.html#_pkey": {
+                                      "ref": "documents_model.html#_pkey",
                                       "tf": 50
                                     }
                                   }
@@ -8393,24 +7600,16 @@ window.lunrData = {
                               "docs": {},
                               "t": {
                                 "docs": {
-                                  "documents_model.html#.get": {
-                                    "ref": "documents_model.html#.get",
-                                    "tf": 33.33333333333333
+                                  "documents_model.html#.update": {
+                                    "ref": "documents_model.html#.update",
+                                    "tf": 20
                                   },
-                                  "documents_model.html#.set": {
-                                    "ref": "documents_model.html#.set",
-                                    "tf": 16.666666666666664
+                                  "documents_model.html#.find": {
+                                    "ref": "documents_model.html#.find",
+                                    "tf": 20
                                   },
-                                  "documents_model.html#.any": {
-                                    "ref": "documents_model.html#.any",
-                                    "tf": 25
-                                  },
-                                  "documents_model.html#.all": {
-                                    "ref": "documents_model.html#.all",
-                                    "tf": 25
-                                  },
-                                  "documents_model.html#.remove": {
-                                    "ref": "documents_model.html#.remove",
+                                  "documents_model.html#.findKeys": {
+                                    "ref": "documents_model.html#.findKeys",
                                     "tf": 20
                                   },
                                   "documents_model.html#.findOne": {
@@ -8421,17 +7620,25 @@ window.lunrData = {
                                     "ref": "documents_model.html#.findOneKey",
                                     "tf": 20
                                   },
-                                  "documents_model.html#.findKeys": {
-                                    "ref": "documents_model.html#.findKeys",
+                                  "documents_model.html#.remove": {
+                                    "ref": "documents_model.html#.remove",
                                     "tf": 20
                                   },
-                                  "documents_model.html#.find": {
-                                    "ref": "documents_model.html#.find",
-                                    "tf": 20
+                                  "documents_model.html#.all": {
+                                    "ref": "documents_model.html#.all",
+                                    "tf": 25
                                   },
-                                  "documents_model.html#.update": {
-                                    "ref": "documents_model.html#.update",
-                                    "tf": 20
+                                  "documents_model.html#.any": {
+                                    "ref": "documents_model.html#.any",
+                                    "tf": 25
+                                  },
+                                  "documents_model.html#.set": {
+                                    "ref": "documents_model.html#.set",
+                                    "tf": 16.666666666666664
+                                  },
+                                  "documents_model.html#.get": {
+                                    "ref": "documents_model.html#.get",
+                                    "tf": 33.33333333333333
                                   },
                                   "documents_model.html#.some": {
                                     "ref": "documents_model.html#.some",
@@ -8644,31 +7851,85 @@ window.lunrData = {
               }
             }
           },
-          "o": {
+          "e": {
             "docs": {},
-            "o": {
+            "v": {
               "docs": {},
-              "k": {
-                "docs": {
-                  "module-documents_probe.queryOperators.html#.$eq": {
-                    "ref": "module-documents_probe.queryOperators.html#.$eq",
-                    "tf": 2
-                  },
-                  "module-documents_probe.updateOperators.html#.$push": {
-                    "ref": "module-documents_probe.updateOperators.html#.$push",
-                    "tf": 5
-                  },
-                  "module-documents_probe.updateOperators.html#.$pull": {
-                    "ref": "module-documents_probe.updateOperators.html#.$pull",
-                    "tf": 4.545454545454546
-                  },
-                  "module-documents_binder.html": {
-                    "ref": "module-documents_binder.html",
-                    "tf": 5.555555555555555
+              "e": {
+                "docs": {},
+                "l": {
+                  "docs": {
+                    "utils_logger.Logger.html": {
+                      "ref": "utils_logger.Logger.html",
+                      "tf": 3.571428571428571
+                    },
+                    "utils_logger.Logger.html#all": {
+                      "ref": "utils_logger.Logger.html#all",
+                      "tf": 16.666666666666664
+                    },
+                    "utils_logger.Logger.html#level": {
+                      "ref": "utils_logger.Logger.html#level",
+                      "tf": 655.5555555555555
+                    },
+                    "base.html": {
+                      "ref": "base.html",
+                      "tf": 1.3888888888888888
+                    },
+                    "base.html#destroy": {
+                      "ref": "base.html#destroy",
+                      "tf": 2.631578947368421
+                    },
+                    "documents_model.html": {
+                      "ref": "documents_model.html",
+                      "tf": 3.125
+                    },
+                    "module-documents_model.html": {
+                      "ref": "module-documents_model.html",
+                      "tf": 3.125
+                    }
                   }
                 }
               }
             },
+            "n": {
+              "docs": {},
+              "g": {
+                "docs": {},
+                "t": {
+                  "docs": {},
+                  "h": {
+                    "docs": {
+                      "module-ink_collector-OCollector.html#length": {
+                        "ref": "module-ink_collector-OCollector.html#length",
+                        "tf": 700
+                      },
+                      "module-ink_collector-ACollector.html#length": {
+                        "ref": "module-ink_collector-ACollector.html#length",
+                        "tf": 700
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "s": {
+              "docs": {},
+              "s": {
+                "docs": {
+                  "module-documents_probe.queryOperators.html#.$lt": {
+                    "ref": "module-documents_probe.queryOperators.html#.$lt",
+                    "tf": 6.25
+                  },
+                  "module-documents_probe.queryOperators.html#.$lte": {
+                    "ref": "module-documents_probe.queryOperators.html#.$lte",
+                    "tf": 5.555555555555555
+                  }
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
             "g": {
               "docs": {
                 "utils_logger.Logger.html": {
@@ -8710,17 +7971,6 @@ window.lunrData = {
                 "module-utils_logger.html": {
                   "ref": "module-utils_logger.html",
                   "tf": 7.142857142857142
-                }
-              },
-              "i": {
-                "docs": {},
-                "c": {
-                  "docs": {
-                    "module-documents_probe.queryOperators.html#.$not": {
-                      "ref": "module-documents_probe.queryOperators.html#.$not",
-                      "tf": 8.333333333333332
-                    }
-                  }
                 }
               },
               "g": {
@@ -8873,6 +8123,40 @@ window.lunrData = {
                         }
                       }
                     }
+                  }
+                }
+              },
+              "i": {
+                "docs": {},
+                "c": {
+                  "docs": {
+                    "module-documents_probe.queryOperators.html#.$not": {
+                      "ref": "module-documents_probe.queryOperators.html#.$not",
+                      "tf": 8.333333333333332
+                    }
+                  }
+                }
+              }
+            },
+            "o": {
+              "docs": {},
+              "k": {
+                "docs": {
+                  "module-documents_probe.queryOperators.html#.$eq": {
+                    "ref": "module-documents_probe.queryOperators.html#.$eq",
+                    "tf": 2
+                  },
+                  "module-documents_probe.updateOperators.html#.$push": {
+                    "ref": "module-documents_probe.updateOperators.html#.$push",
+                    "tf": 5
+                  },
+                  "module-documents_probe.updateOperators.html#.$pull": {
+                    "ref": "module-documents_probe.updateOperators.html#.$pull",
+                    "tf": 4.545454545454546
+                  },
+                  "module-documents_binder.html": {
+                    "ref": "module-documents_binder.html",
+                    "tf": 5.555555555555555
                   }
                 }
               }
@@ -9720,6 +9004,195 @@ window.lunrData = {
                           }
                         }
                       },
+                      "m": {
+                        "docs": {},
+                        "i": {
+                          "docs": {},
+                          "x": {
+                            "docs": {},
+                            "i": {
+                              "docs": {},
+                              "n": {
+                                "docs": {},
+                                "s": {
+                                  "docs": {},
+                                  "/": {
+                                    "docs": {},
+                                    "s": {
+                                      "docs": {},
+                                      "i": {
+                                        "docs": {},
+                                        "g": {
+                                          "docs": {},
+                                          "n": {
+                                            "docs": {},
+                                            "a": {
+                                              "docs": {},
+                                              "l": {
+                                                "docs": {
+                                                  "module-mixins_signalable.html": {
+                                                    "ref": "module-mixins_signalable.html",
+                                                    "tf": 1300
+                                                  }
+                                                },
+                                                "a": {
+                                                  "docs": {},
+                                                  "b": {
+                                                    "docs": {},
+                                                    "l": {
+                                                      "docs": {},
+                                                      "e": {
+                                                        "docs": {},
+                                                        "~": {
+                                                          "docs": {},
+                                                          "s": {
+                                                            "docs": {},
+                                                            "i": {
+                                                              "docs": {},
+                                                              "g": {
+                                                                "docs": {},
+                                                                "n": {
+                                                                  "docs": {
+                                                                    "module-mixins_signalable-Signal.html": {
+                                                                      "ref": "module-mixins_signalable-Signal.html",
+                                                                      "tf": 1300
+                                                                    }
+                                                                  },
+                                                                  "a": {
+                                                                    "docs": {},
+                                                                    "l": {
+                                                                      "docs": {},
+                                                                      "#": {
+                                                                        "docs": {},
+                                                                        "d": {
+                                                                          "docs": {},
+                                                                          "e": {
+                                                                            "docs": {},
+                                                                            "s": {
+                                                                              "docs": {},
+                                                                              "t": {
+                                                                                "docs": {},
+                                                                                "r": {
+                                                                                  "docs": {},
+                                                                                  "o": {
+                                                                                    "docs": {},
+                                                                                    "y": {
+                                                                                      "docs": {
+                                                                                        "module-mixins_signalable-Signal.html#destroy": {
+                                                                                          "ref": "module-mixins_signalable-Signal.html#destroy",
+                                                                                          "tf": 1150
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "o": {
+                                                                          "docs": {},
+                                                                          "n": {
+                                                                            "docs": {
+                                                                              "module-mixins_signalable-Signal.html#on": {
+                                                                                "ref": "module-mixins_signalable-Signal.html#on",
+                                                                                "tf": 1300
+                                                                              }
+                                                                            },
+                                                                            "c": {
+                                                                              "docs": {
+                                                                                "module-mixins_signalable-Signal.html#once": {
+                                                                                  "ref": "module-mixins_signalable-Signal.html#once",
+                                                                                  "tf": 1150
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          },
+                                                                          "f": {
+                                                                            "docs": {},
+                                                                            "f": {
+                                                                              "docs": {
+                                                                                "module-mixins_signalable-Signal.html#off": {
+                                                                                  "ref": "module-mixins_signalable-Signal.html#off",
+                                                                                  "tf": 1300
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "h": {
+                                                                          "docs": {},
+                                                                          "a": {
+                                                                            "docs": {
+                                                                              "module-mixins_signalable-Signal.html#has": {
+                                                                                "ref": "module-mixins_signalable-Signal.html#has",
+                                                                                "tf": 1300
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "t": {
+                                                                          "docs": {},
+                                                                          "o": {
+                                                                            "docs": {},
+                                                                            "s": {
+                                                                              "docs": {},
+                                                                              "t": {
+                                                                                "docs": {},
+                                                                                "r": {
+                                                                                  "docs": {
+                                                                                    "module-mixins_signalable-Signal.html#toString": {
+                                                                                      "ref": "module-mixins_signalable-Signal.html#toString",
+                                                                                      "tf": 1150
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "b": {
+                                      "docs": {},
+                                      "u": {
+                                        "docs": {},
+                                        "s": {
+                                          "docs": {},
+                                          "s": {
+                                            "docs": {
+                                              "module-mixins_bussable.html": {
+                                                "ref": "module-mixins_bussable.html",
+                                                "tf": 1300
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
                       "d": {
                         "docs": {},
                         "o": {
@@ -9757,23 +9230,6 @@ window.lunrData = {
                                                     "docs": {},
                                                     ".": {
                                                       "docs": {},
-                                                      "f": {
-                                                        "docs": {},
-                                                        "i": {
-                                                          "docs": {},
-                                                          "n": {
-                                                            "docs": {},
-                                                            "d": {
-                                                              "docs": {
-                                                                "documents_model.html#.findKeys": {
-                                                                  "ref": "documents_model.html#.findKeys",
-                                                                  "tf": 2.083333333333333
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      },
                                                       "u": {
                                                         "docs": {},
                                                         "p": {
@@ -9912,6 +9368,23 @@ window.lunrData = {
                                                                       }
                                                                     }
                                                                   }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "f": {
+                                                        "docs": {},
+                                                        "i": {
+                                                          "docs": {},
+                                                          "n": {
+                                                            "docs": {},
+                                                            "d": {
+                                                              "docs": {
+                                                                "documents_model.html#.findKeys": {
+                                                                  "ref": "documents_model.html#.findKeys",
+                                                                  "tf": 2.083333333333333
                                                                 }
                                                               }
                                                             }
@@ -10258,195 +9731,6 @@ window.lunrData = {
                           }
                         }
                       },
-                      "m": {
-                        "docs": {},
-                        "i": {
-                          "docs": {},
-                          "x": {
-                            "docs": {},
-                            "i": {
-                              "docs": {},
-                              "n": {
-                                "docs": {},
-                                "s": {
-                                  "docs": {},
-                                  "/": {
-                                    "docs": {},
-                                    "s": {
-                                      "docs": {},
-                                      "i": {
-                                        "docs": {},
-                                        "g": {
-                                          "docs": {},
-                                          "n": {
-                                            "docs": {},
-                                            "a": {
-                                              "docs": {},
-                                              "l": {
-                                                "docs": {
-                                                  "module-mixins_signalable.html": {
-                                                    "ref": "module-mixins_signalable.html",
-                                                    "tf": 1300
-                                                  }
-                                                },
-                                                "a": {
-                                                  "docs": {},
-                                                  "b": {
-                                                    "docs": {},
-                                                    "l": {
-                                                      "docs": {},
-                                                      "e": {
-                                                        "docs": {},
-                                                        "~": {
-                                                          "docs": {},
-                                                          "s": {
-                                                            "docs": {},
-                                                            "i": {
-                                                              "docs": {},
-                                                              "g": {
-                                                                "docs": {},
-                                                                "n": {
-                                                                  "docs": {
-                                                                    "module-mixins_signalable-Signal.html": {
-                                                                      "ref": "module-mixins_signalable-Signal.html",
-                                                                      "tf": 1300
-                                                                    }
-                                                                  },
-                                                                  "a": {
-                                                                    "docs": {},
-                                                                    "l": {
-                                                                      "docs": {},
-                                                                      "#": {
-                                                                        "docs": {},
-                                                                        "d": {
-                                                                          "docs": {},
-                                                                          "e": {
-                                                                            "docs": {},
-                                                                            "s": {
-                                                                              "docs": {},
-                                                                              "t": {
-                                                                                "docs": {},
-                                                                                "r": {
-                                                                                  "docs": {},
-                                                                                  "o": {
-                                                                                    "docs": {},
-                                                                                    "y": {
-                                                                                      "docs": {
-                                                                                        "module-mixins_signalable-Signal.html#destroy": {
-                                                                                          "ref": "module-mixins_signalable-Signal.html#destroy",
-                                                                                          "tf": 1150
-                                                                                        }
-                                                                                      }
-                                                                                    }
-                                                                                  }
-                                                                                }
-                                                                              }
-                                                                            }
-                                                                          }
-                                                                        },
-                                                                        "o": {
-                                                                          "docs": {},
-                                                                          "n": {
-                                                                            "docs": {
-                                                                              "module-mixins_signalable-Signal.html#on": {
-                                                                                "ref": "module-mixins_signalable-Signal.html#on",
-                                                                                "tf": 1300
-                                                                              }
-                                                                            },
-                                                                            "c": {
-                                                                              "docs": {
-                                                                                "module-mixins_signalable-Signal.html#once": {
-                                                                                  "ref": "module-mixins_signalable-Signal.html#once",
-                                                                                  "tf": 1150
-                                                                                }
-                                                                              }
-                                                                            }
-                                                                          },
-                                                                          "f": {
-                                                                            "docs": {},
-                                                                            "f": {
-                                                                              "docs": {
-                                                                                "module-mixins_signalable-Signal.html#off": {
-                                                                                  "ref": "module-mixins_signalable-Signal.html#off",
-                                                                                  "tf": 1300
-                                                                                }
-                                                                              }
-                                                                            }
-                                                                          }
-                                                                        },
-                                                                        "h": {
-                                                                          "docs": {},
-                                                                          "a": {
-                                                                            "docs": {
-                                                                              "module-mixins_signalable-Signal.html#has": {
-                                                                                "ref": "module-mixins_signalable-Signal.html#has",
-                                                                                "tf": 1300
-                                                                              }
-                                                                            }
-                                                                          }
-                                                                        },
-                                                                        "t": {
-                                                                          "docs": {},
-                                                                          "o": {
-                                                                            "docs": {},
-                                                                            "s": {
-                                                                              "docs": {},
-                                                                              "t": {
-                                                                                "docs": {},
-                                                                                "r": {
-                                                                                  "docs": {
-                                                                                    "module-mixins_signalable-Signal.html#toString": {
-                                                                                      "ref": "module-mixins_signalable-Signal.html#toString",
-                                                                                      "tf": 1150
-                                                                                    }
-                                                                                  }
-                                                                                }
-                                                                              }
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    },
-                                    "b": {
-                                      "docs": {},
-                                      "u": {
-                                        "docs": {},
-                                        "s": {
-                                          "docs": {},
-                                          "s": {
-                                            "docs": {
-                                              "module-mixins_bussable.html": {
-                                                "ref": "module-mixins_bussable.html",
-                                                "tf": 1300
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      },
                       "b": {
                         "docs": {},
                         "a": {
@@ -10612,39 +9896,12 @@ window.lunrData = {
               }
             }
           },
-          "u": {
-            "docs": {},
-            "l": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                "i": {
-                  "docs": {},
-                  "p": {
-                    "docs": {},
-                    "l": {
-                      "docs": {
-                        "base.html": {
-                          "ref": "base.html",
-                          "tf": 1.3888888888888888
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
           "a": {
             "docs": {},
             "k": {
               "docs": {},
               "e": {
                 "docs": {
-                  "base.html#close": {
-                    "ref": "base.html#close",
-                    "tf": 1.0869565217391304
-                  },
                   "base_chains.html#close": {
                     "ref": "base_chains.html#close",
                     "tf": 1.0869565217391304
@@ -10652,6 +9909,10 @@ window.lunrData = {
                   "base_chains.html#end": {
                     "ref": "base_chains.html#end",
                     "tf": 1.6129032258064515
+                  },
+                  "base.html#close": {
+                    "ref": "base.html#close",
+                    "tf": 1.0869565217391304
                   },
                   "mixins_signalable.html": {
                     "ref": "mixins_signalable.html",
@@ -10689,6 +9950,46 @@ window.lunrData = {
                 "docs": {},
                 "h": {
                   "docs": {
+                    "documents_model.html#.update": {
+                      "ref": "documents_model.html#.update",
+                      "tf": 5.555555555555555
+                    },
+                    "documents_model.html#.find": {
+                      "ref": "documents_model.html#.find",
+                      "tf": 12.5
+                    },
+                    "documents_model.html#.findKeys": {
+                      "ref": "documents_model.html#.findKeys",
+                      "tf": 2.083333333333333
+                    },
+                    "documents_model.html#.findOne": {
+                      "ref": "documents_model.html#.findOne",
+                      "tf": 7.142857142857142
+                    },
+                    "documents_model.html#.findOneKey": {
+                      "ref": "documents_model.html#.findOneKey",
+                      "tf": 3.125
+                    },
+                    "documents_model.html#.remove": {
+                      "ref": "documents_model.html#.remove",
+                      "tf": 10
+                    },
+                    "documents_model.html#.all": {
+                      "ref": "documents_model.html#.all",
+                      "tf": 10
+                    },
+                    "documents_model.html#.any": {
+                      "ref": "documents_model.html#.any",
+                      "tf": 10
+                    },
+                    "documents_model.html#.some": {
+                      "ref": "documents_model.html#.some",
+                      "tf": 8.333333333333332
+                    },
+                    "documents_model.html#.every": {
+                      "ref": "documents_model.html#.every",
+                      "tf": 8.333333333333332
+                    },
                     "module-ink_collector-OCollector.html#every": {
                       "ref": "module-ink_collector-OCollector.html#every",
                       "tf": 8.333333333333332
@@ -10777,46 +10078,6 @@ window.lunrData = {
                       "ref": "module-ink_collector-ACollector.html#update",
                       "tf": 5.555555555555555
                     },
-                    "documents_model.html#.any": {
-                      "ref": "documents_model.html#.any",
-                      "tf": 10
-                    },
-                    "documents_model.html#.all": {
-                      "ref": "documents_model.html#.all",
-                      "tf": 10
-                    },
-                    "documents_model.html#.remove": {
-                      "ref": "documents_model.html#.remove",
-                      "tf": 10
-                    },
-                    "documents_model.html#.findOne": {
-                      "ref": "documents_model.html#.findOne",
-                      "tf": 7.142857142857142
-                    },
-                    "documents_model.html#.findOneKey": {
-                      "ref": "documents_model.html#.findOneKey",
-                      "tf": 3.125
-                    },
-                    "documents_model.html#.findKeys": {
-                      "ref": "documents_model.html#.findKeys",
-                      "tf": 2.083333333333333
-                    },
-                    "documents_model.html#.find": {
-                      "ref": "documents_model.html#.find",
-                      "tf": 12.5
-                    },
-                    "documents_model.html#.update": {
-                      "ref": "documents_model.html#.update",
-                      "tf": 5.555555555555555
-                    },
-                    "documents_model.html#.some": {
-                      "ref": "documents_model.html#.some",
-                      "tf": 8.333333333333332
-                    },
-                    "documents_model.html#.every": {
-                      "ref": "documents_model.html#.every",
-                      "tf": 8.333333333333332
-                    },
                     "module-documents_probe.queryOperators.html#.$elemMatch": {
                       "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
                       "tf": 2.7777777777777777
@@ -10843,14 +10104,6 @@ window.lunrData = {
               "docs": {},
               "n": {
                 "docs": {
-                  "base.html#close": {
-                    "ref": "base.html#close",
-                    "tf": 1.0869565217391304
-                  },
-                  "base.html#open": {
-                    "ref": "base.html#open",
-                    "tf": 2.083333333333333
-                  },
                   "base_chains.html#close": {
                     "ref": "base_chains.html#close",
                     "tf": 1.0869565217391304
@@ -10865,6 +10118,14 @@ window.lunrData = {
                   },
                   "base_chains.html#open": {
                     "ref": "base_chains.html#open",
+                    "tf": 2.083333333333333
+                  },
+                  "base.html#close": {
+                    "ref": "base.html#close",
+                    "tf": 1.0869565217391304
+                  },
+                  "base.html#open": {
+                    "ref": "base.html#open",
                     "tf": 2.083333333333333
                   }
                 },
@@ -10886,6 +10147,26 @@ window.lunrData = {
                   "docs": {},
                   "r": {
                     "docs": {
+                      "base_chains.html#close": {
+                        "ref": "base_chains.html#close",
+                        "tf": 110
+                      },
+                      "base_chains.html#end": {
+                        "ref": "base_chains.html#end",
+                        "tf": 110
+                      },
+                      "base_chains.html#destroy": {
+                        "ref": "base_chains.html#destroy",
+                        "tf": 110
+                      },
+                      "base_chains.html#open": {
+                        "ref": "base_chains.html#open",
+                        "tf": 110
+                      },
+                      "utils_logger.Logger.html": {
+                        "ref": "utils_logger.Logger.html",
+                        "tf": 3.571428571428571
+                      },
                       "base.html#close": {
                         "ref": "base.html#close",
                         "tf": 110
@@ -10897,14 +10178,6 @@ window.lunrData = {
                       "base.html#addOptions": {
                         "ref": "base.html#addOptions",
                         "tf": 5.555555555555555
-                      },
-                      "module-ink_collector-OCollector.html#length": {
-                        "ref": "module-ink_collector-OCollector.html#length",
-                        "tf": 110
-                      },
-                      "module-ink_collector-ACollector.html#length": {
-                        "ref": "module-ink_collector-ACollector.html#length",
-                        "tf": 110
                       },
                       "documents_model.html#_idField": {
                         "ref": "documents_model.html#_idField",
@@ -10920,6 +10193,14 @@ window.lunrData = {
                       },
                       "documents_model.html#isEmpty": {
                         "ref": "documents_model.html#isEmpty",
+                        "tf": 110
+                      },
+                      "module-ink_collector-OCollector.html#length": {
+                        "ref": "module-ink_collector-OCollector.html#length",
+                        "tf": 110
+                      },
+                      "module-ink_collector-ACollector.html#length": {
+                        "ref": "module-ink_collector-ACollector.html#length",
                         "tf": 110
                       },
                       "module-documents_probe.queryOperators.html#.$eq": {
@@ -11017,26 +10298,6 @@ window.lunrData = {
                       "module-documents_probe.updateOperators.html#.$pull": {
                         "ref": "module-documents_probe.updateOperators.html#.$pull",
                         "tf": 110
-                      },
-                      "base_chains.html#close": {
-                        "ref": "base_chains.html#close",
-                        "tf": 110
-                      },
-                      "base_chains.html#end": {
-                        "ref": "base_chains.html#end",
-                        "tf": 110
-                      },
-                      "base_chains.html#destroy": {
-                        "ref": "base_chains.html#destroy",
-                        "tf": 110
-                      },
-                      "base_chains.html#open": {
-                        "ref": "base_chains.html#open",
-                        "tf": 110
-                      },
-                      "utils_logger.Logger.html": {
-                        "ref": "utils_logger.Logger.html",
-                        "tf": 3.571428571428571
                       }
                     }
                   }
@@ -11086,18 +10347,6 @@ window.lunrData = {
                   "docs": {},
                   "d": {
                     "docs": {
-                      "base.html#close": {
-                        "ref": "base.html#close",
-                        "tf": 3.260869565217391
-                      },
-                      "base.html#end": {
-                        "ref": "base.html#end",
-                        "tf": 2.272727272727273
-                      },
-                      "base.html#destroy": {
-                        "ref": "base.html#destroy",
-                        "tf": 2.631578947368421
-                      },
                       "base_chains.html#close": {
                         "ref": "base_chains.html#close",
                         "tf": 3.260869565217391
@@ -11109,6 +10358,18 @@ window.lunrData = {
                       "base_chains.html#destroy": {
                         "ref": "base_chains.html#destroy",
                         "tf": 1.282051282051282
+                      },
+                      "base.html#close": {
+                        "ref": "base.html#close",
+                        "tf": 3.260869565217391
+                      },
+                      "base.html#end": {
+                        "ref": "base.html#end",
+                        "tf": 2.272727272727273
+                      },
+                      "base.html#destroy": {
+                        "ref": "base.html#destroy",
+                        "tf": 2.631578947368421
                       },
                       "mixins_bussable.html": {
                         "ref": "mixins_bussable.html",
@@ -11127,84 +10388,372 @@ window.lunrData = {
                 }
               }
             }
+          },
+          "u": {
+            "docs": {},
+            "l": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "p": {
+                    "docs": {},
+                    "l": {
+                      "docs": {
+                        "base.html": {
+                          "ref": "base.html",
+                          "tf": 1.3888888888888888
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         },
-        "o": {
+        "a": {
           "docs": {},
-          "n": {
-            "docs": {
-              "base.html": {
-                "ref": "base.html",
-                "tf": 1.3888888888888888
-              },
-              "base.html#close": {
-                "ref": "base.html#close",
-                "tf": 2.1739130434782608
-              },
-              "base.html#open": {
-                "ref": "base.html#open",
-                "tf": 4.166666666666666
-              },
-              "module-documents_probe.queryOperators.html#.$in": {
-                "ref": "module-documents_probe.queryOperators.html#.$in",
-                "tf": 5.555555555555555
-              },
-              "base_chains.html#close": {
-                "ref": "base_chains.html#close",
-                "tf": 2.1739130434782608
-              },
-              "base_chains.html#end": {
-                "ref": "base_chains.html#end",
-                "tf": 3.225806451612903
-              },
-              "base_chains.html#destroy": {
-                "ref": "base_chains.html#destroy",
-                "tf": 2.564102564102564
-              },
-              "base_chains.html#open": {
-                "ref": "base_chains.html#open",
-                "tf": 4.166666666666666
-              },
-              "module-mixins_signalable-Signal.html#once": {
-                "ref": "module-mixins_signalable-Signal.html#once",
-                "tf": 10
-              },
-              "utils_logger.Logger.html#level": {
-                "ref": "utils_logger.Logger.html#level",
-                "tf": 5.555555555555555
-              }
-            },
-            "c": {
-              "docs": {
-                "module-mixins_signalable-Signal.html#once": {
-                  "ref": "module-mixins_signalable-Signal.html#once",
-                  "tf": 670
+          "v": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "l": {
+                  "docs": {
+                    "list_tutorial.html": {
+                      "ref": "list_tutorial.html",
+                      "tf": 35
+                    }
+                  }
                 }
               }
             }
           },
-          "p": {
+          "l": {
+            "docs": {},
+            "l": {
+              "docs": {},
+              "o": {
+                "docs": {},
+                "w": {
+                  "docs": {
+                    "base_chains.html#close": {
+                      "ref": "base_chains.html#close",
+                      "tf": 1.0869565217391304
+                    },
+                    "base_chains.html#end": {
+                      "ref": "base_chains.html#end",
+                      "tf": 1.6129032258064515
+                    },
+                    "base.html#close": {
+                      "ref": "base.html#close",
+                      "tf": 1.0869565217391304
+                    },
+                    "documents_model.html#.get": {
+                      "ref": "documents_model.html#.get",
+                      "tf": 3.8461538461538463
+                    },
+                    "module-documents_binder.html": {
+                      "ref": "module-documents_binder.html",
+                      "tf": 5.555555555555555
+                    }
+                  }
+                }
+              }
+            },
+            "r": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "d": {
+                    "docs": {},
+                    "i": {
+                      "docs": {
+                        "base.html#addOptions": {
+                          "ref": "base.html#addOptions",
+                          "tf": 5.555555555555555
+                        },
+                        "base.html#addDefaultOptions": {
+                          "ref": "base.html#addDefaultOptions",
+                          "tf": 5
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "i": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "s": {
+                  "docs": {
+                    "documents_model.html#.findOne": {
+                      "ref": "documents_model.html#.findOne",
+                      "tf": 7.142857142857142
+                    },
+                    "documents_model.html#.findOneKey": {
+                      "ref": "documents_model.html#.findOneKey",
+                      "tf": 3.125
+                    },
+                    "documents_model.html#.some": {
+                      "ref": "documents_model.html#.some",
+                      "tf": 8.333333333333332
+                    },
+                    "documents_model.html#.every": {
+                      "ref": "documents_model.html#.every",
+                      "tf": 8.333333333333332
+                    },
+                    "module-ink_collector-OCollector.html#every": {
+                      "ref": "module-ink_collector-OCollector.html#every",
+                      "tf": 8.333333333333332
+                    },
+                    "module-ink_collector-OCollector.html#some": {
+                      "ref": "module-ink_collector-OCollector.html#some",
+                      "tf": 8.333333333333332
+                    },
+                    "module-ink_collector-OCollector.html#all": {
+                      "ref": "module-ink_collector-OCollector.html#all",
+                      "tf": 8.333333333333332
+                    },
+                    "module-ink_collector-OCollector.html#any": {
+                      "ref": "module-ink_collector-OCollector.html#any",
+                      "tf": 8.333333333333332
+                    },
+                    "module-ink_collector-OCollector.html#findOneKey": {
+                      "ref": "module-ink_collector-OCollector.html#findOneKey",
+                      "tf": 3.125
+                    },
+                    "module-ink_collector-OCollector.html#findOne": {
+                      "ref": "module-ink_collector-OCollector.html#findOne",
+                      "tf": 7.142857142857142
+                    },
+                    "module-ink_collector-ACollector.html#every": {
+                      "ref": "module-ink_collector-ACollector.html#every",
+                      "tf": 8.333333333333332
+                    },
+                    "module-ink_collector-ACollector.html#some": {
+                      "ref": "module-ink_collector-ACollector.html#some",
+                      "tf": 8.333333333333332
+                    },
+                    "module-ink_collector-ACollector.html#all": {
+                      "ref": "module-ink_collector-ACollector.html#all",
+                      "tf": 8.333333333333332
+                    },
+                    "module-ink_collector-ACollector.html#any": {
+                      "ref": "module-ink_collector-ACollector.html#any",
+                      "tf": 8.333333333333332
+                    },
+                    "module-ink_collector-ACollector.html#findOneKey": {
+                      "ref": "module-ink_collector-ACollector.html#findOneKey",
+                      "tf": 3.125
+                    },
+                    "module-ink_collector-ACollector.html#findOne": {
+                      "ref": "module-ink_collector-ACollector.html#findOne",
+                      "tf": 7.142857142857142
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "s": {
+            "docs": {},
+            "k": {
+              "docs": {
+                "base_chains.html#close": {
+                  "ref": "base_chains.html#close",
+                  "tf": 1.0869565217391304
+                },
+                "base_chains.html#end": {
+                  "ref": "base_chains.html#end",
+                  "tf": 1.6129032258064515
+                },
+                "base_chains.html#destroy": {
+                  "ref": "base_chains.html#destroy",
+                  "tf": 1.282051282051282
+                },
+                "base.html#close": {
+                  "ref": "base.html#close",
+                  "tf": 1.0869565217391304
+                }
+              }
+            },
+            "y": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "c": {
+                  "docs": {},
+                  "h": {
+                    "docs": {},
+                    "r": {
+                      "docs": {},
+                      "o": {
+                        "docs": {},
+                        "n": {
+                          "docs": {
+                            "module-documents_binder.html": {
+                              "ref": "module-documents_binder.html",
+                              "tf": 2.7777777777777777
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "c": {
             "docs": {},
             "t": {
               "docs": {},
+              "u": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "l": {
+                    "docs": {
+                      "base_chains.html#destroy": {
+                        "ref": "base_chains.html#destroy",
+                        "tf": 1.282051282051282
+                      },
+                      "module-documents_probe.queryOperators.html": {
+                        "ref": "module-documents_probe.queryOperators.html",
+                        "tf": 10
+                      },
+                      "module-documents_probe.updateOperators.html": {
+                        "ref": "module-documents_probe.updateOperators.html",
+                        "tf": 10
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "o": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                "l": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "c": {
+                      "docs": {},
+                      "t": {
+                        "docs": {},
+                        "o": {
+                          "docs": {},
+                          "r": {
+                            "docs": {
+                              "module-ink_collector-ACollector.html": {
+                                "ref": "module-ink_collector-ACollector.html",
+                                "tf": 500
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "c": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "s": {
+                  "docs": {},
+                  "s": {
+                    "docs": {
+                      "documents_schema.html": {
+                        "ref": "documents_schema.html",
+                        "tf": 6.25
+                      },
+                      "mixins_bussable.html": {
+                        "ref": "mixins_bussable.html",
+                        "tf": 5.555555555555555
+                      },
+                      "module-mixins_bussable.html": {
+                        "ref": "module-mixins_bussable.html",
+                        "tf": 5.555555555555555
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "u": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "o": {
+                "docs": {},
+                "m": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "base_chains.html#destroy": {
+                          "ref": "base_chains.html#destroy",
+                          "tf": 1.282051282051282
+                        },
+                        "base.html#destroy": {
+                          "ref": "base.html#destroy",
+                          "tf": 2.631578947368421
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "w": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "y": {
+                "docs": {
+                  "base_chains.html#destroy": {
+                    "ref": "base_chains.html#destroy",
+                    "tf": 1.282051282051282
+                  }
+                }
+              }
+            }
+          },
+          "g": {
+            "docs": {},
+            "a": {
+              "docs": {},
               "i": {
                 "docs": {},
-                "o": {
-                  "docs": {},
-                  "n": {
+                "n": {
+                  "docs": {
+                    "base_chains.html#open": {
+                      "ref": "base_chains.html#open",
+                      "tf": 2.083333333333333
+                    },
+                    "base.html#open": {
+                      "ref": "base.html#open",
+                      "tf": 2.083333333333333
+                    }
+                  },
+                  "t": {
                     "docs": {
-                      "base.html": {
-                        "ref": "base.html",
-                        "tf": 2.7777777777777777
-                      },
-                      "base.html#addOptions": {
-                        "ref": "base.html#addOptions",
-                        "tf": 55.55555555555556
-                      },
-                      "base.html#addDefaultOptions": {
-                        "ref": "base.html#addDefaultOptions",
-                        "tf": 65
-                      },
                       "module-documents_probe.queryOperators.html#.$regex": {
                         "ref": "module-documents_probe.queryOperators.html#.$regex",
                         "tf": 4.545454545454546
@@ -11213,45 +10762,91 @@ window.lunrData = {
                   }
                 }
               }
-            },
-            "e": {
+            }
+          },
+          "n": {
+            "docs": {},
+            "y": {
               "docs": {},
-              "n": {
-                "docs": {
-                  "base.html#close": {
-                    "ref": "base.html#close",
-                    "tf": 1.0869565217391304
-                  },
-                  "base.html#open": {
-                    "ref": "base.html#open",
-                    "tf": 752.0833333333334
-                  },
-                  "base_chains.html#close": {
-                    "ref": "base_chains.html#close",
-                    "tf": 1.0869565217391304
-                  },
-                  "base_chains.html#open": {
-                    "ref": "base_chains.html#open",
-                    "tf": 752.0833333333334
+              "t": {
+                "docs": {},
+                "h": {
+                  "docs": {
+                    "utils_logger.Logger.html#silent": {
+                      "ref": "utils_logger.Logger.html#silent",
+                      "tf": 6.25
+                    },
+                    "documents_model.html": {
+                      "ref": "documents_model.html",
+                      "tf": 3.125
+                    },
+                    "module-documents_model.html": {
+                      "ref": "module-documents_model.html",
+                      "tf": 3.125
+                    }
                   }
+                }
+              }
+            }
+          },
+          "d": {
+            "docs": {},
+            "d": {
+              "docs": {
+                "base.html#addOptions": {
+                  "ref": "base.html#addOptions",
+                  "tf": 5.555555555555555
                 },
-                "/": {
+                "base.html#addDefaultOptions": {
+                  "ref": "base.html#addDefaultOptions",
+                  "tf": 5
+                },
+                "module-mixins_signalable.html": {
+                  "ref": "module-mixins_signalable.html",
+                  "tf": 3.3333333333333335
+                }
+              },
+              "o": {
+                "docs": {},
+                "p": {
                   "docs": {},
-                  "c": {
+                  "t": {
+                    "docs": {
+                      "base.html#addOptions": {
+                        "ref": "base.html#addOptions",
+                        "tf": 700
+                      }
+                    }
+                  }
+                }
+              },
+              "d": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "f": {
                     "docs": {},
-                    "l": {
+                    "a": {
                       "docs": {},
-                      "o": {
+                      "u": {
                         "docs": {},
-                        "s": {
-                          "docs": {
-                            "base.html#open": {
-                              "ref": "base.html#open",
-                              "tf": 2.083333333333333
-                            },
-                            "base_chains.html#open": {
-                              "ref": "base_chains.html#open",
-                              "tf": 2.083333333333333
+                        "l": {
+                          "docs": {},
+                          "t": {
+                            "docs": {},
+                            "o": {
+                              "docs": {},
+                              "p": {
+                                "docs": {},
+                                "t": {
+                                  "docs": {
+                                    "base.html#addDefaultOptions": {
+                                      "ref": "base.html#addDefaultOptions",
+                                      "tf": 700
+                                    }
+                                  }
+                                }
+                              }
                             }
                           }
                         }
@@ -11259,48 +10854,624 @@ window.lunrData = {
                     }
                   }
                 }
-              },
-              "r": {
+              }
+            },
+            "v": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "n": {
+                  "docs": {},
+                  "t": {
+                    "docs": {},
+                    "a": {
+                      "docs": {},
+                      "g": {
+                        "docs": {
+                          "documents_model.html#_idField": {
+                            "ref": "documents_model.html#_idField",
+                            "tf": 5.555555555555555
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "t": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "c": {
+                  "docs": {},
+                  "h": {
+                    "docs": {
+                      "module-mixins_signalable-Signal.html#has": {
+                        "ref": "module-mixins_signalable-Signal.html#has",
+                        "tf": 12.5
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "o": {
+              "docs": {},
+              "m": {
                 "docs": {
-                  "module-ink_collector-OCollector.html#update": {
-                    "ref": "module-ink_collector-OCollector.html#update",
-                    "tf": 5.555555555555555
+                  "module-documents_probe.queryOperators.html#.$eq": {
+                    "ref": "module-documents_probe.queryOperators.html#.$eq",
+                    "tf": 2
                   },
-                  "module-ink_collector-ACollector.html#update": {
-                    "ref": "module-ink_collector-ACollector.html#update",
-                    "tf": 5.555555555555555
-                  },
-                  "documents_model.html#_idField": {
-                    "ref": "documents_model.html#_idField",
-                    "tf": 5.555555555555555
-                  },
-                  "documents_model.html#.update": {
-                    "ref": "documents_model.html#.update",
-                    "tf": 5.555555555555555
-                  },
-                  "module-documents_probe.queryOperators.html#.$mod": {
-                    "ref": "module-documents_probe.queryOperators.html#.$mod",
-                    "tf": 5.555555555555555
-                  },
-                  "module-documents_probe.queryOperators.html#.$elemMatch": {
-                    "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
+                  "module-documents_probe.queryOperators.html#.$ne": {
+                    "ref": "module-documents_probe.queryOperators.html#.$ne",
                     "tf": 2.7777777777777777
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "r": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "y": {
+                  "docs": {
+                    "documents_model.html#.find": {
+                      "ref": "documents_model.html#.find",
+                      "tf": 20
+                    },
+                    "documents_model.html#.findKeys": {
+                      "ref": "documents_model.html#.findKeys",
+                      "tf": 22.083333333333332
+                    },
+                    "documents_model.html#.findOneKey": {
+                      "ref": "documents_model.html#.findOneKey",
+                      "tf": 3.125
+                    },
+                    "module-ink_collector-OCollector.html#unique": {
+                      "ref": "module-ink_collector-OCollector.html#unique",
+                      "tf": 33.33333333333333
+                    },
+                    "module-ink_collector-OCollector.html#findOneKey": {
+                      "ref": "module-ink_collector-OCollector.html#findOneKey",
+                      "tf": 3.125
+                    },
+                    "module-ink_collector-OCollector.html#findKeys": {
+                      "ref": "module-ink_collector-OCollector.html#findKeys",
+                      "tf": 35.416666666666664
+                    },
+                    "module-ink_collector-OCollector.html#find": {
+                      "ref": "module-ink_collector-OCollector.html#find",
+                      "tf": 33.33333333333333
+                    },
+                    "module-ink_collector-ACollector.html": {
+                      "ref": "module-ink_collector-ACollector.html",
+                      "tf": 16.666666666666664
+                    },
+                    "module-ink_collector-ACollector.html#unique": {
+                      "ref": "module-ink_collector-ACollector.html#unique",
+                      "tf": 33.33333333333333
+                    },
+                    "module-ink_collector-ACollector.html#findOneKey": {
+                      "ref": "module-ink_collector-ACollector.html#findOneKey",
+                      "tf": 3.125
+                    },
+                    "module-ink_collector-ACollector.html#findKeys": {
+                      "ref": "module-ink_collector-ACollector.html#findKeys",
+                      "tf": 35.416666666666664
+                    },
+                    "module-ink_collector-ACollector.html#find": {
+                      "ref": "module-ink_collector-ACollector.html#find",
+                      "tf": 33.33333333333333
+                    },
+                    "module-documents_probe.queryOperators.html#.$eq": {
+                      "ref": "module-documents_probe.queryOperators.html#.$eq",
+                      "tf": 8
+                    },
+                    "module-documents_probe.queryOperators.html#.$ne": {
+                      "ref": "module-documents_probe.queryOperators.html#.$ne",
+                      "tf": 8.333333333333332
+                    },
+                    "module-documents_probe.queryOperators.html#.$all": {
+                      "ref": "module-documents_probe.queryOperators.html#.$all",
+                      "tf": 10
+                    },
+                    "module-documents_probe.queryOperators.html#.$size": {
+                      "ref": "module-documents_probe.queryOperators.html#.$size",
+                      "tf": 3.8461538461538463
+                    },
+                    "module-documents_probe.queryOperators.html#.$elemMatch": {
+                      "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
+                      "tf": 8.333333333333332
+                    },
+                    "module-documents_probe.updateOperators.html#.$pop": {
+                      "ref": "module-documents_probe.updateOperators.html#.$pop",
+                      "tf": 6.666666666666667
+                    },
+                    "module-documents_probe.updateOperators.html#.$push": {
+                      "ref": "module-documents_probe.updateOperators.html#.$push",
+                      "tf": 5
+                    },
+                    "module-documents_probe.updateOperators.html#.$pull": {
+                      "ref": "module-documents_probe.updateOperators.html#.$pull",
+                      "tf": 4.545454545454546
+                    },
+                    "module-ink_collector.html": {
+                      "ref": "module-ink_collector.html",
+                      "tf": 16.666666666666664
+                    }
+                  }
+                }
+              }
+            },
+            "b": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "t": {
+                  "docs": {},
+                  "r": {
+                    "docs": {},
+                    "a": {
+                      "docs": {},
+                      "r": {
+                        "docs": {},
+                        "i": {
+                          "docs": {
+                            "documents_model.html#.set": {
+                              "ref": "documents_model.html#.set",
+                              "tf": 2.272727272727273
+                            },
+                            "module-documents_binder.html": {
+                              "ref": "module-documents_binder.html",
+                              "tf": 2.7777777777777777
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "t": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "f": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "c": {
+                      "docs": {},
+                      "t": {
+                        "docs": {
+                          "module-documents_probe.queryOperators.html": {
+                            "ref": "module-documents_probe.queryOperators.html",
+                            "tf": 10
+                          },
+                          "module-documents_probe.updateOperators.html": {
+                            "ref": "module-documents_probe.updateOperators.html",
+                            "tf": 10
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "m": {
+            "docs": {},
+            "o": {
+              "docs": {},
+              "u": {
+                "docs": {},
+                "n": {
+                  "docs": {},
+                  "t": {
+                    "docs": {
+                      "module-documents_probe.updateOperators.html#.$inc": {
+                        "ref": "module-documents_probe.updateOperators.html#.$inc",
+                        "tf": 11.11111111111111
+                      },
+                      "module-documents_probe.updateOperators.html#.$dec": {
+                        "ref": "module-documents_probe.updateOperators.html#.$dec",
+                        "tf": 11.11111111111111
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "p": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "n": {
+                  "docs": {},
+                  "d": {
+                    "docs": {
+                      "module-documents_probe.updateOperators.html#.$push": {
+                        "ref": "module-documents_probe.updateOperators.html#.$push",
+                        "tf": 5
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "b": {
+            "docs": {},
+            "i": {
+              "docs": {},
+              "l": {
+                "docs": {
+                  "module-mixins_signalable.html": {
+                    "ref": "module-mixins_signalable.html",
+                    "tf": 3.3333333333333335
+                  }
+                }
+              }
+            }
+          }
+        },
+        "e": {
+          "docs": {},
+          "l": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "m": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "n": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "base_chains.html": {
+                          "ref": "base_chains.html",
+                          "tf": 5.555555555555555
+                        },
+                        "module-documents_probe.updateOperators.html#.$pop": {
+                          "ref": "module-documents_probe.updateOperators.html#.$pop",
+                          "tf": 5
+                        },
+                        "module-base_chains.html": {
+                          "ref": "module-base_chains.html",
+                          "tf": 5.555555555555555
+                        }
+                      }
+                    }
+                  }
+                },
+                "m": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "t": {
+                      "docs": {},
+                      "c": {
+                        "docs": {},
+                        "h": {
+                          "docs": {
+                            "module-documents_probe.queryOperators.html#.$elemMatch": {
+                              "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
+                              "tf": 652.7777777777778
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "u": {
+                  "docs": {},
+                  "t": {
+                    "docs": {
+                      "base_chains.html": {
+                        "ref": "base_chains.html",
+                        "tf": 5.555555555555555
+                      },
+                      "module-mixins_signalable-Signal.html#once": {
+                        "ref": "module-mixins_signalable-Signal.html#once",
+                        "tf": 10
+                      },
+                      "module-base_chains.html": {
+                        "ref": "module-base_chains.html",
+                        "tf": 5.555555555555555
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "i": {
+              "docs": {},
+              "s": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "base.html#addOptions": {
+                      "ref": "base.html#addOptions",
+                      "tf": 5.555555555555555
+                    },
+                    "documents_model.html#.set": {
+                      "ref": "documents_model.html#.set",
+                      "tf": 2.272727272727273
+                    },
+                    "module-documents_probe.queryOperators.html#.$exists": {
+                      "ref": "module-documents_probe.queryOperators.html#.$exists",
+                      "tf": 671.4285714285714
+                    },
+                    "module-documents_probe.updateOperators.html#.$pull": {
+                      "ref": "module-documents_probe.updateOperators.html#.$pull",
+                      "tf": 4.545454545454546
+                    }
+                  }
+                }
+              }
+            },
+            "p": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "s": {
+                    "docs": {},
+                    "s": {
+                      "docs": {
+                        "module-documents_probe.queryOperators.html#.$regex": {
+                          "ref": "module-documents_probe.queryOperators.html#.$regex",
+                          "tf": 4.545454545454546
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "c": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "p": {
+                  "docs": {},
+                  "t": {
+                    "docs": {
+                      "module-documents_probe.queryOperators.html#.$elemMatch": {
+                        "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
+                        "tf": 2.7777777777777777
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "n": {
+            "docs": {},
+            "d": {
+              "docs": {
+                "base_chains.html#close": {
+                  "ref": "base_chains.html#close",
+                  "tf": 1.0869565217391304
+                },
+                "base_chains.html#end": {
+                  "ref": "base_chains.html#end",
+                  "tf": 751.6129032258065
+                },
+                "base_chains.html#destroy": {
+                  "ref": "base_chains.html#destroy",
+                  "tf": 3.8461538461538463
+                },
+                "base.html#close": {
+                  "ref": "base.html#close",
+                  "tf": 1.0869565217391304
+                },
+                "base.html#end": {
+                  "ref": "base.html#end",
+                  "tf": 750
+                }
+              }
+            },
+            "t": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "t": {
+                  "docs": {},
+                  "i": {
+                    "docs": {
+                      "documents_model.html": {
+                        "ref": "documents_model.html",
+                        "tf": 3.125
+                      },
+                      "module-documents_model.html": {
+                        "ref": "module-documents_model.html",
+                        "tf": 3.125
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "a": {
+              "docs": {},
+              "b": {
+                "docs": {},
+                "l": {
+                  "docs": {
+                    "module-documents_schema.html": {
+                      "ref": "module-documents_schema.html",
+                      "tf": 7.142857142857142
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "r": {
+              "docs": {},
+              "o": {
+                "docs": {},
+                "r": {
+                  "docs": {
+                    "utils_logger.Logger.html#silent": {
+                      "ref": "utils_logger.Logger.html#silent",
+                      "tf": 6.25
+                    },
+                    "utils_logger.Logger.html#level": {
+                      "ref": "utils_logger.Logger.html#level",
+                      "tf": 5.555555555555555
+                    },
+                    "utils_logger.Logger.html#error": {
+                      "ref": "utils_logger.Logger.html#error",
+                      "tf": 716.6666666666666
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "v": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "base.html#destroy": {
+                      "ref": "base.html#destroy",
+                      "tf": 2.631578947368421
+                    },
+                    "documents_model.html#.get": {
+                      "ref": "documents_model.html#.get",
+                      "tf": 3.8461538461538463
+                    },
+                    "module-mixins_signalable.html": {
+                      "ref": "module-mixins_signalable.html",
+                      "tf": 10
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "m": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "i": {
+                  "docs": {
+                    "documents_model.html#isNew": {
+                      "ref": "documents_model.html#isNew",
+                      "tf": 8.333333333333332
+                    },
+                    "documents_model.html#isEmpty": {
+                      "ref": "documents_model.html#isEmpty",
+                      "tf": 12.5
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "q": {
+            "docs": {
+              "module-documents_probe.queryOperators.html#.$eq": {
+                "ref": "module-documents_probe.queryOperators.html#.$eq",
+                "tf": 656
+              }
+            },
+            "u": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "l": {
+                  "docs": {
+                    "module-documents_probe.queryOperators.html#.$gte": {
+                      "ref": "module-documents_probe.queryOperators.html#.$gte",
+                      "tf": 5.555555555555555
+                    },
+                    "module-documents_probe.queryOperators.html#.$lte": {
+                      "ref": "module-documents_probe.queryOperators.html#.$lte",
+                      "tf": 5.555555555555555
+                    },
+                    "module-documents_probe.queryOperators.html#.$mod": {
+                      "ref": "module-documents_probe.queryOperators.html#.$mod",
+                      "tf": 5.555555555555555
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "a": {
+            "docs": {},
+            "s": {
+              "docs": {},
+              "i": {
+                "docs": {
+                  "mixins_bussable.html": {
+                    "ref": "mixins_bussable.html",
+                    "tf": 5.555555555555555
                   },
-                  "module-documents_probe.updateOperators.html#.$pop": {
-                    "ref": "module-documents_probe.updateOperators.html#.$pop",
-                    "tf": 1.6666666666666667
-                  },
-                  "module-documents_probe.updateOperators.html#.$push": {
-                    "ref": "module-documents_probe.updateOperators.html#.$push",
-                    "tf": 5
-                  },
-                  "module-documents_probe.updateOperators.html#.$pull": {
-                    "ref": "module-documents_probe.updateOperators.html#.$pull",
-                    "tf": 4.545454545454546
-                  },
-                  "module-documents_binder.html": {
-                    "ref": "module-documents_binder.html",
-                    "tf": 2.7777777777777777
+                  "module-mixins_bussable.html": {
+                    "ref": "module-mixins_bussable.html",
+                    "tf": 5.555555555555555
+                  }
+                }
+              }
+            }
+          }
+        },
+        "o": {
+          "docs": {},
+          "r": {
+            "docs": {},
+            "d": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "r": {
+                  "docs": {
+                    "base_chains.html": {
+                      "ref": "base_chains.html",
+                      "tf": 5.555555555555555
+                    },
+                    "module-base_chains.html": {
+                      "ref": "module-base_chains.html",
+                      "tf": 5.555555555555555
+                    }
                   }
                 }
               }
@@ -11310,6 +11481,46 @@ window.lunrData = {
             "docs": {},
             "j": {
               "docs": {
+                "documents_model.html#.update": {
+                  "ref": "documents_model.html#.update",
+                  "tf": 25.555555555555557
+                },
+                "documents_model.html#.find": {
+                  "ref": "documents_model.html#.find",
+                  "tf": 20
+                },
+                "documents_model.html#.findKeys": {
+                  "ref": "documents_model.html#.findKeys",
+                  "tf": 24.166666666666664
+                },
+                "documents_model.html#.findOne": {
+                  "ref": "documents_model.html#.findOne",
+                  "tf": 20
+                },
+                "documents_model.html#.findOneKey": {
+                  "ref": "documents_model.html#.findOneKey",
+                  "tf": 23.125
+                },
+                "documents_model.html#.remove": {
+                  "ref": "documents_model.html#.remove",
+                  "tf": 20
+                },
+                "documents_model.html#.all": {
+                  "ref": "documents_model.html#.all",
+                  "tf": 25
+                },
+                "documents_model.html#.any": {
+                  "ref": "documents_model.html#.any",
+                  "tf": 25
+                },
+                "documents_model.html#.some": {
+                  "ref": "documents_model.html#.some",
+                  "tf": 25
+                },
+                "documents_model.html#.every": {
+                  "ref": "documents_model.html#.every",
+                  "tf": 25
+                },
                 "module-ink_collector-OCollector.html#findOneKey": {
                   "ref": "module-ink_collector-OCollector.html#findOneKey",
                   "tf": 3.125
@@ -11333,46 +11544,6 @@ window.lunrData = {
                 "module-ink_collector-ACollector.html#update": {
                   "ref": "module-ink_collector-ACollector.html#update",
                   "tf": 5.555555555555555
-                },
-                "documents_model.html#.any": {
-                  "ref": "documents_model.html#.any",
-                  "tf": 25
-                },
-                "documents_model.html#.all": {
-                  "ref": "documents_model.html#.all",
-                  "tf": 25
-                },
-                "documents_model.html#.remove": {
-                  "ref": "documents_model.html#.remove",
-                  "tf": 20
-                },
-                "documents_model.html#.findOne": {
-                  "ref": "documents_model.html#.findOne",
-                  "tf": 20
-                },
-                "documents_model.html#.findOneKey": {
-                  "ref": "documents_model.html#.findOneKey",
-                  "tf": 23.125
-                },
-                "documents_model.html#.findKeys": {
-                  "ref": "documents_model.html#.findKeys",
-                  "tf": 24.166666666666664
-                },
-                "documents_model.html#.find": {
-                  "ref": "documents_model.html#.find",
-                  "tf": 20
-                },
-                "documents_model.html#.update": {
-                  "ref": "documents_model.html#.update",
-                  "tf": 25.555555555555557
-                },
-                "documents_model.html#.some": {
-                  "ref": "documents_model.html#.some",
-                  "tf": 25
-                },
-                "documents_model.html#.every": {
-                  "ref": "documents_model.html#.every",
-                  "tf": 25
                 }
               },
               "e": {
@@ -11381,6 +11552,26 @@ window.lunrData = {
                   "docs": {},
                   "t": {
                     "docs": {
+                      "base_chains.html#close": {
+                        "ref": "base_chains.html#close",
+                        "tf": 2.1739130434782608
+                      },
+                      "base_chains.html#end": {
+                        "ref": "base_chains.html#end",
+                        "tf": 3.225806451612903
+                      },
+                      "base_chains.html#destroy": {
+                        "ref": "base_chains.html#destroy",
+                        "tf": 1.282051282051282
+                      },
+                      "base_chains.html#open": {
+                        "ref": "base_chains.html#open",
+                        "tf": 2.083333333333333
+                      },
+                      "utils_logger.Logger.html": {
+                        "ref": "utils_logger.Logger.html",
+                        "tf": 3.571428571428571
+                      },
                       "base.html#close": {
                         "ref": "base.html#close",
                         "tf": 2.1739130434782608
@@ -11396,6 +11587,30 @@ window.lunrData = {
                       "base.html#destroy": {
                         "ref": "base.html#destroy",
                         "tf": 2.631578947368421
+                      },
+                      "module-mixins_signalable-Signal.html": {
+                        "ref": "module-mixins_signalable-Signal.html",
+                        "tf": 6.25
+                      },
+                      "documents_model.html#.findKeys": {
+                        "ref": "documents_model.html#.findKeys",
+                        "tf": 2.083333333333333
+                      },
+                      "documents_model.html#.findOne": {
+                        "ref": "documents_model.html#.findOne",
+                        "tf": 20
+                      },
+                      "documents_model.html#.findOneKey": {
+                        "ref": "documents_model.html#.findOneKey",
+                        "tf": 23.125
+                      },
+                      "documents_model.html#.set": {
+                        "ref": "documents_model.html#.set",
+                        "tf": 2.272727272727273
+                      },
+                      "documents_model.html#.get": {
+                        "ref": "documents_model.html#.get",
+                        "tf": 7.6923076923076925
                       },
                       "module-ink_collector-OCollector.html": {
                         "ref": "module-ink_collector-OCollector.html",
@@ -11425,26 +11640,6 @@ window.lunrData = {
                         "ref": "module-ink_collector-ACollector.html#findKeys",
                         "tf": 2.083333333333333
                       },
-                      "documents_model.html#.get": {
-                        "ref": "documents_model.html#.get",
-                        "tf": 7.6923076923076925
-                      },
-                      "documents_model.html#.set": {
-                        "ref": "documents_model.html#.set",
-                        "tf": 2.272727272727273
-                      },
-                      "documents_model.html#.findOne": {
-                        "ref": "documents_model.html#.findOne",
-                        "tf": 20
-                      },
-                      "documents_model.html#.findOneKey": {
-                        "ref": "documents_model.html#.findOneKey",
-                        "tf": 23.125
-                      },
-                      "documents_model.html#.findKeys": {
-                        "ref": "documents_model.html#.findKeys",
-                        "tf": 2.083333333333333
-                      },
                       "module-documents_probe.queryOperators.html#.$size": {
                         "ref": "module-documents_probe.queryOperators.html#.$size",
                         "tf": 3.8461538461538463
@@ -11456,30 +11651,6 @@ window.lunrData = {
                       "module-documents_probe.updateOperators.html#.$unset": {
                         "ref": "module-documents_probe.updateOperators.html#.$unset",
                         "tf": 7.142857142857142
-                      },
-                      "base_chains.html#close": {
-                        "ref": "base_chains.html#close",
-                        "tf": 2.1739130434782608
-                      },
-                      "base_chains.html#end": {
-                        "ref": "base_chains.html#end",
-                        "tf": 3.225806451612903
-                      },
-                      "base_chains.html#destroy": {
-                        "ref": "base_chains.html#destroy",
-                        "tf": 1.282051282051282
-                      },
-                      "base_chains.html#open": {
-                        "ref": "base_chains.html#open",
-                        "tf": 2.083333333333333
-                      },
-                      "module-mixins_signalable-Signal.html": {
-                        "ref": "module-mixins_signalable-Signal.html",
-                        "tf": 6.25
-                      },
-                      "utils_logger.Logger.html": {
-                        "ref": "utils_logger.Logger.html",
-                        "tf": 3.571428571428571
                       },
                       "mixins_signalable.html": {
                         "ref": "mixins_signalable.html",
@@ -11518,16 +11689,16 @@ window.lunrData = {
                               "docs": {},
                               "y": {
                                 "docs": {
+                                  "documents_model.html#.remove": {
+                                    "ref": "documents_model.html#.remove",
+                                    "tf": 10
+                                  },
                                   "module-ink_collector-OCollector.html#remove": {
                                     "ref": "module-ink_collector-OCollector.html#remove",
                                     "tf": 10
                                   },
                                   "module-ink_collector-ACollector.html#remove": {
                                     "ref": "module-ink_collector-ACollector.html#remove",
-                                    "tf": 10
-                                  },
-                                  "documents_model.html#.remove": {
-                                    "ref": "documents_model.html#.remove",
                                     "tf": 10
                                   }
                                 }
@@ -11549,6 +11720,10 @@ window.lunrData = {
                               "docs": {},
                               "y": {
                                 "docs": {
+                                  "documents_model.html#.remove": {
+                                    "ref": "documents_model.html#.remove",
+                                    "tf": 20
+                                  },
                                   "module-ink_collector-OCollector.html#remove": {
                                     "ref": "module-ink_collector-OCollector.html#remove",
                                     "tf": 33.33333333333333
@@ -11556,16 +11731,187 @@ window.lunrData = {
                                   "module-ink_collector-ACollector.html#remove": {
                                     "ref": "module-ink_collector-ACollector.html#remove",
                                     "tf": 33.33333333333333
-                                  },
-                                  "documents_model.html#.remove": {
-                                    "ref": "documents_model.html#.remove",
-                                    "tf": 20
                                   }
                                 }
                               }
                             }
                           }
                         }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "n": {
+            "docs": {
+              "base_chains.html#close": {
+                "ref": "base_chains.html#close",
+                "tf": 2.1739130434782608
+              },
+              "base_chains.html#end": {
+                "ref": "base_chains.html#end",
+                "tf": 3.225806451612903
+              },
+              "base_chains.html#destroy": {
+                "ref": "base_chains.html#destroy",
+                "tf": 2.564102564102564
+              },
+              "base_chains.html#open": {
+                "ref": "base_chains.html#open",
+                "tf": 4.166666666666666
+              },
+              "utils_logger.Logger.html#level": {
+                "ref": "utils_logger.Logger.html#level",
+                "tf": 5.555555555555555
+              },
+              "base.html": {
+                "ref": "base.html",
+                "tf": 1.3888888888888888
+              },
+              "base.html#close": {
+                "ref": "base.html#close",
+                "tf": 2.1739130434782608
+              },
+              "base.html#open": {
+                "ref": "base.html#open",
+                "tf": 4.166666666666666
+              },
+              "module-mixins_signalable-Signal.html#once": {
+                "ref": "module-mixins_signalable-Signal.html#once",
+                "tf": 10
+              },
+              "module-documents_probe.queryOperators.html#.$in": {
+                "ref": "module-documents_probe.queryOperators.html#.$in",
+                "tf": 5.555555555555555
+              }
+            },
+            "c": {
+              "docs": {
+                "module-mixins_signalable-Signal.html#once": {
+                  "ref": "module-mixins_signalable-Signal.html#once",
+                  "tf": 670
+                }
+              }
+            }
+          },
+          "p": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "n": {
+                "docs": {
+                  "base_chains.html#close": {
+                    "ref": "base_chains.html#close",
+                    "tf": 1.0869565217391304
+                  },
+                  "base_chains.html#open": {
+                    "ref": "base_chains.html#open",
+                    "tf": 752.0833333333334
+                  },
+                  "base.html#close": {
+                    "ref": "base.html#close",
+                    "tf": 1.0869565217391304
+                  },
+                  "base.html#open": {
+                    "ref": "base.html#open",
+                    "tf": 752.0833333333334
+                  }
+                },
+                "/": {
+                  "docs": {},
+                  "c": {
+                    "docs": {},
+                    "l": {
+                      "docs": {},
+                      "o": {
+                        "docs": {},
+                        "s": {
+                          "docs": {
+                            "base_chains.html#open": {
+                              "ref": "base_chains.html#open",
+                              "tf": 2.083333333333333
+                            },
+                            "base.html#open": {
+                              "ref": "base.html#open",
+                              "tf": 2.083333333333333
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "r": {
+                "docs": {
+                  "documents_model.html#_idField": {
+                    "ref": "documents_model.html#_idField",
+                    "tf": 5.555555555555555
+                  },
+                  "documents_model.html#.update": {
+                    "ref": "documents_model.html#.update",
+                    "tf": 5.555555555555555
+                  },
+                  "module-ink_collector-OCollector.html#update": {
+                    "ref": "module-ink_collector-OCollector.html#update",
+                    "tf": 5.555555555555555
+                  },
+                  "module-ink_collector-ACollector.html#update": {
+                    "ref": "module-ink_collector-ACollector.html#update",
+                    "tf": 5.555555555555555
+                  },
+                  "module-documents_probe.queryOperators.html#.$mod": {
+                    "ref": "module-documents_probe.queryOperators.html#.$mod",
+                    "tf": 5.555555555555555
+                  },
+                  "module-documents_probe.queryOperators.html#.$elemMatch": {
+                    "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
+                    "tf": 2.7777777777777777
+                  },
+                  "module-documents_probe.updateOperators.html#.$pop": {
+                    "ref": "module-documents_probe.updateOperators.html#.$pop",
+                    "tf": 1.6666666666666667
+                  },
+                  "module-documents_probe.updateOperators.html#.$push": {
+                    "ref": "module-documents_probe.updateOperators.html#.$push",
+                    "tf": 5
+                  },
+                  "module-documents_probe.updateOperators.html#.$pull": {
+                    "ref": "module-documents_probe.updateOperators.html#.$pull",
+                    "tf": 4.545454545454546
+                  },
+                  "module-documents_binder.html": {
+                    "ref": "module-documents_binder.html",
+                    "tf": 2.7777777777777777
+                  }
+                }
+              }
+            },
+            "t": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "base.html": {
+                        "ref": "base.html",
+                        "tf": 2.7777777777777777
+                      },
+                      "base.html#addOptions": {
+                        "ref": "base.html#addOptions",
+                        "tf": 55.55555555555556
+                      },
+                      "base.html#addDefaultOptions": {
+                        "ref": "base.html#addDefaultOptions",
+                        "tf": 65
+                      },
+                      "module-documents_probe.queryOperators.html#.$regex": {
+                        "ref": "module-documents_probe.queryOperators.html#.$regex",
+                        "tf": 4.545454545454546
                       }
                     }
                   }
@@ -11673,50 +12019,12 @@ window.lunrData = {
                 }
               }
             }
-          },
-          "r": {
-            "docs": {},
-            "d": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "r": {
-                  "docs": {
-                    "base_chains.html": {
-                      "ref": "base_chains.html",
-                      "tf": 5.555555555555555
-                    },
-                    "module-base_chains.html": {
-                      "ref": "module-base_chains.html",
-                      "tf": 5.555555555555555
-                    }
-                  }
-                }
-              }
-            }
           }
         },
         "p": {
           "docs": {},
           "r": {
             "docs": {},
-            "e": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                "t": {
-                  "docs": {},
-                  "i": {
-                    "docs": {
-                      "base.html": {
-                        "ref": "base.html",
-                        "tf": 1.3888888888888888
-                      }
-                    }
-                  }
-                }
-              }
-            },
             "i": {
               "docs": {},
               "m": {
@@ -11727,6 +12035,10 @@ window.lunrData = {
                     "docs": {},
                     "i": {
                       "docs": {
+                        "base_chains.html": {
+                          "ref": "base_chains.html",
+                          "tf": 5.555555555555555
+                        },
                         "base.html": {
                           "ref": "base.html",
                           "tf": 1.3888888888888888
@@ -11734,10 +12046,6 @@ window.lunrData = {
                         "documents_model.html#_pkey": {
                           "ref": "documents_model.html#_pkey",
                           "tf": 6.25
-                        },
-                        "base_chains.html": {
-                          "ref": "base_chains.html",
-                          "tf": 5.555555555555555
                         },
                         "module-base_chains.html": {
                           "ref": "module-base_chains.html",
@@ -11767,6 +12075,23 @@ window.lunrData = {
                             "tf": 20
                           }
                         }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "e": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "t": {
+                  "docs": {},
+                  "i": {
+                    "docs": {
+                      "base.html": {
+                        "ref": "base.html",
+                        "tf": 1.3888888888888888
                       }
                     }
                   }
@@ -11847,6 +12172,83 @@ window.lunrData = {
               }
             }
           },
+          "a": {
+            "docs": {},
+            "r": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "d": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "g": {
+                      "docs": {},
+                      "m": {
+                        "docs": {
+                          "base_chains.html#open": {
+                            "ref": "base_chains.html#open",
+                            "tf": 2.083333333333333
+                          },
+                          "base.html#open": {
+                            "ref": "base.html#open",
+                            "tf": 2.083333333333333
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "t": {
+              "docs": {},
+              "h": {
+                "docs": {
+                  "documents_model.html#.set": {
+                    "ref": "documents_model.html#.set",
+                    "tf": 18.939393939393938
+                  },
+                  "documents_model.html#.get": {
+                    "ref": "documents_model.html#.get",
+                    "tf": 33.33333333333333
+                  },
+                  "module-documents_probe.queryOperators.html#.$elemMatch": {
+                    "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
+                    "tf": 5.555555555555555
+                  }
+                }
+              }
+            },
+            "s": {
+              "docs": {},
+              "s": {
+                "docs": {
+                  "module-documents_probe.updateOperators.html#.$pop": {
+                    "ref": "module-documents_probe.updateOperators.html#.$pop",
+                    "tf": 1.6666666666666667
+                  }
+                }
+              }
+            },
+            "p": {
+              "docs": {},
+              "y": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "u": {
+                    "docs": {
+                      "module-utils_logger.html": {
+                        "ref": "module-utils_logger.html",
+                        "tf": 7.142857142857142
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
           "u": {
             "docs": {},
             "r": {
@@ -11913,83 +12315,6 @@ window.lunrData = {
               }
             }
           },
-          "a": {
-            "docs": {},
-            "r": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "d": {
-                  "docs": {},
-                  "i": {
-                    "docs": {},
-                    "g": {
-                      "docs": {},
-                      "m": {
-                        "docs": {
-                          "base.html#open": {
-                            "ref": "base.html#open",
-                            "tf": 2.083333333333333
-                          },
-                          "base_chains.html#open": {
-                            "ref": "base_chains.html#open",
-                            "tf": 2.083333333333333
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "t": {
-              "docs": {},
-              "h": {
-                "docs": {
-                  "documents_model.html#.get": {
-                    "ref": "documents_model.html#.get",
-                    "tf": 33.33333333333333
-                  },
-                  "documents_model.html#.set": {
-                    "ref": "documents_model.html#.set",
-                    "tf": 18.939393939393938
-                  },
-                  "module-documents_probe.queryOperators.html#.$elemMatch": {
-                    "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
-                    "tf": 5.555555555555555
-                  }
-                }
-              }
-            },
-            "s": {
-              "docs": {},
-              "s": {
-                "docs": {
-                  "module-documents_probe.updateOperators.html#.$pop": {
-                    "ref": "module-documents_probe.updateOperators.html#.$pop",
-                    "tf": 1.6666666666666667
-                  }
-                }
-              }
-            },
-            "p": {
-              "docs": {},
-              "y": {
-                "docs": {},
-                "r": {
-                  "docs": {},
-                  "u": {
-                    "docs": {
-                      "module-utils_logger.html": {
-                        "ref": "module-utils_logger.html",
-                        "tf": 7.142857142857142
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
           "e": {
             "docs": {},
             "r": {
@@ -12033,708 +12358,6 @@ window.lunrData = {
             }
           }
         },
-        "v": {
-          "docs": {},
-          "a": {
-            "docs": {},
-            "l": {
-              "1": {
-                "docs": {
-                  "module-documents_probe.queryOperators.html#.$all": {
-                    "ref": "module-documents_probe.queryOperators.html#.$all",
-                    "tf": 5
-                  }
-                }
-              },
-              "2": {
-                "docs": {
-                  "module-documents_probe.queryOperators.html#.$all": {
-                    "ref": "module-documents_probe.queryOperators.html#.$all",
-                    "tf": 5
-                  }
-                }
-              },
-              "3": {
-                "docs": {
-                  "module-documents_probe.queryOperators.html#.$all": {
-                    "ref": "module-documents_probe.queryOperators.html#.$all",
-                    "tf": 5
-                  }
-                }
-              },
-              "docs": {},
-              "u": {
-                "docs": {
-                  "base.html": {
-                    "ref": "base.html",
-                    "tf": 1.3888888888888888
-                  },
-                  "base.html#addDefaultOptions": {
-                    "ref": "base.html#addDefaultOptions",
-                    "tf": 5
-                  },
-                  "documents_model.html#_pkey": {
-                    "ref": "documents_model.html#_pkey",
-                    "tf": 6.25
-                  },
-                  "documents_model.html#isNew": {
-                    "ref": "documents_model.html#isNew",
-                    "tf": 8.333333333333332
-                  },
-                  "documents_model.html#.get": {
-                    "ref": "documents_model.html#.get",
-                    "tf": 3.8461538461538463
-                  },
-                  "documents_model.html#.set": {
-                    "ref": "documents_model.html#.set",
-                    "tf": 2.272727272727273
-                  },
-                  "module-documents_probe.queryOperators.html#.$eq": {
-                    "ref": "module-documents_probe.queryOperators.html#.$eq",
-                    "tf": 14.000000000000002
-                  },
-                  "module-documents_probe.queryOperators.html#.$ne": {
-                    "ref": "module-documents_probe.queryOperators.html#.$ne",
-                    "tf": 8.333333333333332
-                  },
-                  "module-documents_probe.queryOperators.html#.$gt": {
-                    "ref": "module-documents_probe.queryOperators.html#.$gt",
-                    "tf": 12.5
-                  },
-                  "module-documents_probe.queryOperators.html#.$gte": {
-                    "ref": "module-documents_probe.queryOperators.html#.$gte",
-                    "tf": 11.11111111111111
-                  },
-                  "module-documents_probe.queryOperators.html#.$lt": {
-                    "ref": "module-documents_probe.queryOperators.html#.$lt",
-                    "tf": 12.5
-                  },
-                  "module-documents_probe.queryOperators.html#.$lte": {
-                    "ref": "module-documents_probe.queryOperators.html#.$lte",
-                    "tf": 11.11111111111111
-                  },
-                  "module-documents_probe.queryOperators.html#.$in": {
-                    "ref": "module-documents_probe.queryOperators.html#.$in",
-                    "tf": 5.555555555555555
-                  },
-                  "module-documents_probe.queryOperators.html#.$nin": {
-                    "ref": "module-documents_probe.queryOperators.html#.$nin",
-                    "tf": 4.545454545454546
-                  },
-                  "module-documents_probe.queryOperators.html#.$size": {
-                    "ref": "module-documents_probe.queryOperators.html#.$size",
-                    "tf": 3.8461538461538463
-                  },
-                  "module-documents_probe.queryOperators.html#.$elemMatch": {
-                    "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
-                    "tf": 5.555555555555555
-                  },
-                  "module-documents_probe.updateOperators.html#.$pop": {
-                    "ref": "module-documents_probe.updateOperators.html#.$pop",
-                    "tf": 3.3333333333333335
-                  },
-                  "module-documents_probe.updateOperators.html#.$push": {
-                    "ref": "module-documents_probe.updateOperators.html#.$push",
-                    "tf": 5
-                  },
-                  "module-documents_probe.updateOperators.html#.$pull": {
-                    "ref": "module-documents_probe.updateOperators.html#.$pull",
-                    "tf": 4.545454545454546
-                  },
-                  "module-documents_binder.html": {
-                    "ref": "module-documents_binder.html",
-                    "tf": 2.7777777777777777
-                  }
-                },
-                "e": {
-                  "2": {
-                    "docs": {
-                      "module-documents_probe.queryOperators.html#.$elemMatch": {
-                        "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
-                        "tf": 2.7777777777777777
-                      }
-                    }
-                  },
-                  "docs": {},
-                  "}": {
-                    "docs": {},
-                    "}": {
-                      "docs": {},
-                      "o": {
-                        "docs": {},
-                        "r": {
-                          "docs": {
-                            "module-documents_probe.queryOperators.html#.$ne": {
-                              "ref": "module-documents_probe.queryOperators.html#.$ne",
-                              "tf": 2.7777777777777777
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "i": {
-                "docs": {},
-                "d": {
-                  "docs": {
-                    "documents_schema.html": {
-                      "ref": "documents_schema.html",
-                      "tf": 12.5
-                    },
-                    "module-documents_schema.html": {
-                      "ref": "module-documents_schema.html",
-                      "tf": 7.142857142857142
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "e": {
-            "docs": {},
-            "r": {
-              "docs": {},
-              "b": {
-                "docs": {
-                  "documents_model.html": {
-                    "ref": "documents_model.html",
-                    "tf": 3.125
-                  },
-                  "base_chains.html#destroy": {
-                    "ref": "base_chains.html#destroy",
-                    "tf": 1.282051282051282
-                  },
-                  "module-documents_model.html": {
-                    "ref": "module-documents_model.html",
-                    "tf": 3.125
-                  }
-                }
-              }
-            }
-          }
-        },
-        "w": {
-          "docs": {},
-          "h": {
-            "docs": {},
-            "o": {
-              "docs": {},
-              "s": {
-                "docs": {},
-                "e": {
-                  "docs": {
-                    "base.html": {
-                      "ref": "base.html",
-                      "tf": 1.3888888888888888
-                    }
-                  }
-                }
-              }
-            },
-            "e": {
-              "docs": {},
-              "r": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  "a": {
-                    "docs": {
-                      "base.html#close": {
-                        "ref": "base.html#close",
-                        "tf": 1.0869565217391304
-                      },
-                      "base_chains.html#close": {
-                        "ref": "base_chains.html#close",
-                        "tf": 1.0869565217391304
-                      }
-                    }
-                  }
-                }
-              },
-              "t": {
-                "docs": {},
-                "h": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "r": {
-                      "docs": {
-                        "module-ink_collector-OCollector.html#findOneKey": {
-                          "ref": "module-ink_collector-OCollector.html#findOneKey",
-                          "tf": 3.125
-                        },
-                        "module-ink_collector-ACollector.html#findOneKey": {
-                          "ref": "module-ink_collector-ACollector.html#findOneKey",
-                          "tf": 3.125
-                        },
-                        "documents_model.html#.findOneKey": {
-                          "ref": "documents_model.html#.findOneKey",
-                          "tf": 3.125
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "a": {
-            "docs": {},
-            "y": {
-              "docs": {
-                "base.html#close": {
-                  "ref": "base.html#close",
-                  "tf": 1.0869565217391304
-                },
-                "documents_model.html#.set": {
-                  "ref": "documents_model.html#.set",
-                  "tf": 2.272727272727273
-                },
-                "base_chains.html#close": {
-                  "ref": "base_chains.html#close",
-                  "tf": 1.0869565217391304
-                },
-                "base_chains.html#end": {
-                  "ref": "base_chains.html#end",
-                  "tf": 1.6129032258064515
-                }
-              }
-            },
-            "r": {
-              "docs": {},
-              "n": {
-                "docs": {
-                  "utils_logger.Logger.html#level": {
-                    "ref": "utils_logger.Logger.html#level",
-                    "tf": 5.555555555555555
-                  },
-                  "utils_logger.Logger.html#warn": {
-                    "ref": "utils_logger.Logger.html#warn",
-                    "tf": 716.6666666666666
-                  }
-                }
-              }
-            },
-            "t": {
-              "docs": {},
-              "c": {
-                "docs": {},
-                "h": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "r": {
-                      "docs": {
-                        "module-documents_binder.html": {
-                          "ref": "module-documents_binder.html",
-                          "tf": 2.7777777777777777
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "i": {
-            "docs": {},
-            "t": {
-              "docs": {},
-              "h": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "u": {
-                    "docs": {},
-                    "t": {
-                      "docs": {
-                        "base.html#end": {
-                          "ref": "base.html#end",
-                          "tf": 2.272727272727273
-                        },
-                        "base.html#destroy": {
-                          "ref": "base.html#destroy",
-                          "tf": 2.631578947368421
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "o": {
-            "docs": {},
-            "r": {
-              "docs": {},
-              "k": {
-                "docs": {
-                  "documents_model.html#.set": {
-                    "ref": "documents_model.html#.set",
-                    "tf": 2.272727272727273
-                  },
-                  "module-documents_probe.queryOperators.html#.$elemMatch": {
-                    "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
-                    "tf": 2.7777777777777777
-                  },
-                  "module-documents_probe.updateOperators.html#.$pop": {
-                    "ref": "module-documents_probe.updateOperators.html#.$pop",
-                    "tf": 1.6666666666666667
-                  },
-                  "base_chains.html#destroy": {
-                    "ref": "base_chains.html#destroy",
-                    "tf": 1.282051282051282
-                  }
-                }
-              }
-            }
-          },
-          "r": {
-            "docs": {},
-            "i": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                "e": {
-                  "docs": {
-                    "documents_model.html#.set": {
-                      "ref": "documents_model.html#.set",
-                      "tf": 2.272727272727273
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "e": {
-          "docs": {},
-          "n": {
-            "docs": {},
-            "d": {
-              "docs": {
-                "base.html#close": {
-                  "ref": "base.html#close",
-                  "tf": 1.0869565217391304
-                },
-                "base.html#end": {
-                  "ref": "base.html#end",
-                  "tf": 750
-                },
-                "base_chains.html#close": {
-                  "ref": "base_chains.html#close",
-                  "tf": 1.0869565217391304
-                },
-                "base_chains.html#end": {
-                  "ref": "base_chains.html#end",
-                  "tf": 751.6129032258065
-                },
-                "base_chains.html#destroy": {
-                  "ref": "base_chains.html#destroy",
-                  "tf": 3.8461538461538463
-                }
-              }
-            },
-            "t": {
-              "docs": {},
-              "i": {
-                "docs": {},
-                "t": {
-                  "docs": {},
-                  "i": {
-                    "docs": {
-                      "documents_model.html": {
-                        "ref": "documents_model.html",
-                        "tf": 3.125
-                      },
-                      "module-documents_model.html": {
-                        "ref": "module-documents_model.html",
-                        "tf": 3.125
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "a": {
-              "docs": {},
-              "b": {
-                "docs": {},
-                "l": {
-                  "docs": {
-                    "module-documents_schema.html": {
-                      "ref": "module-documents_schema.html",
-                      "tf": 7.142857142857142
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "x": {
-            "docs": {},
-            "i": {
-              "docs": {},
-              "s": {
-                "docs": {},
-                "t": {
-                  "docs": {
-                    "base.html#addOptions": {
-                      "ref": "base.html#addOptions",
-                      "tf": 5.555555555555555
-                    },
-                    "documents_model.html#.set": {
-                      "ref": "documents_model.html#.set",
-                      "tf": 2.272727272727273
-                    },
-                    "module-documents_probe.queryOperators.html#.$exists": {
-                      "ref": "module-documents_probe.queryOperators.html#.$exists",
-                      "tf": 671.4285714285714
-                    },
-                    "module-documents_probe.updateOperators.html#.$pull": {
-                      "ref": "module-documents_probe.updateOperators.html#.$pull",
-                      "tf": 4.545454545454546
-                    }
-                  }
-                }
-              }
-            },
-            "p": {
-              "docs": {},
-              "r": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  "s": {
-                    "docs": {},
-                    "s": {
-                      "docs": {
-                        "module-documents_probe.queryOperators.html#.$regex": {
-                          "ref": "module-documents_probe.queryOperators.html#.$regex",
-                          "tf": 4.545454545454546
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "c": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "p": {
-                  "docs": {},
-                  "t": {
-                    "docs": {
-                      "module-documents_probe.queryOperators.html#.$elemMatch": {
-                        "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
-                        "tf": 2.7777777777777777
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "e": {
-              "docs": {},
-              "c": {
-                "docs": {},
-                "u": {
-                  "docs": {},
-                  "t": {
-                    "docs": {
-                      "base_chains.html": {
-                        "ref": "base_chains.html",
-                        "tf": 5.555555555555555
-                      },
-                      "module-mixins_signalable-Signal.html#once": {
-                        "ref": "module-mixins_signalable-Signal.html#once",
-                        "tf": 10
-                      },
-                      "module-base_chains.html": {
-                        "ref": "module-base_chains.html",
-                        "tf": 5.555555555555555
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "v": {
-            "docs": {},
-            "e": {
-              "docs": {},
-              "n": {
-                "docs": {},
-                "t": {
-                  "docs": {
-                    "base.html#destroy": {
-                      "ref": "base.html#destroy",
-                      "tf": 2.631578947368421
-                    },
-                    "documents_model.html#.get": {
-                      "ref": "documents_model.html#.get",
-                      "tf": 3.8461538461538463
-                    },
-                    "module-mixins_signalable.html": {
-                      "ref": "module-mixins_signalable.html",
-                      "tf": 10
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "m": {
-            "docs": {},
-            "p": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                "i": {
-                  "docs": {
-                    "documents_model.html#isNew": {
-                      "ref": "documents_model.html#isNew",
-                      "tf": 8.333333333333332
-                    },
-                    "documents_model.html#isEmpty": {
-                      "ref": "documents_model.html#isEmpty",
-                      "tf": 12.5
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "q": {
-            "docs": {
-              "module-documents_probe.queryOperators.html#.$eq": {
-                "ref": "module-documents_probe.queryOperators.html#.$eq",
-                "tf": 656
-              }
-            },
-            "u": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "l": {
-                  "docs": {
-                    "module-documents_probe.queryOperators.html#.$gte": {
-                      "ref": "module-documents_probe.queryOperators.html#.$gte",
-                      "tf": 5.555555555555555
-                    },
-                    "module-documents_probe.queryOperators.html#.$lte": {
-                      "ref": "module-documents_probe.queryOperators.html#.$lte",
-                      "tf": 5.555555555555555
-                    },
-                    "module-documents_probe.queryOperators.html#.$mod": {
-                      "ref": "module-documents_probe.queryOperators.html#.$mod",
-                      "tf": 5.555555555555555
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "l": {
-            "docs": {},
-            "e": {
-              "docs": {},
-              "m": {
-                "docs": {},
-                "m": {
-                  "docs": {},
-                  "a": {
-                    "docs": {},
-                    "t": {
-                      "docs": {},
-                      "c": {
-                        "docs": {},
-                        "h": {
-                          "docs": {
-                            "module-documents_probe.queryOperators.html#.$elemMatch": {
-                              "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
-                              "tf": 652.7777777777778
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                },
-                "e": {
-                  "docs": {},
-                  "n": {
-                    "docs": {},
-                    "t": {
-                      "docs": {
-                        "module-documents_probe.updateOperators.html#.$pop": {
-                          "ref": "module-documents_probe.updateOperators.html#.$pop",
-                          "tf": 5
-                        },
-                        "base_chains.html": {
-                          "ref": "base_chains.html",
-                          "tf": 5.555555555555555
-                        },
-                        "module-base_chains.html": {
-                          "ref": "module-base_chains.html",
-                          "tf": 5.555555555555555
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "r": {
-            "docs": {},
-            "r": {
-              "docs": {},
-              "o": {
-                "docs": {},
-                "r": {
-                  "docs": {
-                    "utils_logger.Logger.html#silent": {
-                      "ref": "utils_logger.Logger.html#silent",
-                      "tf": 6.25
-                    },
-                    "utils_logger.Logger.html#level": {
-                      "ref": "utils_logger.Logger.html#level",
-                      "tf": 5.555555555555555
-                    },
-                    "utils_logger.Logger.html#error": {
-                      "ref": "utils_logger.Logger.html#error",
-                      "tf": 716.6666666666666
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "a": {
-            "docs": {},
-            "s": {
-              "docs": {},
-              "i": {
-                "docs": {
-                  "mixins_bussable.html": {
-                    "ref": "mixins_bussable.html",
-                    "tf": 5.555555555555555
-                  },
-                  "module-mixins_bussable.html": {
-                    "ref": "module-mixins_bussable.html",
-                    "tf": 5.555555555555555
-                  }
-                }
-              }
-            }
-          }
-        },
         "k": {
           "docs": {},
           "e": {
@@ -12743,12 +12366,12 @@ window.lunrData = {
               "docs": {},
               "p": {
                 "docs": {
-                  "base.html#close": {
-                    "ref": "base.html#close",
-                    "tf": 1.0869565217391304
-                  },
                   "base_chains.html#close": {
                     "ref": "base_chains.html#close",
+                    "tf": 1.0869565217391304
+                  },
+                  "base.html#close": {
+                    "ref": "base.html#close",
                     "tf": 1.0869565217391304
                   }
                 }
@@ -12756,6 +12379,18 @@ window.lunrData = {
             },
             "y": {
               "docs": {
+                "documents_model.html#_pkey": {
+                  "ref": "documents_model.html#_pkey",
+                  "tf": 6.25
+                },
+                "documents_model.html#.findKeys": {
+                  "ref": "documents_model.html#.findKeys",
+                  "tf": 6.25
+                },
+                "documents_model.html#.findOneKey": {
+                  "ref": "documents_model.html#.findOneKey",
+                  "tf": 3.125
+                },
                 "module-ink_collector-OCollector.html#findOneKey": {
                   "ref": "module-ink_collector-OCollector.html#findOneKey",
                   "tf": 3.125
@@ -12772,18 +12407,6 @@ window.lunrData = {
                   "ref": "module-ink_collector-ACollector.html#findKeys",
                   "tf": 6.25
                 },
-                "documents_model.html#_pkey": {
-                  "ref": "documents_model.html#_pkey",
-                  "tf": 6.25
-                },
-                "documents_model.html#.findOneKey": {
-                  "ref": "documents_model.html#.findOneKey",
-                  "tf": 3.125
-                },
-                "documents_model.html#.findKeys": {
-                  "ref": "documents_model.html#.findKeys",
-                  "tf": 6.25
-                },
                 "module-documents_probe.queryOperators.html#.$size": {
                   "ref": "module-documents_probe.queryOperators.html#.$size",
                   "tf": 3.8461538461538463
@@ -12797,12 +12420,12 @@ window.lunrData = {
               "docs": {},
               "d": {
                 "docs": {
-                  "base.html#open": {
-                    "ref": "base.html#open",
-                    "tf": 2.083333333333333
-                  },
                   "base_chains.html#open": {
                     "ref": "base_chains.html#open",
+                    "tf": 2.083333333333333
+                  },
+                  "base.html#open": {
+                    "ref": "base.html#open",
                     "tf": 2.083333333333333
                   }
                 }
@@ -12820,10 +12443,6 @@ window.lunrData = {
                 "docs": {},
                 "k": {
                   "docs": {
-                    "base.html#close": {
-                      "ref": "base.html#close",
-                      "tf": 1.0869565217391304
-                    },
                     "base_chains.html#close": {
                       "ref": "base_chains.html#close",
                       "tf": 1.0869565217391304
@@ -12831,6 +12450,10 @@ window.lunrData = {
                     "base_chains.html#end": {
                       "ref": "base_chains.html#end",
                       "tf": 1.6129032258064515
+                    },
+                    "base.html#close": {
+                      "ref": "base.html#close",
+                      "tf": 1.0869565217391304
                     }
                   }
                 }
@@ -12840,10 +12463,6 @@ window.lunrData = {
               "docs": {},
               "s": {
                 "docs": {
-                  "base.html#close": {
-                    "ref": "base.html#close",
-                    "tf": 1.0869565217391304
-                  },
                   "base_chains.html#close": {
                     "ref": "base_chains.html#close",
                     "tf": 1.0869565217391304
@@ -12851,42 +12470,10 @@ window.lunrData = {
                   "base_chains.html#end": {
                     "ref": "base_chains.html#end",
                     "tf": 1.6129032258064515
-                  }
-                }
-              }
-            },
-            "i": {
-              "docs": {},
-              "q": {
-                "docs": {},
-                "u": {
-                  "docs": {
-                    "module-ink_collector-OCollector.html#unique": {
-                      "ref": "module-ink_collector-OCollector.html#unique",
-                      "tf": 691.6666666666667
-                    },
-                    "module-ink_collector-ACollector.html#unique": {
-                      "ref": "module-ink_collector-ACollector.html#unique",
-                      "tf": 691.6666666666667
-                    },
-                    "documents_model.html#_idField": {
-                      "ref": "documents_model.html#_idField",
-                      "tf": 5.555555555555555
-                    }
-                  }
-                }
-              }
-            },
-            "s": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "t": {
-                  "docs": {
-                    "module-documents_probe.updateOperators.html#.$unset": {
-                      "ref": "module-documents_probe.updateOperators.html#.$unset",
-                      "tf": 657.1428571428571
-                    }
+                  },
+                  "base.html#close": {
+                    "ref": "base.html#close",
+                    "tf": 1.0869565217391304
                   }
                 }
               }
@@ -12907,30 +12494,46 @@ window.lunrData = {
                   }
                 }
               }
+            },
+            "i": {
+              "docs": {},
+              "q": {
+                "docs": {},
+                "u": {
+                  "docs": {
+                    "documents_model.html#_idField": {
+                      "ref": "documents_model.html#_idField",
+                      "tf": 5.555555555555555
+                    },
+                    "module-ink_collector-OCollector.html#unique": {
+                      "ref": "module-ink_collector-OCollector.html#unique",
+                      "tf": 691.6666666666667
+                    },
+                    "module-ink_collector-ACollector.html#unique": {
+                      "ref": "module-ink_collector-ACollector.html#unique",
+                      "tf": 691.6666666666667
+                    }
+                  }
+                }
+              }
+            },
+            "s": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "module-documents_probe.updateOperators.html#.$unset": {
+                      "ref": "module-documents_probe.updateOperators.html#.$unset",
+                      "tf": 657.1428571428571
+                    }
+                  }
+                }
+              }
             }
           },
           "s": {
             "docs": {
-              "base.html#close": {
-                "ref": "base.html#close",
-                "tf": 1.0869565217391304
-              },
-              "base.html#open": {
-                "ref": "base.html#open",
-                "tf": 4.166666666666666
-              },
-              "documents_model.html#.get": {
-                "ref": "documents_model.html#.get",
-                "tf": 3.8461538461538463
-              },
-              "documents_model.html#.set": {
-                "ref": "documents_model.html#.set",
-                "tf": 2.272727272727273
-              },
-              "module-documents_probe.queryOperators.html#.$size": {
-                "ref": "module-documents_probe.queryOperators.html#.$size",
-                "tf": 3.8461538461538463
-              },
               "base_chains.html#close": {
                 "ref": "base_chains.html#close",
                 "tf": 1.0869565217391304
@@ -12946,6 +12549,26 @@ window.lunrData = {
               "base_chains.html#open": {
                 "ref": "base_chains.html#open",
                 "tf": 4.166666666666666
+              },
+              "base.html#close": {
+                "ref": "base.html#close",
+                "tf": 1.0869565217391304
+              },
+              "base.html#open": {
+                "ref": "base.html#open",
+                "tf": 4.166666666666666
+              },
+              "documents_model.html#.set": {
+                "ref": "documents_model.html#.set",
+                "tf": 2.272727272727273
+              },
+              "documents_model.html#.get": {
+                "ref": "documents_model.html#.get",
+                "tf": 3.8461538461538463
+              },
+              "module-documents_probe.queryOperators.html#.$size": {
+                "ref": "module-documents_probe.queryOperators.html#.$size",
+                "tf": 3.8461538461538463
               },
               "module-documents_probe.html": {
                 "ref": "module-documents_probe.html",
@@ -12988,6 +12611,14 @@ window.lunrData = {
                 "docs": {},
                 "t": {
                   "docs": {
+                    "documents_model.html#.update": {
+                      "ref": "documents_model.html#.update",
+                      "tf": 675.5555555555555
+                    },
+                    "documents_model.html#.set": {
+                      "ref": "documents_model.html#.set",
+                      "tf": 2.272727272727273
+                    },
                     "module-ink_collector-OCollector.html#update": {
                       "ref": "module-ink_collector-OCollector.html#update",
                       "tf": 688.8888888888889
@@ -12995,14 +12626,6 @@ window.lunrData = {
                     "module-ink_collector-ACollector.html#update": {
                       "ref": "module-ink_collector-ACollector.html#update",
                       "tf": 688.8888888888889
-                    },
-                    "documents_model.html#.set": {
-                      "ref": "documents_model.html#.set",
-                      "tf": 2.272727272727273
-                    },
-                    "documents_model.html#.update": {
-                      "ref": "documents_model.html#.update",
-                      "tf": 675.5555555555555
                     }
                   },
                   "e": {
@@ -13342,43 +12965,442 @@ window.lunrData = {
             }
           }
         },
-        "n": {
+        "w": {
           "docs": {},
-          "u": {
+          "a": {
             "docs": {},
-            "m": {
+            "y": {
+              "docs": {
+                "base_chains.html#close": {
+                  "ref": "base_chains.html#close",
+                  "tf": 1.0869565217391304
+                },
+                "base_chains.html#end": {
+                  "ref": "base_chains.html#end",
+                  "tf": 1.6129032258064515
+                },
+                "base.html#close": {
+                  "ref": "base.html#close",
+                  "tf": 1.0869565217391304
+                },
+                "documents_model.html#.set": {
+                  "ref": "documents_model.html#.set",
+                  "tf": 2.272727272727273
+                }
+              }
+            },
+            "r": {
               "docs": {},
-              "b": {
+              "n": {
+                "docs": {
+                  "utils_logger.Logger.html#level": {
+                    "ref": "utils_logger.Logger.html#level",
+                    "tf": 5.555555555555555
+                  },
+                  "utils_logger.Logger.html#warn": {
+                    "ref": "utils_logger.Logger.html#warn",
+                    "tf": 716.6666666666666
+                  }
+                }
+              }
+            },
+            "t": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "h": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "r": {
+                      "docs": {
+                        "module-documents_binder.html": {
+                          "ref": "module-documents_binder.html",
+                          "tf": 2.7777777777777777
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "h": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "r": {
                 "docs": {},
                 "e": {
                   "docs": {},
-                  "r": {
+                  "a": {
                     "docs": {
-                      "module-ink_collector-OCollector.html#length": {
-                        "ref": "module-ink_collector-OCollector.html#length",
-                        "tf": 50
+                      "base_chains.html#close": {
+                        "ref": "base_chains.html#close",
+                        "tf": 1.0869565217391304
                       },
-                      "module-ink_collector-ACollector.html#length": {
-                        "ref": "module-ink_collector-ACollector.html#length",
-                        "tf": 50
+                      "base.html#close": {
+                        "ref": "base.html#close",
+                        "tf": 1.0869565217391304
+                      }
+                    }
+                  }
+                }
+              },
+              "t": {
+                "docs": {},
+                "h": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "r": {
+                      "docs": {
+                        "documents_model.html#.findOneKey": {
+                          "ref": "documents_model.html#.findOneKey",
+                          "tf": 3.125
+                        },
+                        "module-ink_collector-OCollector.html#findOneKey": {
+                          "ref": "module-ink_collector-OCollector.html#findOneKey",
+                          "tf": 3.125
+                        },
+                        "module-ink_collector-ACollector.html#findOneKey": {
+                          "ref": "module-ink_collector-ACollector.html#findOneKey",
+                          "tf": 3.125
+                        }
                       }
                     }
                   }
                 }
               }
             },
-            "l": {
+            "o": {
               "docs": {},
-              "l": {
-                "docs": {
-                  "documents_model.html#_pkey": {
-                    "ref": "documents_model.html#_pkey",
-                    "tf": 6.25
+              "s": {
+                "docs": {},
+                "e": {
+                  "docs": {
+                    "base.html": {
+                      "ref": "base.html",
+                      "tf": 1.3888888888888888
+                    }
                   }
                 }
               }
             }
           },
+          "o": {
+            "docs": {},
+            "r": {
+              "docs": {},
+              "k": {
+                "docs": {
+                  "base_chains.html#destroy": {
+                    "ref": "base_chains.html#destroy",
+                    "tf": 1.282051282051282
+                  },
+                  "documents_model.html#.set": {
+                    "ref": "documents_model.html#.set",
+                    "tf": 2.272727272727273
+                  },
+                  "module-documents_probe.queryOperators.html#.$elemMatch": {
+                    "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
+                    "tf": 2.7777777777777777
+                  },
+                  "module-documents_probe.updateOperators.html#.$pop": {
+                    "ref": "module-documents_probe.updateOperators.html#.$pop",
+                    "tf": 1.6666666666666667
+                  }
+                }
+              }
+            }
+          },
+          "i": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "h": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "u": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "base.html#end": {
+                          "ref": "base.html#end",
+                          "tf": 2.272727272727273
+                        },
+                        "base.html#destroy": {
+                          "ref": "base.html#destroy",
+                          "tf": 2.631578947368421
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "i": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "e": {
+                  "docs": {
+                    "documents_model.html#.set": {
+                      "ref": "documents_model.html#.set",
+                      "tf": 2.272727272727273
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "v": {
+          "docs": {},
+          "e": {
+            "docs": {},
+            "r": {
+              "docs": {},
+              "b": {
+                "docs": {
+                  "base_chains.html#destroy": {
+                    "ref": "base_chains.html#destroy",
+                    "tf": 1.282051282051282
+                  },
+                  "documents_model.html": {
+                    "ref": "documents_model.html",
+                    "tf": 3.125
+                  },
+                  "module-documents_model.html": {
+                    "ref": "module-documents_model.html",
+                    "tf": 3.125
+                  }
+                }
+              }
+            }
+          },
+          "a": {
+            "docs": {},
+            "l": {
+              "1": {
+                "docs": {
+                  "module-documents_probe.queryOperators.html#.$all": {
+                    "ref": "module-documents_probe.queryOperators.html#.$all",
+                    "tf": 5
+                  }
+                }
+              },
+              "2": {
+                "docs": {
+                  "module-documents_probe.queryOperators.html#.$all": {
+                    "ref": "module-documents_probe.queryOperators.html#.$all",
+                    "tf": 5
+                  }
+                }
+              },
+              "3": {
+                "docs": {
+                  "module-documents_probe.queryOperators.html#.$all": {
+                    "ref": "module-documents_probe.queryOperators.html#.$all",
+                    "tf": 5
+                  }
+                }
+              },
+              "docs": {},
+              "u": {
+                "docs": {
+                  "base.html": {
+                    "ref": "base.html",
+                    "tf": 1.3888888888888888
+                  },
+                  "base.html#addDefaultOptions": {
+                    "ref": "base.html#addDefaultOptions",
+                    "tf": 5
+                  },
+                  "documents_model.html#_pkey": {
+                    "ref": "documents_model.html#_pkey",
+                    "tf": 6.25
+                  },
+                  "documents_model.html#isNew": {
+                    "ref": "documents_model.html#isNew",
+                    "tf": 8.333333333333332
+                  },
+                  "documents_model.html#.set": {
+                    "ref": "documents_model.html#.set",
+                    "tf": 2.272727272727273
+                  },
+                  "documents_model.html#.get": {
+                    "ref": "documents_model.html#.get",
+                    "tf": 3.8461538461538463
+                  },
+                  "module-documents_probe.queryOperators.html#.$eq": {
+                    "ref": "module-documents_probe.queryOperators.html#.$eq",
+                    "tf": 14.000000000000002
+                  },
+                  "module-documents_probe.queryOperators.html#.$ne": {
+                    "ref": "module-documents_probe.queryOperators.html#.$ne",
+                    "tf": 11.11111111111111
+                  },
+                  "module-documents_probe.queryOperators.html#.$gt": {
+                    "ref": "module-documents_probe.queryOperators.html#.$gt",
+                    "tf": 12.5
+                  },
+                  "module-documents_probe.queryOperators.html#.$gte": {
+                    "ref": "module-documents_probe.queryOperators.html#.$gte",
+                    "tf": 11.11111111111111
+                  },
+                  "module-documents_probe.queryOperators.html#.$lt": {
+                    "ref": "module-documents_probe.queryOperators.html#.$lt",
+                    "tf": 12.5
+                  },
+                  "module-documents_probe.queryOperators.html#.$lte": {
+                    "ref": "module-documents_probe.queryOperators.html#.$lte",
+                    "tf": 11.11111111111111
+                  },
+                  "module-documents_probe.queryOperators.html#.$in": {
+                    "ref": "module-documents_probe.queryOperators.html#.$in",
+                    "tf": 5.555555555555555
+                  },
+                  "module-documents_probe.queryOperators.html#.$nin": {
+                    "ref": "module-documents_probe.queryOperators.html#.$nin",
+                    "tf": 4.545454545454546
+                  },
+                  "module-documents_probe.queryOperators.html#.$size": {
+                    "ref": "module-documents_probe.queryOperators.html#.$size",
+                    "tf": 3.8461538461538463
+                  },
+                  "module-documents_probe.queryOperators.html#.$elemMatch": {
+                    "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
+                    "tf": 5.555555555555555
+                  },
+                  "module-documents_probe.updateOperators.html#.$pop": {
+                    "ref": "module-documents_probe.updateOperators.html#.$pop",
+                    "tf": 3.3333333333333335
+                  },
+                  "module-documents_probe.updateOperators.html#.$push": {
+                    "ref": "module-documents_probe.updateOperators.html#.$push",
+                    "tf": 5
+                  },
+                  "module-documents_probe.updateOperators.html#.$pull": {
+                    "ref": "module-documents_probe.updateOperators.html#.$pull",
+                    "tf": 4.545454545454546
+                  },
+                  "module-documents_binder.html": {
+                    "ref": "module-documents_binder.html",
+                    "tf": 2.7777777777777777
+                  }
+                },
+                "e": {
+                  "2": {
+                    "docs": {
+                      "module-documents_probe.queryOperators.html#.$elemMatch": {
+                        "ref": "module-documents_probe.queryOperators.html#.$elemMatch",
+                        "tf": 2.7777777777777777
+                      }
+                    }
+                  },
+                  "docs": {}
+                }
+              },
+              "i": {
+                "docs": {},
+                "d": {
+                  "docs": {
+                    "documents_schema.html": {
+                      "ref": "documents_schema.html",
+                      "tf": 12.5
+                    },
+                    "module-documents_schema.html": {
+                      "ref": "module-documents_schema.html",
+                      "tf": 7.142857142857142
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "y": {
+          "docs": {},
+          "o": {
+            "docs": {},
+            "u": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "s": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "l": {
+                      "docs": {},
+                      "f": {
+                        "docs": {
+                          "base_chains.html#destroy": {
+                            "ref": "base_chains.html#destroy",
+                            "tf": 1.282051282051282
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_": {
+          "docs": {},
+          "i": {
+            "docs": {},
+            "d": {
+              "docs": {},
+              "f": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "l": {
+                      "docs": {},
+                      "d": {
+                        "docs": {
+                          "documents_model.html#_idField": {
+                            "ref": "documents_model.html#_idField",
+                            "tf": 683.3333333333334
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "p": {
+            "docs": {},
+            "k": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "y": {
+                  "docs": {
+                    "documents_model.html#_pkey": {
+                      "ref": "documents_model.html#_pkey",
+                      "tf": 700
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "n": {
+          "docs": {},
           "a": {
             "docs": {},
             "m": {
@@ -13429,22 +13451,46 @@ window.lunrData = {
               }
             }
           },
+          "u": {
+            "docs": {},
+            "l": {
+              "docs": {},
+              "l": {
+                "docs": {
+                  "documents_model.html#_pkey": {
+                    "ref": "documents_model.html#_pkey",
+                    "tf": 6.25
+                  }
+                }
+              }
+            },
+            "m": {
+              "docs": {},
+              "b": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "r": {
+                    "docs": {
+                      "module-ink_collector-OCollector.html#length": {
+                        "ref": "module-ink_collector-OCollector.html#length",
+                        "tf": 50
+                      },
+                      "module-ink_collector-ACollector.html#length": {
+                        "ref": "module-ink_collector-ACollector.html#length",
+                        "tf": 50
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
           "e": {
             "docs": {
               "module-documents_probe.queryOperators.html#.$ne": {
                 "ref": "module-documents_probe.queryOperators.html#.$ne",
                 "tf": 658.3333333333334
-              }
-            },
-            "s": {
-              "docs": {},
-              "t": {
-                "docs": {
-                  "documents_model.html#.get": {
-                    "ref": "documents_model.html#.get",
-                    "tf": 3.8461538461538463
-                  }
-                }
               }
             },
             "w": {
@@ -13463,6 +13509,17 @@ window.lunrData = {
                         }
                       }
                     }
+                  }
+                }
+              }
+            },
+            "s": {
+              "docs": {},
+              "t": {
+                "docs": {
+                  "documents_model.html#.get": {
+                    "ref": "documents_model.html#.get",
+                    "tf": 3.8461538461538463
                   }
                 }
               }
@@ -13495,6 +13552,46 @@ window.lunrData = {
           "docs": {},
           "u": {
             "docs": {
+              "documents_model.html#.update": {
+                "ref": "documents_model.html#.update",
+                "tf": 20
+              },
+              "documents_model.html#.find": {
+                "ref": "documents_model.html#.find",
+                "tf": 20
+              },
+              "documents_model.html#.findKeys": {
+                "ref": "documents_model.html#.findKeys",
+                "tf": 20
+              },
+              "documents_model.html#.findOne": {
+                "ref": "documents_model.html#.findOne",
+                "tf": 20
+              },
+              "documents_model.html#.findOneKey": {
+                "ref": "documents_model.html#.findOneKey",
+                "tf": 20
+              },
+              "documents_model.html#.remove": {
+                "ref": "documents_model.html#.remove",
+                "tf": 20
+              },
+              "documents_model.html#.all": {
+                "ref": "documents_model.html#.all",
+                "tf": 25
+              },
+              "documents_model.html#.any": {
+                "ref": "documents_model.html#.any",
+                "tf": 25
+              },
+              "documents_model.html#.some": {
+                "ref": "documents_model.html#.some",
+                "tf": 25
+              },
+              "documents_model.html#.every": {
+                "ref": "documents_model.html#.every",
+                "tf": 25
+              },
               "module-ink_collector-OCollector.html#every": {
                 "ref": "module-ink_collector-OCollector.html#every",
                 "tf": 50
@@ -13582,46 +13679,6 @@ window.lunrData = {
               "module-ink_collector-ACollector.html#update": {
                 "ref": "module-ink_collector-ACollector.html#update",
                 "tf": 33.33333333333333
-              },
-              "documents_model.html#.any": {
-                "ref": "documents_model.html#.any",
-                "tf": 25
-              },
-              "documents_model.html#.all": {
-                "ref": "documents_model.html#.all",
-                "tf": 25
-              },
-              "documents_model.html#.remove": {
-                "ref": "documents_model.html#.remove",
-                "tf": 20
-              },
-              "documents_model.html#.findOne": {
-                "ref": "documents_model.html#.findOne",
-                "tf": 20
-              },
-              "documents_model.html#.findOneKey": {
-                "ref": "documents_model.html#.findOneKey",
-                "tf": 20
-              },
-              "documents_model.html#.findKeys": {
-                "ref": "documents_model.html#.findKeys",
-                "tf": 20
-              },
-              "documents_model.html#.find": {
-                "ref": "documents_model.html#.find",
-                "tf": 20
-              },
-              "documents_model.html#.update": {
-                "ref": "documents_model.html#.update",
-                "tf": 20
-              },
-              "documents_model.html#.some": {
-                "ref": "documents_model.html#.some",
-                "tf": 25
-              },
-              "documents_model.html#.every": {
-                "ref": "documents_model.html#.every",
-                "tf": 25
               }
             },
             "e": {
@@ -13630,6 +13687,50 @@ window.lunrData = {
                 "docs": {},
                 "i": {
                   "docs": {
+                    "documents_model.html#.update": {
+                      "ref": "documents_model.html#.update",
+                      "tf": 5.555555555555555
+                    },
+                    "documents_model.html#.find": {
+                      "ref": "documents_model.html#.find",
+                      "tf": 12.5
+                    },
+                    "documents_model.html#.findKeys": {
+                      "ref": "documents_model.html#.findKeys",
+                      "tf": 2.083333333333333
+                    },
+                    "documents_model.html#.findOne": {
+                      "ref": "documents_model.html#.findOne",
+                      "tf": 7.142857142857142
+                    },
+                    "documents_model.html#.findOneKey": {
+                      "ref": "documents_model.html#.findOneKey",
+                      "tf": 3.125
+                    },
+                    "documents_model.html#.remove": {
+                      "ref": "documents_model.html#.remove",
+                      "tf": 10
+                    },
+                    "documents_model.html#.all": {
+                      "ref": "documents_model.html#.all",
+                      "tf": 10
+                    },
+                    "documents_model.html#.any": {
+                      "ref": "documents_model.html#.any",
+                      "tf": 10
+                    },
+                    "documents_model.html#.get": {
+                      "ref": "documents_model.html#.get",
+                      "tf": 3.8461538461538463
+                    },
+                    "documents_model.html#.some": {
+                      "ref": "documents_model.html#.some",
+                      "tf": 8.333333333333332
+                    },
+                    "documents_model.html#.every": {
+                      "ref": "documents_model.html#.every",
+                      "tf": 8.333333333333332
+                    },
                     "module-ink_collector-OCollector.html#every": {
                       "ref": "module-ink_collector-OCollector.html#every",
                       "tf": 8.333333333333332
@@ -13717,50 +13818,6 @@ window.lunrData = {
                     "module-ink_collector-ACollector.html#update": {
                       "ref": "module-ink_collector-ACollector.html#update",
                       "tf": 5.555555555555555
-                    },
-                    "documents_model.html#.get": {
-                      "ref": "documents_model.html#.get",
-                      "tf": 3.8461538461538463
-                    },
-                    "documents_model.html#.any": {
-                      "ref": "documents_model.html#.any",
-                      "tf": 10
-                    },
-                    "documents_model.html#.all": {
-                      "ref": "documents_model.html#.all",
-                      "tf": 10
-                    },
-                    "documents_model.html#.remove": {
-                      "ref": "documents_model.html#.remove",
-                      "tf": 10
-                    },
-                    "documents_model.html#.findOne": {
-                      "ref": "documents_model.html#.findOne",
-                      "tf": 7.142857142857142
-                    },
-                    "documents_model.html#.findOneKey": {
-                      "ref": "documents_model.html#.findOneKey",
-                      "tf": 3.125
-                    },
-                    "documents_model.html#.findKeys": {
-                      "ref": "documents_model.html#.findKeys",
-                      "tf": 2.083333333333333
-                    },
-                    "documents_model.html#.find": {
-                      "ref": "documents_model.html#.find",
-                      "tf": 12.5
-                    },
-                    "documents_model.html#.update": {
-                      "ref": "documents_model.html#.update",
-                      "tf": 5.555555555555555
-                    },
-                    "documents_model.html#.some": {
-                      "ref": "documents_model.html#.some",
-                      "tf": 8.333333333333332
-                    },
-                    "documents_model.html#.every": {
-                      "ref": "documents_model.html#.every",
-                      "tf": 8.333333333333332
                     },
                     "module-documents_probe.queryOperators.html#.$all": {
                       "ref": "module-documents_probe.queryOperators.html#.$all",
@@ -14119,84 +14176,9 @@ window.lunrData = {
               }
             }
           }
-        },
-        "_": {
-          "docs": {},
-          "i": {
-            "docs": {},
-            "d": {
-              "docs": {},
-              "f": {
-                "docs": {},
-                "i": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "l": {
-                      "docs": {},
-                      "d": {
-                        "docs": {
-                          "documents_model.html#_idField": {
-                            "ref": "documents_model.html#_idField",
-                            "tf": 683.3333333333334
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "p": {
-            "docs": {},
-            "k": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "y": {
-                  "docs": {
-                    "documents_model.html#_pkey": {
-                      "ref": "documents_model.html#_pkey",
-                      "tf": 700
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "y": {
-          "docs": {},
-          "o": {
-            "docs": {},
-            "u": {
-              "docs": {},
-              "r": {
-                "docs": {},
-                "s": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "l": {
-                      "docs": {},
-                      "f": {
-                        "docs": {
-                          "base_chains.html#destroy": {
-                            "ref": "base_chains.html#destroy",
-                            "tf": 1.282051282051282
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
         }
       },
-      "length": 1449
+      "length": 1448
     },
     "corpusTokens": [
       "1",
@@ -14690,7 +14672,6 @@ window.lunrData = {
       "valid",
       "valu",
       "value2",
-      "value}}or",
       "verb",
       "warn",
       "watcher",
@@ -14742,17 +14723,6 @@ window.lunrData = {
       "description": "",
       "body": ""
     },
-    "list_tutorial.html": {
-      "id": "list_tutorial.html",
-      "kind": "list",
-      "title": "Tutorials",
-      "longname": "list:tutorial",
-      "name": "Tutorials",
-      "tags": "list:tutorial",
-      "summary": "All available tutorials.",
-      "description": "",
-      "body": ""
-    },
     "list_class.html": {
       "id": "list_class.html",
       "kind": "list",
@@ -14785,6 +14755,170 @@ window.lunrData = {
       "summary": "All documented modules.",
       "description": "",
       "body": ""
+    },
+    "list_tutorial.html": {
+      "id": "list_tutorial.html",
+      "kind": "list",
+      "title": "Tutorials",
+      "longname": "list:tutorial",
+      "name": "Tutorials",
+      "tags": "list:tutorial",
+      "summary": "All available tutorials.",
+      "description": "",
+      "body": ""
+    },
+    "base_chains.html": {
+      "id": "base_chains.html",
+      "kind": "class",
+      "title": "base/chains",
+      "longname": "base/chains",
+      "name": "base/chains",
+      "tags": "base/chains",
+      "summary": "",
+      "description": "Chains define the primary composition elements (functions) that determine the order of execution.",
+      "body": ""
+    },
+    "base_chains.html#close": {
+      "id": "base_chains.html#close",
+      "kind": "member",
+      "title": "close",
+      "longname": "base/chains#close",
+      "name": "close",
+      "tags": "base/chains#close close",
+      "summary": "",
+      "description": "The close method asks an object to shut itself down in a way that will allow it to be reopened, unlike the end method which will call the destroy method which should make the object unusable, but also devoid of all resources whereas close may still keep some resources open. Heading 1 Heading 2 Heading 3 Bar Food This is a table This uses the before chain which means the last one defined in the first one destroyed"
+    },
+    "base_chains.html#end": {
+      "id": "base_chains.html#end",
+      "kind": "member",
+      "title": "end",
+      "longname": "base/chains#end",
+      "name": "end",
+      "tags": "base/chains#end end",
+      "summary": "",
+      "description": "The end method will call the destroy method which should make the object unusable and devoid of all resources, unlike the close method asks an object to shut itself down in a way that will allow it to be reopened. This uses the before chain which means the last one defined in the first one destroyed"
+    },
+    "base_chains.html#destroy": {
+      "id": "base_chains.html#destroy",
+      "kind": "member",
+      "title": "&lt;private&gt; destroy",
+      "longname": "base/chains#destroy",
+      "name": "destroy",
+      "tags": "base/chains#destroy destroy",
+      "summary": "",
+      "description": "Destroy is called by the end method and it is here that you should clean up after yourself. The difference between destroy and end is the end is the verb that you raise on an object to ask it to go away and destroy is where you actually do the work to clean up. Think of this as the counterpart of constructor yet not called automatically. This uses the before chain which means the last one defined is the first one destroyed"
+    },
+    "base_chains.html#open": {
+      "id": "base_chains.html#open",
+      "kind": "member",
+      "title": "open",
+      "longname": "base/chains#open",
+      "name": "open",
+      "tags": "base/chains#open open",
+      "summary": "",
+      "description": "If you are using the open/close paradigm for an object that can kind of go dormant on base/chains#close and can be \"reopened\" again later, here is where the \"open\" code will go. This used the after chain which means that the first one defined is the first one destroyed."
+    },
+    "module-ink_collector-CollectorBase.html": {
+      "id": "module-ink_collector-CollectorBase.html",
+      "kind": "class",
+      "title": "ink/collector~CollectorBase",
+      "longname": "module:ink/collector~CollectorBase",
+      "name": "CollectorBase",
+      "tags": "module:ink/collector~CollectorBase",
+      "summary": "",
+      "description": "A collector",
+      "body": ""
+    },
+    "utils_logger.Logger.html": {
+      "id": "utils_logger.Logger.html",
+      "kind": "class",
+      "title": "Logger",
+      "longname": "utils/logger.Logger",
+      "name": "Logger",
+      "tags": "utils/logger.Logger Logger",
+      "summary": "",
+      "description": "A logger class that you can mix into your classes to handle logging settings and state at an object level. See utils/logger for the members of this class",
+      "body": ""
+    },
+    "utils_logger.Logger.html#silent": {
+      "id": "utils_logger.Logger.html#silent",
+      "kind": "function",
+      "title": "silent()",
+      "longname": "utils/logger.Logger#silent",
+      "name": "silent",
+      "tags": "utils/logger.Logger#silent Logger#silent silent",
+      "summary": "",
+      "description": "Turn off all logging. If you log something, it will not error, but will not do anything either and the cycles are minimal."
+    },
+    "utils_logger.Logger.html#all": {
+      "id": "utils_logger.Logger.html#all",
+      "kind": "function",
+      "title": "all()",
+      "longname": "utils/logger.Logger#all",
+      "name": "all",
+      "tags": "utils/logger.Logger#all Logger#all all",
+      "summary": "",
+      "description": "Turns on all logging levels"
+    },
+    "utils_logger.Logger.html#level": {
+      "id": "utils_logger.Logger.html#level",
+      "kind": "function",
+      "title": "level( lvl )",
+      "longname": "utils/logger.Logger#level",
+      "name": "level",
+      "tags": "utils/logger.Logger#level Logger#level level",
+      "summary": "",
+      "description": "Sets the logging level to one of trace, debug, info, warn, error."
+    },
+    "utils_logger.Logger.html#trace": {
+      "id": "utils_logger.Logger.html#trace",
+      "kind": "function",
+      "title": "trace( The )",
+      "longname": "utils/logger.Logger#trace",
+      "name": "trace",
+      "tags": "utils/logger.Logger#trace Logger#trace trace",
+      "summary": "",
+      "description": "Log a trace call"
+    },
+    "utils_logger.Logger.html#debug": {
+      "id": "utils_logger.Logger.html#debug",
+      "kind": "function",
+      "title": "debug( The )",
+      "longname": "utils/logger.Logger#debug",
+      "name": "debug",
+      "tags": "utils/logger.Logger#debug Logger#debug debug",
+      "summary": "",
+      "description": "Log a debug call"
+    },
+    "utils_logger.Logger.html#info": {
+      "id": "utils_logger.Logger.html#info",
+      "kind": "function",
+      "title": "info( The )",
+      "longname": "utils/logger.Logger#info",
+      "name": "info",
+      "tags": "utils/logger.Logger#info Logger#info info",
+      "summary": "",
+      "description": "Log a info call"
+    },
+    "utils_logger.Logger.html#warn": {
+      "id": "utils_logger.Logger.html#warn",
+      "kind": "function",
+      "title": "warn( The )",
+      "longname": "utils/logger.Logger#warn",
+      "name": "warn",
+      "tags": "utils/logger.Logger#warn Logger#warn warn",
+      "summary": "",
+      "description": "Log a warn call"
+    },
+    "utils_logger.Logger.html#error": {
+      "id": "utils_logger.Logger.html#error",
+      "kind": "function",
+      "title": "error( The )",
+      "longname": "utils/logger.Logger#error",
+      "name": "error",
+      "tags": "utils/logger.Logger#error Logger#error error",
+      "summary": "",
+      "description": "Log a error call"
     },
     "base.html": {
       "id": "base.html",
@@ -14857,16 +14991,247 @@ window.lunrData = {
       "summary": "",
       "description": "Called when it is time to get rid of all of your instance level references and objects and events. You can define this method on your own classes without having to call the superclass instance. It is called by instance.end() automatically"
     },
-    "module-ink_collector-CollectorBase.html": {
-      "id": "module-ink_collector-CollectorBase.html",
+    "module-mixins_signalable-Signal.html": {
+      "id": "module-mixins_signalable-Signal.html",
       "kind": "class",
-      "title": "ink/collector~CollectorBase",
-      "longname": "module:ink/collector~CollectorBase",
-      "name": "CollectorBase",
-      "tags": "module:ink/collector~CollectorBase",
+      "title": "mixins/signalable~Signal",
+      "longname": "module:mixins/signalable~Signal",
+      "name": "Signal",
+      "tags": "module:mixins/signalable~Signal",
       "summary": "",
-      "description": "A collector",
+      "description": "A signal that can be raised on an object. When you deploy the Signalable mixin, it creates instances of these for you.",
       "body": ""
+    },
+    "module-mixins_signalable-Signal.html#destroy": {
+      "id": "module-mixins_signalable-Signal.html#destroy",
+      "kind": "function",
+      "title": "&lt;private&gt; destroy()",
+      "longname": "module:mixins/signalable~Signal#destroy",
+      "name": "destroy",
+      "tags": "module:mixins/signalable~Signal#destroy destroy",
+      "summary": "",
+      "description": "Cleans up"
+    },
+    "module-mixins_signalable-Signal.html#on": {
+      "id": "module-mixins_signalable-Signal.html#on",
+      "kind": "function",
+      "title": "on( listener, listenerContext, priority ) → {SignalBinding}",
+      "longname": "module:mixins/signalable~Signal#on",
+      "name": "on",
+      "tags": "module:mixins/signalable~Signal#on on",
+      "summary": "",
+      "description": "Ties a listener to a signal."
+    },
+    "module-mixins_signalable-Signal.html#once": {
+      "id": "module-mixins_signalable-Signal.html#once",
+      "kind": "function",
+      "title": "once( listener, listenerContext, priority ) → {SignalBinding}",
+      "longname": "module:mixins/signalable~Signal#once",
+      "name": "once",
+      "tags": "module:mixins/signalable~Signal#once once",
+      "summary": "",
+      "description": "Ties a listener to for a signal for one execution."
+    },
+    "module-mixins_signalable-Signal.html#off": {
+      "id": "module-mixins_signalable-Signal.html#off",
+      "kind": "function",
+      "title": "off( listener, listenerContext ) → {function}",
+      "longname": "module:mixins/signalable~Signal#off",
+      "name": "off",
+      "tags": "module:mixins/signalable~Signal#off off",
+      "summary": "",
+      "description": "Unbinds a listener to a signal."
+    },
+    "module-mixins_signalable-Signal.html#has": {
+      "id": "module-mixins_signalable-Signal.html#has",
+      "kind": "function",
+      "title": "has( listener, listenerContext ) → {boolean}",
+      "longname": "module:mixins/signalable~Signal#has",
+      "name": "has",
+      "tags": "module:mixins/signalable~Signal#has has",
+      "summary": "",
+      "description": "Check if listener was attached to Signal."
+    },
+    "module-mixins_signalable-Signal.html#toString": {
+      "id": "module-mixins_signalable-Signal.html#toString",
+      "kind": "function",
+      "title": "toString()",
+      "longname": "module:mixins/signalable~Signal#toString",
+      "name": "toString",
+      "tags": "module:mixins/signalable~Signal#toString toString",
+      "summary": "",
+      "description": "Strings!"
+    },
+    "documents_model.html": {
+      "id": "documents_model.html",
+      "kind": "class",
+      "title": "documents/model",
+      "longname": "documents/model",
+      "name": "documents/model",
+      "tags": "documents/model",
+      "summary": "",
+      "description": "A model is the first level if usable data-bearing entity in the system. It does NOT include any verbs for saving or anything like that, it is a pure, in memory data container",
+      "body": ""
+    },
+    "documents_model.html#_idField": {
+      "id": "documents_model.html#_idField",
+      "kind": "member",
+      "title": "&lt;private&gt; _idField :string",
+      "longname": "documents/model#_idField",
+      "name": "_idField",
+      "tags": "documents/model#_idField _idField",
+      "summary": "",
+      "description": "The name of the field that uniquely identifies a record. When provided, some operations will take advantage of it"
+    },
+    "documents_model.html#_pkey": {
+      "id": "documents_model.html#_pkey",
+      "kind": "member",
+      "title": "&lt;private&gt; _pkey :*",
+      "longname": "documents/model#_pkey",
+      "name": "_pkey",
+      "tags": "documents/model#_pkey _pkey",
+      "summary": "",
+      "description": "The value of the primary key if documents/model#_idField is filled in. It will be null if none found"
+    },
+    "documents_model.html#isNew": {
+      "id": "documents_model.html#isNew",
+      "kind": "member",
+      "title": "isNew :boolean",
+      "longname": "documents/model#isNew",
+      "name": "isNew",
+      "tags": "documents/model#isNew isNew",
+      "summary": "",
+      "description": "If documents/model#_idField is filled in and it's value is empty this will be true."
+    },
+    "documents_model.html#isEmpty": {
+      "id": "documents_model.html#isEmpty",
+      "kind": "member",
+      "title": "isEmpty :boolean",
+      "longname": "documents/model#isEmpty",
+      "name": "isEmpty",
+      "tags": "documents/model#isEmpty isEmpty",
+      "summary": "",
+      "description": "Returns true if this instance is empty"
+    },
+    "documents_model.html#.update": {
+      "id": "documents_model.html#.update",
+      "kind": "function",
+      "title": "&lt;static&gt; update( obj, qu, setDocument )",
+      "longname": "documents/model.update",
+      "name": "update",
+      "tags": "documents/model.update update",
+      "summary": "",
+      "description": "Updates all records in obj that match the query. See module:documents/probe.updateOperators for the operators that are supported."
+    },
+    "documents_model.html#.find": {
+      "id": "documents_model.html#.find",
+      "kind": "function",
+      "title": "&lt;static&gt; find( obj, qu ) → {array}",
+      "longname": "documents/model.find",
+      "name": "find",
+      "tags": "documents/model.find find",
+      "summary": "",
+      "description": "Find all records that match a query"
+    },
+    "documents_model.html#.findKeys": {
+      "id": "documents_model.html#.findKeys",
+      "kind": "function",
+      "title": "&lt;static&gt; findKeys( obj, qu ) → {array}",
+      "longname": "documents/model.findKeys",
+      "name": "findKeys",
+      "tags": "documents/model.findKeys findKeys",
+      "summary": "",
+      "description": "Find all records that match a query and returns the keys for those items. This is similar to module:documents/probe.find but instead of returning records, returns the keys. If obj is an object it will return the hash key. If 'obj' is an array, it will return the index"
+    },
+    "documents_model.html#.findOne": {
+      "id": "documents_model.html#.findOne",
+      "kind": "function",
+      "title": "&lt;static&gt; findOne( obj, qu ) → {object}",
+      "longname": "documents/model.findOne",
+      "name": "findOne",
+      "tags": "documents/model.findOne findOne",
+      "summary": "",
+      "description": "Returns the first record that matches the query. Aliased as seek."
+    },
+    "documents_model.html#.findOneKey": {
+      "id": "documents_model.html#.findOneKey",
+      "kind": "function",
+      "title": "&lt;static&gt; findOneKey( obj, qu ) → {object}",
+      "longname": "documents/model.findOneKey",
+      "name": "findOneKey",
+      "tags": "documents/model.findOneKey findOneKey",
+      "summary": "",
+      "description": "Returns the first record that matches the query and returns its key or index depending on whether obj is an object or array respectively. Aliased as seekKey."
+    },
+    "documents_model.html#.remove": {
+      "id": "documents_model.html#.remove",
+      "kind": "function",
+      "title": "&lt;static&gt; remove( obj, qu ) → {object|array}",
+      "longname": "documents/model.remove",
+      "name": "remove",
+      "tags": "documents/model.remove remove",
+      "summary": "",
+      "description": "Remove all items in the object/array that match the query"
+    },
+    "documents_model.html#.all": {
+      "id": "documents_model.html#.all",
+      "kind": "function",
+      "title": "&lt;static&gt; all( obj, qu ) → {boolean}",
+      "longname": "documents/model.all",
+      "name": "all",
+      "tags": "documents/model.all all",
+      "summary": "",
+      "description": "Returns true if all items match the query"
+    },
+    "documents_model.html#.any": {
+      "id": "documents_model.html#.any",
+      "kind": "function",
+      "title": "&lt;static&gt; any( obj, qu ) → {boolean}",
+      "longname": "documents/model.any",
+      "name": "any",
+      "tags": "documents/model.any any",
+      "summary": "",
+      "description": "Returns true if any of the items match the query"
+    },
+    "documents_model.html#.set": {
+      "id": "documents_model.html#.set",
+      "kind": "function",
+      "title": "&lt;static&gt; set( path, record, setter, newValue )",
+      "longname": "documents/model.set",
+      "name": "set",
+      "tags": "documents/model.set set",
+      "summary": "",
+      "description": "This will write the value into a record at the path, creating intervening objects if they don't exist. This does not work as filtered update and is meant to be used on a single record. It is a nice way of setting a property at an arbitrary depth at will."
+    },
+    "documents_model.html#.get": {
+      "id": "documents_model.html#.get",
+      "kind": "function",
+      "title": "&lt;static&gt; get( path, record ) → {*}",
+      "longname": "documents/model.get",
+      "name": "get",
+      "tags": "documents/model.get get",
+      "summary": "",
+      "description": "Reaches into an object and allows you to get at a value deeply nested in an object. This is not a query, but a straight reach in, useful for event bindings"
+    },
+    "documents_model.html#.some": {
+      "id": "documents_model.html#.some",
+      "kind": "function",
+      "title": "&lt;static&gt; some( obj, qu ) → {boolean}",
+      "longname": "documents/model.some",
+      "name": "some",
+      "tags": "documents/model.some some",
+      "summary": "",
+      "description": "Returns true if any of the items match the query. Aliases as any"
+    },
+    "documents_model.html#.every": {
+      "id": "documents_model.html#.every",
+      "kind": "function",
+      "title": "&lt;static&gt; every( obj, qu ) → {boolean}",
+      "longname": "documents/model.every",
+      "name": "every",
+      "tags": "documents/model.every every",
+      "summary": "",
+      "description": "Returns true if all items match the query. Aliases as all"
     },
     "module-ink_collector-OCollector.html": {
       "id": "module-ink_collector-OCollector.html",
@@ -15130,177 +15495,6 @@ window.lunrData = {
       "summary": "",
       "description": "Updates all records in obj that match the query. See module:ink/probe.updateOperators for the operators that are supported."
     },
-    "documents_model.html": {
-      "id": "documents_model.html",
-      "kind": "class",
-      "title": "documents/model",
-      "longname": "documents/model",
-      "name": "documents/model",
-      "tags": "documents/model",
-      "summary": "",
-      "description": "A model is the first level if usable data-bearing entity in the system. It does NOT include any verbs for saving or anything like that, it is a pure, in memory data container",
-      "body": ""
-    },
-    "documents_model.html#_idField": {
-      "id": "documents_model.html#_idField",
-      "kind": "member",
-      "title": "&lt;private&gt; _idField :string",
-      "longname": "documents/model#_idField",
-      "name": "_idField",
-      "tags": "documents/model#_idField _idField",
-      "summary": "",
-      "description": "The name of the field that uniquely identifies a record. When provided, some operations will take advantage of it"
-    },
-    "documents_model.html#_pkey": {
-      "id": "documents_model.html#_pkey",
-      "kind": "member",
-      "title": "&lt;private&gt; _pkey :*",
-      "longname": "documents/model#_pkey",
-      "name": "_pkey",
-      "tags": "documents/model#_pkey _pkey",
-      "summary": "",
-      "description": "The value of the primary key if documents/model#_idField is filled in. It will be null if none found"
-    },
-    "documents_model.html#isNew": {
-      "id": "documents_model.html#isNew",
-      "kind": "member",
-      "title": "isNew :boolean",
-      "longname": "documents/model#isNew",
-      "name": "isNew",
-      "tags": "documents/model#isNew isNew",
-      "summary": "",
-      "description": "If documents/model#_idField is filled in and it's value is empty this will be true."
-    },
-    "documents_model.html#isEmpty": {
-      "id": "documents_model.html#isEmpty",
-      "kind": "member",
-      "title": "isEmpty :boolean",
-      "longname": "documents/model#isEmpty",
-      "name": "isEmpty",
-      "tags": "documents/model#isEmpty isEmpty",
-      "summary": "",
-      "description": "Returns true if this instance is empty"
-    },
-    "documents_model.html#.get": {
-      "id": "documents_model.html#.get",
-      "kind": "function",
-      "title": "&lt;static&gt; get( path, record ) → {*}",
-      "longname": "documents/model.get",
-      "name": "get",
-      "tags": "documents/model.get get",
-      "summary": "",
-      "description": "Reaches into an object and allows you to get at a value deeply nested in an object. This is not a query, but a straight reach in, useful for event bindings"
-    },
-    "documents_model.html#.set": {
-      "id": "documents_model.html#.set",
-      "kind": "function",
-      "title": "&lt;static&gt; set( path, record, setter, newValue )",
-      "longname": "documents/model.set",
-      "name": "set",
-      "tags": "documents/model.set set",
-      "summary": "",
-      "description": "This will write the value into a record at the path, creating intervening objects if they don't exist. This does not work as filtered update and is meant to be used on a single record. It is a nice way of setting a property at an arbitrary depth at will."
-    },
-    "documents_model.html#.any": {
-      "id": "documents_model.html#.any",
-      "kind": "function",
-      "title": "&lt;static&gt; any( obj, qu ) → {boolean}",
-      "longname": "documents/model.any",
-      "name": "any",
-      "tags": "documents/model.any any",
-      "summary": "",
-      "description": "Returns true if any of the items match the query"
-    },
-    "documents_model.html#.all": {
-      "id": "documents_model.html#.all",
-      "kind": "function",
-      "title": "&lt;static&gt; all( obj, qu ) → {boolean}",
-      "longname": "documents/model.all",
-      "name": "all",
-      "tags": "documents/model.all all",
-      "summary": "",
-      "description": "Returns true if all items match the query"
-    },
-    "documents_model.html#.remove": {
-      "id": "documents_model.html#.remove",
-      "kind": "function",
-      "title": "&lt;static&gt; remove( obj, qu ) → {object|array}",
-      "longname": "documents/model.remove",
-      "name": "remove",
-      "tags": "documents/model.remove remove",
-      "summary": "",
-      "description": "Remove all items in the object/array that match the query"
-    },
-    "documents_model.html#.findOne": {
-      "id": "documents_model.html#.findOne",
-      "kind": "function",
-      "title": "&lt;static&gt; findOne( obj, qu ) → {object}",
-      "longname": "documents/model.findOne",
-      "name": "findOne",
-      "tags": "documents/model.findOne findOne",
-      "summary": "",
-      "description": "Returns the first record that matches the query. Aliased as seek."
-    },
-    "documents_model.html#.findOneKey": {
-      "id": "documents_model.html#.findOneKey",
-      "kind": "function",
-      "title": "&lt;static&gt; findOneKey( obj, qu ) → {object}",
-      "longname": "documents/model.findOneKey",
-      "name": "findOneKey",
-      "tags": "documents/model.findOneKey findOneKey",
-      "summary": "",
-      "description": "Returns the first record that matches the query and returns its key or index depending on whether obj is an object or array respectively. Aliased as seekKey."
-    },
-    "documents_model.html#.findKeys": {
-      "id": "documents_model.html#.findKeys",
-      "kind": "function",
-      "title": "&lt;static&gt; findKeys( obj, qu ) → {array}",
-      "longname": "documents/model.findKeys",
-      "name": "findKeys",
-      "tags": "documents/model.findKeys findKeys",
-      "summary": "",
-      "description": "Find all records that match a query and returns the keys for those items. This is similar to module:documents/probe.find but instead of returning records, returns the keys. If obj is an object it will return the hash key. If 'obj' is an array, it will return the index"
-    },
-    "documents_model.html#.find": {
-      "id": "documents_model.html#.find",
-      "kind": "function",
-      "title": "&lt;static&gt; find( obj, qu ) → {array}",
-      "longname": "documents/model.find",
-      "name": "find",
-      "tags": "documents/model.find find",
-      "summary": "",
-      "description": "Find all records that match a query"
-    },
-    "documents_model.html#.update": {
-      "id": "documents_model.html#.update",
-      "kind": "function",
-      "title": "&lt;static&gt; update( obj, qu, setDocument )",
-      "longname": "documents/model.update",
-      "name": "update",
-      "tags": "documents/model.update update",
-      "summary": "",
-      "description": "Updates all records in obj that match the query. See module:documents/probe.updateOperators for the operators that are supported."
-    },
-    "documents_model.html#.some": {
-      "id": "documents_model.html#.some",
-      "kind": "function",
-      "title": "&lt;static&gt; some( obj, qu ) → {boolean}",
-      "longname": "documents/model.some",
-      "name": "some",
-      "tags": "documents/model.some some",
-      "summary": "",
-      "description": "Returns true if any of the items match the query. Aliases as any"
-    },
-    "documents_model.html#.every": {
-      "id": "documents_model.html#.every",
-      "kind": "function",
-      "title": "&lt;static&gt; every( obj, qu ) → {boolean}",
-      "longname": "documents/model.every",
-      "name": "every",
-      "tags": "documents/model.every every",
-      "summary": "",
-      "description": "Returns true if all items match the query. Aliases as all"
-    },
     "module-documents_probe.queryOperators.html": {
       "id": "module-documents_probe.queryOperators.html",
       "kind": "class",
@@ -15330,7 +15524,7 @@ window.lunrData = {
       "name": "$ne",
       "tags": "module:documents/probe.queryOperators.$ne queryOperators.$ne $ne",
       "summary": "",
-      "description": "$ne performs a !== comparison by comparing the value directly if it is an atomic value. Otherwise, if it is an array this is performs a \"not in array\". '{field: {$ne : value}}or '{array: {$ne : value}}"
+      "description": "$ne performs a !== comparison by comparing the value directly if it is an atomic value. Otherwise, if it is an array this is performs a \"not in array\". '{field: {$ne : value}} or '{array: {$ne : value}}"
     },
     "module-documents_probe.queryOperators.html#.$all": {
       "id": "module-documents_probe.queryOperators.html#.$all",
@@ -15562,219 +15756,6 @@ window.lunrData = {
       "tags": "module:documents/probe.updateOperators.$pull updateOperators.$pull $pull",
       "summary": "",
       "description": "The $pull operator removes all instances of a value from an existing array. It looks like this: { $pull: { field: &lt;query&gt; } }"
-    },
-    "base_chains.html": {
-      "id": "base_chains.html",
-      "kind": "class",
-      "title": "base/chains",
-      "longname": "base/chains",
-      "name": "base/chains",
-      "tags": "base/chains",
-      "summary": "",
-      "description": "Chains define the primary composition elements (functions) that determine the order of execution.",
-      "body": ""
-    },
-    "base_chains.html#close": {
-      "id": "base_chains.html#close",
-      "kind": "member",
-      "title": "close",
-      "longname": "base/chains#close",
-      "name": "close",
-      "tags": "base/chains#close close",
-      "summary": "",
-      "description": "The close method asks an object to shut itself down in a way that will allow it to be reopened, unlike the end method which will call the destroy method which should make the object unusable, but also devoid of all resources whereas close may still keep some resources open. Heading 1 Heading 2 Heading 3 Bar Food This is a table This uses the before chain which means the last one defined in the first one destroyed"
-    },
-    "base_chains.html#end": {
-      "id": "base_chains.html#end",
-      "kind": "member",
-      "title": "end",
-      "longname": "base/chains#end",
-      "name": "end",
-      "tags": "base/chains#end end",
-      "summary": "",
-      "description": "The end method will call the destroy method which should make the object unusable and devoid of all resources, unlike the close method asks an object to shut itself down in a way that will allow it to be reopened. This uses the before chain which means the last one defined in the first one destroyed"
-    },
-    "base_chains.html#destroy": {
-      "id": "base_chains.html#destroy",
-      "kind": "member",
-      "title": "&lt;private&gt; destroy",
-      "longname": "base/chains#destroy",
-      "name": "destroy",
-      "tags": "base/chains#destroy destroy",
-      "summary": "",
-      "description": "Destroy is called by the end method and it is here that you should clean up after yourself. The difference between destroy and end is the end is the verb that you raise on an object to ask it to go away and destroy is where you actually do the work to clean up. Think of this as the counterpart of constructor yet not called automatically. This uses the before chain which means the last one defined is the first one destroyed"
-    },
-    "base_chains.html#open": {
-      "id": "base_chains.html#open",
-      "kind": "member",
-      "title": "open",
-      "longname": "base/chains#open",
-      "name": "open",
-      "tags": "base/chains#open open",
-      "summary": "",
-      "description": "If you are using the open/close paradigm for an object that can kind of go dormant on base/chains#close and can be \"reopened\" again later, here is where the \"open\" code will go. This used the after chain which means that the first one defined is the first one destroyed."
-    },
-    "module-mixins_signalable-Signal.html": {
-      "id": "module-mixins_signalable-Signal.html",
-      "kind": "class",
-      "title": "mixins/signalable~Signal",
-      "longname": "module:mixins/signalable~Signal",
-      "name": "Signal",
-      "tags": "module:mixins/signalable~Signal",
-      "summary": "",
-      "description": "A signal that can be raised on an object. When you deploy the Signalable mixin, it creates instances of these for you.",
-      "body": ""
-    },
-    "module-mixins_signalable-Signal.html#destroy": {
-      "id": "module-mixins_signalable-Signal.html#destroy",
-      "kind": "function",
-      "title": "&lt;private&gt; destroy()",
-      "longname": "module:mixins/signalable~Signal#destroy",
-      "name": "destroy",
-      "tags": "module:mixins/signalable~Signal#destroy destroy",
-      "summary": "",
-      "description": "Cleans up"
-    },
-    "module-mixins_signalable-Signal.html#on": {
-      "id": "module-mixins_signalable-Signal.html#on",
-      "kind": "function",
-      "title": "on( listener, listenerContext, priority ) → {SignalBinding}",
-      "longname": "module:mixins/signalable~Signal#on",
-      "name": "on",
-      "tags": "module:mixins/signalable~Signal#on on",
-      "summary": "",
-      "description": "Ties a listener to a signal."
-    },
-    "module-mixins_signalable-Signal.html#once": {
-      "id": "module-mixins_signalable-Signal.html#once",
-      "kind": "function",
-      "title": "once( listener, listenerContext, priority ) → {SignalBinding}",
-      "longname": "module:mixins/signalable~Signal#once",
-      "name": "once",
-      "tags": "module:mixins/signalable~Signal#once once",
-      "summary": "",
-      "description": "Ties a listener to for a signal for one execution."
-    },
-    "module-mixins_signalable-Signal.html#off": {
-      "id": "module-mixins_signalable-Signal.html#off",
-      "kind": "function",
-      "title": "off( listener, listenerContext ) → {function}",
-      "longname": "module:mixins/signalable~Signal#off",
-      "name": "off",
-      "tags": "module:mixins/signalable~Signal#off off",
-      "summary": "",
-      "description": "Unbinds a listener to a signal."
-    },
-    "module-mixins_signalable-Signal.html#has": {
-      "id": "module-mixins_signalable-Signal.html#has",
-      "kind": "function",
-      "title": "has( listener, listenerContext ) → {boolean}",
-      "longname": "module:mixins/signalable~Signal#has",
-      "name": "has",
-      "tags": "module:mixins/signalable~Signal#has has",
-      "summary": "",
-      "description": "Check if listener was attached to Signal."
-    },
-    "module-mixins_signalable-Signal.html#toString": {
-      "id": "module-mixins_signalable-Signal.html#toString",
-      "kind": "function",
-      "title": "toString()",
-      "longname": "module:mixins/signalable~Signal#toString",
-      "name": "toString",
-      "tags": "module:mixins/signalable~Signal#toString toString",
-      "summary": "",
-      "description": "Strings!"
-    },
-    "utils_logger.Logger.html": {
-      "id": "utils_logger.Logger.html",
-      "kind": "class",
-      "title": "Logger",
-      "longname": "utils/logger.Logger",
-      "name": "Logger",
-      "tags": "utils/logger.Logger Logger",
-      "summary": "",
-      "description": "A logger class that you can mix into your classes to handle logging settings and state at an object level. See utils/logger for the members of this class",
-      "body": ""
-    },
-    "utils_logger.Logger.html#silent": {
-      "id": "utils_logger.Logger.html#silent",
-      "kind": "function",
-      "title": "silent()",
-      "longname": "utils/logger.Logger#silent",
-      "name": "silent",
-      "tags": "utils/logger.Logger#silent Logger#silent silent",
-      "summary": "",
-      "description": "Turn off all logging. If you log something, it will not error, but will not do anything either and the cycles are minimal."
-    },
-    "utils_logger.Logger.html#all": {
-      "id": "utils_logger.Logger.html#all",
-      "kind": "function",
-      "title": "all()",
-      "longname": "utils/logger.Logger#all",
-      "name": "all",
-      "tags": "utils/logger.Logger#all Logger#all all",
-      "summary": "",
-      "description": "Turns on all logging levels"
-    },
-    "utils_logger.Logger.html#level": {
-      "id": "utils_logger.Logger.html#level",
-      "kind": "function",
-      "title": "level( lvl )",
-      "longname": "utils/logger.Logger#level",
-      "name": "level",
-      "tags": "utils/logger.Logger#level Logger#level level",
-      "summary": "",
-      "description": "Sets the logging level to one of trace, debug, info, warn, error."
-    },
-    "utils_logger.Logger.html#trace": {
-      "id": "utils_logger.Logger.html#trace",
-      "kind": "function",
-      "title": "trace( The )",
-      "longname": "utils/logger.Logger#trace",
-      "name": "trace",
-      "tags": "utils/logger.Logger#trace Logger#trace trace",
-      "summary": "",
-      "description": "Log a trace call"
-    },
-    "utils_logger.Logger.html#debug": {
-      "id": "utils_logger.Logger.html#debug",
-      "kind": "function",
-      "title": "debug( The )",
-      "longname": "utils/logger.Logger#debug",
-      "name": "debug",
-      "tags": "utils/logger.Logger#debug Logger#debug debug",
-      "summary": "",
-      "description": "Log a debug call"
-    },
-    "utils_logger.Logger.html#info": {
-      "id": "utils_logger.Logger.html#info",
-      "kind": "function",
-      "title": "info( The )",
-      "longname": "utils/logger.Logger#info",
-      "name": "info",
-      "tags": "utils/logger.Logger#info Logger#info info",
-      "summary": "",
-      "description": "Log a info call"
-    },
-    "utils_logger.Logger.html#warn": {
-      "id": "utils_logger.Logger.html#warn",
-      "kind": "function",
-      "title": "warn( The )",
-      "longname": "utils/logger.Logger#warn",
-      "name": "warn",
-      "tags": "utils/logger.Logger#warn Logger#warn warn",
-      "summary": "",
-      "description": "Log a warn call"
-    },
-    "utils_logger.Logger.html#error": {
-      "id": "utils_logger.Logger.html#error",
-      "kind": "function",
-      "title": "error( The )",
-      "longname": "utils/logger.Logger#error",
-      "name": "error",
-      "tags": "utils/logger.Logger#error Logger#error error",
-      "summary": "",
-      "description": "Log a error call"
     },
     "documents_schema.html": {
       "id": "documents_schema.html",

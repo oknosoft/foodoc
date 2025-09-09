@@ -12,7 +12,7 @@
 		<link type="text/css" rel="stylesheet" href="css/prism.min.css">
 		<link type="text/css" rel="stylesheet" href="css/template.min.css">
 		<script type="text/javascript">
-			window.TEMPLATE_OPTIONS = {"includeDate":true,"dateFormat":"Do MMM YYYY","systemName":"FooDoc","systemSummary":"A Bootstrap and Handlebars based template for JSDoc3.","systemLogo":"","systemColor":"","navMembers":[{"kind":"class","title":"Classes","summary":"All documented classes."},{"kind":"external","title":"Externals","summary":"All documented external members."},{"kind":"global","title":"Globals","summary":"All documented globals."},{"kind":"mixin","title":"Mixins","summary":"All documented mixins."},{"kind":"interface","title":"Interfaces","summary":"All documented interfaces."},{"kind":"module","title":"Modules","summary":"All documented modules."},{"kind":"namespace","title":"Namespaces","summary":"All documented namespaces."},{"kind":"tutorial","title":"Tutorials","summary":"All available tutorials."}],"footer":"","copyright":"FooDoc Copyright © 2016 The contributors to the JSDoc3 and FooDoc projects.","linenums":true,"collapseSymbols":true,"inverseNav":true,"inlineNav":false,"outputSourceFiles":true,"sourceRootPath":null,"disablePackagePath":true,"outputSourcePath":false,"showTableOfContents":true,"showAccessFilter":true,"analytics":null,"methodHeadingReturns":true,"sort":"linenum, longname, version, since","search":true,"favicon":null,"stylesheets":[],"scripts":[],"monospaceLinks":false,"cleverLinks":false};
+			window.TEMPLATE_OPTIONS = {"includeDate":true,"dateFormat":"DD.MM.YYYY","systemName":"FooDoc","systemSummary":"A Bootstrap and Handlebars based template for JSDoc3.","systemLogo":"","systemColor":"","navMembers":[{"kind":"class","title":"Classes","summary":"All documented classes."},{"kind":"external","title":"Externals","summary":"All documented external members."},{"kind":"global","title":"Globals","summary":"All documented globals."},{"kind":"mixin","title":"Mixins","summary":"All documented mixins."},{"kind":"interface","title":"Interfaces","summary":"All documented interfaces."},{"kind":"module","title":"Modules","summary":"All documented modules."},{"kind":"namespace","title":"Namespaces","summary":"All documented namespaces."},{"kind":"tutorial","title":"Tutorials","summary":"All available tutorials."}],"footer":"","copyright":"© 2016-2022 Oknosoft Lab <info@oknosoft.ru> (https://oknosoft.ru)","linenums":true,"collapseSymbols":true,"inverseNav":true,"inlineNav":false,"outputSourceFiles":true,"sourceRootPath":null,"disablePackagePath":true,"outputSourcePath":false,"showTableOfContents":true,"showAccessFilter":true,"analytics":null,"methodHeadingReturns":true,"sort":"linenum, longname, version, since","search":true,"favicon":null,"stylesheets":[],"scripts":[],"monospaceLinks":false,"cleverLinks":false};
 			window.DOCLET_TOC_ENABLED = true;
 			window.DOCLET_AFILTER_ENABLED = true;
 		</script>
@@ -81,12 +81,11 @@
 											<li><a href="tutorial-drive-car.html">Drive Car</a></li>
 									</ul>
 								</li>
-	                <li><a href="https://github.com/sitna/api-sitna">Ver en Github</a></li>
 				</ul>
 					<!-- start:lunr-search-navbar.hbs -->
 					<form class="navbar-form navbar-right" role="search">
 						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Buscar" id="lunr-search-input">
+							<input type="text" class="form-control" placeholder="Найти..." id="lunr-search-input">
 							<div class="input-group-btn">
 								<button class="btn btn-default" id="lunr-search-submit">
 									<i class="glyphicon glyphicon-search"></i>
@@ -97,7 +96,8 @@
 					<!-- start:lunr-search-navbar.hbs -->		</div>
 		</div>
 	</header>
-	<!-- end:navbar.hbs -->		<div class="page-header">
+	<!-- end:navbar.hbs -->
+		<div class="page-header">
 			<div class="container">
 				<span class="kind">class</span>
 				<h1><span class="name">documents/model</span></h1>
@@ -105,23 +105,20 @@
 		</div>
 	<div class="container content">
 		<div class="row">
-			<div class="col-md-3 side-content">
-				<nav class="toc hidden-print hidden-sm hidden-xs"></nav>
-			</div>
 			<div class="col-md-9 main-content">
 						<ol class="breadcrumb">
-							<li><a href="index.html">Inicio</a></li>
+							<li><a href="index.html">⌂ Home</a></li>
 							<li><a href="list_class.html">Classes</a></li>
 							<li class="active">documents/model</li>
 						</ol>
 						<div class="access-filter">
 								<label class="checkbox-inline">
 									<input class="toggle-public" type="checkbox" value="" checked>
-									Public
+									Публичные
 								</label>
 								<label class="checkbox-inline">
 									<input class="toggle-private" type="checkbox" value="" checked>
-									Private
+									Приватные
 								</label>
 						</div>
 					<section>
@@ -131,9 +128,9 @@
 </dt>
 <dd class="symbol-details class  collapsible-symbol expanded" style="max-height: 9999px;">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>A model is the first level if usable data-bearing entity in the system. It does NOT include any verbs for saving or anything like<br>
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>A model is the first level if usable data-bearing entity in the system. It does NOT include any verbs for saving or anything like<br>
 			that, it is a pure, in memory data container</p></div>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -151,7 +148,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
+								<label class="col-sm-3 control-label">Источник</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_model.js.html">documents/model.js</a>, <a href="documents_model.js.html#line-34">line 34</a></p>
 								</div>
@@ -165,7 +162,7 @@
 </dd>
 							</dl>
 							<article class="secondary">
-									<h3>Miembros</h3>
+                                        <h3>Свойства</h3>
 									<dl class="symbol">
 											<hr/>
 											<dt class="symbol-title member private collapsible-symbol">
@@ -173,12 +170,12 @@
 		</dt>
 <dd class="symbol-details member private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>The name of the field that uniquely identifies a record. When provided, some operations will take advantage of it</p></div>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>The name of the field that uniquely identifies a record. When provided, some operations will take advantage of it</p></div>
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
 			
 							<!-- type -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Tipo</label>
+								<label class="col-sm-3 control-label">Тип</label>
 								<div class="col-sm-9">
 									<div class="form-control-static type-names"><span class="param-type">string</span></div>
 								</div>
@@ -199,7 +196,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
+								<label class="col-sm-3 control-label">Источник</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_model.js.html">documents/model.js</a>, <a href="documents_model.js.html#line-40">line 40</a></p>
 								</div>
@@ -217,12 +214,12 @@
 		</dt>
 <dd class="symbol-details member private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>The value of the primary key if <a href="documents_model.html#_idField">documents/model#_idField</a> is filled in. It will be null if none found</p></div>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>The value of the primary key if <a href="documents_model.html#_idField">documents/model#_idField</a> is filled in. It will be null if none found</p></div>
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
 			
 							<!-- type -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Tipo</label>
+								<label class="col-sm-3 control-label">Тип</label>
 								<div class="col-sm-9">
 									<div class="form-control-static type-names"><span class="param-type">*</span></div>
 								</div>
@@ -243,7 +240,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
+								<label class="col-sm-3 control-label">Источник</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_model.js.html">documents/model.js</a>, <a href="documents_model.js.html#line-60">line 60</a></p>
 								</div>
@@ -261,12 +258,12 @@
 		</dt>
 <dd class="symbol-details member public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>If <a href="documents_model.html#_idField">documents/model#_idField</a> is filled in and it's value is empty this will be true.</p></div>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>If <a href="documents_model.html#_idField">documents/model#_idField</a> is filled in and it's value is empty this will be true.</p></div>
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
 			
 							<!-- type -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Tipo</label>
+								<label class="col-sm-3 control-label">Тип</label>
 								<div class="col-sm-9">
 									<div class="form-control-static type-names"><span class="param-type">boolean</span></div>
 								</div>
@@ -287,7 +284,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
+								<label class="col-sm-3 control-label">Источник</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_model.js.html">documents/model.js</a>, <a href="documents_model.js.html#line-86">line 86</a></p>
 								</div>
@@ -305,12 +302,12 @@
 		</dt>
 <dd class="symbol-details member public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Returns true if this instance is empty</p></div>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>Returns true if this instance is empty</p></div>
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
 			
 							<!-- type -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Tipo</label>
+								<label class="col-sm-3 control-label">Тип</label>
 								<div class="col-sm-9">
 									<div class="form-control-static type-names"><span class="param-type">boolean</span></div>
 								</div>
@@ -331,7 +328,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
+								<label class="col-sm-3 control-label">Источник</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_model.js.html">documents/model.js</a>, <a href="documents_model.js.html#line-101">line 101</a></p>
 								</div>
@@ -344,53 +341,51 @@
 			</div>	</div>
 </dd>
 									</dl>
-									<h3>Métodos</h3>
+									<h3>Методы</h3>
 									<dl class="symbol">
 											<hr/>
 											<dt class="symbol-title function public collapsible-symbol">
-			<h4 id=".get" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">get</span><span class="signature-params">( <span class="signature-param">path</span>, <span class="signature-param">record</span>&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{*}</span></h4>
+			<h4 id=".update" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">update</span><span class="signature-params">( <span class="signature-param">obj</span>, <span class="signature-param">qu</span>, <span class="signature-param">setDocument</span>&nbsp;)</span><span class="signature-type"></span></h4>
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Reaches into an object and allows you to get at a value deeply nested in an object. This is not a query, but a<br>
-			straight reach in, useful for event bindings</p></div>
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>Updates all records in obj that match the query. See <a href="module-documents_probe.updateOperators.html">module:documents/probe.updateOperators</a> for the operators that are supported.</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parámetros</h5>
+				<h5>Параметры</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Nombre</th>
-						<th>Tipo</th>
-						<th class="last">Descripción</th>
+							<th>Имя</th>
+						<th>Тип</th>
+						<th class="last">Описание</th>
 					</tr>
 					</thead>
 					<tbody>
 						<tr>
-								<td><code>path</code></td>
-							<td><span class="param-type">array</span></td>
+								<td><code>obj</code></td>
+							<td><span class="param-type">object</span> | <span class="param-type">array</span></td>
 							<td class="last">
-									<p>The split path of the element to work with</p>
+									<p>The object to update</p>
 							</td>
 						</tr>
 						<tr>
-								<td><code>record</code></td>
+								<td><code>qu</code></td>
 							<td><span class="param-type">object</span></td>
 							<td class="last">
-									<p>The record to reach into</p>
+									<p>The query which will be used to identify the records to updated</p>
+							</td>
+						</tr>
+						<tr>
+								<td><code>setDocument</code></td>
+							<td><span class="param-type">object</span></td>
+							<td class="last">
+									<p>The update operator. See <a href="module-documents_probe.updateOperators.html">module:documents/probe.updateOperators</a></p>
 							</td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
-			<div class="callout callout-success"><h5>Returns</h5>		<form class="form-horizontal returns">
-							<div class="form-group">
-								<label class="col-sm-3 control-label returns-type"><span class="param-type">*</span></label>
-								<div class="col-sm-9">
-									<div class="form-control-static returns-description"><p>Whatever was found in the record</p></div>
-								</div>
-							</div>
-					</form>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
+			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -408,9 +403,522 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
+								<label class="col-sm-3 control-label">Источник</label>
 								<div class="col-sm-9">
-									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-930">line 930</a></p>
+									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-734">line 734</a></p>
+								</div>
+							</div>
+			
+			
+			
+			
+					</form>
+			</div>	</div>
+</dd>
+											<hr/>
+											<dt class="symbol-title function public collapsible-symbol">
+			<h4 id=".find" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">find</span><span class="signature-params">( <span class="signature-param">obj</span>, <span class="signature-param">qu</span>&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{array}</span></h4>
+		</dt>
+<dd class="symbol-details function public  collapsible-symbol">
+	<div class="symbol-details-inner">
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>Find all records that match a query</p></div>
+			</div>			<div class="callout callout-info">
+				<h5>Параметры</h5>
+				<table class="params table table-striped">
+					<thead>
+					<tr>
+							<th>Имя</th>
+						<th>Тип</th>
+						<th class="last">Описание</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+								<td><code>obj</code></td>
+							<td><span class="param-type">array</span> | <span class="param-type">object</span></td>
+							<td class="last">
+									<p>The object to query</p>
+							</td>
+						</tr>
+						<tr>
+								<td><code>qu</code></td>
+							<td><span class="param-type">object</span></td>
+							<td class="last">
+									<p>The query to execute. See <a href="module-documents_probe.queryOperators.html">module:documents/probe.queryOperators</a> for the operators you can use.</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="callout callout-success"><h5>Возвращает</h5>		<form class="form-horizontal returns">
+							<div class="form-group">
+								<label class="col-sm-3 control-label returns-type"><span class="param-type">array</span></label>
+								<div class="col-sm-9">
+									<div class="form-control-static returns-description"><p>The results</p></div>
+								</div>
+							</div>
+					</form>
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+							<!-- source -->
+							<div class="form-group">
+								<label class="col-sm-3 control-label">Источник</label>
+								<div class="col-sm-9">
+									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-750">line 750</a></p>
+								</div>
+							</div>
+			
+			
+			
+			
+					</form>
+			</div>	</div>
+</dd>
+											<hr/>
+											<dt class="symbol-title function public collapsible-symbol">
+			<h4 id=".findKeys" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">findKeys</span><span class="signature-params">( <span class="signature-param">obj</span>, <span class="signature-param">qu</span>&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{array}</span></h4>
+		</dt>
+<dd class="symbol-details function public  collapsible-symbol">
+	<div class="symbol-details-inner">
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>Find all records that match a query and returns the keys for those items. This is similar to <a href="module-documents_probe.html#.find">module:documents/probe.find</a> but instead of returning<br>
+			records, returns the keys. If <code>obj</code> is an object it will return the hash key. If 'obj' is an array, it will return the index</p></div>
+			</div>			<div class="callout callout-info">
+				<h5>Параметры</h5>
+				<table class="params table table-striped">
+					<thead>
+					<tr>
+							<th>Имя</th>
+						<th>Тип</th>
+						<th class="last">Описание</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+								<td><code>obj</code></td>
+							<td><span class="param-type">array</span> | <span class="param-type">object</span></td>
+							<td class="last">
+									<p>The object to query</p>
+							</td>
+						</tr>
+						<tr>
+								<td><code>qu</code></td>
+							<td><span class="param-type">object</span></td>
+							<td class="last">
+									<p>The query to execute. See <a href="module-documents_probe.queryOperators.html">module:documents/probe.queryOperators</a> for the operators you can use.</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="callout callout-success"><h5>Возвращает</h5>		<form class="form-horizontal returns">
+							<div class="form-group">
+								<label class="col-sm-3 control-label returns-type"><span class="param-type">array</span></label>
+								<div class="col-sm-9">
+									<div class="form-control-static returns-description"></div>
+								</div>
+							</div>
+					</form>
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+							<!-- source -->
+							<div class="form-group">
+								<label class="col-sm-3 control-label">Источник</label>
+								<div class="col-sm-9">
+									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-769">line 769</a></p>
+								</div>
+							</div>
+			
+			
+			
+			
+					</form>
+			</div>	</div>
+</dd>
+											<hr/>
+											<dt class="symbol-title function public collapsible-symbol">
+			<h4 id=".findOne" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">findOne</span><span class="signature-params">( <span class="signature-param">obj</span>, <span class="signature-param">qu</span>&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{object}</span></h4>
+		</dt>
+<dd class="symbol-details function public  collapsible-symbol">
+	<div class="symbol-details-inner">
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>Returns the first record that matches the query. Aliased as <code>seek</code>.</p></div>
+			</div>			<div class="callout callout-info">
+				<h5>Параметры</h5>
+				<table class="params table table-striped">
+					<thead>
+					<tr>
+							<th>Имя</th>
+						<th>Тип</th>
+						<th class="last">Описание</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+								<td><code>obj</code></td>
+							<td><span class="param-type">array</span> | <span class="param-type">object</span></td>
+							<td class="last">
+									<p>The object to query</p>
+							</td>
+						</tr>
+						<tr>
+								<td><code>qu</code></td>
+							<td><span class="param-type">object</span></td>
+							<td class="last">
+									<p>The query to execute. See <a href="module-documents_probe.queryOperators.html">module:documents/probe.queryOperators</a> for the operators you can use.</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="callout callout-success"><h5>Возвращает</h5>		<form class="form-horizontal returns">
+							<div class="form-group">
+								<label class="col-sm-3 control-label returns-type"><span class="param-type">object</span></label>
+								<div class="col-sm-9">
+									<div class="form-control-static returns-description"></div>
+								</div>
+							</div>
+					</form>
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+							<!-- source -->
+							<div class="form-group">
+								<label class="col-sm-3 control-label">Источник</label>
+								<div class="col-sm-9">
+									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-788">line 788</a></p>
+								</div>
+							</div>
+			
+			
+			
+			
+					</form>
+			</div>	</div>
+</dd>
+											<hr/>
+											<dt class="symbol-title function public collapsible-symbol">
+			<h4 id=".findOneKey" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">findOneKey</span><span class="signature-params">( <span class="signature-param">obj</span>, <span class="signature-param">qu</span>&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{object}</span></h4>
+		</dt>
+<dd class="symbol-details function public  collapsible-symbol">
+	<div class="symbol-details-inner">
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>Returns the first record that matches the query and returns its key or index depending on whether <code>obj</code> is an object or array respectively.<br>
+			Aliased as <code>seekKey</code>.</p></div>
+			</div>			<div class="callout callout-info">
+				<h5>Параметры</h5>
+				<table class="params table table-striped">
+					<thead>
+					<tr>
+							<th>Имя</th>
+						<th>Тип</th>
+						<th class="last">Описание</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+								<td><code>obj</code></td>
+							<td><span class="param-type">array</span> | <span class="param-type">object</span></td>
+							<td class="last">
+									<p>The object to query</p>
+							</td>
+						</tr>
+						<tr>
+								<td><code>qu</code></td>
+							<td><span class="param-type">object</span></td>
+							<td class="last">
+									<p>The query to execute. See <a href="module-documents_probe.queryOperators.html">module:documents/probe.queryOperators</a> for the operators you can use.</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="callout callout-success"><h5>Возвращает</h5>		<form class="form-horizontal returns">
+							<div class="form-group">
+								<label class="col-sm-3 control-label returns-type"><span class="param-type">object</span></label>
+								<div class="col-sm-9">
+									<div class="form-control-static returns-description"></div>
+								</div>
+							</div>
+					</form>
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+							<!-- source -->
+							<div class="form-group">
+								<label class="col-sm-3 control-label">Источник</label>
+								<div class="col-sm-9">
+									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-813">line 813</a></p>
+								</div>
+							</div>
+			
+			
+			
+			
+					</form>
+			</div>	</div>
+</dd>
+											<hr/>
+											<dt class="symbol-title function public collapsible-symbol">
+			<h4 id=".remove" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">remove</span><span class="signature-params">( <span class="signature-param">obj</span>, <span class="signature-param">qu</span>&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{object|array}</span></h4>
+		</dt>
+<dd class="symbol-details function public  collapsible-symbol">
+	<div class="symbol-details-inner">
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>Remove all items in the object/array that match the query</p></div>
+			</div>			<div class="callout callout-info">
+				<h5>Параметры</h5>
+				<table class="params table table-striped">
+					<thead>
+					<tr>
+							<th>Имя</th>
+						<th>Тип</th>
+						<th class="last">Описание</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+								<td><code>obj</code></td>
+							<td><span class="param-type">array</span> | <span class="param-type">object</span></td>
+							<td class="last">
+									<p>The object to query</p>
+							</td>
+						</tr>
+						<tr>
+								<td><code>qu</code></td>
+							<td><span class="param-type">object</span></td>
+							<td class="last">
+									<p>The query to execute. See <a href="module-documents_probe.queryOperators.html">module:documents/probe.queryOperators</a> for the operators you can use.</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="callout callout-success"><h5>Возвращает</h5>		<form class="form-horizontal returns">
+							<div class="form-group">
+								<label class="col-sm-3 control-label returns-type"><span class="param-type">object</span> | <span class="param-type">array</span></label>
+								<div class="col-sm-9">
+									<div class="form-control-static returns-description"><p>The array or object as appropriate without the records.</p></div>
+								</div>
+							</div>
+					</form>
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+							<!-- source -->
+							<div class="form-group">
+								<label class="col-sm-3 control-label">Источник</label>
+								<div class="col-sm-9">
+									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-838">line 838</a></p>
+								</div>
+							</div>
+			
+			
+			
+			
+					</form>
+			</div>	</div>
+</dd>
+											<hr/>
+											<dt class="symbol-title function public collapsible-symbol">
+			<h4 id=".all" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">all</span><span class="signature-params">( <span class="signature-param">obj</span>, <span class="signature-param">qu</span>&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{boolean}</span></h4>
+		</dt>
+<dd class="symbol-details function public  collapsible-symbol">
+	<div class="symbol-details-inner">
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>Returns true if all items match the query</p></div>
+			</div>			<div class="callout callout-info">
+				<h5>Параметры</h5>
+				<table class="params table table-striped">
+					<thead>
+					<tr>
+							<th>Имя</th>
+						<th>Тип</th>
+						<th class="last">Описание</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+								<td><code>obj</code></td>
+							<td><span class="param-type">array</span> | <span class="param-type">object</span></td>
+							<td class="last">
+									<p>The object to query</p>
+							</td>
+						</tr>
+						<tr>
+								<td><code>qu</code></td>
+							<td><span class="param-type">object</span></td>
+							<td class="last">
+									<p>The query to execute. See <a href="module-documents_probe.queryOperators.html">module:documents/probe.queryOperators</a> for the operators you can use.</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="callout callout-success"><h5>Возвращает</h5>		<form class="form-horizontal returns">
+							<div class="form-group">
+								<label class="col-sm-3 control-label returns-type"><span class="param-type">boolean</span></label>
+								<div class="col-sm-9">
+									<div class="form-control-static returns-description"></div>
+								</div>
+							</div>
+					</form>
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+							<!-- source -->
+							<div class="form-group">
+								<label class="col-sm-3 control-label">Источник</label>
+								<div class="col-sm-9">
+									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-871">line 871</a></p>
+								</div>
+							</div>
+			
+			
+			
+			
+					</form>
+			</div>	</div>
+</dd>
+											<hr/>
+											<dt class="symbol-title function public collapsible-symbol">
+			<h4 id=".any" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">any</span><span class="signature-params">( <span class="signature-param">obj</span>, <span class="signature-param">qu</span>&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{boolean}</span></h4>
+		</dt>
+<dd class="symbol-details function public  collapsible-symbol">
+	<div class="symbol-details-inner">
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>Returns true if any of the items match the query</p></div>
+			</div>			<div class="callout callout-info">
+				<h5>Параметры</h5>
+				<table class="params table table-striped">
+					<thead>
+					<tr>
+							<th>Имя</th>
+						<th>Тип</th>
+						<th class="last">Описание</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+								<td><code>obj</code></td>
+							<td><span class="param-type">array</span> | <span class="param-type">object</span></td>
+							<td class="last">
+									<p>The object to query</p>
+							</td>
+						</tr>
+						<tr>
+								<td><code>qu</code></td>
+							<td><span class="param-type">object</span></td>
+							<td class="last">
+									<p>The query to execute. See <a href="module-documents_probe.queryOperators.html">module:documents/probe.queryOperators</a> for the operators you can use.</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="callout callout-success"><h5>Возвращает</h5>		<form class="form-horizontal returns">
+							<div class="form-group">
+								<label class="col-sm-3 control-label returns-type"><span class="param-type">boolean</span></label>
+								<div class="col-sm-9">
+									<div class="form-control-static returns-description"></div>
+								</div>
+							</div>
+					</form>
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+							<!-- source -->
+							<div class="form-group">
+								<label class="col-sm-3 control-label">Источник</label>
+								<div class="col-sm-9">
+									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-882">line 882</a></p>
 								</div>
 							</div>
 			
@@ -426,16 +934,16 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>This will write the value into a record at the path, creating intervening objects if they don't exist. This does not work as filtered<br>
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>This will write the value into a record at the path, creating intervening objects if they don't exist. This does not work as filtered<br>
 			update and is meant to be used on a single record. It is a nice way of setting a property at an arbitrary depth at will.</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parámetros</h5>
+				<h5>Параметры</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Nombre</th>
-						<th>Tipo</th>
-						<th class="last">Descripción</th>
+							<th>Имя</th>
+						<th>Тип</th>
+						<th class="last">Описание</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -470,7 +978,7 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
+			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -488,7 +996,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
+								<label class="col-sm-3 control-label">Источник</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-918">line 918</a></p>
 								</div>
@@ -502,48 +1010,49 @@
 </dd>
 											<hr/>
 											<dt class="symbol-title function public collapsible-symbol">
-			<h4 id=".any" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">any</span><span class="signature-params">( <span class="signature-param">obj</span>, <span class="signature-param">qu</span>&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{boolean}</span></h4>
+			<h4 id=".get" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">get</span><span class="signature-params">( <span class="signature-param">path</span>, <span class="signature-param">record</span>&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{*}</span></h4>
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Returns true if any of the items match the query</p></div>
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>Reaches into an object and allows you to get at a value deeply nested in an object. This is not a query, but a<br>
+			straight reach in, useful for event bindings</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parámetros</h5>
+				<h5>Параметры</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Nombre</th>
-						<th>Tipo</th>
-						<th class="last">Descripción</th>
+							<th>Имя</th>
+						<th>Тип</th>
+						<th class="last">Описание</th>
 					</tr>
 					</thead>
 					<tbody>
 						<tr>
-								<td><code>obj</code></td>
-							<td><span class="param-type">array</span> | <span class="param-type">object</span></td>
+								<td><code>path</code></td>
+							<td><span class="param-type">array</span></td>
 							<td class="last">
-									<p>The object to query</p>
+									<p>The split path of the element to work with</p>
 							</td>
 						</tr>
 						<tr>
-								<td><code>qu</code></td>
+								<td><code>record</code></td>
 							<td><span class="param-type">object</span></td>
 							<td class="last">
-									<p>The query to execute. See <a href="module-documents_probe.queryOperators.html">module:documents/probe.queryOperators</a> for the operators you can use.</p>
+									<p>The record to reach into</p>
 							</td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
-			<div class="callout callout-success"><h5>Returns</h5>		<form class="form-horizontal returns">
+			<div class="callout callout-success"><h5>Возвращает</h5>		<form class="form-horizontal returns">
 							<div class="form-group">
-								<label class="col-sm-3 control-label returns-type"><span class="param-type">boolean</span></label>
+								<label class="col-sm-3 control-label returns-type"><span class="param-type">*</span></label>
 								<div class="col-sm-9">
-									<div class="form-control-static returns-description"></div>
+									<div class="form-control-static returns-description"><p>Whatever was found in the record</p></div>
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -561,521 +1070,9 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
+								<label class="col-sm-3 control-label">Источник</label>
 								<div class="col-sm-9">
-									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-882">line 882</a></p>
-								</div>
-							</div>
-			
-			
-			
-			
-					</form>
-			</div>	</div>
-</dd>
-											<hr/>
-											<dt class="symbol-title function public collapsible-symbol">
-			<h4 id=".all" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">all</span><span class="signature-params">( <span class="signature-param">obj</span>, <span class="signature-param">qu</span>&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{boolean}</span></h4>
-		</dt>
-<dd class="symbol-details function public  collapsible-symbol">
-	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Returns true if all items match the query</p></div>
-			</div>			<div class="callout callout-info">
-				<h5>Parámetros</h5>
-				<table class="params table table-striped">
-					<thead>
-					<tr>
-							<th>Nombre</th>
-						<th>Tipo</th>
-						<th class="last">Descripción</th>
-					</tr>
-					</thead>
-					<tbody>
-						<tr>
-								<td><code>obj</code></td>
-							<td><span class="param-type">array</span> | <span class="param-type">object</span></td>
-							<td class="last">
-									<p>The object to query</p>
-							</td>
-						</tr>
-						<tr>
-								<td><code>qu</code></td>
-							<td><span class="param-type">object</span></td>
-							<td class="last">
-									<p>The query to execute. See <a href="module-documents_probe.queryOperators.html">module:documents/probe.queryOperators</a> for the operators you can use.</p>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="callout callout-success"><h5>Returns</h5>		<form class="form-horizontal returns">
-							<div class="form-group">
-								<label class="col-sm-3 control-label returns-type"><span class="param-type">boolean</span></label>
-								<div class="col-sm-9">
-									<div class="form-control-static returns-description"></div>
-								</div>
-							</div>
-					</form>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-							<!-- source -->
-							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
-								<div class="col-sm-9">
-									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-871">line 871</a></p>
-								</div>
-							</div>
-			
-			
-			
-			
-					</form>
-			</div>	</div>
-</dd>
-											<hr/>
-											<dt class="symbol-title function public collapsible-symbol">
-			<h4 id=".remove" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">remove</span><span class="signature-params">( <span class="signature-param">obj</span>, <span class="signature-param">qu</span>&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{object|array}</span></h4>
-		</dt>
-<dd class="symbol-details function public  collapsible-symbol">
-	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Remove all items in the object/array that match the query</p></div>
-			</div>			<div class="callout callout-info">
-				<h5>Parámetros</h5>
-				<table class="params table table-striped">
-					<thead>
-					<tr>
-							<th>Nombre</th>
-						<th>Tipo</th>
-						<th class="last">Descripción</th>
-					</tr>
-					</thead>
-					<tbody>
-						<tr>
-								<td><code>obj</code></td>
-							<td><span class="param-type">array</span> | <span class="param-type">object</span></td>
-							<td class="last">
-									<p>The object to query</p>
-							</td>
-						</tr>
-						<tr>
-								<td><code>qu</code></td>
-							<td><span class="param-type">object</span></td>
-							<td class="last">
-									<p>The query to execute. See <a href="module-documents_probe.queryOperators.html">module:documents/probe.queryOperators</a> for the operators you can use.</p>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="callout callout-success"><h5>Returns</h5>		<form class="form-horizontal returns">
-							<div class="form-group">
-								<label class="col-sm-3 control-label returns-type"><span class="param-type">object</span> | <span class="param-type">array</span></label>
-								<div class="col-sm-9">
-									<div class="form-control-static returns-description"><p>The array or object as appropriate without the records.</p></div>
-								</div>
-							</div>
-					</form>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-							<!-- source -->
-							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
-								<div class="col-sm-9">
-									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-838">line 838</a></p>
-								</div>
-							</div>
-			
-			
-			
-			
-					</form>
-			</div>	</div>
-</dd>
-											<hr/>
-											<dt class="symbol-title function public collapsible-symbol">
-			<h4 id=".findOne" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">findOne</span><span class="signature-params">( <span class="signature-param">obj</span>, <span class="signature-param">qu</span>&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{object}</span></h4>
-		</dt>
-<dd class="symbol-details function public  collapsible-symbol">
-	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Returns the first record that matches the query. Aliased as <code>seek</code>.</p></div>
-			</div>			<div class="callout callout-info">
-				<h5>Parámetros</h5>
-				<table class="params table table-striped">
-					<thead>
-					<tr>
-							<th>Nombre</th>
-						<th>Tipo</th>
-						<th class="last">Descripción</th>
-					</tr>
-					</thead>
-					<tbody>
-						<tr>
-								<td><code>obj</code></td>
-							<td><span class="param-type">array</span> | <span class="param-type">object</span></td>
-							<td class="last">
-									<p>The object to query</p>
-							</td>
-						</tr>
-						<tr>
-								<td><code>qu</code></td>
-							<td><span class="param-type">object</span></td>
-							<td class="last">
-									<p>The query to execute. See <a href="module-documents_probe.queryOperators.html">module:documents/probe.queryOperators</a> for the operators you can use.</p>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="callout callout-success"><h5>Returns</h5>		<form class="form-horizontal returns">
-							<div class="form-group">
-								<label class="col-sm-3 control-label returns-type"><span class="param-type">object</span></label>
-								<div class="col-sm-9">
-									<div class="form-control-static returns-description"></div>
-								</div>
-							</div>
-					</form>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-							<!-- source -->
-							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
-								<div class="col-sm-9">
-									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-788">line 788</a></p>
-								</div>
-							</div>
-			
-			
-			
-			
-					</form>
-			</div>	</div>
-</dd>
-											<hr/>
-											<dt class="symbol-title function public collapsible-symbol">
-			<h4 id=".findOneKey" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">findOneKey</span><span class="signature-params">( <span class="signature-param">obj</span>, <span class="signature-param">qu</span>&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{object}</span></h4>
-		</dt>
-<dd class="symbol-details function public  collapsible-symbol">
-	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Returns the first record that matches the query and returns its key or index depending on whether <code>obj</code> is an object or array respectively.<br>
-			Aliased as <code>seekKey</code>.</p></div>
-			</div>			<div class="callout callout-info">
-				<h5>Parámetros</h5>
-				<table class="params table table-striped">
-					<thead>
-					<tr>
-							<th>Nombre</th>
-						<th>Tipo</th>
-						<th class="last">Descripción</th>
-					</tr>
-					</thead>
-					<tbody>
-						<tr>
-								<td><code>obj</code></td>
-							<td><span class="param-type">array</span> | <span class="param-type">object</span></td>
-							<td class="last">
-									<p>The object to query</p>
-							</td>
-						</tr>
-						<tr>
-								<td><code>qu</code></td>
-							<td><span class="param-type">object</span></td>
-							<td class="last">
-									<p>The query to execute. See <a href="module-documents_probe.queryOperators.html">module:documents/probe.queryOperators</a> for the operators you can use.</p>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="callout callout-success"><h5>Returns</h5>		<form class="form-horizontal returns">
-							<div class="form-group">
-								<label class="col-sm-3 control-label returns-type"><span class="param-type">object</span></label>
-								<div class="col-sm-9">
-									<div class="form-control-static returns-description"></div>
-								</div>
-							</div>
-					</form>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-							<!-- source -->
-							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
-								<div class="col-sm-9">
-									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-813">line 813</a></p>
-								</div>
-							</div>
-			
-			
-			
-			
-					</form>
-			</div>	</div>
-</dd>
-											<hr/>
-											<dt class="symbol-title function public collapsible-symbol">
-			<h4 id=".findKeys" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">findKeys</span><span class="signature-params">( <span class="signature-param">obj</span>, <span class="signature-param">qu</span>&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{array}</span></h4>
-		</dt>
-<dd class="symbol-details function public  collapsible-symbol">
-	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Find all records that match a query and returns the keys for those items. This is similar to <a href="module-documents_probe.html#.find">module:documents/probe.find</a> but instead of returning<br>
-			records, returns the keys. If <code>obj</code> is an object it will return the hash key. If 'obj' is an array, it will return the index</p></div>
-			</div>			<div class="callout callout-info">
-				<h5>Parámetros</h5>
-				<table class="params table table-striped">
-					<thead>
-					<tr>
-							<th>Nombre</th>
-						<th>Tipo</th>
-						<th class="last">Descripción</th>
-					</tr>
-					</thead>
-					<tbody>
-						<tr>
-								<td><code>obj</code></td>
-							<td><span class="param-type">array</span> | <span class="param-type">object</span></td>
-							<td class="last">
-									<p>The object to query</p>
-							</td>
-						</tr>
-						<tr>
-								<td><code>qu</code></td>
-							<td><span class="param-type">object</span></td>
-							<td class="last">
-									<p>The query to execute. See <a href="module-documents_probe.queryOperators.html">module:documents/probe.queryOperators</a> for the operators you can use.</p>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="callout callout-success"><h5>Returns</h5>		<form class="form-horizontal returns">
-							<div class="form-group">
-								<label class="col-sm-3 control-label returns-type"><span class="param-type">array</span></label>
-								<div class="col-sm-9">
-									<div class="form-control-static returns-description"></div>
-								</div>
-							</div>
-					</form>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-							<!-- source -->
-							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
-								<div class="col-sm-9">
-									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-769">line 769</a></p>
-								</div>
-							</div>
-			
-			
-			
-			
-					</form>
-			</div>	</div>
-</dd>
-											<hr/>
-											<dt class="symbol-title function public collapsible-symbol">
-			<h4 id=".find" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">find</span><span class="signature-params">( <span class="signature-param">obj</span>, <span class="signature-param">qu</span>&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{array}</span></h4>
-		</dt>
-<dd class="symbol-details function public  collapsible-symbol">
-	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Find all records that match a query</p></div>
-			</div>			<div class="callout callout-info">
-				<h5>Parámetros</h5>
-				<table class="params table table-striped">
-					<thead>
-					<tr>
-							<th>Nombre</th>
-						<th>Tipo</th>
-						<th class="last">Descripción</th>
-					</tr>
-					</thead>
-					<tbody>
-						<tr>
-								<td><code>obj</code></td>
-							<td><span class="param-type">array</span> | <span class="param-type">object</span></td>
-							<td class="last">
-									<p>The object to query</p>
-							</td>
-						</tr>
-						<tr>
-								<td><code>qu</code></td>
-							<td><span class="param-type">object</span></td>
-							<td class="last">
-									<p>The query to execute. See <a href="module-documents_probe.queryOperators.html">module:documents/probe.queryOperators</a> for the operators you can use.</p>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="callout callout-success"><h5>Returns</h5>		<form class="form-horizontal returns">
-							<div class="form-group">
-								<label class="col-sm-3 control-label returns-type"><span class="param-type">array</span></label>
-								<div class="col-sm-9">
-									<div class="form-control-static returns-description"><p>The results</p></div>
-								</div>
-							</div>
-					</form>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-							<!-- source -->
-							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
-								<div class="col-sm-9">
-									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-750">line 750</a></p>
-								</div>
-							</div>
-			
-			
-			
-			
-					</form>
-			</div>	</div>
-</dd>
-											<hr/>
-											<dt class="symbol-title function public collapsible-symbol">
-			<h4 id=".update" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">update</span><span class="signature-params">( <span class="signature-param">obj</span>, <span class="signature-param">qu</span>, <span class="signature-param">setDocument</span>&nbsp;)</span><span class="signature-type"></span></h4>
-		</dt>
-<dd class="symbol-details function public  collapsible-symbol">
-	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Updates all records in obj that match the query. See <a href="module-documents_probe.updateOperators.html">module:documents/probe.updateOperators</a> for the operators that are supported.</p></div>
-			</div>			<div class="callout callout-info">
-				<h5>Parámetros</h5>
-				<table class="params table table-striped">
-					<thead>
-					<tr>
-							<th>Nombre</th>
-						<th>Tipo</th>
-						<th class="last">Descripción</th>
-					</tr>
-					</thead>
-					<tbody>
-						<tr>
-								<td><code>obj</code></td>
-							<td><span class="param-type">object</span> | <span class="param-type">array</span></td>
-							<td class="last">
-									<p>The object to update</p>
-							</td>
-						</tr>
-						<tr>
-								<td><code>qu</code></td>
-							<td><span class="param-type">object</span></td>
-							<td class="last">
-									<p>The query which will be used to identify the records to updated</p>
-							</td>
-						</tr>
-						<tr>
-								<td><code>setDocument</code></td>
-							<td><span class="param-type">object</span></td>
-							<td class="last">
-									<p>The update operator. See <a href="module-documents_probe.updateOperators.html">module:documents/probe.updateOperators</a></p>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-							<!-- source -->
-							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
-								<div class="col-sm-9">
-									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-734">line 734</a></p>
+									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-930">line 930</a></p>
 								</div>
 							</div>
 			
@@ -1091,15 +1088,15 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Returns true if any of the items match the query. Aliases as <code>any</code></p></div>
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>Returns true if any of the items match the query. Aliases as <code>any</code></p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parámetros</h5>
+				<h5>Параметры</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Nombre</th>
-						<th>Tipo</th>
-						<th class="last">Descripción</th>
+							<th>Имя</th>
+						<th>Тип</th>
+						<th class="last">Описание</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -1120,7 +1117,7 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="callout callout-success"><h5>Returns</h5>		<form class="form-horizontal returns">
+			<div class="callout callout-success"><h5>Возвращает</h5>		<form class="form-horizontal returns">
 							<div class="form-group">
 								<label class="col-sm-3 control-label returns-type"><span class="param-type">boolean</span></label>
 								<div class="col-sm-9">
@@ -1128,7 +1125,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -1146,7 +1143,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
+								<label class="col-sm-3 control-label">Источник</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-941">line 941</a></p>
 								</div>
@@ -1164,15 +1161,15 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Returns true if all items match the query. Aliases as <code>all</code></p></div>
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>Returns true if all items match the query. Aliases as <code>all</code></p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parámetros</h5>
+				<h5>Параметры</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Nombre</th>
-						<th>Tipo</th>
-						<th class="last">Descripción</th>
+							<th>Имя</th>
+						<th>Тип</th>
+						<th class="last">Описание</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -1193,7 +1190,7 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="callout callout-success"><h5>Returns</h5>		<form class="form-horizontal returns">
+			<div class="callout callout-success"><h5>Возвращает</h5>		<form class="form-horizontal returns">
 							<div class="form-group">
 								<label class="col-sm-3 control-label returns-type"><span class="param-type">boolean</span></label>
 								<div class="col-sm-9">
@@ -1201,7 +1198,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -1219,7 +1216,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
+								<label class="col-sm-3 control-label">Источник</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="documents_probe.js.html">documents/probe.js</a>, <a href="documents_probe.js.html#line-950">line 950</a></p>
 								</div>
@@ -1235,11 +1232,14 @@
 							</article>
 					</section>
 			</div>
+                <div class="col-md-3 side-content">
+                    <nav class="toc hidden-print hidden-sm hidden-xs"></nav>
+                </div>
 		</div>
 	</div>
 	<footer>
-				<div class="copyright">FooDoc Copyright © 2016 The contributors to the JSDoc3 and FooDoc projects.</div>
-			<div class="generated-by">Documentación generada por <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> a 28th Feb 2020 usando la <a href="https://github.com/steveush/foodoc">plantilla FooDoc</a>.</div>
+				<div class="copyright">© 2016-2022 Oknosoft Lab <info@oknosoft.ru> (https://oknosoft.ru)</div>
+			<div class="generated-by">Сгенерировано <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.11</a> a 09.09.2025 с использованием <a href="https://github.com/oknosoft/foodoc">шаблона FooDoc</a>.</div>
 	</footer>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -1252,12 +1252,12 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Resultados de la búsqueda</h4>
+						<h4 class="modal-title">Результаты поиска</h4>
 					</div>
 					<div class="modal-body" id="lunr-search-body">
 					</div>
 					<div class="modal-footer" id="lunr-search-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
 					</div>
 				</div><!-- /.modal-content -->
 			</div><!-- /.modal-dialog -->

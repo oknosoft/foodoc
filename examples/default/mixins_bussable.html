@@ -12,7 +12,7 @@
 		<link type="text/css" rel="stylesheet" href="css/prism.min.css">
 		<link type="text/css" rel="stylesheet" href="css/template.min.css">
 		<script type="text/javascript">
-			window.TEMPLATE_OPTIONS = {"includeDate":true,"dateFormat":"Do MMM YYYY","systemName":"FooDoc","systemSummary":"A Bootstrap and Handlebars based template for JSDoc3.","systemLogo":"","systemColor":"","navMembers":[{"kind":"class","title":"Classes","summary":"All documented classes."},{"kind":"external","title":"Externals","summary":"All documented external members."},{"kind":"global","title":"Globals","summary":"All documented globals."},{"kind":"mixin","title":"Mixins","summary":"All documented mixins."},{"kind":"interface","title":"Interfaces","summary":"All documented interfaces."},{"kind":"module","title":"Modules","summary":"All documented modules."},{"kind":"namespace","title":"Namespaces","summary":"All documented namespaces."},{"kind":"tutorial","title":"Tutorials","summary":"All available tutorials."}],"footer":"","copyright":"FooDoc Copyright © 2016 The contributors to the JSDoc3 and FooDoc projects.","linenums":true,"collapseSymbols":true,"inverseNav":true,"inlineNav":false,"outputSourceFiles":true,"sourceRootPath":null,"disablePackagePath":true,"outputSourcePath":false,"showTableOfContents":true,"showAccessFilter":true,"analytics":null,"methodHeadingReturns":true,"sort":"linenum, longname, version, since","search":true,"favicon":null,"stylesheets":[],"scripts":[],"monospaceLinks":false,"cleverLinks":false};
+			window.TEMPLATE_OPTIONS = {"includeDate":true,"dateFormat":"DD.MM.YYYY","systemName":"FooDoc","systemSummary":"A Bootstrap and Handlebars based template for JSDoc3.","systemLogo":"","systemColor":"","navMembers":[{"kind":"class","title":"Classes","summary":"All documented classes."},{"kind":"external","title":"Externals","summary":"All documented external members."},{"kind":"global","title":"Globals","summary":"All documented globals."},{"kind":"mixin","title":"Mixins","summary":"All documented mixins."},{"kind":"interface","title":"Interfaces","summary":"All documented interfaces."},{"kind":"module","title":"Modules","summary":"All documented modules."},{"kind":"namespace","title":"Namespaces","summary":"All documented namespaces."},{"kind":"tutorial","title":"Tutorials","summary":"All available tutorials."}],"footer":"","copyright":"© 2016-2022 Oknosoft Lab <info@oknosoft.ru> (https://oknosoft.ru)","linenums":true,"collapseSymbols":true,"inverseNav":true,"inlineNav":false,"outputSourceFiles":true,"sourceRootPath":null,"disablePackagePath":true,"outputSourcePath":false,"showTableOfContents":true,"showAccessFilter":true,"analytics":null,"methodHeadingReturns":true,"sort":"linenum, longname, version, since","search":true,"favicon":null,"stylesheets":[],"scripts":[],"monospaceLinks":false,"cleverLinks":false};
 			window.DOCLET_TOC_ENABLED = true;
 			window.DOCLET_AFILTER_ENABLED = true;
 		</script>
@@ -81,12 +81,11 @@
 											<li><a href="tutorial-drive-car.html">Drive Car</a></li>
 									</ul>
 								</li>
-	                <li><a href="https://github.com/sitna/api-sitna">Ver en Github</a></li>
 				</ul>
 					<!-- start:lunr-search-navbar.hbs -->
 					<form class="navbar-form navbar-right" role="search">
 						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Buscar" id="lunr-search-input">
+							<input type="text" class="form-control" placeholder="Найти..." id="lunr-search-input">
 							<div class="input-group-btn">
 								<button class="btn btn-default" id="lunr-search-submit">
 									<i class="glyphicon glyphicon-search"></i>
@@ -97,7 +96,8 @@
 					<!-- start:lunr-search-navbar.hbs -->		</div>
 		</div>
 	</header>
-	<!-- end:navbar.hbs -->		<div class="page-header">
+	<!-- end:navbar.hbs -->
+		<div class="page-header">
 			<div class="container">
 				<span class="kind">mixin</span>
 				<h1><span class="name">mixins/bussable</span></h1>
@@ -105,23 +105,20 @@
 		</div>
 	<div class="container content">
 		<div class="row">
-			<div class="col-md-3 side-content">
-				<nav class="toc hidden-print hidden-sm hidden-xs"></nav>
-			</div>
 			<div class="col-md-9 main-content">
 						<ol class="breadcrumb">
-							<li><a href="index.html">Inicio</a></li>
+							<li><a href="index.html">⌂ Home</a></li>
 							<li><a href="list_mixin.html">Mixins</a></li>
 							<li class="active">mixins/bussable</li>
 						</ol>
 						<div class="access-filter">
 								<label class="checkbox-inline">
 									<input class="toggle-public" type="checkbox" value="" checked>
-									Public
+									Публичные
 								</label>
 								<label class="checkbox-inline">
 									<input class="toggle-private" type="checkbox" value="" checked>
-									Private
+									Приватные
 								</label>
 						</div>
 					<section>
@@ -131,8 +128,8 @@
 </dt>
 <dd class="symbol-details mixin  collapsible-symbol expanded" style="max-height: 9999px;">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description classdesc"><p>Provides easy access to the system bus and provides some helper methods for doing so</p></div>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description classdesc"><p>Provides easy access to the system bus and provides some helper methods for doing so</p></div>
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -150,7 +147,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
+								<label class="col-sm-3 control-label">Источник</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="mixins_bussable.js.html">mixins/bussable.js</a>, <a href="mixins_bussable.js.html#line-18">line 18</a></p>
 								</div>
@@ -164,7 +161,7 @@
 </dd>
 							</dl>
 							<article class="secondary">
-									<h3>Miembros</h3>
+                                        <h3>Свойства</h3>
 									<dl class="symbol">
 											<hr/>
 											<dt class="symbol-title member private collapsible-symbol">
@@ -172,12 +169,12 @@
 		</dt>
 <dd class="symbol-details member private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>The list of subscriptions maintained by the mixin</p></div>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>The list of subscriptions maintained by the mixin</p></div>
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
 			
 							<!-- type -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Tipo</label>
+								<label class="col-sm-3 control-label">Тип</label>
 								<div class="col-sm-9">
 									<div class="form-control-static type-names"><span class="param-type">Array</span></div>
 								</div>
@@ -198,7 +195,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
+								<label class="col-sm-3 control-label">Источник</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="mixins_bussable.js.html">mixins/bussable.js</a>, <a href="mixins_bussable.js.html#line-21">line 21</a></p>
 								</div>
@@ -211,7 +208,7 @@
 			</div>	</div>
 </dd>
 									</dl>
-									<h3>Métodos</h3>
+									<h3>Методы</h3>
 									<dl class="symbol">
 											<hr/>
 											<dt class="symbol-title function public collapsible-symbol">
@@ -219,16 +216,16 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Subscribe to an event</p></div>
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>Subscribe to an event</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parámetros</h5>
+				<h5>Параметры</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Nombre</th>
-						<th>Tipo</th>
-							<th>Atributos</th>
-						<th class="last">Descripción</th>
+							<th>Имя</th>
+						<th>Тип</th>
+							<th>Атрибуты</th>
+						<th class="last">Описание</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -259,7 +256,7 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="callout callout-success"><h5>Returns</h5>		<form class="form-horizontal returns">
+			<div class="callout callout-success"><h5>Возвращает</h5>		<form class="form-horizontal returns">
 							<div class="form-group">
 								<label class="col-sm-3 control-label returns-type"><span class="param-type">object</span></label>
 								<div class="col-sm-9">
@@ -267,7 +264,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -285,7 +282,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
+								<label class="col-sm-3 control-label">Источник</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="mixins_bussable.js.html">mixins/bussable.js</a>, <a href="mixins_bussable.js.html#line-40">line 40</a></p>
 								</div>
@@ -303,16 +300,16 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Subscribe to an event once</p></div>
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>Subscribe to an event once</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parámetros</h5>
+				<h5>Параметры</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Nombre</th>
-						<th>Tipo</th>
-							<th>Atributos</th>
-						<th class="last">Descripción</th>
+							<th>Имя</th>
+						<th>Тип</th>
+							<th>Атрибуты</th>
+						<th class="last">Описание</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -343,7 +340,7 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="callout callout-success"><h5>Returns</h5>		<form class="form-horizontal returns">
+			<div class="callout callout-success"><h5>Возвращает</h5>		<form class="form-horizontal returns">
 							<div class="form-group">
 								<label class="col-sm-3 control-label returns-type"><span class="param-type">object</span></label>
 								<div class="col-sm-9">
@@ -351,7 +348,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -369,7 +366,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
+								<label class="col-sm-3 control-label">Источник</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="mixins_bussable.js.html">mixins/bussable.js</a>, <a href="mixins_bussable.js.html#line-54">line 54</a></p>
 								</div>
@@ -387,17 +384,17 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Publish an event on the system bus</p></div>
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>Publish an event on the system bus</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parámetros</h5>
+				<h5>Параметры</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Nombre</th>
-						<th>Tipo</th>
-							<th>Atributos</th>
-							<th>Valor por defecto</th>
-						<th class="last">Descripción</th>
+							<th>Имя</th>
+						<th>Тип</th>
+							<th>Атрибуты</th>
+							<th>Умолчания</th>
+						<th class="last">Описание</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -429,11 +426,11 @@
 										<table class="params table table-striped">
 											<thead>
 											<tr>
-													<th>Nombre</th>
-												<th>Tipo</th>
-													<th>Atributos</th>
-													<th>Valor por defecto</th>
-												<th class="last">Descripción</th>
+													<th>Имя</th>
+												<th>Тип</th>
+													<th>Атрибуты</th>
+													<th>Умолчания</th>
+												<th class="last">Описание</th>
 											</tr>
 											</thead>
 											<tbody>
@@ -453,7 +450,7 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
+			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -471,7 +468,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
+								<label class="col-sm-3 control-label">Источник</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="mixins_bussable.js.html">mixins/bussable.js</a>, <a href="mixins_bussable.js.html#line-69">line 69</a></p>
 								</div>
@@ -489,15 +486,15 @@
 		</dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Get a subscription definition</p></div>
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>Get a subscription definition</p></div>
 			</div>			<div class="callout callout-info">
-				<h5>Parámetros</h5>
+				<h5>Параметры</h5>
 				<table class="params table table-striped">
 					<thead>
 					<tr>
-							<th>Nombre</th>
-						<th>Tipo</th>
-						<th class="last">Descripción</th>
+							<th>Имя</th>
+						<th>Тип</th>
+						<th class="last">Описание</th>
 					</tr>
 					</thead>
 					<tbody>
@@ -516,7 +513,7 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="callout callout-success"><h5>Returns</h5>		<form class="form-horizontal returns">
+			<div class="callout callout-success"><h5>Возвращает</h5>		<form class="form-horizontal returns">
 							<div class="form-group">
 								<label class="col-sm-3 control-label returns-type"><span class="param-type">object</span></label>
 								<div class="col-sm-9">
@@ -524,7 +521,7 @@
 								</div>
 							</div>
 					</form>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -542,7 +539,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
+								<label class="col-sm-3 control-label">Источник</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="mixins_bussable.js.html">mixins/bussable.js</a>, <a href="mixins_bussable.js.html#line-81">line 81</a></p>
 								</div>
@@ -560,8 +557,8 @@
 		</dt>
 <dd class="symbol-details function private  collapsible-symbol">
 	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Descripción</h5>		<div class="description"><p>Gets rid of all subscriptions for this object.</p></div>
-			</div>			<div class="callout callout-default"><h5>Detalles</h5>		<form class="form-horizontal details">
+			<div class="callout callout-primary"><h5>Описание</h5>		<div class="description"><p>Gets rid of all subscriptions for this object.</p></div>
+			</div>			<div class="callout callout-default"><h5>Сведения</h5>		<form class="form-horizontal details">
 			
 			
 			
@@ -579,7 +576,7 @@
 			
 							<!-- source -->
 							<div class="form-group">
-								<label class="col-sm-3 control-label">Fuente</label>
+								<label class="col-sm-3 control-label">Источник</label>
 								<div class="col-sm-9">
 									<p class="form-control-static"><a href="mixins_bussable.js.html">mixins/bussable.js</a>, <a href="mixins_bussable.js.html#line-90">line 90</a></p>
 								</div>
@@ -595,11 +592,14 @@
 							</article>
 					</section>
 			</div>
+                <div class="col-md-3 side-content">
+                    <nav class="toc hidden-print hidden-sm hidden-xs"></nav>
+                </div>
 		</div>
 	</div>
 	<footer>
-				<div class="copyright">FooDoc Copyright © 2016 The contributors to the JSDoc3 and FooDoc projects.</div>
-			<div class="generated-by">Documentación generada por <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> a 28th Feb 2020 usando la <a href="https://github.com/steveush/foodoc">plantilla FooDoc</a>.</div>
+				<div class="copyright">© 2016-2022 Oknosoft Lab <info@oknosoft.ru> (https://oknosoft.ru)</div>
+			<div class="generated-by">Сгенерировано <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.11</a> a 09.09.2025 с использованием <a href="https://github.com/oknosoft/foodoc">шаблона FooDoc</a>.</div>
 	</footer>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -612,12 +612,12 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Resultados de la búsqueda</h4>
+						<h4 class="modal-title">Результаты поиска</h4>
 					</div>
 					<div class="modal-body" id="lunr-search-body">
 					</div>
 					<div class="modal-footer" id="lunr-search-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
 					</div>
 				</div><!-- /.modal-content -->
 			</div><!-- /.modal-dialog -->
